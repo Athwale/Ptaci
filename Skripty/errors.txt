@@ -1,0 +1,86 @@
+[ERR] No additional photos on birdphoto: berneška rudokrká, Branta ruficollis
+[ERR] No additional photos on birdphoto: budníček horský, Phylloscopus bonelli
+[ERR] No additional photos on birdphoto: budníček pruhohlavý, Phylloscopus inornatus
+[ERR] No additional photos on birdphoto: budníček temný, Phylloscopus fuscatus
+[ERR] No additional photos on birdphoto: budníček tlustozobý, Phylloscopus schwarzi
+[ERR] No additional photos on birdphoto: budníček zelený, Phylloscopus trochiloides
+[ERR] No additional photos on birdphoto: buřňáček malý, Hydrobates pelagicus
+[ERR] No additional photos on birdphoto: buřnák lední, Fulmarus glacialis
+[ERR] No additional photos on birdphoto: chaluha velká, Stercorarius skua
+[ERR] No additional photos on birdphoto: chřástal nejmenší, Zapornia pusilla
+[ERR] No additional photos on birdphoto: čírka karolinská, Anas carolinensis
+[ERR] No additional photos on birdphoto: čírka modrokřídlá, Spatula discors
+[ERR] No additional photos on birdphoto: drop hřívnatý, Chlamydotis macqueenii
+[ERR] No additional photos on birdphoto: drop malý, Tetrax tetrax
+[ERR] No additional photos on birdphoto: husa tundrová, Anser serrirostris
+[ERR] No additional photos on birdphoto: hvízdák americký, Mareca americana
+[ERR] No additional photos on birdphoto: hvízdák eurasijský, Mareca penelope
+[ERR] No additional photos on birdphoto: hýl pouštní, Bucanetes githagineus
+[ERR] No additional photos on birdphoto: jespák dlouhokřídlý, Calidris bairdii
+[ERR] No additional photos on birdphoto: jespák plavý, Calidris subruficollis
+[ERR] No additional photos on birdphoto: jespák rudokrký, Calidris ruficollis
+[ERR] No additional photos on birdphoto: jespák skvrnitý, Calidris melanotos
+[ERR] No additional photos on birdphoto: jespák tundrový, Calidris fuscicollis
+[ERR] No additional photos on birdphoto: kajka královská, Somateria spectabilis
+[ERR] No additional photos on birdphoto: Kameňáček pestrý, Arenaria interpres
+[ERR] No additional photos on birdphoto: keptuška stepní, Vanellus gregarius
+[ERR] No additional photos on birdphoto: konipas citronový, Motacilla citreola
+[ERR] No additional photos on birdphoto: křivka bělokřídlá, Loxia leucoptera
+[ERR] No additional photos on birdphoto: kulík pacifický, Pluvialis fulva
+[ERR] No additional photos on birdphoto: linduška velká, Anthus richardi
+[ERR] No additional photos on birdphoto: luněc šedý, Elanus caeruleus
+[ERR] No additional photos on birdphoto: morčák malý, Mergellus albellus
+[ERR] No additional photos on birdphoto: ouhorlík černokřídlý, Glareola nordmanni
+[ERR] No additional photos on birdphoto: pěnice kaštanová, Curruca undata
+[ERR] No additional photos on birdphoto: pěnice malá, Curruca nana
+[ERR] No additional photos on birdphoto: pěnice slavíková, Sylvia borin
+[ERR] No additional photos on birdphoto: Pěvuška sibiřská, Prunella montanella
+[ERR] No additional photos on birdphoto: Racek Audouinův, Ichthyaetus audouinii
+[ERR] No additional photos on birdphoto: Racek Bonapartův, Chroicocephalus philadelphia
+[ERR] No additional photos on birdphoto: racek delawarský, Larus delawarensis
+[ERR] No additional photos on birdphoto: racek velký, Ichthyaetus ichthyaetus
+[ERR] No additional photos on birdphoto: sedmihlásek malý, Iduna caligata
+[ERR] No additional photos on birdphoto: sova pálená, Tyto alba
+[ERR] No additional photos on birdphoto: strnad bělohlavý, Emberiza leucocephalos
+[ERR] No additional photos on birdphoto: vodouš malý, Xenus cinereus
+[ERR] No additional photos on birdphoto: vodouš velký, Tringa melanoleuca
+[ERR] No additional photos on birdphoto: vodouš žlutonohý, Tringa flavipes
+[ERR] No additional photos on birdphoto: vrána černá, Corvus corone
+[ERR] No additional photos on birdphoto: vrána šedá, Corvus cornix
+[ERR] No additional photos on birdphoto: běhulík plavý, Cursorius cursor
+[ERR] No additional photos on birdphoto: buřňák šedý/severoatlanský, Calonectris diomedea
+[ERR] No additional photos on birdphoto: drozd černohrdlý, Turdus atrogularis
+[ERR] No additional photos on birdphoto: sedmihlásek švitořivý, Hippolais polyglotta
+[ERR] No additional photos on birdphoto: sovice sněžní, Bubo scandiacus
+[ERR] No additional photos on birdphoto: stepokur kirgizský, Syrrhaptes paradoxus
+[ERR] No additional photos on birdphoto: zvonohlík citrónový, Carduelis citrinella
+[ERR] No additional photos on birdphoto: holub domácí, Columba livia
+[ERR] No additional photos on birdphoto: hohol islandský, Bucephala islandica
+[ERR] No additional photos on birdphoto: morčák chocholatý, Lophodytes cucullatus
+[ERR] No additional photos on birdphoto: polák dlouhozobý, Aythya valisineria
+[ERR] No additional photos on birdphoto: strnad hnědohlavý, Emberiza bruniceps
+[ERR] No additional photos on birdphoto: husička stěhovavá, Dendrocygna arcuata
+[ERR] No additional photos on birdphoto: ostralka bělolící, Anas bahamensis
+[ERR] No additional photos on birdphoto: kachnička šedoboká, Callonetta leucophrys
+[ERR] No additional photos on birdphoto: kachnička hřívnatá, Chenonetta jubata
+[ERR] No additional photos on birdphoto: krocan divoký, Meleagris gallopavo
+[ERR] No additional photos on birdphoto: orebice horská/čukar, Alectoris chukar
+[ERR] No additional photos on birdphoto: marabu africký, Leptoptilos crumenifer
+[ERR] No additional photos on birdphoto: kolpík africký, Platalea alba
+[ERR] No additional photos on birdphoto: orel bělohlavý, Haliaeetus leucocephalus
+[ERR] No additional photos on birdphoto: orel východní, Haliaeetus pelagicus
+[ERR] No additional photos on birdphoto: straka modrá, Cyanopica cyanus
+[WAR] Nonexistent CS page: buřnák lední, Fulmarus glacialis, trying English: Northern fulmar
+[WAR] Nonexistent CS page: čírka karolinská, Anas carolinensis, trying English: Green-winged teal
+[WAR] Nonexistent CS page: husa tundrová, Anser serrirostris, trying English: Tundra bean goose
+[WAR] Nonexistent CS page: pěnice vousatá, Curruca cantillans, trying English: Eastern subalpine warbler
+[WAR] Nonexistent CS page: racek sabinův, Xema sabini, trying English: Sabine's gull
+[WAR] Nonexistent CS page: vodouš žlutonohý, Tringa flavipes, trying English: Lesser yellowlegs
+[WAR] Nonexistent CS page: buřňák šedý/severoatlanský, Calonectris diomedea, trying English: Cory's shearwater
+[WAR] Nonexistent CS page: polák dlouhozobý, Aythya valisineria, trying English: Canvasback
+[WAR] Nonexistent CS page: vrabec pokřovní, Passer hispaniolensis, trying English: Spanish sparrow
+[WAR] Nonexistent CS page: husička stěhovavá, Dendrocygna arcuata, trying English: Wandering whistling duck
+[WAR] Nonexistent CS page: hvízdák chilský, Mareca sibilatrix, trying English: Chiloé wigeon
+[WAR] Nonexistent CS page: orebice horská/čukar, Alectoris chukar, trying English: Rock partridge
+[WAR] Nonexistent CS page: kolpík africký, Platalea alba, trying English: African spoonbill
+[WAR] Nonexistent CS page: hrdlička východní, Streptopelia orientalis, trying English: Oriental turtle dove
