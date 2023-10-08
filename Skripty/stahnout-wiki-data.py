@@ -1085,9 +1085,6 @@ def run() -> None:
                 name = redirected_names[name]
             name: str = name.strip()
             latin: str = latin.strip()
-            # todo here
-            name = 'zedníček skalní'
-            latin = 'Tichodroma muraria'
             json_data = download_wiki(name, 'cs')
             if 'missing' in json_data['query']['pages'][0]:
                 if json_data['query']['pages'][0]['missing']:
