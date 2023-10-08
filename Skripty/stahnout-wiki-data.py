@@ -996,6 +996,11 @@ redirected_names: Dict[str, str] = {'kamenáček pestrý': 'Kameňáček pestrý
                                     'kachnička mandarínská': 'Kachnička mandarinská',
                                     'kachnička karolinská': 'Kachnička karolínská', }
 
+url_mistranslations: Dict[str, str] = {
+    'břehule říční': 'https://upload.wikimedia.org/wikipedia/commons/1/12/But_where_is_Africa%3F_%287776447260%29_%28cropped%29.jpg'}
+
+errors = []
+
 
 def download_wiki(keyword: str, version: str) -> Dict:
     """
@@ -1034,16 +1039,29 @@ def optimize_image(img_path: Path) -> None:
     img.save(img_path, "JPEG")
 
 
+def print_msg(msg: str) -> None:
+    """
+    Print message to screen, if it is a warning or an error, save it to log list.
+    :param msg: Message to print, strings with [ERR], [WRN] are saved.
+    :return: None
+    """
+    print(msg)
+    if '[ERR]' in msg:
+        errors.append(msg)
+    elif '[WRN]' in msg:
+        errors.append(msg)
+
+
 def run() -> None:
     """
     Download data.
     :return: None
     """
-    stop: bool = True
+    stop: bool = False
     delay: int = 3
     img_count: int = 0
     working_directory = Path(Path.home() / 'Downloads/birds')
-    print(f'Create destination directory: {working_directory}')
+    print_msg(f'Create destination directory: {working_directory}')
     working_directory.mkdir(exist_ok=True, parents=True)
 
     with open('Seznam-druhu.txt', 'r') as file:
@@ -1061,17 +1079,19 @@ def run() -> None:
             if 'missing' in json_data['query']['pages'][0]:
                 if json_data['query']['pages'][0]['missing']:
                     english_name = missing_czech_pages[name]
-                    print(f'[WAR] Nonexistent CS page: {name}, {latin}, trying English: {english_name}')
+                    print_msg(f'[WAR] Nonexistent CS page: {name}, {latin}, trying English: {english_name}')
                     json_data = download_wiki(english_name, 'en')
 
             full_wiki_url: str = json_data['query']['pages'][0]['fullurl']
-            print(f'Downloading: {counter}/{lines} {name}: {latin}, {full_wiki_url}, sleep {delay}s')
+            print_msg(f'Downloading: {counter}/{lines} {name}: {latin}, {full_wiki_url}, sleep {delay}s')
             if len(json_data['query']['pages']) <= 0:
-                print(f' [ERR] No image: {name}, {latin}')
+                print_msg(f' [ERR] No image: {name}, {latin}')
             else:
                 try:
                     img_url_quoted: str = json_data['query']['pages'][0]['original']['source']
                     img_url = urllib.parse.unquote(img_url_quoted, encoding='utf-8')
+                    if name in url_mistranslations:
+                        img_url = url_mistranslations[name]
                     img_suffix: str = img_url.split(sep='/')[-1].split('.')[-1].lower()
                     dir_name: str = name.replace(' ', '_').replace('/', '_')
                     img_filename: str = dir_name + '.' + img_suffix
@@ -1084,7 +1104,7 @@ def run() -> None:
                         wget.download(img_url, out=img_filename, bar=None)
                         img_count = img_count + 1
                     except HTTPError as e:
-                        print(f' [ERR] Failed image download: {name}, {latin}. {str(e)}')
+                        print_msg(f' [ERR] Failed image download: {name}, {latin}. {str(e)}')
                         with open(img_filename, 'wb') as f:
                             f.write(requests.get(img_url_quoted).content)
 
@@ -1092,12 +1112,14 @@ def run() -> None:
                     optimize_image(Path(Path().cwd() / Path(img_filename)))
                     os.chdir(working_directory)
                 except KeyError as _:
-                    print(f' [ERR] Nonexistent page: {name}, {latin}')
+                    print_msg(f' [ERR] Nonexistent page: {name}, {latin}')
             counter = counter + 1
             if stop:
                 break
             time.sleep(delay)
-    print(f'Images downloaded: {img_count}')
+    print_msg(f'Images downloaded: {img_count}')
+    for msg in sorted(errors):
+        print(msg)
 
 
 def create_yaml_metadata(name: str, latin: str, wiki_url: str, img_url: str, img_file) -> None:
@@ -1135,7 +1157,7 @@ def create_yaml_metadata(name: str, latin: str, wiki_url: str, img_url: str, img
     additional_photos_url = ''
     avibase_url = ''
     if latin not in avibase_id_map.keys():
-        print(f' [ERR] No avibase latin key: {name}, {latin}')
+        print_msg(f' [ERR] No avibase latin key: {name}, {latin}')
     else:
         avibase_url = avibase_id_map[latin]
     for name_key in birdphoto_id_map.keys():
@@ -1143,7 +1165,7 @@ def create_yaml_metadata(name: str, latin: str, wiki_url: str, img_url: str, img
             # Sometimes the key includes two alternate names.
             additional_photos_url = f'{birdphoto_stub}{birdphoto_id_map[name_key]}'
     if not additional_photos_url:
-        print(f' [ERR] No additional photos on birdphoto: {name}, {latin}')
+        print_msg(f' [WAR] No additional photos on birdphoto: {name}, {latin}')
     bird_yml = {'popis': {'samec': {'fotky': [{'zdroj': 'wikipedia', 'url': img_url, 'file': img_file}],
                                     'barvy': [{'hlava': []},
                                               {'křídla': []},
