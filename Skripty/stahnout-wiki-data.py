@@ -1019,9 +1019,13 @@ def download_wiki(keyword: str, version: str) -> Dict:
 
 def run() -> None:
     """
+    # TODO automatically rename JPG to jpg.
+    # TODO convert png to jpeg.
+    # TODO resize and optimize jpegs.
     Download data.
     :return: None
     """
+    stop: bool = True
     delay: int = 3
     img_count: int = 0
     working_directory = Path(Path.home() / 'Downloads/birds')
@@ -1075,6 +1079,8 @@ def run() -> None:
                 except KeyError as _:
                     print(f' [ERR] Nonexistent page: {name}, {latin}')
             counter = counter + 1
+            if stop:
+                break
             time.sleep(delay)
     print(f'Images downloaded: {img_count}')
 

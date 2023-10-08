@@ -1,6 +1,8 @@
 #!/bin/bash
 # Renames JPG to jpg.
 
+# TODO fix this, renamed files are not stored properly.
+
 cd ../Databaze
 files=$(find . -name *.JPG)
 
