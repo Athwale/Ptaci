@@ -5,6 +5,7 @@ from typing import Dict
 from pathlib import Path
 from urllib import parse
 from urllib.error import HTTPError
+from PIL import Image
 
 import os
 import urllib
@@ -1017,10 +1018,24 @@ def download_wiki(keyword: str, version: str) -> Dict:
     return json.loads(response.text)
 
 
+def optimize_image(img_path: Path) -> None:
+    """
+    Optimize image convert, resize and optimize.
+    :param img_path: Path to image.
+    :return: None
+    """
+    # TODO convert png to jpg.
+    # Optimize.
+    img = Image.open(img_path)
+    img.save(img_path, optimize=True, quality=95)
+    # Resize.
+    img = Image.open(img_path)
+    img.thumbnail((300, 300), Image.LANCZOS)
+    img.save(img_path, "JPEG")
+
+
 def run() -> None:
     """
-    # TODO convert png to jpeg.
-    # TODO resize and optimize jpegs.
     Download data.
     :return: None
     """
@@ -1070,10 +1085,11 @@ def run() -> None:
                         img_count = img_count + 1
                     except HTTPError as e:
                         print(f' [ERR] Failed image download: {name}, {latin}. {str(e)}')
-                        with open(name + '.' + img_suffix, 'wb') as f:
+                        with open(img_filename, 'wb') as f:
                             f.write(requests.get(img_url_quoted).content)
 
                     create_yaml_metadata(name, latin, full_wiki_url, img_url, img_filename)
+                    optimize_image(Path(Path().cwd() / Path(img_filename)))
                     os.chdir(working_directory)
                 except KeyError as _:
                     print(f' [ERR] Nonexistent page: {name}, {latin}')
