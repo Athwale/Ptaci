@@ -1019,7 +1019,6 @@ def download_wiki(keyword: str, version: str) -> Dict:
 
 def run() -> None:
     """
-    # TODO automatically rename JPG to jpg.
     # TODO convert png to jpeg.
     # TODO resize and optimize jpegs.
     Download data.
@@ -1058,7 +1057,7 @@ def run() -> None:
                 try:
                     img_url_quoted: str = json_data['query']['pages'][0]['original']['source']
                     img_url = urllib.parse.unquote(img_url_quoted, encoding='utf-8')
-                    img_suffix: str = img_url.split(sep='/')[-1].split('.')[-1]
+                    img_suffix: str = img_url.split(sep='/')[-1].split('.')[-1].lower()
                     dir_name: str = name.replace(' ', '_').replace('/', '_')
                     img_filename: str = dir_name + '.' + img_suffix
                     species_dir = Path(Path.cwd() / dir_name)
