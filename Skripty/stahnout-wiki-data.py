@@ -1,6 +1,7 @@
 #!/bin/python3
 # todo send link to website to ceskevylety@seznam.cz
 # todo https://www.nasiptaci.info/zvuky-ptaku/
+import shutil
 from typing import Dict
 from pathlib import Path
 from urllib import parse
@@ -997,7 +998,8 @@ redirected_names: Dict[str, str] = {'kamenáček pestrý': 'Kameňáček pestrý
                                     'kachnička karolinská': 'Kachnička karolínská', }
 
 url_mistranslations: Dict[str, str] = {
-    'břehule říční': 'https://upload.wikimedia.org/wikipedia/commons/1/12/But_where_is_Africa%3F_%287776447260%29_%28cropped%29.jpg'}
+    'břehule říční': 'https://upload.wikimedia.org/wikipedia/commons/1/12/But_where_is_Africa%3F_%287776447260%29_%28cropped%29.jpg',
+    'volavka rusohlavá': 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Cattle_Egret.jpg'}
 
 errors = []
 
@@ -1029,13 +1031,18 @@ def optimize_image(img_path: Path) -> None:
     :param img_path: Path to image.
     :return: None
     """
-    # TODO convert png to jpg.
+    # Convert.
+    if img_path.suffix.lower() == '.png':
+        png = Image.open(img_path)
+        rgb_img = png.convert('RGB')
+        img_path = img_path.rename(img_path.with_suffix('.jpg'))
+        rgb_img.save(img_path)
     # Optimize.
     img = Image.open(img_path)
     img.save(img_path, optimize=True, quality=95)
     # Resize.
     img = Image.open(img_path)
-    img.thumbnail((300, 300), Image.LANCZOS)
+    img.thumbnail((500, 500), Image.LANCZOS)
     img.save(img_path, "JPEG")
 
 
@@ -1048,7 +1055,7 @@ def print_msg(msg: str) -> None:
     print(msg)
     if '[ERR]' in msg:
         errors.append(msg)
-    elif '[WRN]' in msg:
+    elif '[WAR]' in msg:
         errors.append(msg)
 
 
@@ -1061,6 +1068,9 @@ def run() -> None:
     delay: int = 3
     img_count: int = 0
     working_directory = Path(Path.home() / 'Downloads/birds')
+    if working_directory.exists():
+        print_msg('Removing existing working directory')
+        shutil.rmtree(working_directory)
     print_msg(f'Create destination directory: {working_directory}')
     working_directory.mkdir(exist_ok=True, parents=True)
 
@@ -1075,6 +1085,9 @@ def run() -> None:
                 name = redirected_names[name]
             name: str = name.strip()
             latin: str = latin.strip()
+            # todo here
+            name = 'zedníček skalní'
+            latin = 'Tichodroma muraria'
             json_data = download_wiki(name, 'cs')
             if 'missing' in json_data['query']['pages'][0]:
                 if json_data['query']['pages'][0]['missing']:
@@ -1118,8 +1131,12 @@ def run() -> None:
                 break
             time.sleep(delay)
     print_msg(f'Images downloaded: {img_count}')
-    for msg in sorted(errors):
-        print(msg)
+    print('\nErrors and warnings:')
+    with open(Path(Path().cwd() / Path('errors.txt')), 'w') as err_file:
+        for msg in sorted(errors):
+            msg: str
+            print(msg.strip())
+            err_file.write(msg)
 
 
 def create_yaml_metadata(name: str, latin: str, wiki_url: str, img_url: str, img_file) -> None:
