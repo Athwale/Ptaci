@@ -1025,10 +1025,11 @@ def download_wiki(keyword: str, version: str) -> Dict:
     return json.loads(response.text)
 
 
-def optimize_image(img_path: Path) -> None:
+def optimize_image(img_path: Path, thumbnail: int) -> None:
     """
     Optimize image convert, resize and optimize.
     :param img_path: Path to image.
+    :param thumbnail: thumbnail size.
     :return: None
     """
     # Convert.
@@ -1042,7 +1043,7 @@ def optimize_image(img_path: Path) -> None:
     img.save(img_path, optimize=True, quality=95)
     # Resize.
     img = Image.open(img_path)
-    img.thumbnail((500, 500), Image.LANCZOS)
+    img.thumbnail((thumbnail, thumbnail), Image.LANCZOS)
     img.save(img_path, "JPEG")
 
 
@@ -1066,6 +1067,8 @@ def run() -> None:
     """
     stop: bool = False
     delay: int = 2
+    size: int = 1000
+
     img_count: int = 0
     working_directory = Path(Path.home() / 'Downloads/birds')
     if working_directory.exists():
@@ -1120,7 +1123,7 @@ def run() -> None:
                             f.write(requests.get(img_url_quoted).content)
 
                     create_yaml_metadata(name, latin, full_wiki_url, img_url, img_filename)
-                    optimize_image(Path(Path().cwd() / Path(img_filename)))
+                    optimize_image(Path(Path().cwd() / Path(img_filename)), size)
                     os.chdir(working_directory)
                 except KeyError as _:
                     print_msg(f' [ERR] Nonexistent page: {name}, {latin}')
