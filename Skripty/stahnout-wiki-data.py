@@ -1065,7 +1065,7 @@ def run() -> None:
     :return: None
     """
     stop: bool = False
-    delay: int = 3
+    delay: int = 2
     img_count: int = 0
     working_directory = Path(Path.home() / 'Downloads/birds')
     if working_directory.exists():
@@ -1114,8 +1114,9 @@ def run() -> None:
                         wget.download(img_url, out=img_filename, bar=None)
                         img_count = img_count + 1
                     except HTTPError as e:
-                        print_msg(f' [ERR] Failed image download: {name}, {latin}. {str(e)}')
+                        print_msg(f' [ERR] Failed wiki image download: {name}, {latin}. {str(e)}')
                         with open(img_filename, 'wb') as f:
+                            print_msg(f' Trying requests method: {name}, {latin}')
                             f.write(requests.get(img_url_quoted).content)
 
                     create_yaml_metadata(name, latin, full_wiki_url, img_url, img_filename)
@@ -1133,7 +1134,7 @@ def run() -> None:
         for msg in sorted(errors):
             msg: str
             print(msg.strip())
-            err_file.write(msg)
+            err_file.write(msg + '\n')
 
 
 def create_yaml_metadata(name: str, latin: str, wiki_url: str, img_url: str, img_file) -> None:
