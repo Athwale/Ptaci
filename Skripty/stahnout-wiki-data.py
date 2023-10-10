@@ -1025,11 +1025,10 @@ def download_wiki(keyword: str, version: str) -> Dict:
     return json.loads(response.text)
 
 
-def optimize_image(img_path: Path, thumbnail: int) -> None:
+def optimize_image(img_path: Path) -> None:
     """
     Optimize image convert, resize and optimize.
     :param img_path: Path to image.
-    :param thumbnail: thumbnail size.
     :return: None
     """
     # Convert.
@@ -1038,13 +1037,6 @@ def optimize_image(img_path: Path, thumbnail: int) -> None:
         rgb_img = png.convert('RGB')
         img_path = img_path.rename(img_path.with_suffix('.jpg'))
         rgb_img.save(img_path)
-    # Optimize.
-    img = Image.open(img_path)
-    img.save(img_path, optimize=True, quality=95)
-    # Resize.
-    img = Image.open(img_path)
-    img.thumbnail((thumbnail, thumbnail), Image.LANCZOS)
-    img.save(img_path, "JPEG")
 
 
 def print_msg(msg: str) -> None:
@@ -1067,7 +1059,6 @@ def run() -> None:
     """
     stop: bool = False
     delay: int = 2
-    size: int = 1000
 
     img_count: int = 0
     working_directory = Path(Path.home() / 'Downloads/birds')
@@ -1123,7 +1114,7 @@ def run() -> None:
                             f.write(requests.get(img_url_quoted).content)
 
                     create_yaml_metadata(name, latin, full_wiki_url, img_url, img_filename)
-                    optimize_image(Path(Path().cwd() / Path(img_filename)), size)
+                    optimize_image(Path(Path().cwd() / Path(img_filename)))
                     os.chdir(working_directory)
                 except KeyError as _:
                     print_msg(f' [ERR] Nonexistent page: {name}, {latin}')

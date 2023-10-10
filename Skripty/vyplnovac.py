@@ -3,6 +3,7 @@
 import tkinter as tk
 
 if __name__ == '__main__':
+    # todo typ: papousek, dravec, sova, vodni, morsky, pevec
     window = tk.Tk()
     radio_var = tk.IntVar(window, 0)
     check_var = tk.IntVar(window, 2)
