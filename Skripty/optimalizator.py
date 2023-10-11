@@ -27,7 +27,7 @@ def optimize_image(img_path: Path, thumbnail: int, work_dir: Path) -> None:
     img.thumbnail((thumbnail, thumbnail), Image.LANCZOS)
     img.save(img_path, "JPEG")
     with open(work_dir / Path('./optimalizovano.txt'), 'a') as optimized_files:
-        optimized_files.write(img_path.name)
+        optimized_files.write(img_path.name + '\n')
 
 
 if __name__ == '__main__':
