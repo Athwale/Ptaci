@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Hohol severní
+latinsky: Bucephala clangula
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=68EA281AF74846D2
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=95
+  wiki: https://cs.wikipedia.org/wiki/Hohol_severn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: hohol_severní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/e6/Common_Goldeneye.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

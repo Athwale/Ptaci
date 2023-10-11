@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Kulík říční
+latinsky: Charadrius dubius
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=35EC3BBF166AB032
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=20
+  wiki: https://cs.wikipedia.org/wiki/Kul%C3%ADk_%C5%99%C3%AD%C4%8Dn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: kulík_říční.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/5/5b/Charadrius_dubius_3_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

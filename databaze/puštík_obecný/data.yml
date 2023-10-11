@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Puštík obecný
+latinsky: Strix aluco
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=37A121744F77C1DB
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=150
+  wiki: https://cs.wikipedia.org/wiki/Pu%C5%A1t%C3%ADk_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: puštík_obecný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/6d/Tawny_Owl_in_Fife,_Scotland.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

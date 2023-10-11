@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Jeřáb popelavý
+latinsky: Grus grus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=99B8841E764117B1
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=157
+  wiki: https://cs.wikipedia.org/wiki/Je%C5%99%C3%A1b_popelav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: jeřáb_popelavý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/2/23/Grus_grus_2_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

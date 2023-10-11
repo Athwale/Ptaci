@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Kos horský
+latinsky: Turdus torquatus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=CE71B4FF837F276A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=251
+  wiki: https://cs.wikipedia.org/wiki/Kos_horsk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: kos_horský.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/9/94/Ring_Ouzel.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

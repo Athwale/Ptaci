@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Rákosník obecný
+latinsky: Acrocephalus scirpaceus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3F0EE4749050AA59
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=588
+  wiki: https://cs.wikipedia.org/wiki/R%C3%A1kosn%C3%ADk_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: rákosník_obecný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/3/3d/Acrocephalus_scirpaceus_Vlaskop_cropped.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

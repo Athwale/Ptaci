@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Holub domácí
+latinsky: Columba livia
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BBA263C235B15B88
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Holub_dom%C3%A1c%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: holub_domácí.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/a/a4/Blue_Rock_Pigeon_I2_IMG_7877.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

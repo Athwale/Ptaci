@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Husice nilská
+latinsky: Alopochen aegyptiaca
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=DA2F24E310CF72A6
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=434
+  wiki: https://cs.wikipedia.org/wiki/Husice_nilsk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: husice_nilská.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/6a/Alopochen-aegyptiacus.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Linduška rudokrká
+latinsky: Anthus cervinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=319D044A667563CD
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=351
+  wiki: https://cs.wikipedia.org/wiki/Lindu%C5%A1ka_rudokrk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: linduška_rudokrká.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/9/91/Anthus_cervinus2.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

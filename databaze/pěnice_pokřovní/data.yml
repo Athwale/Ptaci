@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Pěnice pokřovní
+latinsky: Curruca curruca
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0DCD05BE8EE35C8D
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=336
+  wiki: https://cs.wikipedia.org/wiki/P%C4%9Bnice_pok%C5%99ovn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: pěnice_pokřovní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/d/df/Lesserwhitethroat.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

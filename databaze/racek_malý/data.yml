@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Racek malý
+latinsky: Hydrocoloeus minutus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F89FD6E3A367C008
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=73
+  wiki: https://cs.wikipedia.org/wiki/Racek_mal%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: racek_malý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/6d/RacekMaly.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Kormorán velký
+latinsky: Phalacrocorax carbo
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3DF5C587CE3CF1E1
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=59
+  wiki: https://cs.wikipedia.org/wiki/Kormor%C3%A1n_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: kormorán_velký.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/68/Phalacrocorax_carbo_Vic.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

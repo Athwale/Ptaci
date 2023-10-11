@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Husa indická
+latinsky: Anser indicus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B7159EF0
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=634
+  wiki: https://cs.wikipedia.org/wiki/Husa_indick%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: husa_indická.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/3/36/Streifengans_Anser_indicus_4_Richard_Bartz.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

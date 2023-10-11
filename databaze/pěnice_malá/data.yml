@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Pěnice malá
+latinsky: Curruca nana
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=58F3D3E544D9755B
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/P%C4%9Bnice_mal%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: pěnice_malá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Asian_Desert_Wrabler.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

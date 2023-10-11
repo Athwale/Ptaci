@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Alkoun obecný
+latinsky: Cepphus grylle
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B5AA5952E13FE5F3
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=674
+  wiki: https://cs.wikipedia.org/wiki/Alkoun_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: alkoun_obecný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/65/Tystie1.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

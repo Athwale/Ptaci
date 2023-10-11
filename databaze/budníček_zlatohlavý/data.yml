@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Budníček zlatohlavý
+latinsky: Phylloscopus proregulus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=943E36CADFE7551B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=629
+  wiki: https://cs.wikipedia.org/wiki/Budn%C3%AD%C4%8Dek_zlatohlav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: budníček_zlatohlavý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/f/f9/20070304贵阳-黄腰柳莺.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

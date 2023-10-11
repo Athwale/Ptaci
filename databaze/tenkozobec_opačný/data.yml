@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Tenkozobec opačný
+latinsky: Recurvirostra avosetta
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C73ED2F5D88625BA
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=301
+  wiki: https://cs.wikipedia.org/wiki/Tenkozobec_opa%C4%8Dn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: tenkozobec_opačný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/1/15/Recurvirostra_avosetta(tennouji_zoo).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

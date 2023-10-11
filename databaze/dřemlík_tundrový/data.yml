@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Dřemlík tundrový
+latinsky: Falco columbarius
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F3DA111CC8A6841B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=24
+  wiki: https://cs.wikipedia.org/wiki/D%C5%99eml%C3%ADk_tundrov%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: dřemlík_tundrový.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/f/f4/Falco_columbarius_NAUMANN.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

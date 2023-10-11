@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Turpan hnědý
+latinsky: Melanitta fusca
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BAF44E36E8D647CB
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=392
+  wiki: https://cs.wikipedia.org/wiki/Turpan_hn%C4%9Bd%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: turpan_hnědý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/d/d7/Melanitta_fusca.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

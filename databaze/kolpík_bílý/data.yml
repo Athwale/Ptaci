@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Kolpík bílý
+latinsky: Platalea leucorodia
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A0A584C1E7D786FE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=94
+  wiki: https://cs.wikipedia.org/wiki/Kolp%C3%ADk_b%C3%ADl%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: kolpík_bílý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/d/d1/Common_Spoonbill.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Drop malý
+latinsky: Tetrax tetrax
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=56E3016D3370A6D5
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Drop_mal%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: drop_malý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/5/50/Tetrax_male_1.JPG
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

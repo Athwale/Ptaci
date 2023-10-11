@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Kulík mořský
+latinsky: Charadrius alexandrinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=AA4385A283B9A81E
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=177
+  wiki: https://cs.wikipedia.org/wiki/Kul%C3%ADk_mo%C5%99sk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: kulík_mořský.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/a/ab/Charadrius_alexandrinus_(Kentish_Plover),_Port_d'Alcúdia,_Mallorca.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

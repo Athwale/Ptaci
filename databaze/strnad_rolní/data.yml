@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Strnad rolní
+latinsky: Emberiza rustica
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=DA9746CEC82D30A3
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=675
+  wiki: https://cs.wikipedia.org/wiki/Strnad_roln%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: strnad_rolní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/8/85/Emberiza_rustica2.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

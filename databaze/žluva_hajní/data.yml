@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Žluva hajní
+latinsky: Oriolus oriolus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=92A772BBB88868CD
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=117
+  wiki: https://cs.wikipedia.org/wiki/%C5%BDluva_hajn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: žluva_hajní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/6f/Loriot_d'Europe_by_Michel_Idre.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

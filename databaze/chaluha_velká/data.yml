@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Chaluha velká
+latinsky: Stercorarius skua
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BB041C6E5DB73FC7
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Chaluha_velk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: chaluha_velká.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/7/7f/Stercorarius_skua_collage,_Runde,_Norway_06-06.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

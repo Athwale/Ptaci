@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Rybák černozobý
+latinsky: Gelochelidon nilotica
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=441918B5AE353C3B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=554
+  wiki: https://cs.wikipedia.org/wiki/Ryb%C3%A1k_%C4%8Dernozob%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: rybák_černozobý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/7/73/Gull-billed_Tern_(Gelochelidon_nilotica)_Gilgit-Baltistan,_Pakistan.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

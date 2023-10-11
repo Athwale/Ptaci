@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Tetřívek obecný
+latinsky: Lyrurus tetrix
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=D4441CD6E9C993EF
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=402
+  wiki: https://cs.wikipedia.org/wiki/Tet%C5%99%C3%ADvek_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: tetřívek_obecný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/8/8e/Birkhahn.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

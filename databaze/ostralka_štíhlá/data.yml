@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Ostralka štíhlá
+latinsky: Anas acuta
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=56CCA7179C9FA71D
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=119
+  wiki: https://cs.wikipedia.org/wiki/Ostralka_%C5%A1t%C3%ADhl%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: ostralka_štíhlá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/0/0b/Northern_Pintails_(Male_&_Female)_I_IMG_0911.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

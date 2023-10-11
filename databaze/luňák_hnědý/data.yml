@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Luňák hnědý
+latinsky: Milvus migrans
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=06D9A2C8D1E3678A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=131
+  wiki: https://cs.wikipedia.org/wiki/Lu%C5%88%C3%A1k_hn%C4%9Bd%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: luňák_hnědý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/0/0f/2007-black-kite.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

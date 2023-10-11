@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Linduška lesní
+latinsky: Anthus trivialis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=365F5E975B414FE6
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=457
+  wiki: https://cs.wikipedia.org/wiki/Lindu%C5%A1ka_lesn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: linduška_lesní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/d/db/Anthus_triviallis_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

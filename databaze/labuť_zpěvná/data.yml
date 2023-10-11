@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Labuť zpěvná
+latinsky: Cygnus cygnus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BDDB5670D2D20A55
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=127
+  wiki: https://cs.wikipedia.org/wiki/Labu%C5%A5_zp%C4%9Bvn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: labuť_zpěvná.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/b6/030-Cygnus_cygnus2.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

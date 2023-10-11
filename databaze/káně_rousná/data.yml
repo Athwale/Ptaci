@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Káně rousná
+latinsky: Buteo lagopus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=90B13ACF984D0DDF
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=98
+  wiki: https://cs.wikipedia.org/wiki/K%C3%A1n%C4%9B_rousn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: káně_rousná.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/e4/Buteo_lagopus_29283.JPG
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

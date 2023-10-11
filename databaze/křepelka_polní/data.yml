@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Křepelka polní
+latinsky: Coturnix coturnix
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=CAFE345DCABD8BF8
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=133
+  wiki: https://cs.wikipedia.org/wiki/K%C5%99epelka_poln%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: křepelka_polní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/f/f3/Coturnix_coturnix,_Fraunberg,_Bayern,_Deutschland_1.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

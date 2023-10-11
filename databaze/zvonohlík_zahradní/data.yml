@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Zvonohlík zahradní
+latinsky: Serinus serinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C3227709455B9AFF
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=100
+  wiki: https://cs.wikipedia.org/wiki/Zvonohl%C3%ADk_zahradn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: zvonohlík_zahradní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/3/3e/Serin_cini_mars.JPG
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

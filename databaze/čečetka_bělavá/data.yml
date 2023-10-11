@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Čečetka bělavá
+latinsky: Acanthis hornemanni
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=D23A3F75CCD56E6B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=625
+  wiki: https://cs.wikipedia.org/wiki/%C4%8Ce%C4%8Detka_b%C4%9Blav%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: čečetka_bělavá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/2/24/Common_Redpoll_Carduelis_flammea_Finland.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

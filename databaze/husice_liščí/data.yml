@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Husice liščí
+latinsky: Tadorna tadorna
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=5EAB32D3007896F3
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=232
+  wiki: https://cs.wikipedia.org/wiki/Husice_li%C5%A1%C4%8D%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: husice_liščí.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/c/ce/Brandgans_(Tadorna_tadorna).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

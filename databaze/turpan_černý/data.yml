@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Turpan černý
+latinsky: Melanitta nigra
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=246981996A4998ED
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=493
+  wiki: https://cs.wikipedia.org/wiki/Turpan_%C4%8Dern%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: turpan_černý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/9/9e/Melanitta_nigra_(cropped).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

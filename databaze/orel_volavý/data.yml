@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Orel volavý
+latinsky: Clanga clanga
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BAC4CA22EDCC74E7
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=596
+  wiki: https://cs.wikipedia.org/wiki/Orel_volav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: orel_volavý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/e6/Greater_spotted_eagle.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

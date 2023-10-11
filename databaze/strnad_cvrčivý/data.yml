@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Strnad cvrčivý
+latinsky: Emberiza cirlus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9AAB8C2174EFDF60
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=474
+  wiki: https://cs.wikipedia.org/wiki/Strnad_cvr%C4%8Div%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: strnad_cvrčivý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/ba/Emberiza_cirlus_-Valencian_Community,_Spain_-male-8_(1).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

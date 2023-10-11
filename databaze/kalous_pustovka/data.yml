@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Kalous pustovka
+latinsky: Asio flammeus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=8F123A11E5DADFDD
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=33
+  wiki: https://cs.wikipedia.org/wiki/Kalous_pustovka
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: kalous_pustovka.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/8/8b/Asio-flammeus-001.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

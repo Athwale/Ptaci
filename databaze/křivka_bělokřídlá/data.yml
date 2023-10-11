@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Křivka bělokřídlá
+latinsky: Loxia leucoptera
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=80C297E6B82452E7
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/K%C5%99ivka_b%C4%9Blok%C5%99%C3%ADdl%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: křivka_bělokřídlá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/4/46/Whitewingedcrossbillmale09.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

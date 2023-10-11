@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Volavka červená
+latinsky: Ardea purpurea
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3395DCF1CE3A8C91
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=147
+  wiki: https://cs.wikipedia.org/wiki/Volavka_%C4%8Derven%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: volavka_červená.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/b2/SL_Bundala_NP_asv2020-01_img04.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

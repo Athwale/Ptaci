@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Kachnice bělohlavá
+latinsky: Oxyura leucocephala
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=2E40EF2C53646E30
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=734
+  wiki: https://cs.wikipedia.org/wiki/Kachnice_b%C4%9Blohlav%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: kachnice_bělohlavá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/b3/Weißkopfruderente_Oxyura_leucocephala_050324_Ausschnitt.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

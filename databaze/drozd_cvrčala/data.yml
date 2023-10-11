@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Drozd cvrčala
+latinsky: Turdus iliacus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A8A85BCF1AFB7BBD
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=433
+  wiki: https://cs.wikipedia.org/wiki/Drozd_cvr%C4%8Dala
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: drozd_cvrčala.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/c/c1/Redwing_Turdus_iliacus.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

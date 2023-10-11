@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Konopka obecná
+latinsky: Linaria cannabina
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=32635892A4EB874F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=101
+  wiki: https://cs.wikipedia.org/wiki/Konopka_obecn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: konopka_obecná.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/4/40/Carduelis_cannabina_1_(Martin_Mecnarowski).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

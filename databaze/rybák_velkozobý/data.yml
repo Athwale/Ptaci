@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Rybák velkozobý
+latinsky: Hydroprogne caspia
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BC06BC0D1056BC7B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=561
+  wiki: https://cs.wikipedia.org/wiki/Ryb%C3%A1k_velkozob%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: rybák_velkozobý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/7/72/Sterna-caspia-010.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

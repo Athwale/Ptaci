@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Běhulík plavý
+latinsky: Cursorius cursor
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=DE0A72A7FA1E6DB7
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/B%C4%9Bhul%C3%ADk_plav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: běhulík_plavý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/b7/Cream-coloured_courser.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

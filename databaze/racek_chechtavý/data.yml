@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Racek chechtavý
+latinsky: Chroicocephalus ridibundus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=FB02DD9658CC1EC6
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=139
+  wiki: https://cs.wikipedia.org/wiki/Racek_chechtav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: racek_chechtavý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/1/15/Black-headed_Gull_-_Larus_ridibundus_-_Hettumáfur.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

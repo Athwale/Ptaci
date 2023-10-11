@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Jespák obecný
+latinsky: Calidris alpina
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=15369E8EB4CBD064
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=172
+  wiki: https://cs.wikipedia.org/wiki/Jesp%C3%A1k_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: jespák_obecný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/62/Calidris-alpina-001_edit.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

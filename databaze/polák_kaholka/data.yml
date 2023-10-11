@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Polák kaholka
+latinsky: Aythya marila
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=25C94A8F90A829F7
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=487
+  wiki: https://cs.wikipedia.org/wiki/Pol%C3%A1k_kaholka
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: polák_kaholka.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/8/8f/Aythya_marila3.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

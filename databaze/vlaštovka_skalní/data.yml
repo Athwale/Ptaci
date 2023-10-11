@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Vlaštovka skalní
+latinsky: Cecropis daurica
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F72A871F987F8499
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=205
+  wiki: https://cs.wikipedia.org/wiki/Vla%C5%A1tovka_skaln%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: vlaštovka_skalní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/0/0f/Red-rumpedSwallow01.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

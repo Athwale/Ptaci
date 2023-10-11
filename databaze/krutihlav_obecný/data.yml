@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Krutihlav obecný
+latinsky: Jynx torquilla
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B2E6AB9FC2608DFA
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=260
+  wiki: https://cs.wikipedia.org/wiki/Krutihlav_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: krutihlav_obecný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/a/a4/Jynx_torquilla_крутиголовка.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

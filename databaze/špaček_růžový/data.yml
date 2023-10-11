@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Špaček růžový
+latinsky: Pastor roseus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=24208346AD77666E
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=548
+  wiki: https://cs.wikipedia.org/wiki/%C5%A0pa%C4%8Dek_r%C5%AF%C5%BEov%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: špaček_růžový.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/eb/Sturnus_roseus.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

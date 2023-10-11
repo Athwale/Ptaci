@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Králíček ohnivý
+latinsky: Regulus ignicapilla
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=85B03849153146D8
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=240
+  wiki: https://cs.wikipedia.org/wiki/Kr%C3%A1l%C3%AD%C4%8Dek_ohniv%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: králíček_ohnivý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/9/97/Kralicek-ohnivy.JPG
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Konipas bílý
+latinsky: Motacilla alba
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=400E032C4624AA36
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=717
+  wiki: https://cs.wikipedia.org/wiki/Konipas_b%C3%ADl%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: konipas_bílý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/a/a8/White_Wagtail_-_Motacilla_alba_by_Lars_Falkdalen_Lindahl.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

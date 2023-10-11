@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Střízlík obecný
+latinsky: Troglodytes troglodytes
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=AF700208E4339572
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=136
+  wiki: https://cs.wikipedia.org/wiki/St%C5%99%C3%ADzl%C3%ADk_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: střízlík_obecný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/c/c7/Крапивник_-_орешек_(Troglodytes_troglodytes),_Битцевский_лес.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

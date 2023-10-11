@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Poštolka jižní
+latinsky: Falco naumanni
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BECA271F14F77BEE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=460
+  wiki: https://cs.wikipedia.org/wiki/Po%C5%A1tolka_ji%C5%BEn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: poštolka_jižní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/0/07/Male_and_female_Lesser_Kestrels.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

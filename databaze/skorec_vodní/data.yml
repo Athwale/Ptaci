@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Skorec vodní
+latinsky: Cinclus cinclus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=FDECE3B9278A17EC
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=17
+  wiki: https://cs.wikipedia.org/wiki/Skorec_vodn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: skorec_vodní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/f/f5/Cinclus_cinclus_-Kirkcudbright,_Scotland-8.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

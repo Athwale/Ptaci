@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Budníček lesní
+latinsky: Phylloscopus sibilatrix
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=572C4C7FD4322D14
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=322
+  wiki: https://cs.wikipedia.org/wiki/Budn%C3%AD%C4%8Dek_lesn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: budníček_lesní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/e0/Flickr_-_Rainbirder_-_Wood_Warbler_(Phylloscopus_sibilatrix).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

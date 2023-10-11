@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Břehule říční
+latinsky: Riparia riparia
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=94A1C447583CB6D2
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=128
+  wiki: https://cs.wikipedia.org/wiki/B%C5%99ehule_%C5%99%C3%AD%C4%8Dn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: břehule_říční.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/1/12/But_where_is_Africa%3F_%287776447260%29_%28cropped%29.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

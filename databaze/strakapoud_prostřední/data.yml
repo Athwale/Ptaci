@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Strakapoud prostřední
+latinsky: Dendrocoptes medius
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=504B2FD466B8E1D8
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=369
+  wiki: https://cs.wikipedia.org/wiki/Strakapoud_prost%C5%99edn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: strakapoud_prostřední.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/5/5f/Средний_пёстрый_дятел_(Dendrocoptes_medius),_Битцевский_лес.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

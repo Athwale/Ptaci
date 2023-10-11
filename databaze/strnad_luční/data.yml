@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Strnad luční
+latinsky: Emberiza calandra
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9A87EBB0B75C410B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=44
+  wiki: https://cs.wikipedia.org/wiki/Strnad_lu%C4%8Dn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: strnad_luční.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/3/37/Miliaria_calandra-Corn_Bunting.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Chaluha malá
+latinsky: Stercorarius longicaudus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=1D4464402EC9FD21
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=626
+  wiki: https://cs.wikipedia.org/wiki/Chaluha_mal%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: chaluha_malá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/4/4c/Long-tailed_Skua_(js)_26.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

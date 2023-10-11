@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Potápka žlutorohá
+latinsky: Podiceps auritus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=018B316959E84738
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=490
+  wiki: https://cs.wikipedia.org/wiki/Pot%C3%A1pka_%C5%BElutoroh%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: potápka_žlutorohá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/6e/Podiceps_auritus_oisillons.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

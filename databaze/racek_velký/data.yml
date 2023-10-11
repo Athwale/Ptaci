@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Racek velký
+latinsky: Ichthyaetus ichthyaetus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=EF930CDC7CE618F7
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Racek_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: racek_velký.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/8/8d/Larus_ichthyaetus.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Racek tenkozobý
+latinsky: Chroicocephalus genei
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=27CE7132A1848BCD
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=553
+  wiki: https://cs.wikipedia.org/wiki/Racek_tenkozob%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: racek_tenkozobý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/e5/Larus_genei.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

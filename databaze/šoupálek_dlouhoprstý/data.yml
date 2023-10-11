@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Šoupálek dlouhoprstý
+latinsky: Certhia familiaris
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=73BE9A87F6A32D6A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=305
+  wiki: https://cs.wikipedia.org/wiki/%C5%A0oup%C3%A1lek_dlouhoprst%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: šoupálek_dlouhoprstý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/1/16/Boomkruiper1reversed.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

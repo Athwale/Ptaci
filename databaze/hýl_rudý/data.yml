@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Hýl rudý
+latinsky: Carpodacus erythrinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3A713345F43AFFA6
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=145
+  wiki: https://cs.wikipedia.org/wiki/H%C3%BDl_rud%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: hýl_rudý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/2/2a/Carpodacus_erythrinus_20060623.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

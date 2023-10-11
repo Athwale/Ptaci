@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Jespák plavý
+latinsky: Calidris subruficollis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3A3C62BC935BDA72
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Jesp%C3%A1k_plav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: jespák_plavý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/f/fc/Grasläufer.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

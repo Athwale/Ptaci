@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Rehek zahradní
+latinsky: Phoenicurus phoenicurus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=06DD9D954313582E
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=338
+  wiki: https://cs.wikipedia.org/wiki/Rehek_zahradn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: rehek_zahradní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/7/73/Redstart_by_Richard_Towell.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Ťuhýk šedý
+latinsky: Lanius excubitor
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=DB2501EEBA3D38AA
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=155
+  wiki: https://cs.wikipedia.org/wiki/%C5%A4uh%C3%BDk_%C5%A1ed%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: ťuhýk_šedý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/4/44/Lanius_excubitor_1_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

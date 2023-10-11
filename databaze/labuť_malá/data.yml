@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Labuť malá
+latinsky: Cygnus columbianus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0BCBA6B9CC19E7BA
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=522
+  wiki: https://cs.wikipedia.org/wiki/Labu%C5%A5_mal%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: labuť_malá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/4/4a/Cygnus_bewickii_01.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

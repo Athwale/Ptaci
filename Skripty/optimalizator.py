@@ -6,6 +6,7 @@ from PIL import Image
 
 def optimize_image(img_path: Path, thumbnail: int) -> None:
     """
+    # todo run only for new files
     Optimize image convert, resize and optimize.
     :param img_path: Path to image.
     :param thumbnail: thumbnail size.
@@ -28,7 +29,7 @@ def optimize_image(img_path: Path, thumbnail: int) -> None:
 
 
 if __name__ == '__main__':
-    working_directory = Path(Path.home() / 'Downloads/birds')
+    working_directory = Path(Path.home() / 'Downloads/databaze')
     if not working_directory.exists():
         print(f'Working directory not found: {working_directory}')
     else:

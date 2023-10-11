@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Jespáček ploskozobý
+latinsky: Calidris falcinellus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0A14882F5F9F64E6
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=480
+  wiki: https://cs.wikipedia.org/wiki/Jesp%C3%A1%C4%8Dek_ploskozob%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: jespáček_ploskozobý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/f/fb/Broad_billed_sandpiper_by_Sreedev_Puthur.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

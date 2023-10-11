@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Hrdlička východní
+latinsky: Streptopelia orientalis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=6658BAC5
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=608
+  wiki: https://en.wikipedia.org/wiki/Oriental_turtle_dove
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: hrdlička_východní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/6b/Orientalturtledove.JPG
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

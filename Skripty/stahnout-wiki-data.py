@@ -1,6 +1,9 @@
 #!/bin/python3
 # todo send link to website to ceskevylety@seznam.cz
 # todo https://www.nasiptaci.info/zvuky-ptaku/
+# Run this to build a new database.
+# Follow by running optimalizator. Runs in the same directory.
+
 import shutil
 from typing import Dict
 from pathlib import Path
@@ -1061,14 +1064,14 @@ def run() -> None:
     delay: int = 2
 
     img_count: int = 0
-    working_directory = Path(Path.home() / 'Downloads/birds')
+    working_directory = Path(Path.home() / 'Downloads/databaze')
     if working_directory.exists():
         print_msg('Removing existing working directory')
         shutil.rmtree(working_directory)
     print_msg(f'Create destination directory: {working_directory}')
     working_directory.mkdir(exist_ok=True, parents=True)
 
-    with open('Seznam-druhu.txt', 'r') as file:
+    with open('seznam-druhu.txt', 'r') as file:
         os.chdir(working_directory)
         lines = len(file.readlines())
         counter = 1

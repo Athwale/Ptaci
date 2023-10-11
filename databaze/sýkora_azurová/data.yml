@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Sýkora azurová
+latinsky: Cyanistes cyanus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=184A6A8E71DA133A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=602
+  wiki: https://cs.wikipedia.org/wiki/S%C3%BDkora_azurov%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: sýkora_azurová.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/5/59/Azure_Tit_-_Parus_cyanus.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Bekasina otavní
+latinsky: Gallinago gallinago
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9151E0BA75761647
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=53
+  wiki: https://cs.wikipedia.org/wiki/Bekasina_otavn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: bekasina_otavní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/7/73/Common_Snipe_I.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

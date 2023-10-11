@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Čírka úzkozobá
+latinsky: Marmaronetta angustirostris
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=6362936EA12874F1
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=477
+  wiki: https://cs.wikipedia.org/wiki/%C4%8C%C3%ADrka_%C3%BAzkozob%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: čírka_úzkozobá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/66/Marbled_Teal_(Marmaronetta_angustirostris)_RWD2.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

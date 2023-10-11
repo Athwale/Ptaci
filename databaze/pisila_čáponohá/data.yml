@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Pisila čáponohá
+latinsky: Himantopus himantopus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3CAEB7CEEC7FFF50
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=400
+  wiki: https://cs.wikipedia.org/wiki/Pisila_%C4%8D%C3%A1ponoh%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: pisila_čáponohá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/7/70/Black-winged_Stilt,_Basai_(8724392657).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

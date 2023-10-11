@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Mlynařík dlouhoocasý
+latinsky: Aegithalos caudatus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=547163C22167E31B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=308
+  wiki: https://cs.wikipedia.org/wiki/Mlyna%C5%99%C3%ADk_dlouhoocas%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: mlynařík_dlouhoocasý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/f/f5/Aegithalos_caudatus_vogelartinfo_chris_romeiks_R7F2607.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

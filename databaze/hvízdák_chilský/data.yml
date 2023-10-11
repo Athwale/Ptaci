@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Hvízdák chilský
+latinsky: Mareca sibilatrix
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0B8AF41F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=692
+  wiki: https://en.wikipedia.org/wiki/Chilo%C3%A9_wigeon
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: hvízdák_chilský.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/d/db/Chiloe_wigeon.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

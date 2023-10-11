@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Budníček horský
+latinsky: Phylloscopus bonelli
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C00674ED5FC9DB8A
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Budn%C3%AD%C4%8Dek_horsk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: budníček_horský.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/a/ad/Phylloscopus,_Tarn,_Midi-Pyrénées,_France.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

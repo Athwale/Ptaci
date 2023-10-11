@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Strakapoud bělohřbetý
+latinsky: Dendrocopos leucotos
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=4507ACD713D16392
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=540
+  wiki: https://cs.wikipedia.org/wiki/Strakapoud_b%C4%9Bloh%C5%99bet%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: strakapoud_bělohřbetý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Male_white-backed_woodpecker.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

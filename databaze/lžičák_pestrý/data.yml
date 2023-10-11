@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Lžičák pestrý
+latinsky: Spatula clypeata
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=ED4CE8E7CFF43696
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=118
+  wiki: https://cs.wikipedia.org/wiki/L%C5%BEi%C4%8D%C3%A1k_pestr%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: lžičák_pestrý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/e9/Northern_Shoveler_Anas_clypeata.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

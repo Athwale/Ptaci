@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Racek žlutonohý
+latinsky: Larus fuscus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=2D52E3A509137804
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=678
+  wiki: https://cs.wikipedia.org/wiki/Racek_%C5%BElutonoh%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: racek_žlutonohý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/5/5e/Larus-fuscus-taxbox.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

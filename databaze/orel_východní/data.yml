@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Orel východní
+latinsky: Haliaeetus pelagicus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C481FB24
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Orel_v%C3%BDchodn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: orel_východní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/3/3e/Haliaeetus_pelagicus_qtl1.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

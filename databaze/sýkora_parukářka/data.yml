@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Sýkora parukářka
+latinsky: Lophophanes cristatus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=E553193354C74B21
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=14
+  wiki: https://cs.wikipedia.org/wiki/S%C3%BDkora_paruk%C3%A1%C5%99ka
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: sýkora_parukářka.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/b2/Lophophanes_cristatus_Luc_Viatour_2.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

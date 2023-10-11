@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Bekasina větší
+latinsky: Gallinago media
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BCCD5840C7A6D538
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=627
+  wiki: https://cs.wikipedia.org/wiki/Bekasina_v%C4%9Bt%C5%A1%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: bekasina_větší.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/9/97/Gallinago_media.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

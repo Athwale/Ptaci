@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Potáplice malá
+latinsky: Gavia stellata
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=6C50988A5445ED76
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=373
+  wiki: https://cs.wikipedia.org/wiki/Pot%C3%A1plice_mal%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: potáplice_malá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/ed/Flickr_-_Rainbirder_-_Red-throated_Diver_(Gavia_stellata)_(1).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

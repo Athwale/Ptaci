@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Pěnkava jikavec
+latinsky: Fringilla montifringilla
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=E16B2C0328E05DC5
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=56
+  wiki: https://cs.wikipedia.org/wiki/P%C4%9Bnkava_jikavec
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: pěnkava_jikavec.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/8/88/Fringilla_montifringilla_Oulu_20120507b.JPG
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

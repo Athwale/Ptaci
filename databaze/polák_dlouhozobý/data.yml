@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Polák dlouhozobý
+latinsky: Aythya valisineria
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=1929E1E16E073570
+  více fotek: ''
+  wiki: https://en.wikipedia.org/wiki/Canvasback
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: polák_dlouhozobý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/e1/Aythya_valisineria_at_Las_Gallinas_Wildlife_Ponds.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Lyska černá
+latinsky: Fulica atra
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B682B2A9C922D4C4
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=77
+  wiki: https://cs.wikipedia.org/wiki/Lyska_%C4%8Dern%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: lyska_černá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/c/cb/Blässhuhn_Fulica_atra_2_Richard_Bartz.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

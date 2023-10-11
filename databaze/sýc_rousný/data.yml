@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Sýc rousný
+latinsky: Aegolius funereus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=8AB4EAF6DBFA02CE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=54
+  wiki: https://cs.wikipedia.org/wiki/S%C3%BDc_rousn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: sýc_rousný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/1/17/Aegolius-funereus-001.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

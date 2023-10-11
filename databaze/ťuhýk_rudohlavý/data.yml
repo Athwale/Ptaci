@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Ťuhýk rudohlavý
+latinsky: Lanius senator
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=7E70D490A6476D16
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=278
+  wiki: https://cs.wikipedia.org/wiki/%C5%A4uh%C3%BDk_rudohlav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: ťuhýk_rudohlavý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/8/86/Lanius_senator_Tàrrega.JPG
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

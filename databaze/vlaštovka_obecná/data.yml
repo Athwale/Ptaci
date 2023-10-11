@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Vlaštovka obecná
+latinsky: Hirundo rustica
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=58C502EA7AF3E023
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=146
+  wiki: https://cs.wikipedia.org/wiki/Vla%C5%A1tovka_obecn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: vlaštovka_obecná.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/3/33/Деревенская_ласточка_(Hirundo_rustica),_Мелихово.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Koliha malá
+latinsky: Numenius phaeopus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F9305BAA638BAEFC
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=370
+  wiki: https://cs.wikipedia.org/wiki/Koliha_mal%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: koliha_malá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Numenius_phaeopus_-_Yas.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Sup hnědý
+latinsky: Aegypius monachus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=158BDC90F07DF1D2
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=555
+  wiki: https://cs.wikipedia.org/wiki/Sup_hn%C4%9Bd%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: sup_hnědý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/b0/Mönchsgeier.JPG
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

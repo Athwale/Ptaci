@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Chřástal kropenatý
+latinsky: Porzana porzana
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=460708F99737A6A2
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=620
+  wiki: https://cs.wikipedia.org/wiki/Ch%C5%99%C3%A1stal_kropenat%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: chřástal_kropenatý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/2/2b/MG_019417--1-0--2009.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

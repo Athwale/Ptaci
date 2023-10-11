@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Bažant obecný
+latinsky: Phasianus colchicus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=2FA39DCD42F80BC9
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=35
+  wiki: https://cs.wikipedia.org/wiki/Ba%C5%BEant_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: bažant_obecný.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/e6/Fasan_auf_Spiekeroog_05.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

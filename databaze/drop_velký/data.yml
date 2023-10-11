@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Drop velký
+latinsky: Otis tarda
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C6F33176724AC933
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=270
+  wiki: https://cs.wikipedia.org/wiki/Drop_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: drop_velký.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/4/4b/Drofa_(1).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

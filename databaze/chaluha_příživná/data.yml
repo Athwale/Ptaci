@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Chaluha příživná
+latinsky: Stercorarius parasiticus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=39086887E9EAFEB3
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=363
+  wiki: https://cs.wikipedia.org/wiki/Chaluha_p%C5%99%C3%AD%C5%BEivn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: chaluha_příživná.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/7/7d/Arctic_Skua_(7173600747).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

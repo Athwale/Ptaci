@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Břehule skalní
+latinsky: Ptyonoprogne rupestris
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=6F2AF9D09463566F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=609
+  wiki: https://cs.wikipedia.org/wiki/B%C5%99ehule_skaln%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: břehule_skalní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/6/67/Cragmartin22.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

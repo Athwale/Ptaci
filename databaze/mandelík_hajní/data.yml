@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Mandelík hajní
+latinsky: Coracias garrulus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=7451A628C39538C5
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=162
+  wiki: https://cs.wikipedia.org/wiki/Mandel%C3%ADk_hajn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: mandelík_hajní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/b1/European_roller.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

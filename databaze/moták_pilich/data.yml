@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Moták pilich
+latinsky: Circus cyaneus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F558C7F96E40C134
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=122
+  wiki: https://cs.wikipedia.org/wiki/Mot%C3%A1k_pilich
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: moták_pilich.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/bf/Circus_cyaneus,_Ballaugh_Curragh,_Isle_of_Man_1.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Čírka karolinská
+latinsky: Anas carolinensis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=DE24B98D
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/%C4%8C%C3%ADrka_karolinsk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: čírka_karolinská.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/e8/Anas_carolinensis.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

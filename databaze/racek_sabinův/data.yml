@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Racek sabinův
+latinsky: Xema sabini
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=86182656472B476B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=598
+  wiki: https://en.wikipedia.org/wiki/Sabine%27s_gull
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: racek_sabinův.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/bd/Xema_sabini_-Iceland_-swimming-8_(1).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

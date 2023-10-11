@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Výr velký
+latinsky: Bubo bubo
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=5516AEB347441B72
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=108
+  wiki: https://cs.wikipedia.org/wiki/V%C3%BDr_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: výr_velký.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/c/ca/Bubo_bubo_1_(Martin_Mecnarowski).jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Jestřáb lesní
+latinsky: Accipiter gentilis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=420850D62E855E4D
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=16
+  wiki: https://cs.wikipedia.org/wiki/Jest%C5%99%C3%A1b_lesn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: jestřáb_lesní.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/9/9c/Accipiter_gentilis_by_Iosto_Doneddu.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

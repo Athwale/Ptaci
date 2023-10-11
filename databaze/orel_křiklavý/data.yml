@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Orel křiklavý
+latinsky: Clanga pomarina
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C2565B6526591E9A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=111
+  wiki: https://cs.wikipedia.org/wiki/Orel_k%C5%99iklav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: orel_křiklavý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/e/ec/Aquila_pomarina_orlik_krzykliwyAM-crop.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

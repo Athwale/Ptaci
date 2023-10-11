@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Rybák malý
+latinsky: Sternula albifrons
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=17310BF0FE9BAC8A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=114
+  wiki: https://cs.wikipedia.org/wiki/Ryb%C3%A1k_mal%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: rybák_malý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/b/b1/Sterna_albifrons_P6284602.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

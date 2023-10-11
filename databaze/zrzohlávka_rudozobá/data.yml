@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Zrzohlávka rudozobá
+latinsky: Netta rufina
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3EC2CDA952B4A18C
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=40
+  wiki: https://cs.wikipedia.org/wiki/Zrzohl%C3%A1vka_rudozob%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: zrzohlávka_rudozobá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/9/95/Red-crested-pochard.JPG
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''

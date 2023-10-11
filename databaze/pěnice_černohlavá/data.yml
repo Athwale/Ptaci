@@ -1,0 +1,25 @@
+dodatek: ''
+jméno: Pěnice černohlavá
+latinsky: Sylvia atricapilla
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=61F9065BE0965E1A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=262
+  wiki: https://cs.wikipedia.org/wiki/P%C4%9Bnice_%C4%8Dernohlav%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
+    fotky:
+    - file: pěnice_černohlavá.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/5/55/Sylvia_atricapilla_-Lullington_Heath,_East_Sussex,_England_-male-8.jpg
+      zdroj: wikipedia
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''
