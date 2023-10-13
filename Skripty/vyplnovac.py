@@ -1,6 +1,8 @@
 #!/bin/python3
 
 import tkinter as tk
+from typing import Dict
+
 import yaml
 import os
 from tkinter import ttk
@@ -52,10 +54,10 @@ def create_gui():
     root.mainloop()
 
 
-def analyze_yaml():
+def analyze_yaml() -> Dict:
     """
     Get typ, velikost, barvy from both samec and samice.
-    :return:
+    :return: Dictionary.
     """
     color_dictionary = {'hlava': set(),
                         'křídla': set(),
@@ -81,7 +83,7 @@ def analyze_yaml():
                 colors = set(body_part[list(body_part.keys())[0]])
                 new_colors = color_set.union(colors)
                 color_dictionary[key] = new_colors
-    print(color_dictionary)
+    return color_dictionary
 
 
 def scan_options():
