@@ -63,11 +63,13 @@ def analyze_yaml():
                         'ocas': set(),
                         'nohy': set(),
                         'záda': set(),
-                        'zobák': set()}
+                        'zobák': set(),
+                        'typ': set(),
+                        'velikost': set()}
     with open('data.yml', 'r') as file:
         metadata = yaml.safe_load(file)
-        print(metadata['typ'])
-        print(metadata['velikost'])
+        color_dictionary['typ'].add(metadata['typ'])
+        color_dictionary['velikost'].add(metadata['velikost'])
         available_genders = ['samec']
         if metadata['popis']['samice']:
             available_genders.append('samice')
