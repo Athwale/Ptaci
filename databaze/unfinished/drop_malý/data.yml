@@ -17,7 +17,7 @@ popis:
     - zobák: []
     fotky:
     - file: drop_malý.jpg
-      url: https://upload.wikimedia.org/wikipedia/commons/5/50/Tetrax_male_1.JPG
+      url: https://commons.wikimedia.org/wiki/File:Tetrax_male_1.JPG
       zdroj: wikipedia
     kropenatost: ''
   samice: []

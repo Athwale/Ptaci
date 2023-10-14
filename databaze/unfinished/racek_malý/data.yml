@@ -17,7 +17,7 @@ popis:
     - zobák: []
     fotky:
     - file: racek_malý.jpg
-      url: https://upload.wikimedia.org/wikipedia/commons/6/6d/RacekMaly.jpg
+      url: https://commons.wikimedia.org/wiki/File:RacekMaly.jpg
       zdroj: wikipedia
     kropenatost: ''
   samice: []

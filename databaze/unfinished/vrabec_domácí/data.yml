@@ -17,7 +17,7 @@ popis:
     - zobák: []
     fotky:
     - file: vrabec_domácí.jpg
-      url: https://upload.wikimedia.org/wikipedia/commons/9/9b/House_sparrow_male_in_Prospect_Park_(53532).jpg
+      url: https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg
       zdroj: wikipedia
     kropenatost: ''
   samice: []

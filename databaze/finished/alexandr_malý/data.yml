@@ -1,3 +1,4 @@
+dodatek: Existuje více vyšlechtěných barevných variant.
 jméno: Alexandr malý
 latinsky: Psittacula krameri
 odkazy:
@@ -7,22 +8,36 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: ["zelená", "černá", "bílá", "žlutá"]
-    - křídla: ["zelená", "žlutá"]
-    - hruď: ["zelená", "žlutá"]
-    - ocas: ["zelená", "žlutá"]
-    - nohy: ["šedá", "žlutá"]
-    - záda: ["zelená", "žlutá"]
-    - zobák: ["červená"]
+    - hlava:
+      - zelená
+      - černá
+      - bílá
+      - žlutá
+    - křídla:
+      - zelená
+      - žlutá
+    - hruď:
+      - zelená
+      - žlutá
+    - ocas:
+      - zelená
+      - žlutá
+    - nohy:
+      - šedá
+      - žlutá
+    - záda:
+      - zelená
+      - žlutá
+    - zobák:
+      - červená
     fotky:
     - file: alexandr_malý.jpg
-      url: https://upload.wikimedia.org/wikipedia/commons/9/91/Rose-ringed_Parakeet,_Karkala,_Karnataka,_India.jpg
+      url: https://commons.wikimedia.org/wiki/File:Rose-ringed_Parakeet,_Karkala,_Karnataka,_India.jpg
       zdroj: wikipedia
     - file: alexandr_malý_žlutá.jpg
-      url: https://upload.wikimedia.org/wikipedia/commons/5/5d/Psittacula_krameri_%2823236569972%29.jpg
+      url: https://commons.wikimedia.org/wiki/File:Psittacula_krameri_%2823236569972%29.jpg
       zdroj: wikipedia
-    kropenatost: False
+    kropenatost: false
   samice: []
-typ: "papoušek"
-velikost: 'hrdlička'
-dodatek: 'Existuje více vyšlechtěných barevných variant.'
+typ: papoušek
+velikost: hrdlička

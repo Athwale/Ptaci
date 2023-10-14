@@ -17,17 +17,18 @@ if __name__ == '__main__':
                 if path.is_dir():
                     try:
                         os.chdir(path)
-                        # TODO open yaml and change links
                         with open('data.yml', 'r') as file:
                             metadata = yaml.safe_load(file)
-                            available_genders = ['samec']
-                            if metadata['popis']['samice']:
-                                available_genders.append('samice')
-                            for gender in available_genders:
-                                for p in metadata['popis'][gender]['fotky']:
-                                    filename = (p['url'].split('/')[-1])
-                                    new_url = f'https://commons.wikimedia.org/wiki/File:{filename}'
-                                    print(new_url)
+                        available_genders = ['samec']
+                        if metadata['popis']['samice']:
+                            available_genders.append('samice')
+                        for gender in available_genders:
+                            for p in metadata['popis'][gender]['fotky']:
+                                filename = (p['url'].split('/')[-1])
+                                new_url = f'https://commons.wikimedia.org/wiki/File:{filename}'
+                                p['url'] = new_url
+                        with open('data.yml', 'w') as file:
+                            yaml.dump(metadata, file, allow_unicode=True)
                     except Exception as e:
                         print(f'Error: {path}, {e}')
                     finally:
