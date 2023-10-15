@@ -9,11 +9,12 @@ from tkinter import ttk
 from pathlib import Path
 
 
-def create_gui():
+def create_gui(values: Dict):
     """
 
     :return:
     """
+    print(values)
     # todo typ: papousek, dravec, sova, vodni, morsky, pevec
     root = tk.Tk()
     root.geometry('300x200')
@@ -77,10 +78,10 @@ def analyze_yaml(collected_keywords: Dict) -> Dict:
     return collected_keywords
 
 
-def scan_options():
+def scan_options(work_dir: Path) -> Dict:
     """
     Scan finished files to create options for the gui.
-    :return:
+    :return: A dictionary of all previously used values.
     """
     used_values = {'hlava': set(),
                    'křídla': set(),
@@ -91,20 +92,34 @@ def scan_options():
                    'zobák': set(),
                    'typ': set(),
                    'velikost': set()}
-    working_directory = Path(Path.cwd() / Path('../databaze/finished'))
-    os.chdir(working_directory)
+    os.chdir(work_dir)
     for path in Path(Path.cwd()).iterdir():
         if path.is_dir():
             try:
                 os.chdir(path)
                 used_values = analyze_yaml(used_values)
-            except Exception as e:
-                print(f'Error: {path}, {e}')
+            except Exception as ex:
+                print(f'Error: {path}, {ex}')
             finally:
-                os.chdir(working_directory)
-    print(used_values)
+                os.chdir(work_dir)
+    return used_values
 
 
 if __name__ == '__main__':
-    scan_options()
-    # create_gui()
+    try:
+        unfinished_working_directory = Path(Path.cwd() / Path('../databaze/unfinished')).resolve()
+        finished_working_directory = Path(Path.cwd() / Path('../databaze/finished')).resolve()
+
+        for u_path in Path(unfinished_working_directory).iterdir():
+            if u_path.is_dir():
+                try:
+                    previous_values = scan_options(finished_working_directory)
+                    os.chdir(u_path.resolve())
+                    print(f'Working on: {u_path}')
+                    create_gui(previous_values)
+                except Exception as e:
+                    print(f'Error: {u_path.resolve()}, {e}')
+                finally:
+                    os.chdir(unfinished_working_directory)
+    except KeyboardInterrupt as _:
+        print('Stopped')
