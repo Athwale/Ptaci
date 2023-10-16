@@ -21,7 +21,7 @@ def run_filler(values: Dict):
 
     # TODO for each gender:
     #  add two lines for adding an image
-    #  add typ radio buttons, prefill choices papousek, dravec, sova, vodni, pevec
+    #  choices papousek, dravec, sova, vodni, pevec
 
     # TODO save must close the window to let a new instance run.
 
@@ -55,6 +55,27 @@ def run_filler(values: Dict):
         elements[f'spotted_{gender}'].pack()
         o_frame.pack(fill='both', expand=True)
         g_frame.pack()
+
+    t_frame = ttk.LabelFrame(root, text='Typ')
+    radio_var = tk.StringVar()
+    for typ in values['typ']:
+        elements[f'radio_typ_{typ}'] = tk.Radiobutton(t_frame, text=typ, value=typ, variable=radio_var,
+                                                      name=f'radio_typ_{typ}')
+        elements[f'radio_typ_{typ}'].pack(expand=True)
+    elements[f'typ_text'] = tk.Entry(t_frame, width=10, name=f'typ_text')
+    elements[f'typ_text'].pack()
+
+    v_frame = ttk.LabelFrame(root, text='Velikost')
+    radio_var = tk.StringVar()
+    for size in values['velikost']:
+        elements[f'radio_size_{size}'] = tk.Radiobutton(v_frame, text=size, value=size, variable=radio_var,
+                                                        name=f'radio_size_{size}')
+        elements[f'radio_size_{size}'].pack(expand=True)
+    elements[f'size_text'] = tk.Entry(v_frame, width=10, name=f'size_text')
+    elements[f'size_text'].pack()
+
+    t_frame.pack(side=tk.LEFT)
+    v_frame.pack(side=tk.LEFT)
     button = tk.Button(root, text="Save", bg="green")
     button.pack(side=tk.LEFT)
     button = tk.Button(root, text="Rescan", bg="green")
