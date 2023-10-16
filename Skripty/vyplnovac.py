@@ -9,56 +9,55 @@ from tkinter import ttk
 from pathlib import Path
 
 
-def create_gui(values: Dict):
+def run_filler(values: Dict):
     """
 
     :return:
     """
-    print(values)
-    # todo typ: papousek, dravec, sova, vodni, morsky, pevec
-    root = tk.Tk()
-    root.geometry('300x200')
-    # Frames:
-    head_color = ttk.LabelFrame(root, text='Hlava')
-
-    radio_var = tk.IntVar(root, 0)
-    check_var = tk.IntVar(root, 2)
-    radio_var_1 = tk.IntVar(root, 1)
-
-    label = tk.Label(text="Database filler")
-
-    R1 = tk.Radiobutton(head_color, text="Option 1", value=1, variable=radio_var)
-    R1.pack()
-    R2 = tk.Radiobutton(head_color, text="Option 2", value=2, variable=radio_var)
-    R2.pack()
-    R3 = tk.Radiobutton(head_color, text="Option 3", value=3, variable=radio_var)
-    R3.pack()
-
-    R4 = tk.Radiobutton(root, text="Option 4", value=4, variable=radio_var_1)
-    R5 = tk.Radiobutton(root, text="Option 5", value=5, variable=radio_var_1)
-
-    c1 = tk.Checkbutton(root, text='Python', variable=check_var, onvalue=1, offvalue=0)
-
-    button = tk.Button(text="Save", bg="green")
-
-    label1 = tk.Label(text="New color")
-    entry = tk.Entry(width=50)
-
     # TODO fill colors and attributes for each gender.
     # TODO add picture from wiki url, automatic rename.
     # TODO open wiki page in firefox.
     # TODO add new color option.
     # TODO add dodatek.
     # TODO automatic image resize and make file smaller
+    # TODO save must close the window to let a new instance run.
+    # todo typ: papousek, dravec, sova, vodni, morsky, pevec
 
-    head_color.pack()
+    print(values)
+    root = tk.Tk()
+    root.geometry('800x400')
+    elements = {}
+
+    # TODO finish and save+rescan buttons
+    # TODO make female as copy of a male, add "add female button"
+    # TODO side by side arrangement
+    for key in values.keys():
+        if str(key) in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
+            frame = ttk.LabelFrame(root, text=str(key))
+            radio_var = tk.StringVar()
+            for color in values[key]:
+                elements[f'{color}_radio_{key}'] = tk.Radiobutton(frame, text=color, value=color, variable=radio_var,
+                                                                  name=f'{color}_radio_{key}')
+                elements[f'{color}_radio_{key}'].pack()
+            new_color = tk.Label(frame, text="New color")
+            new_color.pack()
+            elements[f'color_text_{key}'] = tk.Entry(frame, width=10, name=f'color_text_{key}')
+            elements[f'color_text_{key}'].pack()
+            frame.pack(side=tk.LEFT)
+
+    check_var = tk.IntVar(root, 1)
+    elements['spotted'] = tk.Checkbutton(root, text='Kropenatost', variable=check_var, onvalue=1, offvalue=0,
+                                         name='spotted')
+    elements['spotted'].pack()
+    button = tk.Button(text="Save", bg="green")
     root.mainloop()
 
 
 def analyze_yaml(collected_keywords: Dict) -> Dict:
     """
     Get typ, velikost, barvy from both samec and samice.
-    :return: Dictionary.
+    :param collected_keywords: Previously used colors and values.
+    :return: Dictionary with newly added values.
     """
     with open('data.yml', 'r') as file:
         metadata = yaml.safe_load(file)
@@ -116,7 +115,7 @@ if __name__ == '__main__':
                     previous_values = scan_options(finished_working_directory)
                     os.chdir(u_path.resolve())
                     print(f'Working on: {u_path}')
-                    create_gui(previous_values)
+                    run_filler(previous_values)
                 except Exception as e:
                     print(f'Error: {u_path.resolve()}, {e}')
                 finally:
