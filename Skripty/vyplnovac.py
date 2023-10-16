@@ -28,28 +28,32 @@ def run_filler(values: Dict):
     root.geometry('800x400')
     elements = {}
 
-    # TODO finish and save+rescan buttons
     # TODO make female as copy of a male, add "add female button"
-    # TODO side by side arrangement
-    for key in values.keys():
-        if str(key) in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
-            frame = ttk.LabelFrame(root, text=str(key))
-            radio_var = tk.StringVar()
-            for color in values[key]:
-                elements[f'{color}_radio_{key}'] = tk.Radiobutton(frame, text=color, value=color, variable=radio_var,
-                                                                  name=f'{color}_radio_{key}')
-                elements[f'{color}_radio_{key}'].pack()
-            new_color = tk.Label(frame, text="New color")
-            new_color.pack()
-            elements[f'color_text_{key}'] = tk.Entry(frame, width=10, name=f'color_text_{key}')
-            elements[f'color_text_{key}'].pack()
-            frame.pack(side=tk.LEFT)
-
-    check_var = tk.IntVar(root, 1)
-    elements['spotted'] = tk.Checkbutton(root, text='Kropenatost', variable=check_var, onvalue=1, offvalue=0,
-                                         name='spotted')
-    elements['spotted'].pack()
-    button = tk.Button(text="Save", bg="green")
+    for gender in ['Samec', 'Samice']:
+        g_frame = ttk.LabelFrame(root, text=gender)
+        for key in values.keys():
+            if str(key) in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
+                frame = ttk.LabelFrame(g_frame, text=str(key))
+                radio_var = tk.StringVar()
+                for color in values[key]:
+                    elements[f'{color}_radio_{key}_{gender}'] = tk.Radiobutton(frame, text=color, value=color,
+                                                                               variable=radio_var,
+                                                                               name=f'{color}_radio_{key}_{gender}')
+                    elements[f'{color}_radio_{key}_{gender}'].pack()
+                new_color = tk.Label(frame, text="New color")
+                new_color.pack()
+                elements[f'color_text_{key}_{gender}'] = tk.Entry(frame, width=10, name=f'color_text_{key}_{gender}')
+                elements[f'color_text_{key}_{gender}'].pack()
+                frame.pack(side=tk.LEFT)
+        check_var = tk.IntVar(g_frame, 0)
+        elements[f'spotted_{gender}'] = tk.Checkbutton(g_frame, text='Kropenatost', variable=check_var, onvalue=1,
+                                                       offvalue=0, name=f'spotted_{gender}')
+        elements[f'spotted_{gender}'].pack()
+        g_frame.pack()
+    button = tk.Button(root, text="Save", bg="green")
+    button.pack(side=tk.LEFT)
+    button = tk.Button(root, text="Rescan", bg="green")
+    button.pack(side=tk.LEFT)
     root.mainloop()
 
 
