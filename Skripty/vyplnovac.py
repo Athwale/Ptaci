@@ -14,24 +14,24 @@ def run_filler(values: Dict):
 
     :return:
     """
-    # TODO add picture from wiki url, automatic rename based on species, gender+number.
     # TODO open wiki page in firefox.
-    # TODO add add female checkbox otherwise female is empty
+    # TODO picture from wiki url, automatic rename based on species, gender+number.
+
     # TODO optimize all photos once done and cropped.
 
-    # TODO for each gender:
-    #  add two lines for adding an image
-    #  choices papousek, dravec, sova, vodni, pevec
+    # TODO choices papousek, dravec, sova, vodni, pevec
 
-    # TODO save must close the window to let a new instance run.
+    # TODO save must rescan and clear the form.
 
     print(values)
     root = tk.Tk()
-    root.geometry('800x400')
+    root.geometry()
     elements = {}
+    gender_frames = []
 
+    main_frame = ttk.LabelFrame(root, text=str(Path.cwd().name.replace('_', ' ').capitalize()))
     for gender in ['Samec', 'Samice']:
-        g_frame = ttk.LabelFrame(root, text=gender)
+        g_frame = ttk.LabelFrame(main_frame, text=gender)
         for key in values.keys():
             if str(key) in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
                 frame = ttk.LabelFrame(g_frame, text=str(key))
@@ -45,18 +45,32 @@ def run_filler(values: Dict):
                 elements[f'color_text_{key}_{gender}'].pack()
                 frame.pack(side=tk.LEFT, fill='both')
         o_frame = ttk.LabelFrame(g_frame, text='Vlastnosti')
-        elements[f'note_text_{gender}'] = tk.Entry(o_frame, width=20, name=f'note_text_{gender}')
+        img_frame = ttk.LabelFrame(o_frame, text='Přidat obrázek z URL')
+        elements[f'img1_text_{gender}'] = tk.Entry(img_frame, width=20, name=f'img1_text_{gender}')
+        elements[f'img1_text_{gender}'].pack(side=tk.BOTTOM)
+        elements[f'img2_text_{gender}'] = tk.Entry(img_frame, width=20, name=f'img2_text_{gender}')
+        elements[f'img2_text_{gender}'].pack(side=tk.BOTTOM)
+        img_frame.pack()
+        p_frame = ttk.LabelFrame(o_frame, text='Dodatek')
+        elements[f'note_text_{gender}'] = tk.Entry(p_frame, width=20, name=f'note_text_{gender}')
         elements[f'note_text_{gender}'].pack(side=tk.BOTTOM)
-        note = tk.Label(o_frame, text="Note")
-        note.pack(side=tk.BOTTOM)
+        p_frame.pack()
+
         check_var = tk.IntVar(g_frame, 0)
         elements[f'spotted_{gender}'] = tk.Checkbutton(o_frame, text='Kropenatost', variable=check_var, onvalue=1,
                                                        offvalue=0, name=f'spotted_{gender}')
         elements[f'spotted_{gender}'].pack()
         o_frame.pack(fill='both', expand=True)
-        g_frame.pack()
+        gender_frames.append(g_frame)
 
-    t_frame = ttk.LabelFrame(root, text='Typ')
+    check_var = tk.IntVar(g_frame, 0)
+    elements[f'add_female'] = tk.Checkbutton(main_frame, text='Přidat samičku', variable=check_var, onvalue=1,
+                                             offvalue=0, name=f'add_female')
+    gender_frames[0].pack()
+    elements[f'add_female'].pack()
+    gender_frames[1].pack()
+
+    t_frame = ttk.LabelFrame(main_frame, text='Typ')
     radio_var = tk.StringVar()
     for typ in values['typ']:
         elements[f'radio_typ_{typ}'] = tk.Radiobutton(t_frame, text=typ, value=typ, variable=radio_var,
@@ -65,7 +79,7 @@ def run_filler(values: Dict):
     elements[f'typ_text'] = tk.Entry(t_frame, width=10, name=f'typ_text')
     elements[f'typ_text'].pack()
 
-    v_frame = ttk.LabelFrame(root, text='Velikost')
+    v_frame = ttk.LabelFrame(main_frame, text='Velikost')
     radio_var = tk.StringVar()
     for size in values['velikost']:
         elements[f'radio_size_{size}'] = tk.Radiobutton(v_frame, text=size, value=size, variable=radio_var,
@@ -76,10 +90,11 @@ def run_filler(values: Dict):
 
     t_frame.pack(side=tk.LEFT)
     v_frame.pack(side=tk.LEFT)
-    button = tk.Button(root, text="Save", bg="green")
+    button = tk.Button(main_frame, text="Save", bg="green")
     button.pack(side=tk.LEFT)
-    button = tk.Button(root, text="Rescan", bg="green")
+    button = tk.Button(main_frame, text="Rescan", bg="yellow")
     button.pack(side=tk.LEFT)
+    main_frame.pack()
     root.mainloop()
 
 
