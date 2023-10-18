@@ -1,5 +1,5 @@
 #!/bin/python3
-
+import sys
 import tkinter as tk
 from typing import Dict
 
@@ -86,19 +86,30 @@ def create_gui(values: Dict):
     button.pack(side=tk.LEFT)
     button = tk.Button(main_frame, text="Rescan", bg="yellow")
     button.pack(side=tk.LEFT)
-    button = tk.Button(main_frame, text="Quit", bg="red")
+    button = tk.Button(main_frame, text="Quit", bg="red", command=quit_completely)
     button.pack(side=tk.LEFT)
     main_frame.pack()
 
 
 def save_action():
+    # Save male:
+    for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
+        color_list = find_bodypart_colors('samec', part)
+        print(color_list)
+    # TODO check if female is enabled, then save female.
+    #root.destroy()
+
+
+def find_bodypart_colors(gender: str, bodypart: str) -> [str]:
     for name, element in elements.items():
-        print(name, element)
-    root.destroy()
-
-
-def find_head_color(gender: str) -> str:
+        if gender in name and bodypart in name:
+            print(name)
     pass
+
+
+def quit_completely():
+    save_action()
+    sys.exit(0)
 
 
 def analyze_yaml(collected_keywords: Dict) -> Dict:
@@ -148,19 +159,16 @@ if __name__ == '__main__':
         unfinished_working_directory = Path(Path.cwd() / Path('../databaze/unfinished')).resolve()
         finished_working_directory = Path(Path.cwd() / Path('../databaze/finished')).resolve()
         elements = {}
+        stop = False
 
         for u_path in Path(unfinished_working_directory).iterdir():
             if u_path.is_dir():
-                try:
-                    root = tk.Tk()
-                    previous_values = scan_options(finished_working_directory)
-                    create_gui(previous_values)
-                    os.chdir(u_path.resolve())
-                    print(f'Working on: {u_path}')
-                    root.mainloop()
-                except Exception as e:
-                    print(f'Error: {u_path.resolve()}, {e}')
-                finally:
-                    os.chdir(unfinished_working_directory)
+                root = tk.Tk()
+                previous_values = scan_options(finished_working_directory)
+                create_gui(previous_values)
+                os.chdir(u_path.resolve())
+                print(f'Working on: {u_path}')
+                root.mainloop()
+                os.chdir(unfinished_working_directory)
     except KeyboardInterrupt as _:
         print('Stopped')
