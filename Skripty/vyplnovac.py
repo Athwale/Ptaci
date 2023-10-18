@@ -9,11 +9,7 @@ from tkinter import ttk
 from pathlib import Path
 
 
-def run_filler(values: Dict):
-    """
-
-    :return:
-    """
+def create_gui(values: Dict):
     # TODO open wiki page in firefox.
     # TODO picture from wiki url, automatic rename based on species, gender+number.
 
@@ -21,26 +17,22 @@ def run_filler(values: Dict):
 
     # TODO choices papousek, dravec, sova, vodni, pevec
 
-    # TODO save must rescan and clear the form.
-
-    print(values)
-    root = tk.Tk()
     root.geometry()
-    elements = {}
     gender_frames = []
 
     main_frame = ttk.LabelFrame(root, text=str(Path.cwd().name.replace('_', ' ').capitalize()))
-    for gender in ['Samec', 'Samice']:
+    for gender in ['samec', 'samice']:
         g_frame = ttk.LabelFrame(main_frame, text=gender)
         for key in values.keys():
             if str(key) in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
                 frame = ttk.LabelFrame(g_frame, text=str(key))
-                radio_var = tk.StringVar()
                 for color in values[key]:
-                    elements[f'{color}_radio_{key}_{gender}'] = tk.Radiobutton(frame, text=color, value=color,
-                                                                               variable=radio_var,
-                                                                               name=f'{color}_radio_{key}_{gender}')
-                    elements[f'{color}_radio_{key}_{gender}'].pack(expand=True)
+                    check_var = tk.IntVar(g_frame, 0)
+                    elements[f'color_ch_{key}_{color}_{gender}'] = tk.Checkbutton(frame, text=color, variable=check_var,
+                                                                                  onvalue=1, offvalue=0,
+                                                                                  name=f'color_ch_{key}_'
+                                                                                       f'{color}_{gender}')
+                    elements[f'color_ch_{key}_{color}_{gender}'].pack(expand=True)
                 elements[f'color_text_{key}_{gender}'] = tk.Entry(frame, width=10, name=f'color_text_{key}_{gender}')
                 elements[f'color_text_{key}_{gender}'].pack()
                 frame.pack(side=tk.LEFT, fill='both')
@@ -90,20 +82,26 @@ def run_filler(values: Dict):
 
     t_frame.pack(side=tk.LEFT)
     v_frame.pack(side=tk.LEFT)
-    button = tk.Button(main_frame, text="Save", bg="green")
+    button = tk.Button(main_frame, text="Save", bg="green", command=save_action)
     button.pack(side=tk.LEFT)
     button = tk.Button(main_frame, text="Rescan", bg="yellow")
     button.pack(side=tk.LEFT)
+    button = tk.Button(main_frame, text="Quit", bg="red")
+    button.pack(side=tk.LEFT)
     main_frame.pack()
-    root.mainloop()
+
+
+def save_action():
+    for name, element in elements.items():
+        print(name, element)
+    root.destroy()
+
+
+def find_head_color(gender: str) -> str:
+    pass
 
 
 def analyze_yaml(collected_keywords: Dict) -> Dict:
-    """
-    Get typ, velikost, barvy from both samec and samice.
-    :param collected_keywords: Previously used colors and values.
-    :return: Dictionary with newly added values.
-    """
     with open('data.yml', 'r') as file:
         metadata = yaml.safe_load(file)
         collected_keywords['typ'].add(metadata['typ'])
@@ -123,10 +121,6 @@ def analyze_yaml(collected_keywords: Dict) -> Dict:
 
 
 def scan_options(work_dir: Path) -> Dict:
-    """
-    Scan finished files to create options for the gui.
-    :return: A dictionary of all previously used values.
-    """
     used_values = {'hlava': set(),
                    'křídla': set(),
                    'hruď': set(),
@@ -153,14 +147,17 @@ if __name__ == '__main__':
     try:
         unfinished_working_directory = Path(Path.cwd() / Path('../databaze/unfinished')).resolve()
         finished_working_directory = Path(Path.cwd() / Path('../databaze/finished')).resolve()
+        elements = {}
 
         for u_path in Path(unfinished_working_directory).iterdir():
             if u_path.is_dir():
                 try:
+                    root = tk.Tk()
                     previous_values = scan_options(finished_working_directory)
+                    create_gui(previous_values)
                     os.chdir(u_path.resolve())
                     print(f'Working on: {u_path}')
-                    run_filler(previous_values)
+                    root.mainloop()
                 except Exception as e:
                     print(f'Error: {u_path.resolve()}, {e}')
                 finally:
