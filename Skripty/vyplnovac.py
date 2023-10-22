@@ -28,57 +28,59 @@ def create_gui(values: Dict):
                 frame = ttk.LabelFrame(g_frame, text=str(key))
                 for color in values[key]:
                     check_var = tk.IntVar(g_frame, 0)
-                    elements[f'color_ch_{key}_{color}_{gender}'] = tk.Checkbutton(frame, text=color, variable=check_var,
-                                                                                  onvalue=1, offvalue=0,
-                                                                                  name=f'color_ch_{key}_'
-                                                                                       f'{color}_{gender}')
-                    elements[f'color_ch_{key}_{color}_{gender}'].pack(expand=True)
-                elements[f'color_text_{key}_{gender}'] = tk.Entry(frame, width=10, name=f'color_text_{key}_{gender}')
-                elements[f'color_text_{key}_{gender}'].pack()
+                    elements[f'color_ch_{key}_{color}_{gender}'] = (tk.Checkbutton(frame, text=color,
+                                                                                   variable=check_var,
+                                                                                   onvalue=1, offvalue=0,
+                                                                                   name=f'color_ch_{key}_'
+                                                                                        f'{color}_{gender}'), check_var)
+                    elements[f'color_ch_{key}_{color}_{gender}'][0].pack(expand=True)
+                elements[f'color_text_{key}_{gender}'] = (tk.Entry(frame, width=10, name=f'color_text_{key}_{gender}'),
+                                                          '')
+                elements[f'color_text_{key}_{gender}'][0].pack()
                 frame.pack(side=tk.LEFT, fill='both')
         o_frame = ttk.LabelFrame(g_frame, text='Vlastnosti')
         img_frame = ttk.LabelFrame(o_frame, text='Přidat obrázek z URL')
-        elements[f'img1_text_{gender}'] = tk.Entry(img_frame, width=20, name=f'img1_text_{gender}')
-        elements[f'img1_text_{gender}'].pack(side=tk.BOTTOM)
-        elements[f'img2_text_{gender}'] = tk.Entry(img_frame, width=20, name=f'img2_text_{gender}')
-        elements[f'img2_text_{gender}'].pack(side=tk.BOTTOM)
+        elements[f'img1_text_{gender}'] = (tk.Entry(img_frame, width=20, name=f'img1_text_{gender}'), '')
+        elements[f'img1_text_{gender}'][0].pack(side=tk.BOTTOM)
+        elements[f'img2_text_{gender}'] = (tk.Entry(img_frame, width=20, name=f'img2_text_{gender}'), '')
+        elements[f'img2_text_{gender}'][0].pack(side=tk.BOTTOM)
         img_frame.pack()
         p_frame = ttk.LabelFrame(o_frame, text='Dodatek')
-        elements[f'note_text_{gender}'] = tk.Entry(p_frame, width=20, name=f'note_text_{gender}')
-        elements[f'note_text_{gender}'].pack(side=tk.BOTTOM)
+        elements[f'note_text_{gender}'] = (tk.Entry(p_frame, width=20, name=f'note_text_{gender}'), '')
+        elements[f'note_text_{gender}'][0].pack(side=tk.BOTTOM)
         p_frame.pack()
 
         check_var = tk.IntVar(g_frame, 0)
-        elements[f'spotted_{gender}'] = tk.Checkbutton(o_frame, text='Kropenatost', variable=check_var, onvalue=1,
-                                                       offvalue=0, name=f'spotted_{gender}')
-        elements[f'spotted_{gender}'].pack()
+        elements[f'spotted_{gender}'] = (tk.Checkbutton(o_frame, text='Kropenatost', variable=check_var, onvalue=1,
+                                                        offvalue=0, name=f'spotted_{gender}'), check_var)
+        elements[f'spotted_{gender}'][0].pack()
         o_frame.pack(fill='both', expand=True)
         gender_frames.append(g_frame)
 
     check_var = tk.IntVar(g_frame, 0)
-    elements[f'add_female'] = tk.Checkbutton(main_frame, text='Přidat samičku', variable=check_var, onvalue=1,
-                                             offvalue=0, name=f'add_female')
+    elements[f'add_female'] = (tk.Checkbutton(main_frame, text='Přidat samičku', variable=check_var, onvalue=1,
+                                              offvalue=0, name=f'add_female'), check_var)
     gender_frames[0].pack()
-    elements[f'add_female'].pack()
+    elements[f'add_female'][0].pack()
     gender_frames[1].pack()
 
     t_frame = ttk.LabelFrame(main_frame, text='Typ')
     radio_var = tk.StringVar()
     for typ in values['typ']:
-        elements[f'radio_typ_{typ}'] = tk.Radiobutton(t_frame, text=typ, value=typ, variable=radio_var,
-                                                      name=f'radio_typ_{typ}')
-        elements[f'radio_typ_{typ}'].pack(expand=True)
-    elements[f'typ_text'] = tk.Entry(t_frame, width=10, name=f'typ_text')
-    elements[f'typ_text'].pack()
+        elements[f'radio_typ_{typ}'] = (tk.Radiobutton(t_frame, text=typ, value=typ, variable=radio_var,
+                                                       name=f'radio_typ_{typ}'), radio_var)
+        elements[f'radio_typ_{typ}'][0].pack(expand=True)
+    elements[f'typ_text'] = (tk.Entry(t_frame, width=10, name=f'typ_text'), '')
+    elements[f'typ_text'][0].pack()
 
     v_frame = ttk.LabelFrame(main_frame, text='Velikost')
     radio_var = tk.StringVar()
     for size in values['velikost']:
-        elements[f'radio_size_{size}'] = tk.Radiobutton(v_frame, text=size, value=size, variable=radio_var,
-                                                        name=f'radio_size_{size}')
-        elements[f'radio_size_{size}'].pack(expand=True)
-    elements[f'size_text'] = tk.Entry(v_frame, width=10, name=f'size_text')
-    elements[f'size_text'].pack()
+        elements[f'radio_size_{size}'] = (tk.Radiobutton(v_frame, text=size, value=size, variable=radio_var,
+                                                         name=f'radio_size_{size}'), radio_var)
+        elements[f'radio_size_{size}'][0].pack(expand=True)
+    elements[f'size_text'] = (tk.Entry(v_frame, width=10, name=f'size_text'), '')
+    elements[f'size_text'][0].pack()
 
     t_frame.pack(side=tk.LEFT)
     v_frame.pack(side=tk.LEFT)
@@ -101,10 +103,16 @@ def save_action():
 
 
 def find_bodypart_colors(gender: str, bodypart: str) -> [str]:
+    colors = []
     for name, element in elements.items():
         if gender in name and bodypart in name:
-            print(name)
-    pass
+            if isinstance(elements[name][0], tk.Checkbutton):
+                if elements[name][1].get():
+                    colors.append(elements[name][0].cget("text"))
+            elif isinstance(elements[name][0], tk.Entry):
+                if elements[name][0].get():
+                    colors.append(elements[name][0].get())
+    return colors
 
 
 def quit_completely():
