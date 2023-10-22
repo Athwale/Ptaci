@@ -1,12 +1,16 @@
 #!/bin/python3
 import sys
 import tkinter as tk
-from typing import Dict
 
 import yaml
+import locale
 import os
+from typing import Dict
 from tkinter import ttk
 from pathlib import Path
+
+
+locale.setlocale(locale.LC_ALL, "")
 
 
 def create_gui(values: Dict):
@@ -26,7 +30,9 @@ def create_gui(values: Dict):
         for key in values.keys():
             if str(key) in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
                 frame = ttk.LabelFrame(g_frame, text=str(key))
-                for color in values[key]:
+                colors = list(values[key])
+                colors.sort(key=locale.strxfrm)
+                for color in colors:
                     check_var = tk.IntVar(g_frame, 0)
                     elements[f'color_ch_{key}_{color}_{gender}'] = (tk.Checkbutton(frame, text=color,
                                                                                    variable=check_var,
