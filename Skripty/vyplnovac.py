@@ -104,6 +104,8 @@ def save_action():
     for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
         color_list = find_bodypart_colors('samec', part)
         print(color_list)
+    spotted = get_spotted('samec')
+    print(spotted)
     # TODO check if female is enabled, then save female.
     #root.destroy()
 
@@ -119,6 +121,16 @@ def find_bodypart_colors(gender: str, bodypart: str) -> [str]:
                 if elements[name][0].get():
                     colors.append(elements[name][0].get())
     return colors
+
+
+def get_spotted(gender: str) -> bool:
+    for name, element in elements.items():
+        if gender in name and 'spotted' in name:
+            if isinstance(elements[name][0], tk.Checkbutton):
+                if elements[name][1].get():
+                    return True
+                else:
+                    return False
 
 
 def quit_completely():
