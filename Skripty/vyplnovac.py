@@ -106,6 +106,8 @@ def save_action():
         print(color_list)
     spotted = get_spotted('samec')
     print(spotted)
+    note = get_note('samec')
+    print(note)
     # TODO check if female is enabled, then save female.
     #root.destroy()
 
@@ -131,6 +133,14 @@ def get_spotted(gender: str) -> bool:
                     return True
                 else:
                     return False
+
+
+def get_note(gender: str) -> str:
+    for name, element in elements.items():
+        if gender in name and 'note' in name:
+            if isinstance(elements[name][0], tk.Entry):
+                if elements[name][0].get():
+                    return elements[name][0].get()
 
 
 def quit_completely():
