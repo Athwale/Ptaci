@@ -108,9 +108,9 @@ def save_action():
     print('spots', spotted)
     note = get_note('samec')
     print('note', note)
-    size = get_size()
+    size = get_global_attr('size')
     print('size', size)
-    typ = get_typ()
+    typ = get_global_attr('typ')
     print('typ', typ)
     # TODO check if female is enabled, then save female.
     # todo check for empty values
@@ -148,27 +148,11 @@ def get_note(gender: str) -> str:
                     return elements[name][0].get()
 
 
-def get_size() -> str:
+def get_global_attr(which: str) -> str:
     entry = ''
     value = ''
     for name, element in elements.items():
-        if 'size' in name:
-            if isinstance(elements[name][0], tk.Entry):
-                if elements[name][0].get():
-                    entry = elements[name][0].get()
-            elif isinstance(elements[name][0], tk.Radiobutton):
-                if elements[name][1].get():
-                    value = elements[name][1].get()
-    if entry:
-        return entry
-    return value
-
-
-def get_typ() -> str:
-    entry = ''
-    value = ''
-    for name, element in elements.items():
-        if 'typ' in name:
+        if which in name:
             if isinstance(elements[name][0], tk.Entry):
                 if elements[name][0].get():
                     entry = elements[name][0].get()
