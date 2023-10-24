@@ -105,10 +105,15 @@ def save_action():
         color_list = find_bodypart_colors('samec', part)
         print(color_list)
     spotted = get_spotted('samec')
-    print(spotted)
+    print('spots', spotted)
     note = get_note('samec')
-    print(note)
+    print('note', note)
+    size = get_size()
+    print('size', size)
+    typ = get_typ()
+    print('typ', typ)
     # TODO check if female is enabled, then save female.
+    # todo check for empty values
     #root.destroy()
 
 
@@ -141,6 +146,40 @@ def get_note(gender: str) -> str:
             if isinstance(elements[name][0], tk.Entry):
                 if elements[name][0].get():
                     return elements[name][0].get()
+
+
+def get_size() -> str:
+    entry = ''
+    value = ''
+    for name, element in elements.items():
+        if 'size' in name:
+            if isinstance(elements[name][0], tk.Entry):
+                if elements[name][0].get():
+                    entry = elements[name][0].get()
+            elif isinstance(elements[name][0], tk.Radiobutton):
+                if elements[name][1].get():
+                    value = elements[name][1].get()
+    if entry:
+        return entry
+    return value
+
+
+def get_typ() -> str:
+    entry = ''
+    value = ''
+    for name, element in elements.items():
+        if 'typ' in name:
+            if isinstance(elements[name][0], tk.Entry):
+                if elements[name][0].get():
+                    entry = elements[name][0].get()
+            elif isinstance(elements[name][0], tk.Radiobutton):
+                if elements[name][1].get():
+                    value = elements[name][1].get()
+    if entry:
+        return entry
+    return value
+
+# todo add female checkbox, images
 
 
 def quit_completely():
