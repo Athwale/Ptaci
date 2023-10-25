@@ -1,6 +1,7 @@
 #!/bin/python3
 import sys
 import tkinter as tk
+from tkinter import messagebox
 
 import yaml
 import locale
@@ -90,34 +91,36 @@ def create_gui(values: Dict, work_dir: Path):
 
     t_frame.pack(side=tk.LEFT)
     v_frame.pack(side=tk.LEFT)
-    button = tk.Button(main_frame, text="Save", bg="green", command=save_action)
+    button = tk.Button(main_frame, text="Uložit", bg="green", command=save_action)
     button.pack(side=tk.LEFT)
-    button = tk.Button(main_frame, text="Rescan", bg="yellow")
+    button = tk.Button(main_frame, text="Přeskenovat", bg="yellow")
     button.pack(side=tk.LEFT)
-    button = tk.Button(main_frame, text="Quit", bg="red", command=quit_completely)
+    button = tk.Button(main_frame, text="Ukončit", bg="red", command=quit_completely)
     button.pack(side=tk.LEFT)
     main_frame.pack()
 
 
 def save_action():
     # Save male:
+    colors = {}
     for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
-        color_list = find_bodypart_colors('samec', part)
-        print(color_list)
+        colors[part] = find_bodypart_colors('samec', part)
     spotted = get_spotted('samec')
-    print('spots', spotted)
     note = get_note('samec')
-    print('note', note)
     size = get_global_attr('size')
-    print('size', size)
     typ = get_global_attr('typ')
-    print('typ', typ)
     add_female = get_add_female()
-    print('add female', add_female)
     image_urls = get_image_urls('samec')
-    print('images', image_urls)
+    if not typ:
+        messagebox.showwarning(title='Chyba', message='Typ není nastaven')
+    if not size:
+        messagebox.showwarning(title='Chyba', message='Velikost není nastavena')
+    for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
+        if not colors[part]:
+            messagebox.showwarning(title='Chyba', message=f'Barva {part.capitalize()} není nastavena')
+    # TODO save images and rewrite links for yaml.
     # TODO check if female is enabled, then save female.
-    # todo check for empty values
+    # TODO open browser.
     # Destroy on save so it will reoopen in next directory
     #root.destroy()
 
