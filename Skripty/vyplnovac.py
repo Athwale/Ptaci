@@ -13,7 +13,7 @@ from pathlib import Path
 locale.setlocale(locale.LC_ALL, "")
 
 
-def create_gui(values: Dict):
+def create_gui(values: Dict, work_dir: Path):
     # TODO open wiki page in firefox.
     # TODO picture from wiki url, automatic rename based on species, gender+number.
 
@@ -24,7 +24,7 @@ def create_gui(values: Dict):
     root.geometry()
     gender_frames = []
 
-    main_frame = ttk.LabelFrame(root, text=str(Path.cwd().name.replace('_', ' ').capitalize()))
+    main_frame = ttk.LabelFrame(root, text=str(work_dir.name.replace('_', ' ').capitalize()))
     for gender in ['samec', 'samice']:
         g_frame = ttk.LabelFrame(main_frame, text=gender)
         for key in values.keys():
@@ -34,22 +34,22 @@ def create_gui(values: Dict):
                 colors.sort(key=locale.strxfrm)
                 for color in colors:
                     check_var = tk.IntVar(g_frame, 0)
-                    elements[f'color_ch_{key}_{color}_{gender}'] = (tk.Checkbutton(frame, text=color,
-                                                                                   variable=check_var,
+                    elements[f'color_ch_{key}_{color}_{gender}'] = (tk.Checkbutton(frame, text=color, anchor="w",
+                                                                                   variable=check_var, width=10,
                                                                                    onvalue=1, offvalue=0,
                                                                                    name=f'color_ch_{key}_'
                                                                                         f'{color}_{gender}'), check_var)
-                    elements[f'color_ch_{key}_{color}_{gender}'][0].pack(expand=True)
+                    elements[f'color_ch_{key}_{color}_{gender}'][0].pack()
                 elements[f'color_text_{key}_{gender}'] = (tk.Entry(frame, width=10, name=f'color_text_{key}_{gender}'),
                                                           '')
-                elements[f'color_text_{key}_{gender}'][0].pack()
+                elements[f'color_text_{key}_{gender}'][0].pack(side=tk.BOTTOM, fill='x', anchor='s')
                 frame.pack(side=tk.LEFT, fill='both')
         o_frame = ttk.LabelFrame(g_frame, text='Vlastnosti')
         img_frame = ttk.LabelFrame(o_frame, text='Přidat obrázek z URL')
-        elements[f'img1_text_{gender}'] = (tk.Entry(img_frame, width=20, name=f'img1_text_{gender}'), '')
-        elements[f'img1_text_{gender}'][0].pack(side=tk.BOTTOM)
-        elements[f'img2_text_{gender}'] = (tk.Entry(img_frame, width=20, name=f'img2_text_{gender}'), '')
-        elements[f'img2_text_{gender}'][0].pack(side=tk.BOTTOM)
+        elements[f'img_text_{gender}_1'] = (tk.Entry(img_frame, width=20, name=f'img_text_{gender}_1'), '')
+        elements[f'img_text_{gender}_2'] = (tk.Entry(img_frame, width=20, name=f'img_text_{gender}_2'), '')
+        elements[f'img_text_{gender}_2'][0].pack(side=tk.BOTTOM, expand=True, fill='x')
+        elements[f'img_text_{gender}_1'][0].pack(side=tk.BOTTOM, expand=True, fill='x')
         img_frame.pack()
         p_frame = ttk.LabelFrame(o_frame, text='Dodatek')
         elements[f'note_text_{gender}'] = (tk.Entry(p_frame, width=20, name=f'note_text_{gender}'), '')
@@ -67,26 +67,26 @@ def create_gui(values: Dict):
     elements[f'add_female'] = (tk.Checkbutton(main_frame, text='Přidat samičku', variable=check_var, onvalue=1,
                                               offvalue=0, name=f'add_female'), check_var)
     gender_frames[0].pack()
-    elements[f'add_female'][0].pack()
     gender_frames[1].pack()
+    elements[f'add_female'][0].pack()
 
     t_frame = ttk.LabelFrame(main_frame, text='Typ')
     radio_var = tk.StringVar()
     for typ in values['typ']:
-        elements[f'radio_typ_{typ}'] = (tk.Radiobutton(t_frame, text=typ, value=typ, variable=radio_var,
-                                                       name=f'radio_typ_{typ}'), radio_var)
+        elements[f'radio_typ_{typ}'] = (tk.Radiobutton(t_frame, text=typ, value=typ, variable=radio_var, anchor='w',
+                                                       name=f'radio_typ_{typ}', width=10), radio_var)
         elements[f'radio_typ_{typ}'][0].pack(expand=True)
     elements[f'typ_text'] = (tk.Entry(t_frame, width=10, name=f'typ_text'), '')
-    elements[f'typ_text'][0].pack()
+    elements[f'typ_text'][0].pack(side=tk.BOTTOM, expand=True, fill='x', anchor='s')
 
     v_frame = ttk.LabelFrame(main_frame, text='Velikost')
     radio_var = tk.StringVar()
     for size in values['velikost']:
-        elements[f'radio_size_{size}'] = (tk.Radiobutton(v_frame, text=size, value=size, variable=radio_var,
-                                                         name=f'radio_size_{size}'), radio_var)
+        elements[f'radio_size_{size}'] = (tk.Radiobutton(v_frame, text=size, value=size, variable=radio_var, anchor='w',
+                                                         name=f'radio_size_{size}', width=10), radio_var)
         elements[f'radio_size_{size}'][0].pack(expand=True)
     elements[f'size_text'] = (tk.Entry(v_frame, width=10, name=f'size_text'), '')
-    elements[f'size_text'][0].pack()
+    elements[f'size_text'][0].pack(side=tk.BOTTOM, expand=True, fill='x', anchor='s')
 
     t_frame.pack(side=tk.LEFT)
     v_frame.pack(side=tk.LEFT)
@@ -112,8 +112,13 @@ def save_action():
     print('size', size)
     typ = get_global_attr('typ')
     print('typ', typ)
+    add_female = get_add_female()
+    print('add female', add_female)
+    image_urls = get_image_urls('samec')
+    print('images', image_urls)
     # TODO check if female is enabled, then save female.
     # todo check for empty values
+    # Destroy on save so it will reoopen in next directory
     #root.destroy()
 
 
@@ -133,6 +138,16 @@ def find_bodypart_colors(gender: str, bodypart: str) -> [str]:
 def get_spotted(gender: str) -> bool:
     for name, element in elements.items():
         if gender in name and 'spotted' in name:
+            if isinstance(elements[name][0], tk.Checkbutton):
+                if elements[name][1].get():
+                    return True
+                else:
+                    return False
+
+
+def get_add_female() -> bool:
+    for name, element in elements.items():
+        if 'add_female' in name:
             if isinstance(elements[name][0], tk.Checkbutton):
                 if elements[name][1].get():
                     return True
@@ -163,7 +178,15 @@ def get_global_attr(which: str) -> str:
         return entry
     return value
 
-# todo add female checkbox, images
+
+def get_image_urls(gender: str) -> [str]:
+    urls = []
+    for name, element in elements.items():
+        if gender in name and 'img_text_' in name:
+            if isinstance(elements[name][0], tk.Entry):
+                if elements[name][0].get():
+                    urls.append(elements[name][0].get())
+    return urls
 
 
 def quit_completely():
@@ -224,7 +247,7 @@ if __name__ == '__main__':
             if u_path.is_dir():
                 root = tk.Tk()
                 previous_values = scan_options(finished_working_directory)
-                create_gui(previous_values)
+                create_gui(previous_values, u_path)
                 os.chdir(u_path.resolve())
                 print(f'Working on: {u_path}')
                 root.mainloop()
