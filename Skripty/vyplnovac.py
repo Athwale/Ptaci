@@ -1,11 +1,14 @@
 #!/bin/python3
-import sys
 import tkinter as tk
-from tkinter import messagebox
+
+import sys
 
 import yaml
 import locale
 import os
+import wget
+
+from tkinter import messagebox
 from typing import Dict
 from tkinter import ttk
 from pathlib import Path
@@ -16,7 +19,6 @@ locale.setlocale(locale.LC_ALL, "")
 
 def create_gui(values: Dict, work_dir: Path):
     # TODO open wiki page in firefox.
-    # TODO picture from wiki url, automatic rename based on species, gender+number.
 
     # TODO optimize all photos once done and cropped.
 
@@ -118,11 +120,32 @@ def save_action():
     for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
         if not colors[part]:
             messagebox.showwarning(title='Chyba', message=f'Barva {part.capitalize()} není nastavena')
-    # TODO save images and rewrite links for yaml.
+    for img in image_urls:
+        if img:
+            if 'upload.wikimedia' not in img:
+                # test url https://upload.wikimedia.org/wikipedia/commons/6/65/Tystie1.jpg
+                messagebox.showwarning(title='Chyba', message=f'Špatný tvar URL obrázku\nNestaženo')
+            else:
+                download_image(img, 'samec')
+    # TODO rewrite image links for yaml.
     # TODO check if female is enabled, then save female.
     # TODO open browser.
-    # Destroy on save so it will reoopen in next directory
+    # Destroy on save so it will reopen in next directory
     #root.destroy()
+
+
+def download_image(url: str, gender: str):
+    img_suffix: str = url.split(sep='/')[-1].split('.')[-1].lower()
+    img_filename = Path.cwd().name + '.' + img_suffix
+    if Path(Path().cwd() / Path(img_filename)).exists():
+        # Come up with a new filename.
+        for i in range(1, 100):
+            img_filename = f'{Path.cwd().name}_{gender}_{i}'
+            if Path(Path().cwd() / Path(img_filename)).exists():
+                continue
+            else:
+                break
+    wget.download(url, out=img_filename + '.' + img_suffix, bar=None)
 
 
 def find_bodypart_colors(gender: str, bodypart: str) -> [str]:
