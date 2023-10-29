@@ -9,6 +9,7 @@ import os
 import wget
 
 from tkinter import messagebox
+from tkinter.messagebox import askyesno
 from typing import Dict
 from tkinter import ttk
 from pathlib import Path
@@ -126,26 +127,28 @@ def save_action():
                 # test url https://upload.wikimedia.org/wikipedia/commons/6/65/Tystie1.jpg
                 messagebox.showwarning(title='Chyba', message=f'Špatný tvar URL obrázku\nNestaženo')
             else:
-                download_image(img, 'samec')
-    # TODO rewrite image links for yaml.
+                yaml_link = download_image(img, 'samec')
+                print(yaml_link)
+
     # TODO check if female is enabled, then save female.
     # TODO open browser.
     # Destroy on save so it will reopen in next directory
     #root.destroy()
 
 
-def download_image(url: str, gender: str):
+def download_image(url: str, gender: str) -> str:
     img_suffix: str = url.split(sep='/')[-1].split('.')[-1].lower()
     img_filename = Path.cwd().name + '.' + img_suffix
     if Path(Path().cwd() / Path(img_filename)).exists():
         # Come up with a new filename.
         for i in range(1, 100):
-            img_filename = f'{Path.cwd().name}_{gender}_{i}'
+            img_filename = f'{Path.cwd().name}_{gender}_{i}.{img_suffix}'
             if Path(Path().cwd() / Path(img_filename)).exists():
                 continue
             else:
                 break
-    wget.download(url, out=img_filename + '.' + img_suffix, bar=None)
+    wget.download(url, out=img_filename, bar=None)
+    return f'https://commons.wikimedia.org/wiki/File:{str(url.split(sep="/")[-1])}'
 
 
 def find_bodypart_colors(gender: str, bodypart: str) -> [str]:
@@ -216,8 +219,9 @@ def get_image_urls(gender: str) -> [str]:
 
 
 def quit_completely():
-    save_action()
-    sys.exit(0)
+    yes = askyesno(title='confirmation', message=f'Aktuální stav nebude uložen')
+    if yes:
+        sys.exit(0)
 
 
 def analyze_yaml(collected_keywords: Dict) -> Dict:
