@@ -20,10 +20,7 @@ locale.setlocale(locale.LC_ALL, "")
 
 
 def create_gui(values: Dict, work_dir: Path) -> None:
-    # TODO open wiki page in firefox.
-
     # TODO optimize all photos once done and cropped.
-
     # TODO choices papousek, dravec, sova, vodni, pevec
 
     root.geometry()
@@ -184,6 +181,7 @@ def save_action() -> None:
 
 
 def update_yaml(gender: str, colors: Dict, spotted: bool, note: str, size: str, typ: str, images: List) -> None:
+    # todo save to yaml under correct gender
     if gender == 'samec':
         print(colors)
         print(spotted)
@@ -195,9 +193,12 @@ def update_yaml(gender: str, colors: Dict, spotted: bool, note: str, size: str, 
         print('save samice')
 
 
-def open_browser(url: str):
-    # TODO open browser.
-    webbrowser.open('https://finxter.com/')
+def open_browser() -> None:
+    metadata_path = Path(Path.cwd() / 'data.yml')
+    with open(metadata_path, 'r', encoding='utf-8') as file:
+        data = yaml.safe_load(file)
+        url = data['odkazy']['wiki']
+    webbrowser.open(url)
 
 
 def download_image(url: str, gender: str) -> (str, str):
@@ -343,6 +344,7 @@ if __name__ == '__main__':
                 previous_values = scan_options(finished_working_directory)
                 create_gui(previous_values, u_path)
                 os.chdir(u_path.resolve())
+                open_browser()
                 print(f'Working on: {u_path}')
                 root.mainloop()
                 os.chdir(unfinished_working_directory)
