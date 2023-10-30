@@ -2,6 +2,7 @@
 import tkinter as tk
 
 import sys
+import webbrowser
 
 import yaml
 import locale
@@ -10,7 +11,7 @@ import wget
 
 from tkinter import messagebox
 from tkinter.messagebox import askyesno
-from typing import Dict
+from typing import Dict, List
 from tkinter import ttk
 from pathlib import Path
 
@@ -18,7 +19,7 @@ from pathlib import Path
 locale.setlocale(locale.LC_ALL, "")
 
 
-def create_gui(values: Dict, work_dir: Path):
+def create_gui(values: Dict, work_dir: Path) -> None:
     # TODO open wiki page in firefox.
 
     # TODO optimize all photos once done and cropped.
@@ -103,40 +104,103 @@ def create_gui(values: Dict, work_dir: Path):
     main_frame.pack()
 
 
-def save_action():
+def save_action() -> None:
+    no_save = False
     # Save male:
-    colors = {}
-    for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
-        colors[part] = find_bodypart_colors('samec', part)
-    spotted = get_spotted('samec')
-    note = get_note('samec')
+    colors_male = {}
+    colors_female = {}
+    yaml_image_urls_male = []
+    yaml_image_urls_female = []
+    spotted_female = None
+    note_female = None
+
     size = get_global_attr('size')
     typ = get_global_attr('typ')
     add_female = get_add_female()
-    image_urls = get_image_urls('samec')
+
+    for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
+        colors_male[part] = find_bodypart_colors('samec', part)
+    spotted_male = get_spotted('samec')
+    note_male = get_note('samec')
+    image_urls_male = get_image_urls('samec')
     if not typ:
         messagebox.showwarning(title='Chyba', message='Typ není nastaven')
+        no_save = True
     if not size:
         messagebox.showwarning(title='Chyba', message='Velikost není nastavena')
+        no_save = True
     for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
-        if not colors[part]:
+        if not colors_male[part]:
             messagebox.showwarning(title='Chyba', message=f'Barva {part.capitalize()} není nastavena')
-    for img in image_urls:
+            no_save = True
+    for img in image_urls_male:
         if img:
             if 'upload.wikimedia' not in img:
                 # test url https://upload.wikimedia.org/wikipedia/commons/6/65/Tystie1.jpg
                 messagebox.showwarning(title='Chyba', message=f'Špatný tvar URL obrázku\nNestaženo')
-            else:
+                no_save = True
+
+    if add_female:
+        # Save female:
+        for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
+            colors_female[part] = find_bodypart_colors('samice', part)
+        spotted_female = get_spotted('samice')
+        note_female = get_note('samice')
+        image_urls_female = get_image_urls('samice')
+        yaml_image_urls_female = []
+        for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
+            if not colors_female[part]:
+                messagebox.showwarning(title='Chyba', message=f'Barva {part.capitalize()} není nastavena')
+                no_save = True
+        for img in image_urls_female:
+            if img:
+                if 'upload.wikimedia' not in img:
+                    messagebox.showwarning(title='Chyba', message=f'Špatný tvar URL obrázku\nNestaženo')
+                    no_save = True
+
+        if not no_save:
+            # Download images and save
+            for img in image_urls_female:
+                if img:
+                    yaml_link = download_image(img, 'samice')
+                    yaml_image_urls_female.append(yaml_link)
+
+    if not no_save:
+        # Download images and save
+        for img in image_urls_male:
+            if img:
                 yaml_link = download_image(img, 'samec')
-                print(yaml_link)
+                yaml_image_urls_male.append(yaml_link)
+        for img in image_urls_male:
+            if img:
+                yaml_link = download_image(img, 'samice')
+                yaml_image_urls_female.append(yaml_link)
+        update_yaml('samec', colors_male, spotted_male, note_male, size, typ, yaml_image_urls_male)
+        if add_female:
+            update_yaml('samice', colors_female, spotted_female, note_female, size, typ, yaml_image_urls_female)
 
-    # TODO check if female is enabled, then save female.
+    # Destroy on save it will reopen in next directory
+    # root.destroy()
+
+
+def update_yaml(gender: str, colors: Dict, spotted: bool, note: str, size: str, typ: str, images: List) -> None:
+    if gender == 'samec':
+        print(colors)
+        print(spotted)
+        print(note)
+        print(size)
+        print(typ)
+        print(images)
+    elif gender == 'samice':
+        print('save samice')
+
+
+def open_browser(url: str):
     # TODO open browser.
-    # Destroy on save so it will reopen in next directory
-    #root.destroy()
+    webbrowser.open('https://finxter.com/')
 
 
-def download_image(url: str, gender: str) -> str:
+def download_image(url: str, gender: str) -> (str, str):
     img_suffix: str = url.split(sep='/')[-1].split('.')[-1].lower()
     img_filename = Path.cwd().name + '.' + img_suffix
     if Path(Path().cwd() / Path(img_filename)).exists():
@@ -148,7 +212,7 @@ def download_image(url: str, gender: str) -> str:
             else:
                 break
     wget.download(url, out=img_filename, bar=None)
-    return f'https://commons.wikimedia.org/wiki/File:{str(url.split(sep="/")[-1])}'
+    return img_filename, f'https://commons.wikimedia.org/wiki/File:{str(url.split(sep="/")[-1])}'
 
 
 def find_bodypart_colors(gender: str, bodypart: str) -> [str]:
@@ -218,7 +282,7 @@ def get_image_urls(gender: str) -> [str]:
     return urls
 
 
-def quit_completely():
+def quit_completely() -> None:
     yes = askyesno(title='confirmation', message=f'Aktuální stav nebude uložen')
     if yes:
         sys.exit(0)
