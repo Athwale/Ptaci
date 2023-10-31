@@ -107,9 +107,10 @@ def save_action() -> None:
     colors_male = {}
     colors_female = {}
     yaml_image_urls_male = []
+    image_urls_female = []
     yaml_image_urls_female = []
     spotted_female = None
-    note_female = None
+    note_female = ''
 
     size = get_global_attr('size')
     typ = get_global_attr('typ')
@@ -155,20 +156,13 @@ def save_action() -> None:
                     messagebox.showwarning(title='Chyba', message=f'Špatný tvar URL obrázku\nNestaženo')
                     no_save = True
 
-        if not no_save:
-            # Download images and save
-            for img in image_urls_female:
-                if img:
-                    yaml_link = download_image(img, 'samice')
-                    yaml_image_urls_female.append(yaml_link)
-
     if not no_save:
         # Download images and save
         for img in image_urls_male:
             if img:
                 yaml_link = download_image(img, 'samec')
                 yaml_image_urls_male.append(yaml_link)
-        for img in image_urls_male:
+        for img in image_urls_female:
             if img:
                 yaml_link = download_image(img, 'samice')
                 yaml_image_urls_female.append(yaml_link)
@@ -180,17 +174,42 @@ def save_action() -> None:
     # root.destroy()
 
 
-def update_yaml(gender: str, colors: Dict, spotted: bool, note: str, size: str, typ: str, images: List) -> None:
-    # todo save to yaml under correct gender
-    if gender == 'samec':
-        print(colors)
-        print(spotted)
-        print(note)
-        print(size)
-        print(typ)
-        print(images)
-    elif gender == 'samice':
-        print('save samice')
+def update_yaml(target_gender: str, colors: Dict, spotted: bool, note: str, size: str, typ: str, images: List) -> None:
+    metadata_path = Path(Path.cwd() / 'data.yml')
+    with open(metadata_path, 'r', encoding='utf-8') as file:
+        data = yaml.safe_load(file)
+    # Save common information.
+    # todo note is not per gender
+    data['dodatek'] = note
+    data['typ'] = typ
+    data['velikost'] = size
+
+    if target_gender == 'samec':
+        for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
+            for bodypart in data['popis']['samec']['barvy']:
+                name = list(bodypart.keys())[0]
+                if name == part:
+                    bodypart[part] = colors[part]
+        data['popis']['samec']['kropenatost'] = spotted
+        if images:
+            for img in images:
+                data['popis']['samec']['fotky'].append({'file': img[0], 'url': img[1], 'zdroj': 'wikipedia'})
+    elif target_gender == 'samice':
+        photos = []
+        for img in images:
+            photos.append({'file': img[0], 'url': img[1], 'zdroj': 'wikipedia'})
+        data['popis']['samice'] = {'barvy': [{'hlava': colors['hlava']},
+                                             {'křídla': colors['křídla']},
+                                             {'hruď': colors['hruď']},
+                                             {'ocas': colors['ocas']},
+                                             {'nohy': colors['nohy']},
+                                             {'záda': colors['záda']},
+                                             {'zobák': colors['zobák']},],
+                                   'kropenatost': spotted,
+                                   'fotky': photos}
+        # todo automark add female if female controls are clicked
+    with open(metadata_path, 'w', encoding='utf-8') as file:
+        yaml.dump(data, file, allow_unicode=True)
 
 
 def open_browser() -> None:
