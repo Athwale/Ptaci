@@ -53,10 +53,6 @@ def create_gui(values: Dict, work_dir: Path) -> None:
         elements[f'img_text_{gender}_2'][0].pack(side=tk.BOTTOM, expand=True, fill='x')
         elements[f'img_text_{gender}_1'][0].pack(side=tk.BOTTOM, expand=True, fill='x')
         img_frame.pack()
-        p_frame = ttk.LabelFrame(o_frame, text='Dodatek')
-        elements[f'note_text_{gender}'] = (tk.Entry(p_frame, width=20, name=f'note_text_{gender}'), '')
-        elements[f'note_text_{gender}'][0].pack(side=tk.BOTTOM)
-        p_frame.pack()
 
         check_var = tk.IntVar(g_frame, 0)
         elements[f'spotted_{gender}'] = (tk.Checkbutton(o_frame, text='Kropenatost', variable=check_var, onvalue=1,
@@ -71,6 +67,10 @@ def create_gui(values: Dict, work_dir: Path) -> None:
     gender_frames[0].pack()
     gender_frames[1].pack()
     elements[f'add_female'][0].pack()
+    p_frame = ttk.LabelFrame(main_frame, text='Poznámka')
+    elements[f'note_text'] = (tk.Entry(p_frame, width=100, name=f'note_text'), '')
+    elements[f'note_text'][0].pack(side=tk.BOTTOM)
+    p_frame.pack()
 
     t_frame = ttk.LabelFrame(main_frame, text='Typ')
     radio_var = tk.StringVar()
@@ -110,16 +110,15 @@ def save_action() -> None:
     image_urls_female = []
     yaml_image_urls_female = []
     spotted_female = None
-    note_female = ''
 
     size = get_global_attr('size')
     typ = get_global_attr('typ')
+    note = get_note()
     add_female = get_add_female()
 
     for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
         colors_male[part] = find_bodypart_colors('samec', part)
     spotted_male = get_spotted('samec')
-    note_male = get_note('samec')
     image_urls_male = get_image_urls('samec')
     if not typ:
         messagebox.showwarning(title='Chyba', message='Typ není nastaven')
@@ -143,7 +142,6 @@ def save_action() -> None:
         for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
             colors_female[part] = find_bodypart_colors('samice', part)
         spotted_female = get_spotted('samice')
-        note_female = get_note('samice')
         image_urls_female = get_image_urls('samice')
         yaml_image_urls_female = []
         for part in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
@@ -166,9 +164,9 @@ def save_action() -> None:
             if img:
                 yaml_link = download_image(img, 'samice')
                 yaml_image_urls_female.append(yaml_link)
-        update_yaml('samec', colors_male, spotted_male, note_male, size, typ, yaml_image_urls_male)
+        update_yaml('samec', colors_male, spotted_male, note, size, typ, yaml_image_urls_male)
         if add_female:
-            update_yaml('samice', colors_female, spotted_female, note_female, size, typ, yaml_image_urls_female)
+            update_yaml('samice', colors_female, spotted_female, note, size, typ, yaml_image_urls_female)
 
     # Destroy on save it will reopen in next directory
     # root.destroy()
@@ -179,7 +177,6 @@ def update_yaml(target_gender: str, colors: Dict, spotted: bool, note: str, size
     with open(metadata_path, 'r', encoding='utf-8') as file:
         data = yaml.safe_load(file)
     # Save common information.
-    # todo note is not per gender
     data['dodatek'] = note
     data['typ'] = typ
     data['velikost'] = size
@@ -268,9 +265,9 @@ def get_add_female() -> bool:
                     return False
 
 
-def get_note(gender: str) -> str:
+def get_note() -> str:
     for name, element in elements.items():
-        if gender in name and 'note' in name:
+        if 'note_text' in name:
             if isinstance(elements[name][0], tk.Entry):
                 if elements[name][0].get():
                     return elements[name][0].get()
