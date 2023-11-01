@@ -15,7 +15,6 @@ from typing import Dict, List
 from tkinter import ttk
 from pathlib import Path
 
-
 locale.setlocale(locale.LC_ALL, "")
 
 
@@ -39,6 +38,7 @@ def create_gui(values: Dict, work_dir: Path) -> None:
                     elements[f'color_ch_{key}_{color}_{gender}'] = (tk.Checkbutton(frame, text=color, anchor="w",
                                                                                    variable=check_var, width=10,
                                                                                    onvalue=1, offvalue=0,
+                                                                                   command=check_female,
                                                                                    name=f'color_ch_{key}_'
                                                                                         f'{color}_{gender}'), check_var)
                     elements[f'color_ch_{key}_{color}_{gender}'][0].pack()
@@ -56,39 +56,42 @@ def create_gui(values: Dict, work_dir: Path) -> None:
 
         check_var = tk.IntVar(g_frame, 0)
         elements[f'spotted_{gender}'] = (tk.Checkbutton(o_frame, text='Kropenatost', variable=check_var, onvalue=1,
-                                                        offvalue=0, name=f'spotted_{gender}'), check_var)
+                                                        offvalue=0, name=f'spotted_{gender}', command=check_female),
+                                         check_var)
         elements[f'spotted_{gender}'][0].pack()
         o_frame.pack(fill='both', expand=True)
         gender_frames.append(g_frame)
 
     check_var = tk.IntVar(g_frame, 0)
-    elements[f'add_female'] = (tk.Checkbutton(main_frame, text='Přidat samičku', variable=check_var, onvalue=1,
-                                              offvalue=0, name=f'add_female'), check_var)
+    elements['add_female'] = (tk.Checkbutton(main_frame, text='Přidat samičku', variable=check_var, onvalue=1,
+                                             offvalue=0, name=f'add_female'), check_var)
     gender_frames[0].pack()
     gender_frames[1].pack()
-    elements[f'add_female'][0].pack()
+    elements['add_female'][0].pack()
     p_frame = ttk.LabelFrame(main_frame, text='Poznámka')
-    elements[f'note_text'] = (tk.Entry(p_frame, width=100, name=f'note_text'), '')
-    elements[f'note_text'][0].pack(side=tk.BOTTOM)
+    elements['note_text'] = (tk.Entry(p_frame, width=100, name=f'note_text'), '')
+    elements['note_text'][0].pack(side=tk.BOTTOM)
     p_frame.pack()
 
     t_frame = ttk.LabelFrame(main_frame, text='Typ')
     radio_var = tk.StringVar()
     for typ in values['typ']:
         elements[f'radio_typ_{typ}'] = (tk.Radiobutton(t_frame, text=typ, value=typ, variable=radio_var, anchor='w',
-                                                       name=f'radio_typ_{typ}', width=10), radio_var)
+                                                       name=f'radio_typ_{typ}', width=10, command=check_female),
+                                        radio_var)
         elements[f'radio_typ_{typ}'][0].pack(expand=True)
-    elements[f'typ_text'] = (tk.Entry(t_frame, width=10, name=f'typ_text'), '')
-    elements[f'typ_text'][0].pack(side=tk.BOTTOM, expand=True, fill='x', anchor='s')
+    elements['typ_text'] = (tk.Entry(t_frame, width=10, name=f'typ_text'), '')
+    elements['typ_text'][0].pack(side=tk.BOTTOM, expand=True, fill='x', anchor='s')
 
     v_frame = ttk.LabelFrame(main_frame, text='Velikost')
     radio_var = tk.StringVar()
     for size in values['velikost']:
         elements[f'radio_size_{size}'] = (tk.Radiobutton(v_frame, text=size, value=size, variable=radio_var, anchor='w',
-                                                         name=f'radio_size_{size}', width=10), radio_var)
+                                                         name=f'radio_size_{size}', width=10, command=check_female),
+                                          radio_var)
         elements[f'radio_size_{size}'][0].pack(expand=True)
-    elements[f'size_text'] = (tk.Entry(v_frame, width=10, name=f'size_text'), '')
-    elements[f'size_text'][0].pack(side=tk.BOTTOM, expand=True, fill='x', anchor='s')
+    elements['size_text'] = (tk.Entry(v_frame, width=10, name=f'size_text'), '')
+    elements['size_text'][0].pack(side=tk.BOTTOM, expand=True, fill='x', anchor='s')
 
     t_frame.pack(side=tk.LEFT)
     v_frame.pack(side=tk.LEFT)
@@ -101,7 +104,21 @@ def create_gui(values: Dict, work_dir: Path) -> None:
     main_frame.pack()
 
 
+def check_female() -> None:
+    add_female = 0
+    for name, element in elements.items():
+        if 'samice' in name:
+            if isinstance(elements[name][0], tk.Checkbutton):
+                if elements[name][1].get():
+                    add_female = 1
+            elif isinstance(elements[name][0], tk.Entry):
+                if elements[name][0].get():
+                    add_female = 1
+    elements[f'add_female'][1].set(add_female)
+
+
 def save_action() -> None:
+    check_female()
     no_save = False
     # Save male:
     colors_male = {}
@@ -201,10 +218,9 @@ def update_yaml(target_gender: str, colors: Dict, spotted: bool, note: str, size
                                              {'ocas': colors['ocas']},
                                              {'nohy': colors['nohy']},
                                              {'záda': colors['záda']},
-                                             {'zobák': colors['zobák']},],
+                                             {'zobák': colors['zobák']}, ],
                                    'kropenatost': spotted,
                                    'fotky': photos}
-        # todo automark add female if female controls are clicked
     with open(metadata_path, 'w', encoding='utf-8') as file:
         yaml.dump(data, file, allow_unicode=True)
 

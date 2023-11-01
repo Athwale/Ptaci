@@ -9,19 +9,19 @@ popis:
   samec:
     barvy:
     - hlava:
-      - černá
-    - křídla:
       - zelená
+    - křídla:
+      - žlutá
     - hruď:
       - žlutá
     - ocas:
       - žlutá
     - nohy:
-      - šedá
+      - žlutá
     - záda:
       - žlutá
     - zobák:
-      - černá
+      - červená
     fotky:
     - file: alkoun_malý.jpg
       url: https://commons.wikimedia.org/wiki/File:AlleAlle_2.jpg
@@ -30,23 +30,20 @@ popis:
   samice:
     barvy:
     - hlava:
-      - černá
+      - bílá
     - křídla:
-      - zelená
-    - hruď:
-      - žlutá
-    - ocas:
-      - zelená
-    - nohy:
-      - šedá
-    - záda:
-      - žlutá
-    - zobák:
       - černá
-    fotky:
-    - file: alkoun_malý_samice_2.jpg
-      url: https://commons.wikimedia.org/wiki/File:Tystie1.jpg
-      zdroj: wikipedia
+    - hruď:
+      - bílá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - bílá
+    fotky: []
     kropenatost: false
-typ: papoušek
-velikost: vrána
+typ: vodní
+velikost: hrdlička
