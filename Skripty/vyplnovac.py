@@ -8,6 +8,7 @@ import yaml
 import locale
 import os
 import wget
+import shutil
 
 from tkinter import messagebox
 from tkinter.messagebox import askyesno
@@ -385,8 +386,7 @@ if __name__ == '__main__':
                 print(f'Working on: {u_path}')
                 root.mainloop()
                 if saved:
-                    print(saved)
-                # todo move folder to finished
+                    shutil.move(u_path, finished_working_directory)
                 os.chdir(unfinished_working_directory)
     except KeyboardInterrupt as _:
         print('Stopped')
