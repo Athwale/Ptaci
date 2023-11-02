@@ -9,19 +9,19 @@ popis:
   samec:
     barvy:
     - hlava:
-      - zelená
+      - černá
     - křídla:
-      - žlutá
+      - zelená
     - hruď:
-      - žlutá
+      - zelená
     - ocas:
-      - žlutá
+      - zelená
     - nohy:
-      - žlutá
+      - šedá
     - záda:
-      - žlutá
+      - zelená
     - zobák:
-      - červená
+      - černá
     fotky:
     - file: alkoun_malý.jpg
       url: https://commons.wikimedia.org/wiki/File:AlleAlle_2.jpg
@@ -45,5 +45,5 @@ popis:
       - bílá
     fotky: []
     kropenatost: false
-typ: vodní
+typ: papoušek
 velikost: hrdlička

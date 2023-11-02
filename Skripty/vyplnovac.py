@@ -16,6 +16,7 @@ from tkinter import ttk
 from pathlib import Path
 
 locale.setlocale(locale.LC_ALL, "")
+global saved
 
 
 def create_gui(values: Dict, work_dir: Path) -> None:
@@ -186,10 +187,12 @@ def save_action() -> None:
             update_yaml('samice', colors_female, spotted_female, note, size, typ, yaml_image_urls_female)
 
     # Destroy on save it will reopen in next directory
-    # root.destroy()
+    if not no_save:
+        root.destroy()
 
 
 def update_yaml(target_gender: str, colors: Dict, spotted: bool, note: str, size: str, typ: str, images: List) -> None:
+    global saved
     metadata_path = Path(Path.cwd() / 'data.yml')
     with open(metadata_path, 'r', encoding='utf-8') as file:
         data = yaml.safe_load(file)
@@ -223,6 +226,7 @@ def update_yaml(target_gender: str, colors: Dict, spotted: bool, note: str, size
                                    'fotky': photos}
     with open(metadata_path, 'w', encoding='utf-8') as file:
         yaml.dump(data, file, allow_unicode=True)
+        saved = True
 
 
 def open_browser() -> None:
@@ -374,11 +378,15 @@ if __name__ == '__main__':
             if u_path.is_dir():
                 root = tk.Tk()
                 previous_values = scan_options(finished_working_directory)
+                saved = False
                 create_gui(previous_values, u_path)
                 os.chdir(u_path.resolve())
                 open_browser()
                 print(f'Working on: {u_path}')
                 root.mainloop()
+                if saved:
+                    print(saved)
+                # todo move folder to finished
                 os.chdir(unfinished_working_directory)
     except KeyboardInterrupt as _:
         print('Stopped')
