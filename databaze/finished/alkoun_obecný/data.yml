@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Alkoun obecný
 latinsky: Cepphus grylle
 odkazy:
@@ -8,18 +8,26 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+    - křídla:
+      - černá
+      - bílá
+    - hruď:
+      - černá
+    - ocas:
+      - černá
+    - nohy:
+      - červená
+    - záda:
+      - černá
+    - zobák:
+      - černá
     fotky:
     - file: alkoun_obecný.jpg
       url: https://commons.wikimedia.org/wiki/File:Tystie1.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: vrána

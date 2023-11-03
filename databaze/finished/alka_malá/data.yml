@@ -8,13 +8,21 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: ['černá', 'bílá']
-    - křídla: ['černá']
-    - hruď: ['bílá']
-    - ocas: ['černá']
-    - nohy: ['černá']
-    - záda: ['černá']
-    - zobák: ['černá', 'bílá']
+    - hlava: 
+      - černá
+    - křídla: 
+      - černá
+    - hruď: 
+      - bílá
+    - ocas: 
+      - černá
+    - nohy: 
+      - černá
+    - záda: 
+      - černá
+    - zobák: 
+      - černá
+      - bílá
     fotky:
     - file: alka_malá.jpg
       url: https://commons.wikimedia.org/wiki/File:Alca_torda_Caithness,_Scotland.jpg
