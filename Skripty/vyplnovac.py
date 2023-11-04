@@ -374,8 +374,9 @@ if __name__ == '__main__':
         finished_working_directory = Path(Path.cwd() / Path('../databaze/finished')).resolve()
         elements = {}
         stop = False
+        dirs = list(Path(unfinished_working_directory).iterdir())
 
-        for u_path in Path(unfinished_working_directory).iterdir():
+        for u_path in dirs:
             if u_path.is_dir():
                 root = tk.Tk()
                 previous_values = scan_options(finished_working_directory)

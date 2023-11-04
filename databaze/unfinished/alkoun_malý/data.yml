@@ -1,4 +1,4 @@
-dodatek: null
+dodatek: ''
 jméno: Alkoun malý
 latinsky: Alle alle
 odkazy:
@@ -8,42 +8,18 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava:
-      - černá
-    - křídla:
-      - zelená
-    - hruď:
-      - bílá
-    - ocas:
-      - zelená
-    - nohy:
-      - šedá
-    - záda:
-      - zelená
-    - zobák:
-      - černá
+    - hlava: []
+    - křídla: []
+    - hruď: []
+    - ocas: []
+    - nohy: []
+    - záda: []
+    - zobák: []
     fotky:
     - file: alkoun_malý.jpg
-      url: https://commons.wikimedia.org/wiki/File:AlleAlle_2.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/d/dc/AlleAlle_2.jpg
       zdroj: wikipedia
-    kropenatost: false
-  samice:
-    barvy:
-    - hlava:
-      - bílá
-    - křídla:
-      - černá
-    - hruď:
-      - bílá
-    - ocas:
-      - černá
-    - nohy:
-      - černá
-    - záda:
-      - černá
-    - zobák:
-      - bílá
-    fotky: []
-    kropenatost: false
-typ: papoušek
-velikost: hrdlička
+    kropenatost: ''
+  samice: []
+typ: ''
+velikost: ''
