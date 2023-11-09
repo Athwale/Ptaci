@@ -8,18 +8,40 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: bekasina_větší.jpg
       url: https://commons.wikimedia.org/wiki/File:Gallinago_media.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
 typ: ''
 velikost: ''
