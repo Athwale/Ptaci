@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Bělořit šedý
 latinsky: Oenanthe oenanthe
 odkazy:
@@ -8,18 +8,29 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - šedá
+    - křídla:
+      - černá
+      - šedá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - šedá
+    - zobák:
+      - černá
     fotky:
     - file: bělořit_šedý.jpg
       url: https://commons.wikimedia.org/wiki/File:Oenanthe_oenanthe_01_II.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka

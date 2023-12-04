@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Berneška bělolící
 latinsky: Branta leucopsis
 odkazy:
@@ -8,18 +8,31 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - šedá
+    - zobák:
+      - černá
     fotky:
     - file: berneška_bělolící.jpg
       url: https://commons.wikimedia.org/wiki/File:Branta_leucopsis_D81_8150_(40856701814).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: kachna
