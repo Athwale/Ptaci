@@ -1,0 +1,45 @@
+dodatek: null
+jméno: Břehouš černoocasý
+latinsky: Limosa limosa
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=454B5CD5F5285B77
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=47
+  wiki: https://cs.wikipedia.org/wiki/B%C5%99ehou%C5%A1_%C4%8Dernoocas%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+      - šedá
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - šedá
+      - oranžová
+    fotky:
+    - file: břehouš_černoocasý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Limosa_limosa_2_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    - file: břehouš_černoocasý_samec_1.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/3/38/Limosa_limosa_(flying)-2.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: husa
