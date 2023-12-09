@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Brkoslav severní
 latinsky: Bombycilla garrulus
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - černá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+      - žlutá
+      - červená
+    - hruď:
+      - béžová
+      - šedá
+    - ocas:
+      - hnědá
+      - šedá
+      - žlutá
+    - nohy:
+      - černá
+    - záda:
+      - šedá
+    - zobák:
+      - černá
     fotky:
     - file: brkoslav_severní.jpg
       url: https://commons.wikimedia.org/wiki/File:Bohemian_Wax_Wing.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka
