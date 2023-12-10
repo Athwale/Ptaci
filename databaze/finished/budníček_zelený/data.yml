@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Budníček zelený
 latinsky: Phylloscopus trochiloides
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - hnědá
+      - šedá
+      - žlutá
+    - křídla:
+      - černá
+      - hnědá
+      - šedá
+      - žlutá
+    - hruď:
+      - bílá
+    - ocas:
+      - černá
+      - žlutá
+    - nohy:
+      - hnědá
+    - záda:
+      - hnědá
+      - šedá
+      - žlutá
+    - zobák:
+      - hnědá
+      - žlutá
     fotky:
     - file: budníček_zelený.jpg
       url: https://commons.wikimedia.org/wiki/File:Greenish_Warbler_I_IMG_0565.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka

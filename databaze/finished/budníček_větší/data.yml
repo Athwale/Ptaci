@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Budníček větší
 latinsky: Phylloscopus trochilus
 odkazy:
@@ -8,18 +8,35 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - hnědá
+      - žlutá
+    - křídla:
+      - černá
+      - hnědá
+      - žlutá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - béžová
+      - hnědá
+      - žlutá
+    - zobák:
+      - hnědá
+      - žlutá
     fotky:
     - file: budníček_větší.jpg
       url: https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Willow_Warbler_(Phylloscopus_trochilus).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka

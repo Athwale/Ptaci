@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Budníček tlustozobý
 latinsky: Phylloscopus schwarzi
 odkazy:
@@ -8,18 +8,30 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - hnědá
+    - hruď:
+      - béžová
+      - hnědá
+    - ocas:
+      - béžová
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - hnědá
+      - žlutá
     fotky:
     - file: budníček_tlustozobý.jpg
       url: https://commons.wikimedia.org/wiki/File:Radde's_Warbler_(Phylloscopus_schwarzi).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka

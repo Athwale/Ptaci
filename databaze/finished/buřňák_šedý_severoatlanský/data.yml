@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Buřňák šedý/severoatlanský
 latinsky: Calonectris diomedea
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: buřňák_šedý_severoatlanský.jpg
       url: https://commons.wikimedia.org/wiki/File:Cory's_Shearwater_from_the_Crossley_ID_Guide_Britain_and_Ireland_crop.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: vrána

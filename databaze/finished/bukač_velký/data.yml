@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Bukač velký
 latinsky: Botaurus stellaris
 odkazy:
@@ -8,18 +8,36 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - černá
+      - hnědá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - hnědá
+      - žlutá
     fotky:
     - file: bukač_velký.jpg
       url: https://commons.wikimedia.org/wiki/File:Botaurus_stellaris_(Marek_Szczepanek).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: kachna

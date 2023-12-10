@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Buřňáček malý
 latinsky: Hydrobates pelagicus
 odkazy:
@@ -8,18 +8,31 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
     fotky:
     - file: buřňáček_malý.jpg
       url: https://commons.wikimedia.org/wiki/File:European_Storm-petrel.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: hrdlička
