@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Čejka trnitá
 latinsky: Vanellus spinosus
 odkazy:
@@ -8,18 +8,30 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
     fotky:
     - file: čejka_trnitá.jpg
       url: https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Spur-winged_Plover_(Vanellus_spinosus).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: hrdlička

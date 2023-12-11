@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Čejka chocholatá
 latinsky: Vanellus vanellus
 odkazy:
@@ -8,18 +8,36 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - zelená
+      - žlutá
+      - fialová
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - červená
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
     fotky:
     - file: čejka_chocholatá.jpg
       url: https://commons.wikimedia.org/wiki/File:Northern-Lapwing-Vanellus-vanellus.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: kachna

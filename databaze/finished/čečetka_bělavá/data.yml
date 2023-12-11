@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: Samice má bílou hruď
 jméno: Čečetka bělavá
 latinsky: Acanthis hornemanni
 odkazy:
@@ -8,18 +8,32 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - červená
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - růžová
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - žlutá
     fotky:
     - file: čečetka_bělavá.jpg
       url: https://commons.wikimedia.org/wiki/File:Common_Redpoll_Carduelis_flammea_Finland.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka

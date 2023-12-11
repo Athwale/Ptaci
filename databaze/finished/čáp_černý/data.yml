@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Čáp černý
 latinsky: Ciconia nigra
 odkazy:
@@ -8,18 +8,27 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - černá
+    - nohy:
+      - červená
+    - záda:
+      - černá
+    - zobák:
+      - červená
     fotky:
     - file: čáp_černý.jpg
       url: https://commons.wikimedia.org/wiki/File:Ciconia_nigra_1_(Marek_Szczepanek).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: husa
