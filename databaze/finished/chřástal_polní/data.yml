@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Chřástal polní
 latinsky: Crex crex
 odkazy:
@@ -8,18 +8,36 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+      - hnědá
+      - šedá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - hnědá
+      - šedá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+      - šedá
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - růžová
     fotky:
     - file: chřástal_polní.jpg
       url: https://commons.wikimedia.org/wiki/File:Corncrake_(Crex_crex).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: polní
+velikost: hrdlička

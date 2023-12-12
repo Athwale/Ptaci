@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Chřástal malý
 latinsky: Zapornia parva
 odkazy:
@@ -8,18 +8,33 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - oranžová
+      - žlutá
     fotky:
     - file: chřástal_malý.jpg
       url: https://commons.wikimedia.org/wiki/File:Schiribilla(porzana-parva).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: sýkorka

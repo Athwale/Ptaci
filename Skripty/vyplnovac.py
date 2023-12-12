@@ -3,6 +3,7 @@ import tkinter as tk
 
 import sys
 import webbrowser
+from urllib.error import HTTPError
 
 import yaml
 import locale
@@ -250,7 +251,11 @@ def download_image(url: str, gender: str) -> (str, str):
                 continue
             else:
                 break
-    wget.download(url, out=img_filename, bar=None)
+    try:
+        wget.download(url, out=img_filename, bar=None)
+    except HTTPError:
+        pass
+        # TODO try alternative quoted/unquoted download
     return img_filename, f'https://commons.wikimedia.org/wiki/File:{str(url.split(sep="/")[-1])}'
 
 

@@ -1,0 +1,49 @@
+dodatek: null
+jméno: Chaluha pomořanská
+latinsky: Stercorarius pomarinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=7CB8F5B711DE64D0
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=483
+  wiki: https://cs.wikipedia.org/wiki/Chaluha_pomo%C5%99ansk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - ocas:
+      - černá
+      - hnědá
+      - šedá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - zobák:
+      - bílá
+      - černá
+    fotky:
+    - file: chaluha_pomořanská.jpg
+      url: https://commons.wikimedia.org/wiki/File:Stercorarius_pomarinusPCCA20070623-3985B.jpg
+      zdroj: wikipedia
+    - file: chaluha_pomořanská_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pomarine_Jaeger_in_Flight_II.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kachna

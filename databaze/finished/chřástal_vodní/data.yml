@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Chřástal vodní
 latinsky: Rallus aquaticus
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - hnědá
+      - oranžová
     fotky:
     - file: chřástal_vodní.jpg
       url: https://commons.wikimedia.org/wiki/File:Rallus_aquaticus_3_(Marek_Szczepanek).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: hrdlička
