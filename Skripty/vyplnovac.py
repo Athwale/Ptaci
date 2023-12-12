@@ -153,7 +153,8 @@ def save_action() -> None:
         if img:
             if 'upload.wikimedia' not in img:
                 # test url https://upload.wikimedia.org/wikipedia/commons/6/65/Tystie1.jpg
-                messagebox.showwarning(title='Chyba', message=f'Špatný tvar URL obrázku\nNestaženo')
+                messagebox.showwarning(title='Chyba', message=f'Špatný tvar URL obrázku\nNestaženo\nMusí obsahovat '
+                                                              f'upload.wikimedia')
                 no_save = True
 
     if add_female:
