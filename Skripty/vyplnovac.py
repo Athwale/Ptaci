@@ -376,6 +376,7 @@ if __name__ == '__main__':
         elements = {}
         stop = False
         dirs = list(Path(unfinished_working_directory).iterdir())
+        counter = 0
 
         for u_path in dirs:
             if u_path.is_dir():
@@ -385,10 +386,11 @@ if __name__ == '__main__':
                 create_gui(previous_values, u_path)
                 os.chdir(u_path.resolve())
                 open_browser()
-                print(f'Working on: {u_path}')
+                print(f'Saved birds: {counter}, Working on: {u_path}')
                 root.mainloop()
                 if saved:
                     shutil.move(u_path, finished_working_directory)
+                    counter = counter + 1
                 os.chdir(unfinished_working_directory)
     except KeyboardInterrupt as _:
         print('Stopped')
