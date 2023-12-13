@@ -3,14 +3,16 @@ import tkinter as tk
 
 import sys
 import webbrowser
-from urllib.error import HTTPError
 
 import yaml
 import locale
 import os
 import wget
 import shutil
+import urllib
 
+from urllib import parse
+from urllib.error import HTTPError
 from tkinter import messagebox
 from tkinter.messagebox import askyesno
 from typing import Dict, List
@@ -254,8 +256,8 @@ def download_image(url: str, gender: str) -> (str, str):
     try:
         wget.download(url, out=img_filename, bar=None)
     except HTTPError:
-        pass
-        # TODO try alternative quoted/unquoted download
+        unquoted = urllib.parse.unquote(url, encoding='utf-8')
+        wget.download(unquoted, out=img_filename, bar=None)
     return img_filename, f'https://commons.wikimedia.org/wiki/File:{str(url.split(sep="/")[-1])}'
 
 
