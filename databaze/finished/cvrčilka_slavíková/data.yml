@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Cvrčilka slavíková
 latinsky: Locustella luscinioides
 odkazy:
@@ -8,18 +8,27 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - hnědá
+    - křídla:
+      - hnědá
+    - hruď:
+      - béžová
+      - hnědá
+    - ocas:
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - hnědá
+    - zobák:
+      - hnědá
+      - žlutá
     fotky:
     - file: cvrčilka_slavíková.jpg
       url: https://commons.wikimedia.org/wiki/File:Locustellaluscinioides.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka

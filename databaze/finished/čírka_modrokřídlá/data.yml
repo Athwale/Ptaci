@@ -1,0 +1,71 @@
+dodatek: null
+jméno: Čírka modrokřídlá
+latinsky: Spatula discors
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=90E2543E9A4ABA0A
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/%C4%8C%C3%ADrka_modrok%C5%99%C3%ADdl%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - zelená
+      - modrá
+    - hruď:
+      - černá
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: čírka_modrokřídlá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bluewingedteal54.jpg
+      zdroj: wikipedia
+    - file: čírka_modrokřídlá_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Blue-winged_teal_at_Sacramento_National_Wildlife_Refuge-5326.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - černá
+      - hnědá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - černá
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - hnědá
+    fotky:
+    - file: čírka_modrokřídlá_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:K%C3%A9ksz%C3%A1rny%C3%BA_r%C3%A9ce.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: vodní
+velikost: kachna

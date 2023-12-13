@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Cvrčilka říční
 latinsky: Locustella fluviatilis
 odkazy:
@@ -8,18 +8,28 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - hnědá
+    - křídla:
+      - hnědá
+      - šedá
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - hnědá
+    - zobák:
+      - hnědá
+      - žlutá
     fotky:
     - file: cvrčilka_říční.jpg
       url: https://commons.wikimedia.org/wiki/File:Schlagschwirl.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka

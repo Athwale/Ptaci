@@ -1,0 +1,64 @@
+dodatek: null
+jméno: Čírka modrá
+latinsky: Spatula querquedula
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F577BA0F5BB7BD3F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=138
+  wiki: https://cs.wikipedia.org/wiki/%C4%8C%C3%ADrka_modr%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: čírka_modrá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Gargany_(Anas_querquedula)_--_Males_near_Hodal_with_a_Wood_Sanpiper_in_between_I_Picture_2118.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: čírka_modrá_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Garganey_%28Anas_querquedula%29_in_AP_W_IMG_2844.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: vodní
+velikost: kachna
