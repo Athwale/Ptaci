@@ -1,0 +1,44 @@
+dodatek: null
+jméno: Drop hřívnatý
+latinsky: Chlamydotis macqueenii
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=1BCEB0FD7CDFB06A
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Drop_h%C5%99%C3%ADvnat%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: drop_hřívnatý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Chlamydotis_macqueenii_1921.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pouštní
+velikost: bažant

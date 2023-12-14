@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Drozd kvíčala
 latinsky: Turdus pilaris
 odkazy:
@@ -8,18 +8,35 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - černá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - šedá
+    - nohy:
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: drozd_kvíčala.jpg
       url: https://commons.wikimedia.org/wiki/File:Turdus_pilaris_EM1B9020_(34450664312).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: kos
