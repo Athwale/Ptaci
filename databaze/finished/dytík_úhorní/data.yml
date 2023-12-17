@@ -1,0 +1,39 @@
+dodatek: null
+jméno: Dytík úhorní
+latinsky: Burhinus oedicnemus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C7DB323E37CEDBE6
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=519
+  wiki: https://cs.wikipedia.org/wiki/Dyt%C3%ADk_%C3%BAhorn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - šedá
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: dytík_úhorní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Burhinus_indicus,_central_India.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: polní
+velikost: vrána
