@@ -394,6 +394,7 @@ if __name__ == '__main__':
                 os.chdir(u_path.resolve())
                 open_browser()
                 print(f'Saved birds: {counter}, Working on: {u_path}')
+                root.title(f'Saved birds: {counter}, Working on: {u_path.name}')
                 root.mainloop()
                 if saved:
                     shutil.move(u_path, finished_working_directory)
