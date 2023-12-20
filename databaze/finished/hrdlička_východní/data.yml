@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: Na krku má černobílé proužky, velmi podobná hrdličce divoké.
 jméno: Hrdlička východní
 latinsky: Streptopelia orientalis
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - fialová
+      - šedá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+      - šedá
+      - oranžová
+    - hruď:
+      - fialová
+      - šedá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - červená
+    - záda:
+      - béžová
+      - černá
+      - šedá
+    - zobák:
+      - černá
     fotky:
     - file: hrdlička_východní.jpg
       url: https://commons.wikimedia.org/wiki/File:Orientalturtledove.JPG
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: holubovití
+velikost: hrdlička

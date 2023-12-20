@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Husa malá
 latinsky: Anser erythropus
 odkazy:
@@ -8,18 +8,35 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+      - žlutá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - oranžová
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - růžová
     fotky:
     - file: husa_malá.jpg
       url: https://commons.wikimedia.org/wiki/File:Anser_erythropus.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: kachna

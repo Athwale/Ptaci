@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: Má dvě formy, bílou a tmavou.
 jméno: Husa sněžní
 latinsky: Anser caerulescens
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - bílá
+      - šedá
+    - nohy:
+      - červená
+      - šedá
+    - záda:
+      - bílá
+      - šedá
+    - zobák:
+      - černá
+      - červená
+      - oranžová
     fotky:
     - file: husa_sněžní.jpg
       url: https://commons.wikimedia.org/wiki/File:Chen_caerulescens_32498.JPG
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: husa

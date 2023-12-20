@@ -25,7 +25,6 @@ global saved
 
 def create_gui(values: Dict, work_dir: Path) -> None:
     # TODO optimize all photos once done and cropped.
-    # TODO choices papousek, dravec, sova, vodni, pevec
 
     root.geometry()
     gender_frames = []

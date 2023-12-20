@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: Na krku má černý a bílý proužek
 jméno: Hrdlička zahradní
 latinsky: Streptopelia decaocto
 odkazy:
@@ -8,18 +8,30 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - šedá
+    - křídla:
+      - béžová
+      - šedá
+    - hruď:
+      - béžová
+      - šedá
+    - ocas:
+      - béžová
+      - šedá
+    - nohy:
+      - růžová
+    - záda:
+      - béžová
+      - šedá
+    - zobák:
+      - černá
     fotky:
     - file: hrdlička_zahradní.jpg
       url: https://commons.wikimedia.org/wiki/File:Collared_Dove.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: holubovití
+velikost: hrdlička

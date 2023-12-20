@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: Na krku má černobílé proužky
 jméno: Hrdlička divoká
 latinsky: Streptopelia turtur
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - fialová
+      - šedá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+      - šedá
+      - oranžová
+    - hruď:
+      - fialová
+      - šedá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - červená
+    - záda:
+      - béžová
+      - černá
+      - šedá
+    - zobák:
+      - černá
     fotky:
     - file: hrdlička_divoká.jpg
       url: https://commons.wikimedia.org/wiki/File:Streptopelia_turtur_on_a_branch.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: holubovití
+velikost: hrdlička
