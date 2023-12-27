@@ -1,0 +1,65 @@
+dodatek: null
+jméno: Hýl křivčí
+latinsky: Pinicola enucleator
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=83AC4DAD94AFC411
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=666
+  wiki: https://cs.wikipedia.org/wiki/H%C3%BDl_k%C5%99iv%C4%8D%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - červená
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - červená
+      - oranžová
+    - hruď:
+      - červená
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - červená
+    - zobák:
+      - černá
+    fotky:
+    - file: hýl_křivčí.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pinicola-enucleator-001B.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - oranžová
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+      - žlutá
+    - hruď:
+      - šedá
+      - žlutá
+    - ocas:
+      - černá
+      - šedá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - šedá
+      - žlutá
+    - zobák:
+      - černá
+    fotky:
+    - file: hýl_křivčí_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pinicola_enucleator%2C_Kotka%2C_Finland_6.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: kos

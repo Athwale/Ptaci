@@ -1,0 +1,39 @@
+dodatek: Samec má úzký černý obojek kolem krku
+jméno: Husice rezavá
+latinsky: Tadorna ferruginea
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=1F9D883EB44DEFD6
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=494
+  wiki: https://cs.wikipedia.org/wiki/Husice_rezav%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - zelená
+    - hruď:
+      - béžová
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - béžová
+    - zobák:
+      - černá
+    fotky:
+    - file: husice_rezavá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Tadorna_ferruginea_(cropped).jpg
+      zdroj: wikipedia
+    - file: husice_rezavá_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Freedom_flight.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: husa

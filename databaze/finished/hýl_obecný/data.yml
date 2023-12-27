@@ -1,0 +1,60 @@
+dodatek: null
+jméno: Hýl obecný
+latinsky: Pyrrhula pyrrhula
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=24764DC7AD26E5F7
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=87
+  wiki: https://cs.wikipedia.org/wiki/H%C3%BDl_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+      - oranžová
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - oranžová
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - hnědá
+    - záda:
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: hýl_obecný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bullfinch_male.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+    - hruď:
+      - béžová
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - růžová
+    - záda:
+      - béžová
+    - zobák:
+      - černá
+    fotky:
+    - file: hýl_obecný_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pyrrhula_pyrrhula_female_2.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: pěvci
+velikost: kos
