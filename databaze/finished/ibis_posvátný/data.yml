@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Ibis posvátný
 latinsky: Threskiornis aethiopicus
 odkazy:
@@ -8,18 +8,27 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+    - zobák:
+      - černá
     fotky:
     - file: ibis_posvátný.jpg
       url: https://commons.wikimedia.org/wiki/File:Heiliger_Ibis_0508061.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: husa
