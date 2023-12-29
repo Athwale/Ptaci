@@ -27,13 +27,13 @@ def create_gui(values: Dict, work_dir: Path) -> None:
     # TODO optimize all photos once done and cropped.
 
     root.geometry()
-    gender_frames = []
 
     main_frame = ttk.LabelFrame(root, text=str(work_dir.name.replace('_', ' ').capitalize()))
+    color_frame = tk.Frame(main_frame)
     for gender in ['samec', 'samice']:
-        g_frame = ttk.LabelFrame(main_frame, text=gender)
+        g_frame = ttk.LabelFrame(color_frame, text=gender)
         for key in values.keys():
-            if str(key) in ['hlava', 'křídla', 'hruď', 'ocas', 'nohy', 'záda', 'zobák']:
+            if str(key) in ['hlava', 'křídla', 'hruď', 'záda', 'ocas', 'nohy', 'zobák']:
                 frame = ttk.LabelFrame(g_frame, text=str(key))
                 colors = list(values[key])
                 colors.sort(key=locale.strxfrm)
@@ -67,17 +67,18 @@ def create_gui(values: Dict, work_dir: Path) -> None:
         gender_frames.append(g_frame)
 
     check_var = tk.IntVar(g_frame, 0)
-    elements['add_female'] = (tk.Checkbutton(main_frame, text='Přidat samičku', variable=check_var, onvalue=1,
+    elements['add_female'] = (tk.Checkbutton(color_frame, text='Přidat samičku', variable=check_var, onvalue=1,
                                              offvalue=0, name=f'add_female'), check_var)
     gender_frames[0].pack()
     gender_frames[1].pack()
     elements['add_female'][0].pack()
-    p_frame = ttk.LabelFrame(main_frame, text='Poznámka')
+    p_frame = ttk.LabelFrame(color_frame, text='Poznámka')
     elements['note_text'] = (tk.Entry(p_frame, width=100, name=f'note_text'), '')
     elements['note_text'][0].pack(side=tk.BOTTOM)
     p_frame.pack()
 
-    t_frame = ttk.LabelFrame(main_frame, text='Typ')
+    c_frame = tk.Frame(main_frame)
+    t_frame = ttk.LabelFrame(c_frame, text='Typ')
     radio_var = tk.StringVar()
     for typ in values['typ']:
         elements[f'radio_typ_{typ}'] = (tk.Radiobutton(t_frame, text=typ, value=typ, variable=radio_var, anchor='w',
@@ -87,7 +88,7 @@ def create_gui(values: Dict, work_dir: Path) -> None:
     elements['typ_text'] = (tk.Entry(t_frame, width=10, name=f'typ_text'), '')
     elements['typ_text'][0].pack(side=tk.BOTTOM, expand=True, fill='x', anchor='s')
 
-    v_frame = ttk.LabelFrame(main_frame, text='Velikost')
+    v_frame = ttk.LabelFrame(c_frame, text='Velikost')
     radio_var = tk.StringVar()
     for size in values['velikost']:
         elements[f'radio_size_{size}'] = (tk.Radiobutton(v_frame, text=size, value=size, variable=radio_var, anchor='w',
@@ -97,14 +98,19 @@ def create_gui(values: Dict, work_dir: Path) -> None:
     elements['size_text'] = (tk.Entry(v_frame, width=10, name=f'size_text'), '')
     elements['size_text'][0].pack(side=tk.BOTTOM, expand=True, fill='x', anchor='s')
 
-    t_frame.pack(side=tk.LEFT)
-    v_frame.pack(side=tk.LEFT)
-    button = tk.Button(main_frame, text="Uložit", bg="green", command=save_action)
+    t_frame.pack(side=tk.TOP, fill='x')
+    v_frame.pack(side=tk.TOP, fill='x')
+    c_frame.pack(side=tk.RIGHT, expand=True, fill='y')
+
+    button_frame = tk.Frame(main_frame)
+    button = tk.Button(button_frame, text="Uložit", bg="green", command=save_action)
     button.pack(side=tk.LEFT)
-    button = tk.Button(main_frame, text="Přeskenovat", bg="yellow")
+    button = tk.Button(button_frame, text="Přeskenovat", bg="yellow")
     button.pack(side=tk.LEFT)
-    button = tk.Button(main_frame, text="Ukončit", bg="red", command=quit_completely)
+    button = tk.Button(button_frame, text="Ukončit", bg="red", command=quit_completely)
     button.pack(side=tk.LEFT)
+    color_frame.pack()
+    button_frame.pack()
     main_frame.pack()
 
 
@@ -380,7 +386,7 @@ if __name__ == '__main__':
         unfinished_working_directory = Path(Path.cwd() / Path('../databaze/unfinished')).resolve()
         finished_working_directory = Path(Path.cwd() / Path('../databaze/finished')).resolve()
         elements = {}
-        stop = False
+        gender_frames = []
         dirs = list(Path(unfinished_working_directory).iterdir())
         counter = 0
 

@@ -1,0 +1,49 @@
+dodatek: null
+jméno: Jespák skvrnitý
+latinsky: Calidris melanotos
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=ACC99F35F0E8F7EB
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Jesp%C3%A1k_skvrnit%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - oranžová
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - oranžová
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+      - oranžová
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - oranžová
+    - zobák:
+      - černá
+      - hnědá
+    fotky:
+    - file: jespák_skvrnitý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pectoral_Sandpiper3.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: vrána

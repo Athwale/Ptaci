@@ -1,0 +1,49 @@
+dodatek: null
+jméno: Jespák písečný
+latinsky: Calidris alba
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=06B9BD243A756B28
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=444
+  wiki: https://cs.wikipedia.org/wiki/Jesp%C3%A1k_p%C3%ADse%C4%8Dn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: jespák_písečný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Calidris_alba_running_6.jpg
+      zdroj: wikipedia
+    - file: jespák_písečný_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Calidris-alba-001.jpg
+      zdroj: wikipedia
+    - file: jespák_písečný_samec_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Calidris_alba_running_5.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: hrdlička

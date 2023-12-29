@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Jespák šedý
 latinsky: Calidris temminckii
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+      - hnědá
+      - šedá
+    - křídla:
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - hnědá
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - šedá
+    - nohy:
+      - hnědá
+      - žlutá
+    - záda:
+      - hnědá
+      - šedá
+    - zobák:
+      - černá
     fotky:
     - file: jespák_šedý.jpg
       url: https://commons.wikimedia.org/wiki/File:Temmincks_Stint.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: hrdlička
