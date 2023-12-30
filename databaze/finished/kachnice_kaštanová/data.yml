@@ -1,0 +1,61 @@
+dodatek: null
+jméno: Kachnice kaštanová
+latinsky: Oxyura jamaicensis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=675EEA7FBD490CED
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=815
+  wiki: https://cs.wikipedia.org/wiki/Kachnice_ka%C5%A1tanov%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - hnědá
+    - hruď:
+      - černá
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - modrá
+    fotky:
+    - file: kachnice_kaštanová.jpg
+      url: https://commons.wikimedia.org/wiki/File:Ruddy_duck_2.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: kachnice_kaštanová_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Ruddy_Duck_%28Oxyura_jamaicensis%29_RWD3.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: vodní
+velikost: kachna

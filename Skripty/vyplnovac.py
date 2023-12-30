@@ -27,6 +27,7 @@ def create_gui(values: Dict, work_dir: Path) -> None:
     # TODO optimize all photos once done and cropped.
 
     root.geometry()
+    gender_frames = []
 
     main_frame = ttk.LabelFrame(root, text=str(work_dir.name.replace('_', ' ').capitalize()))
     color_frame = tk.Frame(main_frame)
@@ -386,9 +387,9 @@ if __name__ == '__main__':
         unfinished_working_directory = Path(Path.cwd() / Path('../databaze/unfinished')).resolve()
         finished_working_directory = Path(Path.cwd() / Path('../databaze/finished')).resolve()
         elements = {}
-        gender_frames = []
         dirs = list(Path(unfinished_working_directory).iterdir())
         counter = 0
+        saved = False
 
         for u_path in dirs:
             if u_path.is_dir():
