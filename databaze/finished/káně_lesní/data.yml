@@ -1,0 +1,45 @@
+dodatek: null
+jméno: Káně lesní
+latinsky: Buteo buteo
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3C0C325D1141B36B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=660
+  wiki: https://cs.wikipedia.org/wiki/K%C3%A1n%C4%9B_lesn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: káně_lesní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Buteo_buteo_-Scotland-8.jpg
+      zdroj: wikipedia
+    - file: káně_lesní_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Buzzard.jpg
+      zdroj: wikipedia
+    - file: káně_lesní_samec_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Buteo_buteo_2_%28Marek_Szczepanek%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: bažant

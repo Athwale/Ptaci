@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Kalous ušatý
 latinsky: Asio otus
 odkazy:
@@ -8,18 +8,40 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+      - šedá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+      - šedá
+    - ocas:
+      - béžová
+      - bílá
+      - hnědá
+      - šedá
+    - nohy:
+      - béžová
+    - záda:
+      - béžová
+      - bílá
+      - hnědá
+      - šedá
+    - zobák:
+      - černá
     fotky:
     - file: kalous_ušatý.jpg
       url: https://commons.wikimedia.org/wiki/File:Waldohreule_in_freier_Wildbahn.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: dravci
+velikost: husa

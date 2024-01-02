@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Kalandra zpěvná
 latinsky: Melanocorypha calandra
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - hnědá
+      - růžová
+    - záda:
+      - hnědá
+    - zobák:
+      - hnědá
+      - žlutá
     fotky:
     - file: kalandra_zpěvná.jpg
       url: https://commons.wikimedia.org/wiki/File:Berese.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: kos
