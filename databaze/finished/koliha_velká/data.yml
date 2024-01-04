@@ -1,0 +1,49 @@
+dodatek: null
+jméno: Koliha velká
+latinsky: Numenius arquata
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3BB5CBA66CF48884
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=158
+  wiki: https://cs.wikipedia.org/wiki/Koliha_velk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+      - šedá
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - růžová
+    fotky:
+    - file: koliha_velká.jpg
+      url: https://commons.wikimedia.org/wiki/File:Eurasian_Curlew.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: bažant

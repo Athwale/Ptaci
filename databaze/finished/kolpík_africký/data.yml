@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Kolpík africký
+latinsky: Platalea alba
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F86BB1D3
+  více fotek: ''
+  wiki: https://en.wikipedia.org/wiki/African_spoonbill
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - červená
+    - křídla:
+      - bílá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - červená
+      - růžová
+    - záda:
+      - bílá
+    - zobák:
+      - červená
+      - modrá
+      - žlutá
+      - zelená
+    fotky:
+    - file: kolpík_africký.jpg
+      url: https://commons.wikimedia.org/wiki/File:African_spoonbill_(Platalea_alba).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: husa

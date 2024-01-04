@@ -1,0 +1,40 @@
+dodatek: null
+jméno: Keptuška stepní
+latinsky: Vanellus gregarius
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=D348C2D65FA2DF83
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Keptu%C5%A1ka_stepn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: keptuška_stepní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Vanellus_gregarius.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: hrdlička
