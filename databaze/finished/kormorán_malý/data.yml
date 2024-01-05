@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Kormorán malý
 latinsky: Microcarbo pygmaeus
 odkazy:
@@ -8,18 +8,29 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+      - hnědá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - černá
+      - hnědá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+      - růžová
     fotky:
     - file: kormorán_malý.jpg
       url: https://commons.wikimedia.org/wiki/File:Phalacrocorax_pygmeus_1_(Martin_Mecnarowski).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: kachna

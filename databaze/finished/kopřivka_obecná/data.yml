@@ -1,0 +1,70 @@
+dodatek: null
+jméno: Kopřivka obecná
+latinsky: Mareca strepera
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C235A4D712BB8855
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=137
+  wiki: https://cs.wikipedia.org/wiki/Kop%C5%99ivka_obecn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - červená
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - černá
+    - nohy:
+      - oranžová
+    - záda:
+      - černá
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: kopřivka_obecná.jpg
+      url: https://commons.wikimedia.org/wiki/File:Anas-strepera-001.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - černá
+      - hnědá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - oranžová
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: kopřivka_obecná_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Anas_strepera_06292.JPG
+      zdroj: wikipedia
+    kropenatost: true
+typ: vodní
+velikost: kachna
