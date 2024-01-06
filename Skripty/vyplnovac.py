@@ -81,7 +81,9 @@ def create_gui(values: Dict, work_dir: Path) -> None:
     c_frame = tk.Frame(main_frame)
     t_frame = ttk.LabelFrame(c_frame, text='Typ')
     radio_var = tk.StringVar()
-    for typ in values['typ']:
+    bird_type = list(values['typ'])
+    bird_type.sort(key=locale.strxfrm)
+    for typ in bird_type:
         elements[f'radio_typ_{typ}'] = (tk.Radiobutton(t_frame, text=typ, value=typ, variable=radio_var, anchor='w',
                                                        name=f'radio_typ_{typ}', width=10, command=check_female),
                                         radio_var)
@@ -91,7 +93,9 @@ def create_gui(values: Dict, work_dir: Path) -> None:
 
     v_frame = ttk.LabelFrame(c_frame, text='Velikost')
     radio_var = tk.StringVar()
-    for size in values['velikost']:
+    bird_size = list(values['velikost'])
+    bird_size.sort(key=locale.strxfrm)
+    for size in bird_size:
         elements[f'radio_size_{size}'] = (tk.Radiobutton(v_frame, text=size, value=size, variable=radio_var, anchor='w',
                                                          name=f'radio_size_{size}', width=10, command=check_female),
                                           radio_var)
