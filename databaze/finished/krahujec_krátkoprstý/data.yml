@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Krahujec krátkoprstý
 latinsky: Accipiter brevipes
 odkazy:
@@ -8,18 +8,38 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - černá
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - černá
+      - šedá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: krahujec_krátkoprstý.jpg
       url: https://commons.wikimedia.org/wiki/File:Accipiter_brevipes_1.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: dravci
+velikost: vrána
