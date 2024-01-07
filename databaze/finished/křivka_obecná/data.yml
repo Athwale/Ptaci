@@ -1,0 +1,68 @@
+dodatek: Nemá bílé pruhy na křídlech
+jméno: Křivka obecná
+latinsky: Loxia curvirostra
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=135564AAF6B01DA2
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=283
+  wiki: https://cs.wikipedia.org/wiki/K%C5%99ivka_obecn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+      - oranžová
+    - křídla:
+      - hnědá
+      - oranžová
+    - hruď:
+      - oranžová
+    - ocas:
+      - hnědá
+      - oranžová
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+      - oranžová
+    - zobák:
+      - černá
+      - hnědá
+    fotky:
+    - file: křivka_obecná.jpg
+      url: https://commons.wikimedia.org/wiki/File:Red_Crossbills_(Male).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - šedá
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - žlutá
+    - hruď:
+      - šedá
+      - žlutá
+    - ocas:
+      - bílá
+      - černá
+      - žlutá
+    - nohy:
+      - černá
+    - záda:
+      - šedá
+      - žlutá
+    - zobák:
+      - černá
+      - hnědá
+    fotky:
+    - file: křivka_obecná_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Red_Crossbill_%28Female%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: kos

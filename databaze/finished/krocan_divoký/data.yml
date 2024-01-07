@@ -1,0 +1,67 @@
+dodatek: null
+jméno: Krocan divoký
+latinsky: Meleagris gallopavo
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9C5ED06A
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Krocan_divok%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - červená
+      - modrá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - černá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - hnědá
+      - žlutá
+    fotky:
+    - file: krocan_divoký.jpg
+      url: https://commons.wikimedia.org/wiki/File:Meleagris_gallopavo_at_Coimbatore.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - červená
+      - modrá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - černá
+      - hnědá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - hnědá
+      - žlutá
+    fotky:
+    - file: krocan_divoký_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Female_wild_turkeys.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: bažantovití
+velikost: husa

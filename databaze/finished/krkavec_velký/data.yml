@@ -1,0 +1,32 @@
+dodatek: null
+jméno: Krkavec velký
+latinsky: Corvus corax
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B9B272F40EE1570F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=140
+  wiki: https://cs.wikipedia.org/wiki/Krkavec_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+    - křídla:
+      - černá
+    - hruď:
+      - černá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: krkavec_velký.jpg
+      url: https://commons.wikimedia.org/wiki/File:Corvus_corax_ad_berlin_090516.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: vrána
