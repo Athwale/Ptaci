@@ -1,0 +1,33 @@
+dodatek: 'Mladí ptáci jsou hnědošedí s šedým až šedorůžovým zobákem bez hrbolu. '
+jméno: Labuť velká
+latinsky: Cygnus olor
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=694C127A5D849FFE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=29
+  wiki: https://cs.wikipedia.org/wiki/Labu%C5%A5_velk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+    - křídla:
+      - bílá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: labuť_velká.jpg
+      url: https://commons.wikimedia.org/wiki/File:CygneVaires.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: čáp
