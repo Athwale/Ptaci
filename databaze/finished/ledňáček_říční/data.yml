@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Ledňáček říční
 latinsky: Alcedo atthis
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - hnědá
+      - modrá
+      - oranžová
+    - křídla:
+      - hnědá
+      - modrá
+      - oranžová
+    - hruď:
+      - oranžová
+    - ocas:
+      - oranžová
+      - modrá
+    - nohy:
+      - červená
+      - oranžová
+    - záda:
+      - bílá
+      - modrá
+    - zobák:
+      - černá
+      - oranžová
     fotky:
     - file: ledňáček_říční.jpg
       url: https://commons.wikimedia.org/wiki/File:Common_Kingfisher_Alcedo_atthis.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: kos

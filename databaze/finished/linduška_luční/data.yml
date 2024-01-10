@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Linduška luční
 latinsky: Anthus pratensis
 odkazy:
@@ -8,18 +8,36 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+      - žlutá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
     fotky:
     - file: linduška_luční.jpg
       url: https://commons.wikimedia.org/wiki/File:Meadow_Pipit_(Anthus_pratensis)_(10).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka
