@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: Má krční vak.
 jméno: Marabu africký
 latinsky: Leptoptilos crumenifer
 odkazy:
@@ -8,18 +8,29 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - oranžová
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+    - ocas:
+      - černá
+    - nohy:
+      - bílá
+    - záda:
+      - černá
+    - zobák:
+      - béžová
+      - bílá
     fotky:
     - file: marabu_africký.jpg
       url: https://commons.wikimedia.org/wiki/File:Marabou_Stork_(Leptoptilos_crumeniferus)_(0321)_-_Relic38.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: čáp
