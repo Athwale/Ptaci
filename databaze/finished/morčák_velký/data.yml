@@ -1,0 +1,60 @@
+dodatek: null
+jméno: Morčák velký
+latinsky: Mergus merganser
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=407E2CA886367DBB
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=96
+  wiki: https://cs.wikipedia.org/wiki/Mor%C4%8D%C3%A1k_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+      - zelená
+    - křídla:
+      - černá
+      - bílá
+    - hruď:
+      - bílá
+    - ocas:
+      - šedá
+      - bílá
+      - černá
+    - nohy:
+      - oranžová
+    - záda:
+      - černá
+    - zobák:
+      - černá
+      - červená
+    fotky:
+    - file: morčák_velký_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Mergus-merganser-americanus-001.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - hnědá
+    - křídla:
+      - šedá
+      - bílá
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - šedá
+    - nohy:
+      - oranžová
+    - záda:
+      - šedá
+    - zobák:
+      - černá
+      - červená
+    fotky:
+    - file: morčák_velký_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Common_Merganser_-_natures_pics.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: vodní
+velikost: kachna
