@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Orel královský
 latinsky: Aquila heliaca
 odkazy:
@@ -8,18 +8,38 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: orel_královský.jpg
       url: https://commons.wikimedia.org/wiki/File:Eastern_Imperial_Eagle_cr.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: dravci
+velikost: husa
