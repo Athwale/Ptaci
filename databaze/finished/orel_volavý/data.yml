@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: Nedospělý jedinec orla volavého se pozná podle bílých konců letkového peří
 jméno: Orel volavý
 latinsky: Clanga clanga
 odkazy:
@@ -8,18 +8,27 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - hnědá
+    - ocas:
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: orel_volavý.jpg
       url: https://commons.wikimedia.org/wiki/File:Greater_spotted_eagle.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: dravci
+velikost: kachna

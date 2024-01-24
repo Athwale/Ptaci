@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Orel stepní
 latinsky: Aquila nipalensis
 odkazy:
@@ -8,18 +8,30 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: orel_stepní.jpg
       url: https://commons.wikimedia.org/wiki/File:Aquila.nipalensis-ZOO.Olomouc.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: dravci
+velikost: orel

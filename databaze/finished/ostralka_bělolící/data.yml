@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Ostralka bělolící
 latinsky: Anas bahamensis
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+      - zelená
+    - hruď:
+      - béžová
+      - hnědá
+    - ocas:
+      - béžová
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - červená
     fotky:
     - file: ostralka_bělolící.jpg
       url: https://commons.wikimedia.org/wiki/File:White-cheeked_Pintail,_St._Thomas,_US_Virgin_Islands.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: kachna

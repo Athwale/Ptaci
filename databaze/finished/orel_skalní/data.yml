@@ -1,0 +1,43 @@
+dodatek: null
+jméno: Orel skalní
+latinsky: Aquila chrysaetos
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=5F8E7CA845BD413F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=110
+  wiki: https://cs.wikipedia.org/wiki/Orel_skaln%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - černá
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: orel_skalní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Aquila_chrysaetos_Flickr.jpg
+      zdroj: wikipedia
+    - file: orel_skalní_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Steinadler_Aquila_chrysaetos_frontal_Richard_Bartz.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: dravci
+velikost: orel
