@@ -1,0 +1,72 @@
+dodatek: null
+jméno: Pěnice hnědokřídlá
+latinsky: Curruca communis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=14AFBA82D556918C
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=326
+  wiki: https://cs.wikipedia.org/wiki/P%C4%9Bnice_hn%C4%9Bdok%C5%99%C3%ADdl%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+      - rezavá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - béžová
+      - hnědá
+    - záda:
+      - rezavá
+      - šedá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: pěnice_hnědokřídlá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Common_Whitethroat_(Sylvia_communis).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+      - rezavá
+    - křídla:
+      - béžová
+      - hnědá
+      - rezavá
+    - hruď:
+      - béžová
+      - rezavá
+      - šedá
+    - ocas:
+      - béžová
+      - hnědá
+      - rezavá
+    - nohy:
+      - béžová
+      - hnědá
+    - záda:
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+      - hnědá
+    fotky:
+    - file: pěnice_hnědokřídlá_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Common_whitethroat_%28Sylvia_communis%29_female.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: pěvci
+velikost: sýkorka

@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Ouhorlík černokřídlý
 latinsky: Glareola nordmanni
 odkazy:
@@ -8,18 +8,34 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - křídla:
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - červená
     fotky:
     - file: ouhorlík_černokřídlý.jpg
       url: https://commons.wikimedia.org/wiki/File:Glareola_nordmanni.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: polní
+velikost: kos

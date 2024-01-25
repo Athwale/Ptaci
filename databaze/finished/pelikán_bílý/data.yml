@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: Mladí jsou šedí.
 jméno: Pelikán bílý
 latinsky: Pelecanus onocrotalus
 odkazy:
@@ -8,18 +8,27 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - růžová
+    - záda:
+      - bílá
+    - zobák:
+      - oranžová
+      - růžová
     fotky:
     - file: pelikán_bílý.jpg
       url: https://commons.wikimedia.org/wiki/File:Whitepelican_edit_shadowlift.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: labuť
