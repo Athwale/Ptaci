@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Pěvuška modrá
 latinsky: Prunella modularis
 odkazy:
@@ -8,18 +8,33 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+      - hnědá
+      - modrá
+      - šedá
+    - křídla:
+      - béžová
+      - hnědá
+    - hruď:
+      - modrá
+      - šedá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - béžová
+      - růžová
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
     fotky:
     - file: pěvuška_modrá.jpg
       url: https://commons.wikimedia.org/wiki/File:The_dunnock_(Prunella_modularis).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka

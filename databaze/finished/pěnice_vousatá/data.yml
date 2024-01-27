@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Pěnice vousatá
 latinsky: Curruca cantillans
 odkazy:
@@ -8,18 +8,31 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - rezavá
+      - šedá
+    - křídla:
+      - béžová
+      - hnědá
+      - šedá
+    - hruď:
+      - rezavá
+    - ocas:
+      - hnědá
+      - šedá
+    - nohy:
+      - oranžová
+    - záda:
+      - šedá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: pěnice_vousatá.jpg
       url: https://commons.wikimedia.org/wiki/File:Sylvia_cantillans.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: kos
