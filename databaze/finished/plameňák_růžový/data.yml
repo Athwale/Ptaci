@@ -1,0 +1,39 @@
+dodatek: null
+jméno: Plameňák růžový
+latinsky: Phoenicopterus roseus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0F9B5174A8ACF737
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=520
+  wiki: https://cs.wikipedia.org/wiki/Plame%C5%88%C3%A1k_r%C5%AF%C5%BEov%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - růžová
+    - křídla:
+      - bílá
+      - růžová
+    - hruď:
+      - bílá
+      - růžová
+    - ocas:
+      - bílá
+      - růžová
+    - nohy:
+      - červená
+      - růžová
+    - záda:
+      - bílá
+      - růžová
+    - zobák:
+      - černá
+      - růžová
+    fotky:
+    - file: plameňák_růžový.jpg
+      url: https://commons.wikimedia.org/wiki/File:Flam.greater.600pix.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: labuť

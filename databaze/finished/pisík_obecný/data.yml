@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Pisík obecný
+latinsky: Actitis hypoleucos
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=8548B07ECA48773F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=124
+  wiki: https://cs.wikipedia.org/wiki/Pis%C3%ADk_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - hnědá
+    fotky:
+    - file: pisík_obecný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Actitis_hypoleucos_1_tb_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kos

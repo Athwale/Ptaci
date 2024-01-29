@@ -1,0 +1,56 @@
+dodatek: null
+jméno: Polák proužkozobý
+latinsky: Aythya collaris
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0783A7EA9C26947D
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=633
+  wiki: https://cs.wikipedia.org/wiki/Pol%C3%A1k_prou%C5%BEkozob%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - černá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - bílá
+      - černá
+    fotky:
+    - file: polák_proužkozobý.jpg
+      url: https://commons.wikimedia.org/wiki/File:AythyaCollaris_2043.JPG
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - hnědá
+    - hruď:
+      - hnědá
+    - ocas:
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - bílá
+      - černá
+    fotky:
+    - file: polák_proužkozobý_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Ringneck.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: vodní
+velikost: kachna

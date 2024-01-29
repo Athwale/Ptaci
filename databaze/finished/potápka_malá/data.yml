@@ -1,0 +1,43 @@
+dodatek: null
+jméno: Potápka malá
+latinsky: Tachybaptus ruficollis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=215FEA89A0F19F5C
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=72
+  wiki: https://cs.wikipedia.org/wiki/Pot%C3%A1pka_mal%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - bílá
+      - černá
+    fotky:
+    - file: potápka_malá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Tachybaptus_ruficollis_1_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    - file: potápka_malá_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Little_Grebe.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: hrdlička
