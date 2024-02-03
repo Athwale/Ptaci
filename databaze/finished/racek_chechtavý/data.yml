@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Racek chechtavý
 latinsky: Chroicocephalus ridibundus
 odkazy:
@@ -8,18 +8,31 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - oranžová
+    - záda:
+      - bílá
+    - zobák:
+      - černá
+      - oranžová
     fotky:
     - file: racek_chechtavý.jpg
       url: https://commons.wikimedia.org/wiki/File:Black-headed_Gull_-_Larus_ridibundus_-_Hettumáfur.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: vrána

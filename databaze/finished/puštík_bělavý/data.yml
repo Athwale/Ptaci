@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Puštík bělavý
 latinsky: Strix uralensis
 odkazy:
@@ -8,18 +8,35 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - bílá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - žlutá
     fotky:
     - file: puštík_bělavý.jpg
       url: https://commons.wikimedia.org/wiki/File:Strix_uralensis_-Banham_Zoo,_Norfolk,_England-8a.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: dravci
+velikost: kachna

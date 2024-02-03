@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Racek bonapartův
 latinsky: Chroicocephalus philadelphia
 odkazy:
@@ -8,18 +8,30 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - oranžová
+    - záda:
+      - bílá
+      - šedá
+    - zobák:
+      - černá
     fotky:
     - file: Racek_Bonapartův.jpg
       url: https://commons.wikimedia.org/wiki/File:Larus_philadelphia1.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: vrána

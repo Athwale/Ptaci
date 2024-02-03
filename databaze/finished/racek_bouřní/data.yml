@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Racek bouřní
 latinsky: Larus canus
 odkazy:
@@ -8,18 +8,27 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - žlutá
+    - záda:
+      - šedá
+    - zobák:
+      - žlutá
     fotky:
     - file: racek_bouřní.jpg
       url: https://commons.wikimedia.org/wiki/File:Larus_brachyrhynchus,_Alaska_NBII.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: vrána

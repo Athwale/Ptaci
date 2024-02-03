@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Racek delawarský
 latinsky: Larus delawarensis
 odkazy:
@@ -8,18 +8,29 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - žlutá
+    - záda:
+      - bílá
+      - šedá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: racek_delawarský.jpg
       url: https://commons.wikimedia.org/wiki/File:Larus-delawarensis-021.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: kachna
