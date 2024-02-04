@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Racek mořský
+latinsky: Larus marinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=E826E9F3FBAED223
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=391
+  wiki: https://cs.wikipedia.org/wiki/Racek_mo%C5%99sk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - růžová
+      - žlutá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - červená
+      - oranžová
+    fotky:
+    - file: racek_mořský.jpg
+      url: https://commons.wikimedia.org/wiki/File:Great_Black-backed_Gull_Larus_marinus.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: kachna

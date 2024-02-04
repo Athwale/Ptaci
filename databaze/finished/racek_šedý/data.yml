@@ -1,0 +1,35 @@
+dodatek: null
+jméno: Racek šedý
+latinsky: Larus hyperboreus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A59FA446D6B40057
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=489
+  wiki: https://cs.wikipedia.org/wiki/Racek_%C5%A1ed%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+    - křídla:
+      - bílá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - růžová
+    - záda:
+      - bílá
+      - šedá
+    - zobák:
+      - červená
+      - oranžová
+    fotky:
+    - file: racek_šedý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Larus_hyperboreus-USFWS.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: kachna
