@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Rorýs velký
+latinsky: Tachymarptis melba
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=FA1CAD29
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=362
+  wiki: https://cs.wikipedia.org/wiki/Ror%C3%BDs_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+      - hnědá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: rorýs_velký.jpg
+      url: https://commons.wikimedia.org/wiki/File:Βουνοσταχτάρα_Alpine_Swift_Tachymarptis_melba.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vlaštovkovití
+velikost: hrdlička

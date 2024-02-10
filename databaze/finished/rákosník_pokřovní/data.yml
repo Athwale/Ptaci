@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Rákosník pokřovní
+latinsky: Acrocephalus dumetorum
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B22EAFC877C38967
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=664
+  wiki: https://cs.wikipedia.org/wiki/R%C3%A1kosn%C3%ADk_pok%C5%99ovn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - hnědá
+    - hruď:
+      - bílá
+    - ocas:
+      - béžová
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - hnědá
+      - žlutá
+    fotky:
+    - file: rákosník_pokřovní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Blyth's_Reed_Warbler.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: sýkorka

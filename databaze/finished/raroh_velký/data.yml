@@ -1,0 +1,44 @@
+dodatek: null
+jméno: Raroh velký
+latinsky: Falco cherrug
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A9F5149411AE52AD
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=27
+  wiki: https://cs.wikipedia.org/wiki/Raroh_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - nohy:
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - šedá
+      - žlutá
+    fotky:
+    - file: raroh_velký.jpg
+      url: https://commons.wikimedia.org/wiki/File:Falco_cherrug_1_(Bohuš_Číčel).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: kachna
