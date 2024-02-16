@@ -1,0 +1,44 @@
+dodatek: null
+jméno: Skřivánek krátkoprstý
+latinsky: Calandrella brachydactyla
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=4091A51E0603BAF2
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=463
+  wiki: https://cs.wikipedia.org/wiki/Sk%C5%99iv%C3%A1nek_kr%C3%A1tkoprst%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - béžová
+      - růžová
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - hnědá
+      - žlutá
+    fotky:
+    - file: skřivánek_krátkoprstý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Shorttoedlark59.JPG
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: kos

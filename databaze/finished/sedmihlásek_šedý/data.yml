@@ -1,0 +1,41 @@
+dodatek: null
+jméno: Sedmihlásek šedý
+latinsky: Iduna pallida
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BAE527A2F70F6241
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=557
+  wiki: https://cs.wikipedia.org/wiki/Sedmihl%C3%A1sek_%C5%A1ed%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: sedmihlásek_šedý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Hippolais_pallida_Akko_Israel_2.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: sýkorka
