@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Slípka zelenonohá
 latinsky: Gallinula chloropus
 odkazy:
@@ -8,18 +8,32 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+      - červená
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - žlutá
+      - zelená
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - červená
+      - žlutá
     fotky:
     - file: slípka_zelenonohá.jpg
       url: https://commons.wikimedia.org/wiki/File:Common_moorhen_(Gallinula_chloropus)_France.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: vrána

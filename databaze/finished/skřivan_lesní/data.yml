@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Skřivan lesní
 latinsky: Lullula arborea
 odkazy:
@@ -8,18 +8,36 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - hnědá
+    - nohy:
+      - oranžová
+    - záda:
+      - béžová
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
     fotky:
     - file: skřivan_lesní.jpg
       url: https://commons.wikimedia.org/wiki/File:Lullula_arborea_(Ján_Svetlík).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: kos

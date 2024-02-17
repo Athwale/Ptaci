@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Slavík obecný
 latinsky: Luscinia megarhynchos
 odkazy:
@@ -8,18 +8,31 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - hnědá
+      - rezavá
+    - nohy:
+      - růžová
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: slavík_obecný.jpg
       url: https://commons.wikimedia.org/wiki/File:Luscinia_megarhynchos_vogelartinfo_chris_romeiks_CHR4443.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka
