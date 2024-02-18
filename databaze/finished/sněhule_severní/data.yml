@@ -1,0 +1,77 @@
+dodatek: null
+jméno: Sněhule severní
+latinsky: Plectrophenax nivalis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9BEBC02505B416EE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=535
+  wiki: https://cs.wikipedia.org/wiki/Sn%C4%9Bhule_severn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+      - šedá
+    - hruď:
+      - bílá
+      - rezavá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - zobák:
+      - oranžová
+    fotky:
+    - file: sněhule_severní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Plectrophenax_nivalis5.jpg
+      zdroj: wikipedia
+    - file: sněhule_severní_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Snj%C3%B3tittlingur.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - rezavá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: sněhule_severní_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Plectrophenax_nivalis1.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: kos

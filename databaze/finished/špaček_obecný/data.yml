@@ -1,0 +1,82 @@
+dodatek: null
+jméno: Špaček obecný
+latinsky: Sturnus vulgaris
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=94A4403295E2D9BE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=171
+  wiki: https://cs.wikipedia.org/wiki/%C5%A0pa%C4%8Dek_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+      - fialová
+      - hnědá
+      - modrá
+      - zelená
+    - křídla:
+      - černá
+      - modrá
+      - rezavá
+      - zelená
+    - hruď:
+      - černá
+      - fialová
+      - modrá
+      - zelená
+    - ocas:
+      - černá
+      - rezavá
+    - nohy:
+      - růžová
+    - záda:
+      - černá
+      - modrá
+      - rezavá
+      - zelená
+    - zobák:
+      - černá
+      - šedá
+      - žlutá
+    fotky:
+    - file: špaček_obecný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Sturnus_vulgaris_2_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    - file: špaček_obecný_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Etourneau_DSC01833.JPG
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - oranžová
+    fotky:
+    - file: špaček_obecný_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:P1035296e3_cr.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: kos
