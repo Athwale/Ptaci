@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Strnad viničný
 latinsky: Emberiza cia
 odkazy:
@@ -8,18 +8,36 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - rezavá
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - růžová
+    - záda:
+      - černá
+      - rezavá
+    - zobák:
+      - bílá
+      - černá
     fotky:
     - file: strnad_viničný.jpg
       url: https://commons.wikimedia.org/wiki/File:Rock_bunting.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: kos

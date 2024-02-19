@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Strnad bělohlavý
 latinsky: Emberiza leucocephalos
 odkazy:
@@ -8,18 +8,38 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - hnědá
+      - rezavá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - oranžová
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: strnad_bělohlavý.jpg
       url: https://commons.wikimedia.org/wiki/File:Pine_Bunting_(Emberiza_leucocephalos)_-_Цагааншанаат_хөмрөг_(15617685422).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: kos

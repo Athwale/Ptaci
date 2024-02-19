@@ -1,0 +1,48 @@
+dodatek: null
+jméno: Strnad malinký
+latinsky: Emberiza pusilla
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=1866F80E52F4075F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=613
+  wiki: https://cs.wikipedia.org/wiki/Strnad_malink%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - oranžová
+      - růžová
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+    fotky:
+    - file: strnad_malinký.jpg
+      url: https://commons.wikimedia.org/wiki/File:Little_Bunting.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: sýkorka
