@@ -1,0 +1,68 @@
+dodatek: null
+jméno: Strakapoud velký
+latinsky: Dendrocopos major
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=D754DB8552A7AA42
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=60
+  wiki: https://cs.wikipedia.org/wiki/Strakapoud_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - červená
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+      - červená
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: strakapoud_velký.jpg
+      url: https://commons.wikimedia.org/wiki/File:DendrocoposMajor.jpg
+      zdroj: wikipedia
+    - file: strakapoud_velký_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Dendrocopos_major%2C_female_and_male.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+      - červená
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: strakapoud_velký_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Dendrocopos_major_1_%28Marek_Szczepanek%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: stromoví
+velikost: hrdlička

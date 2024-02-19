@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Stehlík obecný
 latinsky: Carduelis carduelis
 odkazy:
@@ -8,18 +8,38 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - červená
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+      - žlutá
+    - hruď:
+      - béžová
+      - bílá
+      - rezavá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - růžová
+    - záda:
+      - béžová
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+      - růžová
     fotky:
     - file: stehlík_obecný.jpg
       url: https://commons.wikimedia.org/wiki/File:European_Goldfinch_on_Spear_Thistle.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: kos

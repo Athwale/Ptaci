@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Straka modrá
 latinsky: Cyanopica cyanus
 odkazy:
@@ -8,18 +8,32 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+      - modrá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - béžová
+      - modrá
+    - nohy:
+      - černá
+    - záda:
+      - béžová
+    - zobák:
+      - černá
     fotky:
     - file: straka_modrá.jpg
       url: https://commons.wikimedia.org/wiki/File:2011_Blauelster_in_Shanghai.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: hrdlička
