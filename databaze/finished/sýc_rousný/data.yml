@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Sýc rousný
 latinsky: Aegolius funereus
 odkazy:
@@ -8,18 +8,33 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - béžová
+      - růžová
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: sýc_rousný.jpg
       url: https://commons.wikimedia.org/wiki/File:Aegolius-funereus-001.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: dravci
+velikost: vrána

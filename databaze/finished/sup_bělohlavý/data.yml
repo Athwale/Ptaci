@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Sup bělohlavý
 latinsky: Gyps fulvus
 odkazy:
@@ -8,18 +8,38 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - hnědá
+      - rezavá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+      - šedá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+      - šedá
     fotky:
     - file: sup_bělohlavý.jpeg
       url: https://commons.wikimedia.org/wiki/File:Buitre_Leonado_(98727731).jpeg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: dravci
+velikost: čáp

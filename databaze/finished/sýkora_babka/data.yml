@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Sýkora babka
 latinsky: Poecile palustris
 odkazy:
@@ -8,18 +8,32 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
     fotky:
     - file: sýkora_babka.jpg
       url: https://commons.wikimedia.org/wiki/File:Poecile_palustris_3b_Luc_Viatour.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    - file: sýkora_babka_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Poecile_palustris_5_Luc_Viatour.jpg
+      zdroj: wikipedia
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: sýkorka

@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Sup hnědý
 latinsky: Aegypius monachus
 odkazy:
@@ -8,18 +8,35 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - černá
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - bílá
+      - šedá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - modrá
+      - šedá
     fotky:
     - file: sup_hnědý.jpg
       url: https://commons.wikimedia.org/wiki/File:Mönchsgeier.JPG
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: dravci
+velikost: čáp
