@@ -1,0 +1,80 @@
+dodatek: null
+jméno: Tetřívek obecný
+latinsky: Lyrurus tetrix
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=D4441CD6E9C993EF
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=402
+  wiki: https://cs.wikipedia.org/wiki/Tet%C5%99%C3%ADvek_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+      - červená
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: tetřívek_obecný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Birkhahn.jpg
+      zdroj: wikipedia
+    - file: tetřívek_obecný_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Black_Grouse_Nationalpark_Bayerischer_Wald.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - nohy:
+      - černá
+      - hnědá
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+    fotky:
+    - file: tetřívek_obecný_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Teeri.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: bažantovití
+velikost: bažant

@@ -1,0 +1,42 @@
+dodatek: null
+jméno: Terej bílý
+latinsky: Morus bassanus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=534FB490884C6D33
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=750
+  wiki: https://cs.wikipedia.org/wiki/Terej_b%C3%ADl%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - rezavá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+      - rezavá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+    - zobák:
+      - bílá
+      - černá
+      - šedá
+    fotky:
+    - file: terej_bílý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Northern_Gannet_2006.jpg
+      zdroj: wikipedia
+    - file: terej_bílý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Morus_bassanus_adu.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: kachna
