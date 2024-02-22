@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Ťuhýk rudohlavý
 latinsky: Lanius senator
 odkazy:
@@ -8,18 +8,30 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - rezavá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
     fotky:
     - file: ťuhýk_rudohlavý.jpg
       url: https://commons.wikimedia.org/wiki/File:Lanius_senator_Tàrrega.JPG
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: pěvci
+velikost: kos

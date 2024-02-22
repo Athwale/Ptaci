@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Vodouš bahenní
 latinsky: Tringa glareola
 odkazy:
@@ -8,18 +8,35 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
     fotky:
     - file: vodouš_bahenní.jpg
       url: https://commons.wikimedia.org/wiki/File:090505-wood-sandpiper-at-Kalloni-east-river-lower-ford.jpg
       zdroj: wikipedia
-    kropenatost: ''
+    - file: vodouš_bahenní_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Tringa_glareola_P4279182.jpg
+      zdroj: wikipedia
+    kropenatost: true
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: hrdlička

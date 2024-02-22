@@ -1,4 +1,4 @@
-dodatek: ''
+dodatek: null
 jméno: Turpan černý
 latinsky: Melanitta nigra
 odkazy:
@@ -8,18 +8,26 @@ odkazy:
 popis:
   samec:
     barvy:
-    - hlava: []
-    - křídla: []
-    - hruď: []
-    - ocas: []
-    - nohy: []
-    - záda: []
-    - zobák: []
+    - hlava:
+      - černá
+    - křídla:
+      - černá
+    - hruď:
+      - černá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+      - žlutá
     fotky:
     - file: turpan_černý.jpg
       url: https://commons.wikimedia.org/wiki/File:Melanitta_nigra_(cropped).jpg
       zdroj: wikipedia
-    kropenatost: ''
+    kropenatost: false
   samice: []
-typ: ''
-velikost: ''
+typ: vodní
+velikost: kachna
