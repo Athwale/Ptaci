@@ -1,0 +1,49 @@
+dodatek: null
+jméno: Vodouš tmavý
+latinsky: Tringa erythropus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0895DD84DB3A45D1
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=437
+  wiki: https://cs.wikipedia.org/wiki/Vodou%C5%A1_tmav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - oranžová
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: vodouš_tmavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Dunkler_Wasserlaeufer1.JPG
+      zdroj: wikipedia
+    - file: vodouš_tmavý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Spotted_Redshank_%28Tringa_erythropus%29_at_Bharatpur_I_IMG_5552.jpg
+      zdroj: wikipedia
+    - file: vodouš_tmavý_samec_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Spotted_Redshank_%28Tringa_erythropus%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kachna
