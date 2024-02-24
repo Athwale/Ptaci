@@ -1,0 +1,52 @@
+dodatek: null
+jméno: Výreček malý
+latinsky: Otus scops
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=2C7AA1546D80617E
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=532
+  wiki: https://cs.wikipedia.org/wiki/V%C3%BDre%C4%8Dek_mal%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - nohy:
+      - šedá
+    - záda:
+      - černá
+      - hnědá
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: výreček_malý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Centro_provinciale_(2).jpg
+      zdroj: wikipedia
+    - file: výreček_malý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:080317-N-3143M-001.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: kos
