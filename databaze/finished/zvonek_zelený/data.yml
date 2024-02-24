@@ -1,0 +1,71 @@
+dodatek: null
+jméno: Zvonek zelený
+latinsky: Chloris chloris
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=65BD2033E2A722C8
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=99
+  wiki: https://cs.wikipedia.org/wiki/Zvonek_zelen%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - šedá
+      - zelená
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+      - zelená
+      - žlutá
+    - hruď:
+      - šedá
+      - zelená
+      - žlutá
+    - ocas:
+      - černá
+      - žlutá
+    - nohy:
+      - růžová
+    - záda:
+      - zelená
+    - zobák:
+      - černá
+      - růžová
+    fotky:
+    - file: zvonek_zelený.jpg
+      url: https://commons.wikimedia.org/wiki/File:Carduelis_chloris_3_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - hnědá
+      - šedá
+      - zelená
+      - žlutá
+    - křídla:
+      - černá
+      - hnědá
+      - žlutá
+    - hruď:
+      - hnědá
+      - šedá
+      - žlutá
+    - ocas:
+      - černá
+      - žlutá
+    - nohy:
+      - růžová
+    - záda:
+      - šedá
+      - zelená
+    - zobák:
+      - černá
+      - růžová
+    fotky:
+    - file: zvonek_zelený_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Carduelis_chloris_2_%28Marek_Szczepanek%29.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: pěvci
+velikost: kos

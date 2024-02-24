@@ -1,0 +1,64 @@
+dodatek: null
+jméno: Zvonohlík citrónový
+latinsky: Carduelis citrinella
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=039E0011AA4F1420
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Zvonohl%C3%ADk_citr%C3%B3nov%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - šedá
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+      - žlutá
+    - hruď:
+      - šedá
+      - žlutá
+    - ocas:
+      - bílá
+      - černá
+      - žlutá
+    - nohy:
+      - hnědá
+      - oranžová
+    - záda:
+      - šedá
+      - žlutá
+    - zobák:
+      - černá
+    fotky:
+    - file: zvonohlík_citrónový.jpg
+      url: https://commons.wikimedia.org/wiki/File:Carduelis_citrinella_-Plateau_de_Beille,_Ariege,_Midi-Pyrenee,_France-8_(2).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - černá
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+      - žlutá
+    - hruď:
+      - černá
+      - žlutá
+    - ocas:
+      - černá
+      - žlutá
+    - nohy:
+      - hnědá
+      - oranžová
+    - záda:
+      - černá
+      - žlutá
+    - zobák:
+      - černá
+    fotky: []
+    kropenatost: true
+typ: pěvci
+velikost: sýkorka

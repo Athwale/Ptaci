@@ -1,0 +1,75 @@
+dodatek: null
+jméno: Vrabec pokřovní
+latinsky: Passer hispaniolensis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=5A8E09A1
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=68
+  wiki: https://en.wikipedia.org/wiki/Spanish_sparrow
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - hnědá
+    - záda:
+      - černá
+      - červená
+    - zobák:
+      - černá
+    fotky:
+    - file: vrabec_pokřovní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Passer_Hispaniolensis_Male.JPG
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - rezavá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+      - šedá
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+    - nohy:
+      - hnědá
+    - záda:
+      - béžová
+      - černá
+      - rezavá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: vrabec_pokřovní_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Passer_hispaniolensis_-Canary_Islands%2C_Spain_-female-8_%281%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: sýkorka

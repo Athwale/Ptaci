@@ -1,0 +1,74 @@
+dodatek: null
+jméno: Vrabec domácí
+latinsky: Passer domesticus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=240E33900CE34D44
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=43
+  wiki: https://cs.wikipedia.org/wiki/Vrabec_dom%C3%A1c%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - rezavá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - hnědá
+    - záda:
+      - černá
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: vrabec_domácí.jpg
+      url: https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+      - rezavá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - béžová
+    - zobák:
+      - černá
+      - hnědá
+    fotky:
+    - file: vrabec_domácí_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:House_Sparrow%2C_England_-_May_09.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: pěvci
+velikost: sýkorka

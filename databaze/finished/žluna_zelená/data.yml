@@ -1,0 +1,42 @@
+dodatek: null
+jméno: Žluna zelená
+latinsky: Picus viridis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A01014FF0A909DD8
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=42
+  wiki: https://cs.wikipedia.org/wiki/%C5%BDluna_zelen%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - červená
+    - křídla:
+      - bílá
+      - hnědá
+      - zelená
+    - hruď:
+      - bílá
+      - zelená
+    - ocas:
+      - černá
+      - hnědá
+      - žlutá
+    - nohy:
+      - černá
+    - záda:
+      - zelená
+    - zobák:
+      - černá
+    fotky:
+    - file: žluna_zelená.jpg
+      url: https://commons.wikimedia.org/wiki/File:Grünspecht_Picus_viridis.jpg
+      zdroj: wikipedia
+    - file: žluna_zelená_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:%C5%BDluna_zelen%C3%A1%2C_zima.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: stromoví
+velikost: hrdlička
