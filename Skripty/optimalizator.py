@@ -12,6 +12,7 @@ def optimize_image(img_path: Path, thumbnail: int, work_dir: Path) -> None:
     :param work_dir: Main working directory.
     :return: None
     """
+    # TODO add exiftool to optimization.
     print(f'Optimizing: {img_path}')
     # Convert.
     if img_path.suffix.lower() == '.png':

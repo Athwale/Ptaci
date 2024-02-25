@@ -24,8 +24,7 @@ global saved
 
 
 def create_gui(values: Dict, work_dir: Path) -> None:
-    # TODO optimize all photos once done and cropped.
-    # TODO added rezava color go through birds to change it in correct places.
+    # TODO added rezava color go through birds to change it in correct places - oranzova.
     # TODO orel added as size, adjust size of raptors to orel where needed.
 
     root.geometry()
