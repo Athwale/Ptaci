@@ -29,7 +29,10 @@ popis:
       - černá
     fotky:
     - file: konipas_horský.jpg
-      url: https://commons.wikimedia.org/wiki/File:Kisekirei_05z5455s.jpg
+      url: https://commons.wikimedia.org/wiki/File:Motacilla_cinerea_(eating_moth).JPG
+      zdroj: wikipedia
+    - file: konipas_horský_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Grey_wagtail-_Kolkata_I_IMG_6228.jpg
       zdroj: wikipedia
     kropenatost: false
   samice:
@@ -57,6 +60,9 @@ popis:
     fotky:
     - file: konipas_horský_samice_1.jpg
       url: https://commons.wikimedia.org/wiki/File:Kisekirei_05z5455s.jpg
+      zdroj: wikipedia
+    - file: konipas_horský_samice_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Da%C4%9F_Kuyruksallayan%C4%B1_-_Grey_Wagtail_-_Motacilla_cinerea_02.jpg
       zdroj: wikipedia
     kropenatost: false
 typ: vodní
