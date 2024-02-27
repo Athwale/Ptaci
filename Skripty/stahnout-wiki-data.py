@@ -1,6 +1,4 @@
 #!/bin/python3
-# todo send link to website to ceskevylety@seznam.cz
-# todo https://www.nasiptaci.info/zvuky-ptaku/
 # Run this to build a new database.
 # Follow by running optimalizator.
 

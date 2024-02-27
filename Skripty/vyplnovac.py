@@ -24,9 +24,6 @@ global saved
 
 
 def create_gui(values: Dict, work_dir: Path) -> None:
-    # TODO added rezava color go through birds to change it in correct places - oranzova.
-    # TODO orel added as size, adjust size of raptors to orel where needed.
-
     root.geometry()
     gender_frames = []
 
