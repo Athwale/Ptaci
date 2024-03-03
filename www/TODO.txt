@@ -2,3 +2,5 @@ Add menu section Ostatni add page there.
 Move manu title to the middle of the screen.
 Adaptive design, move right panel closer
 to center on large screen.
+
+Add extra ignored pages list to editor.
