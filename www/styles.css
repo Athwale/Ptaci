@@ -415,16 +415,15 @@ figure img.imgAside:hover
 }
 
 .menuPart {
+    vertical-align: top;
     text-align: left;
     padding-left: 1%;
     padding-right: 1%;
     display: inline-block;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    border-top: none;
-    border-bottom: none;
-    border-color: slategray;
+}
+
+.menuAttrs {
+    display: inline-block;
 }
 
 output {
@@ -445,9 +444,27 @@ output {
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
-    border-top: none;
-    border-bottom: none;
     border-color: slategray;
+}
+
+.birdCard h4 {
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.birdCard h6 {
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.birdLink {
+    display: block;
+}
+
+summary {
+    font-size: 9pt;
 }
 
 @keyframes menuItemMark 
