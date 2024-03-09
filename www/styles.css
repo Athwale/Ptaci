@@ -445,26 +445,50 @@ output {
     border-width: 1px;
     border-radius: 5px;
     border-color: slategray;
+    vertical-align: top;
 }
 
 .birdCard h4 {
     display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.birdCard h6, h5 {
+    display: block;
     margin-top: 1%;
     margin-bottom: 1%;
 }
 
-.birdCard h6 {
-    display: block;
-    margin-top: 1%;
-    margin-bottom: 1%;
+.birdCard img {
+    border-radius: 5px;
 }
 
 .birdLink {
     display: block;
 }
 
-summary {
+.birdGender {
+    display: inline-block;
+}
+
+.birdInfo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+details {
     font-size: 9pt;
+}
+
+details p {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.birdCard p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 @keyframes menuItemMark 

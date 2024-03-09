@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Alkoun úzkozobý
+latinsky: Uria aalge
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=39F29B55EF9A542F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=670
+  wiki: https://cs.wikipedia.org/wiki/Alkoun_%C3%BAzkozob%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - černá
+      - bílá
+    - hruď:
+      - bílá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: alkoun_úzkozobý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Lomvi_ringvi_pho.jpg
+      zdroj: wikipedia
+    - file: alkoun_úzkozobý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Winter_uria_aalge.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: kachna

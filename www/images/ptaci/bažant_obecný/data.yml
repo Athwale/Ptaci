@@ -1,0 +1,78 @@
+dodatek: null
+jméno: Bažant obecný
+latinsky: Phasianus colchicus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=2FA39DCD42F80BC9
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=35
+  wiki: https://cs.wikipedia.org/wiki/Ba%C5%BEant_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - červená
+      - zelená
+      - modrá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - černá
+      - hnědá
+      - modrá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - šedá
+    - záda:
+      - béžová
+      - bílá
+      - hnědá
+    - zobák:
+      - šedá
+    fotky:
+    - file: bažant_obecný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Fasan_auf_Spiekeroog_05.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - černá
+      - hnědá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - šedá
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - šedá
+      - béžová
+    fotky:
+    - file: bažant_obecný_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Phasianus_colchicus_4_hen_(Lukasz_Lukasik).jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: bažantovití
+velikost: bažant
