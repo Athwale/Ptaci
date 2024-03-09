@@ -1,0 +1,81 @@
+dodatek: null
+jméno: Hoholka lední
+latinsky: Clangula hyemalis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=AF0C7BDEC7CEBAAC
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=223
+  wiki: https://cs.wikipedia.org/wiki/Hoholka_ledn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - růžová
+    fotky:
+    - file: hoholka_lední.jpg
+      url: https://commons.wikimedia.org/wiki/File:Long-tailed-duck.jpg
+      zdroj: wikipedia
+    - file: hoholka_lední_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Clangula_hyemalis_-Nome%2C_Alaska%2C_USA_-male-8.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - hnědá
+      - šedá
+    - hruď:
+      - béžová
+      - hnědá
+      - šedá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: hoholka_lední_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Clangula-hyemalis-011.jpg
+      zdroj: wikipedia
+    - file: hoholka_lední_samice_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Clangula_hyemalis_-Iceland_-mother_and_ducklings-8.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: vodní
+velikost: kachna

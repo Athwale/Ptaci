@@ -1,0 +1,71 @@
+dodatek: null
+jméno: Poštolka rudonohá
+latinsky: Falco vespertinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=997A9437E564FCFE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=9
+  wiki: https://cs.wikipedia.org/wiki/Po%C5%A1tolka_rudonoh%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+      - šedá
+    - nohy:
+      - oranžová
+    - záda:
+      - šedá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: poštolka_rudonohá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Rotfußfalke_Falco_vespertinus.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - křídla:
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - hnědá
+      - rezavá
+    - ocas:
+      - černá
+      - hnědá
+      - šedá
+    - nohy:
+      - oranžová
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: poštolka_rudonohá_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Falco_vespertinus.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: dravci
+velikost: hrdlička

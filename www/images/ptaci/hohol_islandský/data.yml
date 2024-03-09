@@ -1,0 +1,57 @@
+dodatek: null
+jméno: Hohol islandský
+latinsky: Bucephala islandica
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9456DEDF7E1AADF3
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Hohol_islandsk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+      - oranžová
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: hohol_islandský.jpg
+      url: https://commons.wikimedia.org/wiki/File:Barrowgoldeneye.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - šedá
+    - ocas:
+      - černá
+      - šedá
+    - nohy:
+      - oranžová
+    - záda:
+      - černá
+      - šedá
+    - zobák:
+      - černá
+      - oranžová
+    fotky: []
+    kropenatost: false
+typ: vodní
+velikost: kachna

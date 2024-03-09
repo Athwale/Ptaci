@@ -1,0 +1,47 @@
+dodatek: null
+jméno: Potápka černokrká
+latinsky: Podiceps nigricollis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=32DCEC14D7AE129B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=224
+  wiki: https://cs.wikipedia.org/wiki/Pot%C3%A1pka_%C4%8Dernokrk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+      - rezavá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - černá
+      - rezavá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: potápka_černokrká.jpg
+      url: https://commons.wikimedia.org/wiki/File:Eared-Grebe_(cropped).jpg
+      zdroj: wikipedia
+    - file: potápka_černokrká_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Podiceps_nigricollis_californicus.jpg
+      zdroj: wikipedia
+    - file: potápka_černokrká.jpeg
+      url: https://commons.wikimedia.org/wiki/File:Grey_Rain_%28153346405%29.jpeg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: kachna

@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Cvrčilka zelená
+latinsky: Locustella naevia
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BC0E4C9F87721B1A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=129
+  wiki: https://cs.wikipedia.org/wiki/Cvr%C4%8Dilka_zelen%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+      - hnědá
+    - křídla:
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - hnědá
+      - žlutá
+    fotky:
+    - file: cvrčilka_zelená.jpg
+      url: https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Grasshopper_Warbler_(Locustella_naevia)_(1).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: sýkorka

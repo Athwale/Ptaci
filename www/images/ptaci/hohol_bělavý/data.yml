@@ -1,0 +1,62 @@
+dodatek: null
+jméno: Hohol bělavý
+latinsky: Bucephala albeola
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=FB7383856D0DB2EA
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=638
+  wiki: https://cs.wikipedia.org/wiki/Hohol_b%C4%9Blav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - zelená
+      - fialová
+    - křídla:
+      - bílá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+      - šedá
+    - nohy:
+      - černá
+      - růžová
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: hohol_bělavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bucephala-albeola-007.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - černá
+      - šedá
+    - nohy:
+      - černá
+      - růžová
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: hohol_bělavý_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bucephala-albeola-010.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: vodní
+velikost: kachna

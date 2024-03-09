@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Bělořit pouštní
+latinsky: Oenanthe deserti
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=078BC0ED34F512AE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=711
+  wiki: https://cs.wikipedia.org/wiki/B%C4%9Blo%C5%99it_pou%C5%A1tn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - šedá
+    - křídla:
+      - béžová
+      - černá
+      - šedá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - béžová
+      - bílá
+    - zobák:
+      - černá
+    fotky:
+    - file: bělořit_pouštní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Oenanthe_deserti_-Mongolia-8.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pouštní
+velikost: sýkorka

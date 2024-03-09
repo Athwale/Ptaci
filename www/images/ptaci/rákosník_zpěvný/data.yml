@@ -1,0 +1,35 @@
+dodatek: null
+jméno: Rákosník zpěvný
+latinsky: Acrocephalus palustris
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B675E006C3745A12
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=132
+  wiki: https://cs.wikipedia.org/wiki/R%C3%A1kosn%C3%ADk_zp%C4%9Bvn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - hnědá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: rákosník_zpěvný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Acrocephalus_palustris_2_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: sýkorka

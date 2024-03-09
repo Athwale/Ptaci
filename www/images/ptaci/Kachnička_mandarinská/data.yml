@@ -1,0 +1,81 @@
+dodatek: null
+jméno: Kachnička mandarinská
+latinsky: Aix galericulata
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=E1714A09EA1DFD1D
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=429
+  wiki: https://cs.wikipedia.org/wiki/Kachni%C4%8Dka_mandarinsk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - červená
+      - fialová
+      - modrá
+      - oranžová
+      - zelená
+      - žlutá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - modrá
+      - oranžová
+    - hruď:
+      - bílá
+      - černá
+      - fialová
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+      - zelená
+    - nohy:
+      - oranžová
+      - žlutá
+    - záda:
+      - černá
+      - modrá
+    - zobák:
+      - červená
+    fotky:
+    - file: Kachnička_mandarinská.jpg
+      url: https://commons.wikimedia.org/wiki/File:Mandarin_duck_(Aix_galericulata)_Franconville_01.jpg
+      zdroj: wikipedia
+    - file: Kachnička_mandarinská_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pair_of_mandarin_ducks.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - hnědá
+      - zelená
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - hnědá
+    - nohy:
+      - černá
+      - šedá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: Kachnička_mandarinská_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Aix_galericulata_%28K%C3%BCken%29_-_Nymphenteich_Z%C3%BCrichhorn_2011-06-06_15-59-46.JPG
+      zdroj: wikipedia
+    kropenatost: true
+typ: vodní
+velikost: kachna

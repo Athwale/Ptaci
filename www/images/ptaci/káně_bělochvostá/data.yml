@@ -1,0 +1,45 @@
+dodatek: null
+jméno: Káně bělochvostá
+latinsky: Buteo rufinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=CC65921FEBE1BB96
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=448
+  wiki: https://cs.wikipedia.org/wiki/K%C3%A1n%C4%9B_b%C4%9Blochvost%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: káně_bělochvostá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Adlerbussard.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: kachna

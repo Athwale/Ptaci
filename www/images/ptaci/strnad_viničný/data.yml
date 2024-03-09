@@ -1,0 +1,43 @@
+dodatek: null
+jméno: Strnad viničný
+latinsky: Emberiza cia
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=4836E64E80D5A372
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=406
+  wiki: https://cs.wikipedia.org/wiki/Strnad_vini%C4%8Dn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - rezavá
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - růžová
+    - záda:
+      - černá
+      - rezavá
+    - zobák:
+      - bílá
+      - černá
+    fotky:
+    - file: strnad_viničný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Rock_bunting.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: kos

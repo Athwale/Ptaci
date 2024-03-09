@@ -1,0 +1,42 @@
+dodatek: null
+jméno: Lyskonoh úzkozobý
+latinsky: Phalaropus lobatus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=E6F3BA54577746FB
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=357
+  wiki: https://cs.wikipedia.org/wiki/Lyskonoh_%C3%BAzkozob%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - šedá
+      - žlutá
+    - hruď:
+      - béžová
+      - bílá
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+      - šedá
+    - záda:
+      - šedá
+      - žlutá
+    - zobák:
+      - černá
+    fotky:
+    - file: lyskonoh_úzkozobý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Phalaropus_lobatus.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: vrána

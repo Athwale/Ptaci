@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Chocholouš obecný
+latinsky: Galerida cristata
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=21ADC3ED8E24C1C9
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=82
+  wiki: https://cs.wikipedia.org/wiki/Chocholou%C5%A1_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - hnědá
+    fotky:
+    - file: chocholouš_obecný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Crested_Lark_I-Haryana_IMG_9946.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: sýkorka

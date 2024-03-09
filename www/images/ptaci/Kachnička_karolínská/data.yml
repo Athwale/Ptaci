@@ -1,0 +1,70 @@
+dodatek: null
+jméno: Kachnička karolínská
+latinsky: Aix sponsa
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=27B2749A88E3E2C8
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=245
+  wiki: https://cs.wikipedia.org/wiki/Kachni%C4%8Dka_karol%C3%ADnsk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - zelená
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - modrá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - černá
+    - zobák:
+      - bílá
+      - černá
+      - červená
+      - žlutá
+    fotky:
+    - file: Kachnička_karolínská.jpg
+      url: https://commons.wikimedia.org/wiki/File:Brautente_Wood_Duck_Aix_sponsa.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+      - modrá
+    - hruď:
+      - béžová
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky: []
+    kropenatost: true
+typ: vodní
+velikost: kachna

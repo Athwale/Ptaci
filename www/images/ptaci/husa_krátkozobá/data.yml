@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Husa krátkozobá
+latinsky: Anser brachyrhynchus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=AFA7EE7470F000E9
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=635
+  wiki: https://cs.wikipedia.org/wiki/Husa_kr%C3%A1tkozob%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - růžová
+    fotky:
+    - file: husa_krátkozobá.jpg
+      url: https://commons.wikimedia.org/wiki/File:KurzschnabelgansRL.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: husa

@@ -1,0 +1,39 @@
+dodatek: null
+jméno: Ibis hnědý
+latinsky: Plegadis falcinellus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=D4540F880A3EC3BB
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=559
+  wiki: https://cs.wikipedia.org/wiki/Ibis_hn%C4%9Bd%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - černá
+      - hnědá
+      - zelená
+    - hruď:
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - šedá
+    fotky:
+    - file: ibis_hnědý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Plegadis_falcinellus_Syracuse.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: husa

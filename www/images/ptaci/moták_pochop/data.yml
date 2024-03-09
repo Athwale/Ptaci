@@ -1,0 +1,79 @@
+dodatek: null
+jméno: Moták pochop
+latinsky: Circus aeruginosus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=E2A19474E62F83E1
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=41
+  wiki: https://cs.wikipedia.org/wiki/Mot%C3%A1k_pochop
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+      - šedá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - hnědá
+      - šedá
+    - nohy:
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: moták_pochop.jpg
+      url: https://commons.wikimedia.org/wiki/File:Marsh_Harrier_Male_(cropped).jpg
+      zdroj: wikipedia
+    - file: moták_pochop_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Rohrweihe2.JPG
+      zdroj: wikipedia
+    - file: moták_pochop_samec_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Marsh_harrier2.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - béžová
+      - hnědá
+    - ocas:
+      - hnědá
+      - šedá
+    - nohy:
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: moták_pochop_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Western_Harrier_by_Mourad_Harzallah.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: dravci
+velikost: vrána

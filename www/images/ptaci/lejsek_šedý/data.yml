@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Lejsek šedý
+latinsky: Muscicapa striata
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=EE8206E703914D22
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=238
+  wiki: https://cs.wikipedia.org/wiki/Lejsek_%C5%A1ed%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: lejsek_šedý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Се́рая_мухоло́вка_(Muscicapa_striata).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: sýkorka

@@ -1,0 +1,52 @@
+dodatek: null
+jméno: Sovice krahujová
+latinsky: Surnia ulula
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C2018A5DD8CDB5F5
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=563
+  wiki: https://cs.wikipedia.org/wiki/Sovice_krahujov%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+      - rezavá
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - nohy:
+      - bílá
+      - žlutá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: sovice_krahujová.jpg
+      url: https://commons.wikimedia.org/wiki/File:Surnia_ulula_-_Northern_Hawk-Owl,_Hökuggla.jpg
+      zdroj: wikipedia
+    - file: sovice_krahujová_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Surnia_ulula_Zoo_Praha_2011-1.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: vrána

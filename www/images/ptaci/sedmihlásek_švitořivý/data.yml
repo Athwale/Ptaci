@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Sedmihlásek švitořivý
+latinsky: Hippolais polyglotta
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=DCDD1BCA24E978F5
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Sedmihl%C3%A1sek_%C5%A1vito%C5%99iv%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - hnědá
+      - žlutá
+    - křídla:
+      - hnědá
+    - hruď:
+      - bílá
+      - žlutá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - černá
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - hnědá
+      - oranžová
+    fotky:
+    - file: sedmihlásek_švitořivý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Hippolais_polyglotta_NRM.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: sýkorka

@@ -1,0 +1,44 @@
+dodatek: null
+jméno: Jespák mořský
+latinsky: Calidris maritima
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0A0B84313ACFFB2F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=567
+  wiki: https://cs.wikipedia.org/wiki/Jesp%C3%A1k_mo%C5%99sk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - hnědá
+      - žlutá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: jespák_mořský.jpg
+      url: https://commons.wikimedia.org/wiki/File:Purple_sandpiper_New_Brighton.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: hrdlička

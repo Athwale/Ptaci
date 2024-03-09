@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Drozd brávník
+latinsky: Turdus viscivorus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A95B43F1E9D10296
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=386
+  wiki: https://cs.wikipedia.org/wiki/Drozd_br%C3%A1vn%C3%ADk
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - hnědá
+    fotky:
+    - file: drozd_brávník.jpg
+      url: https://commons.wikimedia.org/wiki/File:Turdus_viscivorus02.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: sýkorka

@@ -1,0 +1,42 @@
+dodatek: null
+jméno: Budníček větší
+latinsky: Phylloscopus trochilus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=88F4B969622B8268
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=134
+  wiki: https://cs.wikipedia.org/wiki/Budn%C3%AD%C4%8Dek_v%C4%9Bt%C5%A1%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+      - žlutá
+    - křídla:
+      - černá
+      - hnědá
+      - žlutá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - béžová
+      - hnědá
+      - žlutá
+    - zobák:
+      - hnědá
+      - žlutá
+    fotky:
+    - file: budníček_větší.jpg
+      url: https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Willow_Warbler_(Phylloscopus_trochilus).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: sýkorka

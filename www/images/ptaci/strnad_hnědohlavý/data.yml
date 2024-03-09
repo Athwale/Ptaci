@@ -1,0 +1,41 @@
+dodatek: null
+jméno: Strnad hnědohlavý
+latinsky: Emberiza bruniceps
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=DBF8D184AA08A548
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Strnad_hn%C4%9Bdohlav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - hnědá
+      - žlutá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - žlutá
+    - hruď:
+      - hnědá
+      - žlutá
+    - ocas:
+      - bílá
+      - černá
+      - žlutá
+    - nohy:
+      - růžová
+    - záda:
+      - černá
+      - žlutá
+    - zobák:
+      - bílá
+      - černá
+    fotky:
+    - file: strnad_hnědohlavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Emberiza_bruniceps_(Wroclaw_zoo)-2.JPG
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: kos

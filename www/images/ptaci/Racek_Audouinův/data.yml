@@ -1,0 +1,36 @@
+dodatek: null
+jméno: Racek audouinův
+latinsky: Ichthyaetus audouinii
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F7B9355E42C3F987
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Racek_Audouin%C5%AFv
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - šedá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: Racek_Audouinův.jpg
+      url: https://commons.wikimedia.org/wiki/File:Korallenmoewe1_web.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: vrána

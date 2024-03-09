@@ -1,0 +1,42 @@
+dodatek: null
+jméno: Sýkora koňadra
+latinsky: Parus major
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=E15BC0CB3DEAA621
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=3
+  wiki: https://cs.wikipedia.org/wiki/S%C3%BDkora_ko%C5%88adra
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+      - modrá
+      - zelená
+    - hruď:
+      - černá
+      - žlutá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - zelená
+      - žlutá
+    - zobák:
+      - černá
+    fotky:
+    - file: sýkora_koňadra.jpg
+      url: https://commons.wikimedia.org/wiki/File:Parus_major_2_Luc_Viatour.jpg
+      zdroj: wikipedia
+    - file: sýkora_koňadra_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:GreatTit002.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: sýkorka

@@ -1,0 +1,36 @@
+dodatek: null
+jméno: Pěnice slavíková
+latinsky: Sylvia borin
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A6A4FC63261EA8CD
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/P%C4%9Bnice_slav%C3%ADkov%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - béžová
+      - hnědá
+    - hruď:
+      - béžová
+    - ocas:
+      - béžová
+      - hnědá
+    - nohy:
+      - béžová
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - hnědá
+    fotky:
+    - file: pěnice_slavíková.jpg
+      url: https://commons.wikimedia.org/wiki/File:Sylvia_borin_(Örebro_County).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: sýkorka

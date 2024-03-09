@@ -1,0 +1,35 @@
+dodatek: null
+jméno: Alkoun malý
+latinsky: Alle alle
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B0932D89F1F74318
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=630
+  wiki: https://cs.wikipedia.org/wiki/Alkoun_mal%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: alkoun_malý.jpg
+      url: https://upload.wikimedia.org/wikipedia/commons/d/dc/AlleAlle_2.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: hrdlička

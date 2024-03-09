@@ -1,0 +1,45 @@
+dodatek: Samci mají černý pruh uprostřed hrdla
+jméno: Křepelka polní
+latinsky: Coturnix coturnix
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=CAFE345DCABD8BF8
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=133
+  wiki: https://cs.wikipedia.org/wiki/K%C5%99epelka_poln%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: křepelka_polní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Coturnix_coturnix,_Fraunberg,_Bayern,_Deutschland_1.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: polní
+velikost: hrdlička

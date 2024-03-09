@@ -1,0 +1,42 @@
+dodatek: null
+jméno: Ouhorlík stepní
+latinsky: Glareola pratincola
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=D56ABB4EE468E9EF
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=468
+  wiki: https://cs.wikipedia.org/wiki/Ouhorl%C3%ADk_stepn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - křídla:
+      - černá
+      - hnědá
+      - červená
+      - rezavá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - červená
+    fotky:
+    - file: ouhorlík_stepní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Collared_Pratincole_SM.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: polní
+velikost: kos

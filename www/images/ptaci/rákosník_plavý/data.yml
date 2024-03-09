@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Rákosník plavý
+latinsky: Acrocephalus agricola
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=781FE53F2425B4C1
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=650
+  wiki: https://cs.wikipedia.org/wiki/R%C3%A1kosn%C3%ADk_plav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - hnědá
+    fotky:
+    - file: rákosník_plavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Paddyfield_Warbler_(Acrocephalus_agricola)_in_Kolkata_Im_IMG_0496.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: sýkorka

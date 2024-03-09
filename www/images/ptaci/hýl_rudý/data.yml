@@ -1,0 +1,60 @@
+dodatek: null
+jméno: Hýl rudý
+latinsky: Carpodacus erythrinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3A713345F43AFFA6
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=145
+  wiki: https://cs.wikipedia.org/wiki/H%C3%BDl_rud%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - červená
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - červená
+    - ocas:
+      - hnědá
+      - červená
+    - nohy:
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - hnědá
+      - žlutá
+    fotky:
+    - file: hýl_rudý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Carpodacus_erythrinus_20060623.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - hnědá
+    - křídla:
+      - béžová
+      - hnědá
+    - hruď:
+      - béžová
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - hnědá
+    fotky:
+    - file: hýl_rudý_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Weiblicher_Karmingimpel.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: pěvci
+velikost: kos

@@ -1,0 +1,79 @@
+dodatek: null
+jméno: Lyskonoh ploskozobý
+latinsky: Phalaropus fulicarius
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=18A1938091EEEA73
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=662
+  wiki: https://cs.wikipedia.org/wiki/Lyskonoh_ploskozob%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+      - žlutá
+    - hruď:
+      - bílá
+      - hnědá
+      - šedá
+    - ocas:
+      - černá
+      - hnědá
+      - žlutá
+    - nohy:
+      - černá
+      - růžová
+    - záda:
+      - bílá
+      - černá
+      - žlutá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: lyskonoh_ploskozobý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Phalaropus_fulicarius.jpg
+      zdroj: wikipedia
+    - file: lyskonoh_ploskozobý_samec_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Phalaropus_fulicarius_2.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+      - žlutá
+    - hruď:
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+      - žlutá
+    - nohy:
+      - černá
+      - žlutá
+    - záda:
+      - bílá
+      - černá
+      - žlutá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: lyskonoh_ploskozobý_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Phalaropus_fulicaria1.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: vodní
+velikost: vrána

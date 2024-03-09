@@ -1,0 +1,48 @@
+dodatek: Svatební šat je barevnější
+jméno: Jespák rezavý
+latinsky: Calidris canutus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B5CE8FAD18923A94
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=661
+  wiki: https://cs.wikipedia.org/wiki/Jesp%C3%A1k_rezav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - oranžová
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - oranžová
+    - hruď:
+      - bílá
+      - oranžová
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - oranžová
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: jespák_rezavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Red-Knot_(Calidris_canutus)_RWD2.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: vrána

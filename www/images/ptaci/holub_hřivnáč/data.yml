@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Holub hřivnáč
+latinsky: Columba palumbus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=760F307A30689D66
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=12
+  wiki: https://cs.wikipedia.org/wiki/Holub_h%C5%99ivn%C3%A1%C4%8D
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - šedá
+      - zelená
+    - křídla:
+      - bílá
+      - šedá
+    - hruď:
+      - fialová
+      - šedá
+    - ocas:
+      - černá
+      - šedá
+    - nohy:
+      - růžová
+    - záda:
+      - šedá
+    - zobák:
+      - červená
+      - žlutá
+    fotky:
+    - file: holub_hřivnáč.jpg
+      url: https://commons.wikimedia.org/wiki/File:Columba_palumbus_1_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: holubovití
+velikost: vrána

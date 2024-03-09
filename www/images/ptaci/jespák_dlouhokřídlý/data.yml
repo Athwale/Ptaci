@@ -1,0 +1,40 @@
+dodatek: null
+jméno: Jespák dlouhokřídlý
+latinsky: Calidris bairdii
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=1F1AD154DAE2E070
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Jesp%C3%A1k_dlouhok%C5%99%C3%ADdl%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: jespák_dlouhokřídlý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Calidris_bairdii,_Pillar_Point_Harbor,_California_1.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: hrdlička

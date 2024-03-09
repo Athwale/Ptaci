@@ -1,0 +1,70 @@
+dodatek: null
+jméno: Konopka obecná
+latinsky: Linaria cannabina
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=32635892A4EB874F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=101
+  wiki: https://cs.wikipedia.org/wiki/Konopka_obecn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - červená
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - oranžová
+    - hruď:
+      - béžová
+      - bílá
+      - červená
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - šedá
+    fotky:
+    - file: konopka_obecná.jpg
+      url: https://commons.wikimedia.org/wiki/File:Carduelis_cannabina_1_(Martin_Mecnarowski).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - hnědá
+      - šedá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - hnědá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - šedá
+    fotky:
+    - file: konopka_obecná_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Linotte_m%C3%A9lodieuse_Linaria_cannabina_femelle_aDSC_9268_%2851325394344%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: sýkorka

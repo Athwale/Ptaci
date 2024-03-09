@@ -1,0 +1,44 @@
+dodatek: Od všech ostatních druhů lindušek liší rezavým (v zimě až oranžově hnědým)
+  hrdlem, jehož barva může u samců zasahovat až do okolí oka.
+jméno: Linduška rudokrká
+latinsky: Anthus cervinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=319D044A667563CD
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=351
+  wiki: https://cs.wikipedia.org/wiki/Lindu%C5%A1ka_rudokrk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - béžová
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: linduška_rudokrká.jpg
+      url: https://commons.wikimedia.org/wiki/File:Anthus_cervinus2.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: sýkorka

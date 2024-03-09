@@ -1,0 +1,40 @@
+dodatek: null
+jméno: Hýl pouštní
+latinsky: Bucanetes githagineus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=8049F70788740F8F
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/H%C3%BDl_pou%C5%A1tn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - červená
+      - hnědá
+      - oranžová
+    fotky:
+    - file: hýl_pouštní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bucanetes_githagineus_-Salinas_de_Janubio,_Lanzarote,_Spain-8.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: kos

@@ -1,0 +1,48 @@
+dodatek: null
+jméno: Skřivan polní
+latinsky: Alauda arvensis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=ED2AC04E888EF9CF
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=18
+  wiki: https://cs.wikipedia.org/wiki/Sk%C5%99ivan_poln%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - hnědá
+      - oranžová
+    fotky:
+    - file: skřivan_polní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Skylark_(Alauda_arvensis)_by_Neil_Smith.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: kos

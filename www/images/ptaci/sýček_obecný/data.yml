@@ -1,0 +1,46 @@
+dodatek: null
+jméno: Sýček obecný
+latinsky: Athene noctua
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9A7B268C4EF6F803
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=123
+  wiki: https://cs.wikipedia.org/wiki/S%C3%BD%C4%8Dek_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - hnědá
+    - nohy:
+      - béžová
+      - hnědá
+    - záda:
+      - béžová
+      - bílá
+      - hnědá
+    - zobák:
+      - žlutá
+    fotky:
+    - file: sýček_obecný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Athene_noctua_(portrait).jpg
+      zdroj: wikipedia
+    - file: sýček_obecný_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Steinkauzflug.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: hrdlička

@@ -1,0 +1,40 @@
+dodatek: null
+jméno: Jespák malý
+latinsky: Calidris minuta
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9936FF4AFB430504
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=439
+  wiki: https://cs.wikipedia.org/wiki/Jesp%C3%A1k_mal%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - černá
+      - hnědá
+      - šedá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - hnědá
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: jespák_malý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Little_Stint_(Calidris_minuta).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: hrdlička

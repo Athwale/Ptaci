@@ -1,0 +1,81 @@
+dodatek: null
+jméno: Strnad cvrčivý
+latinsky: Emberiza cirlus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9AAB8C2174EFDF60
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=474
+  wiki: https://cs.wikipedia.org/wiki/Strnad_cvr%C4%8Div%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+      - žlutá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - béžová
+      - rezavá
+      - žlutá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+    - záda:
+      - černá
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+      - šedá
+    fotky:
+    - file: strnad_cvrčivý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Emberiza_cirlus_-Valencian_Community,_Spain_-male-8_(1).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+      - žlutá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+      - žlutá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+      - rezavá
+    - nohy:
+      - růžová
+    - záda:
+      - černá
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+      - šedá
+    fotky:
+    - file: strnad_cvrčivý_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Emberiza_cirlus_-Valencian_Community%2C_Spain_-female-8_%281%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: kos

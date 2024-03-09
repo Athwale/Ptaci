@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Kulík písečný
+latinsky: Charadrius hiaticula
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=EDA37B7C5D4A25ED
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=174
+  wiki: https://cs.wikipedia.org/wiki/Kul%C3%ADk_p%C3%ADse%C4%8Dn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - oranžová
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: kulík_písečný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Charadrius_hiaticula_-_Ringed-Plover_2.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: hrdlička

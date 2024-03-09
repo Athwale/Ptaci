@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Slavík tmavý
+latinsky: Luscinia luscinia
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=6EC667529FB53E43
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=533
+  wiki: https://cs.wikipedia.org/wiki/Slav%C3%ADk_tmav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - hnědá
+    - nohy:
+      - černá
+      - růžová
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: slavík_tmavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Nightingale_of_ancient_Uglich.JPG
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: kos

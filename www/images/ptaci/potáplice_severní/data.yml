@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Potáplice severní
+latinsky: Gavia arctica
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=CA5852BE6E617DBD
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=387
+  wiki: https://cs.wikipedia.org/wiki/Pot%C3%A1plice_severn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: potáplice_severní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Plongeon_arctique_nid.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kachna

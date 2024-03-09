@@ -1,0 +1,35 @@
+dodatek: null
+jméno: Racek černohlavý
+latinsky: Ichthyaetus melanocephalus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=052BFA8A77EED5AF
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=573
+  wiki: https://cs.wikipedia.org/wiki/Racek_%C4%8Dernohlav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - oranžová
+    - záda:
+      - bílá
+    - zobák:
+      - oranžová
+    fotky:
+    - file: racek_černohlavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Larus_melanocephalus_aka_Mediterranean_Gull_rare_guest_in_Sweden2.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: vrána

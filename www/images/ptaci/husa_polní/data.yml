@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Husa polní
+latinsky: Anser fabalis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BDB497A352D152DB
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=159
+  wiki: https://cs.wikipedia.org/wiki/Husa_poln%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+    - hruď:
+      - fialová
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - oranžová
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: husa_polní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Dy2.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: husa

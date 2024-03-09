@@ -1,0 +1,34 @@
+dodatek: null
+jméno: Čáp bílý
+latinsky: Ciconia ciconia
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=28825494A08AFE5A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=13
+  wiki: https://cs.wikipedia.org/wiki/%C4%8C%C3%A1p_b%C3%ADl%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - červená
+    - záda:
+      - bílá
+    - zobák:
+      - červená
+    fotky:
+    - file: čáp_bílý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Weißstorch_Walsrode_2014_02.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: husa

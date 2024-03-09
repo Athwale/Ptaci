@@ -1,0 +1,42 @@
+dodatek: null
+jméno: Ostříž lesní
+latinsky: Falco subbuteo
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=E91E287A2946B0C9
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=34
+  wiki: https://cs.wikipedia.org/wiki/Ost%C5%99%C3%AD%C5%BE_lesn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - žlutá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: ostříž_lesní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Eurasian_Hobby_(14574008925)_(cropped).jpg
+      zdroj: wikipedia
+    - file: ostříž_lesní_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Falco_subbuteo_flying.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: hrdlička

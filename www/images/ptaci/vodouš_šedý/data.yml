@@ -1,0 +1,47 @@
+dodatek: null
+jméno: Vodouš šedý
+latinsky: Tringa nebularia
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=18B415D28BBF934C
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=165
+  wiki: https://cs.wikipedia.org/wiki/Vodou%C5%A1_%C5%A1ed%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - šedá
+      - žlutá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - šedá
+    fotky:
+    - file: vodouš_šedý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Greenshank_cairns09.JPG
+      zdroj: wikipedia
+    - file: vodouš_šedý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Greenshank_%28Tringa_nebularia%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kachna

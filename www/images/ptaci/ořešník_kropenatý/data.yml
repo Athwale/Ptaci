@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Ořešník kropenatý
+latinsky: Nucifraga caryocatactes
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=76C74B102E7F401F
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=600
+  wiki: https://cs.wikipedia.org/wiki/O%C5%99e%C5%A1n%C3%ADk_kropenat%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: ořešník_kropenatý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Nucifraga_caryocatactes_Davos_1.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: hrdlička

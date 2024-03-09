@@ -1,0 +1,58 @@
+dodatek: null
+jméno: Bramborníček černohlavý
+latinsky: Saxicola rubicola
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0EA8F8B905405FB3
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=37
+  wiki: https://cs.wikipedia.org/wiki/Bramborn%C3%AD%C4%8Dek_%C4%8Dernohlav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+    - křídla:
+      - béžová
+      - černá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: bramborníček_černohlavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Malestonechatseaham.JPG
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - šedá
+    - křídla:
+      - bílá
+      - šedá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+      - šedá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - šedá
+    - zobák:
+      - černá
+    fotky: []
+    kropenatost: true
+typ: pěvci
+velikost: sýkorka

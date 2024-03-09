@@ -1,0 +1,81 @@
+dodatek: null
+jméno: Poštolka obecná
+latinsky: Falco tinnunculus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=2DAB45B833D396A3
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=7
+  wiki: https://cs.wikipedia.org/wiki/Po%C5%A1tolka_obecn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - rezavá
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - rezavá
+    - hruď:
+      - béžová
+      - černá
+    - ocas:
+      - bílá
+      - černá
+      - šedá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - černá
+      - rezavá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: poštolka_obecná.jpg
+      url: https://commons.wikimedia.org/wiki/File:Kestrel_with_prey.jpg
+      zdroj: wikipedia
+    - file: poštolka_obecná_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Common_kestrel_falco_tinnunculus.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+      - rezavá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - rezavá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: poštolka_obecná_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Common_Kestrel_Falco_tinnunculus_Tal_Chappar_Rajasthan_India_14.02.2013.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: dravci
+velikost: hrdlička

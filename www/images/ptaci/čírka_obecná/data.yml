@@ -1,0 +1,68 @@
+dodatek: null
+jméno: Čírka obecná
+latinsky: Anas crecca
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BC6C3CCE5C1B5D9B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=176
+  wiki: https://cs.wikipedia.org/wiki/%C4%8C%C3%ADrka_obecn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+      - zelená
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+      - zelená
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+    - nohy:
+      - hnědá
+    - záda:
+      - bílá
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: čírka_obecná.jpg
+      url: https://commons.wikimedia.org/wiki/File:Corhwyaden.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - zelená
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - hnědá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky: []
+    kropenatost: true
+typ: vodní
+velikost: kachna

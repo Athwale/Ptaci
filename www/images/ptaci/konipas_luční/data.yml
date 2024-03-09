@@ -1,0 +1,66 @@
+dodatek: null
+jméno: Konipas luční
+latinsky: Motacilla flava
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=5983D6776C4C4F85
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=8
+  wiki: https://cs.wikipedia.org/wiki/Konipas_lu%C4%8Dn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - šedá
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+      - žlutá
+    - hruď:
+      - žlutá
+    - ocas:
+      - bílá
+      - černá
+      - žlutá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - zelená
+      - žlutá
+    - zobák:
+      - černá
+    fotky:
+    - file: konipas_luční.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pliszka_żółta_by_mmolek.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: konipas_luční_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Motacilla.flava2.-.lindsey.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: pěvci
+velikost: sýkorka

@@ -1,0 +1,36 @@
+dodatek: null
+jméno: Berneška rudokrká
+latinsky: Branta ruficollis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=0D280B3F11B099B2
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Berne%C5%A1ka_rudokrk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - šedá
+    - záda:
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: berneška_rudokrká.jpg
+      url: https://commons.wikimedia.org/wiki/File:Colourful_bird_(2581325352)_(cropped).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kachna

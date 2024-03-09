@@ -1,0 +1,38 @@
+dodatek: Na břiše má černé skvrny
+jméno: Husa běločelá
+latinsky: Anser albifrons
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=466E9077BE220EBE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=170
+  wiki: https://cs.wikipedia.org/wiki/Husa_b%C4%9Blo%C4%8Del%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - oranžová
+    - záda:
+      - hnědá
+    - zobák:
+      - oranžová
+      - žlutá
+    fotky:
+    - file: husa_běločelá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Anser_albifrons_30050.JPG
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: husa

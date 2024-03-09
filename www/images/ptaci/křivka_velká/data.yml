@@ -1,0 +1,78 @@
+dodatek: Samci jsou červení nebo oranžoví a samice zelené nebo žluté ale zbarvení
+  je proměnlivé.
+jméno: Křivka velká
+latinsky: Loxia pytyopsittacus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=CAAD3E23531C26C5
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=632
+  wiki: https://cs.wikipedia.org/wiki/K%C5%99ivka_velk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - červená
+      - oranžová
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - červená
+      - oranžová
+    - ocas:
+      - bílá
+      - černá
+      - červená
+      - oranžová
+    - nohy:
+      - hnědá
+    - záda:
+      - červená
+      - hnědá
+      - oranžová
+    - zobák:
+      - bílá
+      - černá
+      - hnědá
+    fotky:
+    - file: křivka_velká.jpg
+      url: https://commons.wikimedia.org/wiki/File:Loxia_pytyopsittacus,_male.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - šedá
+      - zelená
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+      - zelená
+      - žlutá
+    - hruď:
+      - šedá
+      - zelená
+      - žlutá
+    - ocas:
+      - bílá
+      - černá
+      - zelená
+      - žlutá
+    - nohy:
+      - černá
+    - záda:
+      - šedá
+      - zelená
+      - žlutá
+    - zobák:
+      - bílá
+      - černá
+    fotky:
+    - file: křivka_velká_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Furukorsnebb.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: kos

@@ -1,0 +1,41 @@
+dodatek: Samice má méně výraznou skvrnu na hrudi
+jméno: Kos horský
+latinsky: Turdus torquatus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=CE71B4FF837F276A
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=251
+  wiki: https://cs.wikipedia.org/wiki/Kos_horsk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - bílá
+      - žlutá
+    fotky:
+    - file: kos_horský.jpg
+      url: https://commons.wikimedia.org/wiki/File:Ring_Ouzel.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: kos

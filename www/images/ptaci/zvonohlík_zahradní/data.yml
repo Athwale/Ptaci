@@ -1,0 +1,72 @@
+dodatek: null
+jméno: Zvonohlík zahradní
+latinsky: Serinus serinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=C3227709455B9AFF
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=100
+  wiki: https://cs.wikipedia.org/wiki/Zvonohl%C3%ADk_zahradn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - žlutá
+    - hruď:
+      - černá
+      - žlutá
+    - ocas:
+      - bílá
+      - černá
+      - žlutá
+    - nohy:
+      - růžová
+    - záda:
+      - černá
+      - žlutá
+    - zobák:
+      - černá
+    fotky:
+    - file: zvonohlík_zahradní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Serin_cini_mars.JPG
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - černá
+      - hnědá
+      - rezavá
+    - křídla:
+      - béžová
+      - černá
+      - rezavá
+    - hruď:
+      - béžová
+      - bílá
+      - rezavá
+    - ocas:
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - růžová
+    - záda:
+      - bílá
+      - černá
+      - rezavá
+    - zobák:
+      - černá
+      - hnědá
+    fotky:
+    - file: zvonohlík_zahradní_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:European_serin_%28Serinus_serinus%29_female.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: sýkorka

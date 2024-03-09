@@ -1,0 +1,44 @@
+dodatek: Existuje světlá forma
+jméno: Orel nejmenší
+latinsky: Hieraaetus pennatus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=4B8CC2853542FFED
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=571
+  wiki: https://cs.wikipedia.org/wiki/Orel_nejmen%C5%A1%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: orel_nejmenší.jpg
+      url: https://commons.wikimedia.org/wiki/File:Booted_Eagle_Hieraaetus_pennatus_by_Dr._Raju_Kasambe_DSCN2245_(2).jpg
+      zdroj: wikipedia
+    - file: orel_nejmenší_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Booted_Eagle_I_IMG_3234.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: kachna

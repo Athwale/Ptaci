@@ -1,0 +1,46 @@
+dodatek: null
+jméno: Břehouš rudý
+latinsky: Limosa lapponica
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=9A684C997C1AF1BA
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=624
+  wiki: https://cs.wikipedia.org/wiki/B%C5%99ehou%C5%A1_rud%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - béžová
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - růžová
+    fotky:
+    - file: břehouš_rudý.jpg
+      url: https://commons.wikimedia.org/wiki/File:BartailedGodwit24.jpg
+      zdroj: wikipedia
+    - file: břehouš_rudý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Limosa_lapponica_2_-_Taren_Point.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kachna

@@ -1,0 +1,40 @@
+dodatek: null
+jméno: Ťuhýk menší
+latinsky: Lanius minor
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=8852337B06E8A14E
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=66
+  wiki: https://cs.wikipedia.org/wiki/%C5%A4uh%C3%BDk_men%C5%A1%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+      - rezavá
+      - růžová
+    - ocas:
+      - bílá
+      - černá
+      - šedá
+    - nohy:
+      - černá
+    - záda:
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: ťuhýk_menší.jpg
+      url: https://commons.wikimedia.org/wiki/File:BG_Lanius_Minor.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: kos

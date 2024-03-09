@@ -1,0 +1,40 @@
+dodatek: null
+jméno: Straka obecná
+latinsky: Pica pica
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=FBBBA943D3AB65E8
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=104
+  wiki: https://cs.wikipedia.org/wiki/Straka_obecn%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+    - křídla:
+      - bílá
+      - černá
+      - modrá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - černá
+      - zelená
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: straka_obecná.jpg
+      url: https://commons.wikimedia.org/wiki/File:Eurasian_magpie_2022_05_03.jpg
+      zdroj: wikipedia
+    - file: straka_obecná_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Elster_wikipedia2.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: vrána

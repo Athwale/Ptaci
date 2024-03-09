@@ -1,0 +1,79 @@
+dodatek: Má světlé drápy.
+jméno: Poštolka jižní
+latinsky: Falco naumanni
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BECA271F14F77BEE
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=460
+  wiki: https://cs.wikipedia.org/wiki/Po%C5%A1tolka_ji%C5%BEn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - modrá
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - modrá
+      - rezavá
+      - šedá
+    - hruď:
+      - rezavá
+    - ocas:
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - žlutá
+    - záda:
+      - rezavá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: poštolka_jižní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Male_and_female_Lesser_Kestrels.jpg
+      zdroj: wikipedia
+    - file: poštolka_jižní_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Lesser_Kestrel_%28Falco_naumanni%29_couple_%2812819743614%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - hruď:
+      - béžová
+      - hnědá
+      - rezavá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: poštolka_jižní_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Falco_naumanni.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: dravci
+velikost: hrdlička

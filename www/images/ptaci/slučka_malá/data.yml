@@ -1,0 +1,52 @@
+dodatek: null
+jméno: Slučka malá
+latinsky: Lymnocryptes minimus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=1A15F0C6B4948C52
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=426
+  wiki: https://cs.wikipedia.org/wiki/Slu%C4%8Dka_mal%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - rezavá
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+      - šedá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - ocas:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+      - rezavá
+    - zobák:
+      - černá
+    fotky:
+    - file: slučka_malá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Lymnocryptes_minimus_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kos

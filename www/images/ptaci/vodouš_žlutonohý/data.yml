@@ -1,0 +1,44 @@
+dodatek: null
+jméno: Vodouš žlutonohý
+latinsky: Tringa flavipes
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=2C7A2673444BECF0
+  více fotek: ''
+  wiki: https://en.wikipedia.org/wiki/Lesser_yellowlegs
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+      - rezavá
+    - křídla:
+      - bílá
+      - hnědá
+      - rezavá
+    - hruď:
+      - bílá
+      - hnědá
+      - rezavá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: vodouš_žlutonohý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Lesser_Yellowlegs.jpg
+      zdroj: wikipedia
+    - file: vodouš_žlutonohý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Lesser_yellowlegs_at_JBWR_%2830664%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kachna

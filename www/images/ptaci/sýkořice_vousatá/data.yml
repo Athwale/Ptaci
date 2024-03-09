@@ -1,0 +1,69 @@
+dodatek: null
+jméno: Sýkořice vousatá
+latinsky: Panurus biarmicus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=7D59F91D9548DCE7
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=10
+  wiki: https://cs.wikipedia.org/wiki/S%C3%BDko%C5%99ice_vousat%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - rezavá
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - černá
+    - záda:
+      - rezavá
+    - zobák:
+      - oranžová
+      - žlutá
+    fotky:
+    - file: sýkořice_vousatá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Panurus_biarmicus_2_(Martin_Mecnarowski).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - rezavá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - rezavá
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - bílá
+      - rezavá
+    - nohy:
+      - černá
+    - záda:
+      - černá
+      - rezavá
+    - zobák:
+      - oranžová
+      - žlutá
+    fotky:
+    - file: sýkořice_vousatá_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Panurus_biarmicus_1_%28Martin_Mecnarowski%29.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: pěvci
+velikost: sýkorka

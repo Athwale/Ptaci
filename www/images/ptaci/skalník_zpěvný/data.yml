@@ -1,0 +1,63 @@
+dodatek: null
+jméno: Skalník zpěvný
+latinsky: Monticola saxatilis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=736D38E7F9967842
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=472
+  wiki: https://cs.wikipedia.org/wiki/Skaln%C3%ADk_zp%C4%9Bvn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+      - modrá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - rezavá
+    - ocas:
+      - hnědá
+      - rezavá
+    - nohy:
+      - černá
+      - hnědá
+    - záda:
+      - bílá
+      - modrá
+    - zobák:
+      - černá
+    fotky:
+    - file: skalník_zpěvný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Monsax.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - béžová
+      - hnědá
+    - hruď:
+      - béžová
+      - hnědá
+    - ocas:
+      - béžová
+      - hnědá
+      - rezavá
+    - nohy:
+      - černá
+      - hnědá
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - černá
+      - hnědá
+    fotky: []
+    kropenatost: true
+typ: pěvci
+velikost: kos

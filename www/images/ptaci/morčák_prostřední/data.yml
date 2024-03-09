@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Morčák prostřední
+latinsky: Mergus serrator
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=8DB64266A42FC19B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=488
+  wiki: https://cs.wikipedia.org/wiki/Mor%C4%8D%C3%A1k_prost%C5%99edn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - červená
+    - záda:
+      - černá
+    - zobák:
+      - červená
+      - oranžová
+    fotky:
+    - file: morčák_prostřední.jpg
+      url: https://commons.wikimedia.org/wiki/File:Mergus_serrator.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: kachna

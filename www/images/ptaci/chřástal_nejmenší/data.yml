@@ -1,0 +1,39 @@
+dodatek: null
+jméno: Chřástal nejmenší
+latinsky: Zapornia pusilla
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=34D5B04DE53894FF
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Ch%C5%99%C3%A1stal_nejmen%C5%A1%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - hnědá
+      - šedá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - žlutá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - žlutá
+    fotky:
+    - file: chřástal_nejmenší.jpg
+      url: https://commons.wikimedia.org/wiki/File:Baillon's_crake.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: sýkorka

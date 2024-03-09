@@ -1,0 +1,33 @@
+dodatek: null
+jméno: Kavče žlutozobé
+latinsky: Pyrrhocorax graculus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=45B512E2ECC3DB1D
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=419
+  wiki: https://cs.wikipedia.org/wiki/Kav%C4%8De_%C5%BElutozob%C3%A9
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+    - křídla:
+      - černá
+    - hruď:
+      - černá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+      - oranžová
+    - záda:
+      - černá
+    - zobák:
+      - žlutá
+    fotky:
+    - file: kavče_žlutozobé.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pyrrhocorax-graculus-0020-a.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: vrána

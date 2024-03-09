@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Buřnák lední
+latinsky: Fulmarus glacialis
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=049D9AEA4AFBFDFA
+  více fotek: ''
+  wiki: https://en.wikipedia.org/wiki/Northern_fulmar
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+      - šedá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - šedá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: buřnák_lední.jpg
+      url: https://commons.wikimedia.org/wiki/File:Northern-Fulmar2_cropped.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: hrdlička

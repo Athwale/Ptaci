@@ -1,0 +1,36 @@
+dodatek: null
+jméno: Bělořit šedý
+latinsky: Oenanthe oenanthe
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=DF526047637004DD
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=89
+  wiki: https://cs.wikipedia.org/wiki/B%C4%9Blo%C5%99it_%C5%A1ed%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - šedá
+    - křídla:
+      - černá
+      - šedá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: bělořit_šedý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Oenanthe_oenanthe_01_II.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pěvci
+velikost: sýkorka

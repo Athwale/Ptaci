@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Ústřičník velký
+latinsky: Haematopus ostralegus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=ED66316522B99A30
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=347
+  wiki: https://cs.wikipedia.org/wiki/%C3%9Ast%C5%99i%C4%8Dn%C3%ADk_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - oranžová
+      - růžová
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - oranžová
+    fotky:
+    - file: ústřičník_velký.jpg
+      url: https://commons.wikimedia.org/wiki/File:Haematopus_ostralegus_He.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: vrána

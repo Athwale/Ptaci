@@ -1,0 +1,46 @@
+dodatek: null
+jméno: Sovice sněžní
+latinsky: Bubo scandiacus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=5B23B360E7DEC4A9
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Sovice_sn%C4%9B%C5%BEn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+      - hnědá
+    - ocas:
+      - bílá
+      - černá
+      - hnědá
+    - nohy:
+      - bílá
+    - záda:
+      - bílá
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: sovice_sněžní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Snowy_owl_(Bubo_scandiacus),_Vlieland,_Netherlands.jpg
+      zdroj: wikipedia
+    - file: sovice_sněžní_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Harfang_en_vol_2.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: kachna

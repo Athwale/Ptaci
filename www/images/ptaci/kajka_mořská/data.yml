@@ -1,0 +1,61 @@
+dodatek: null
+jméno: Kajka mořská
+latinsky: Somateria mollissima
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B77377EEB852D0AF
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=230
+  wiki: https://cs.wikipedia.org/wiki/Kajka_mo%C5%99sk%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - černá
+    - nohy:
+      - žlutá
+    - záda:
+      - bílá
+    - zobák:
+      - bílá
+      - oranžová
+      - žlutá
+    fotky:
+    - file: kajka_mořská.jpg
+      url: https://commons.wikimedia.org/wiki/File:Somateria_mollissima_male..jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - černá
+      - hnědá
+    - křídla:
+      - černá
+      - hnědá
+    - hruď:
+      - černá
+      - hnědá
+    - ocas:
+      - černá
+      - oranžová
+    - nohy:
+      - žlutá
+    - záda:
+      - černá
+      - hnědá
+    - zobák:
+      - hnědá
+      - žlutá
+    fotky: []
+    kropenatost: true
+typ: vodní
+velikost: husa

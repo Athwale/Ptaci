@@ -1,0 +1,37 @@
+dodatek: null
+jméno: Sýkora lužní
+latinsky: Poecile montanus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F963401E5AFA01DC
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=451
+  wiki: https://cs.wikipedia.org/wiki/S%C3%BDkora_lu%C5%BEn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: sýkora_lužní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Parus_atricapillus_1_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: sýkorka

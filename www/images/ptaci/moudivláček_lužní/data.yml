@@ -1,0 +1,40 @@
+dodatek: null
+jméno: Moudivláček lužní
+latinsky: Remiz pendulinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F81EB04951AA84BB
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=299
+  wiki: https://cs.wikipedia.org/wiki/Moudivl%C3%A1%C4%8Dek_lu%C5%BEn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - béžová
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - béžová
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: moudivláček_lužní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Remiz_pendulinus_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: sýkorka

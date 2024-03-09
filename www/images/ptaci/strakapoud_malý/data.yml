@@ -1,0 +1,63 @@
+dodatek: null
+jméno: Strakapoud malý
+latinsky: Dryobates minor
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=AB2F4BC0659B6630
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=153
+  wiki: https://cs.wikipedia.org/wiki/Strakapoud_mal%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - červená
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: strakapoud_malý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Dendrocopos_minor_291108.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - béžová
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky: []
+    kropenatost: true
+typ: stromoví
+velikost: sýkorka

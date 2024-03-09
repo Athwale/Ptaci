@@ -1,0 +1,35 @@
+dodatek: null
+jméno: Racek bělohlavý
+latinsky: Larus cachinnans
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=93CA037F6FFE9FDB
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=152
+  wiki: https://cs.wikipedia.org/wiki/Racek_b%C4%9Blohlav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+    - nohy:
+      - žlutá
+    - záda:
+      - šedá
+    - zobák:
+      - červená
+      - žlutá
+    fotky:
+    - file: racek_bělohlavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Larus_cachinnans_3_(Marek_Szczepanek).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: vrána

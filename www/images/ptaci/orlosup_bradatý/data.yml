@@ -1,0 +1,41 @@
+dodatek: null
+jméno: Orlosup bradatý
+latinsky: Gypaetus barbatus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=81DB7410BE70406B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=547
+  wiki: https://cs.wikipedia.org/wiki/Orlosup_bradat%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - rezavá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+      - rezavá
+    - hruď:
+      - bílá
+      - rezavá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - béžová
+    - záda:
+      - bílá
+      - černá
+      - rezavá
+    - zobák:
+      - černá
+    fotky:
+    - file: orlosup_bradatý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bartgeier_Gypaetus_barbatus_front_Richard_Bartz.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: orel

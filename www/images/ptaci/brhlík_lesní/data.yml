@@ -1,0 +1,35 @@
+dodatek: null
+jméno: Brhlík lesní
+latinsky: Sitta europaea
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=3C468678E0958FC6
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=264
+  wiki: https://cs.wikipedia.org/wiki/Brhl%C3%ADk_lesn%C3%AD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - šedá
+    - křídla:
+      - šedá
+    - hruď:
+      - béžová
+    - ocas:
+      - hnědá
+      - šedá
+    - nohy:
+      - žlutá
+    - záda:
+      - šedá
+    - zobák:
+      - černá
+    fotky:
+    - file: brhlík_lesní.jpg
+      url: https://commons.wikimedia.org/wiki/File:Eurasian_Nuthatch_(Sitta_europaea),_Parc_de_Woluwé,_Brussels_(30434538674).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: sýkorka

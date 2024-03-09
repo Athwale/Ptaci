@@ -1,0 +1,46 @@
+dodatek: null
+jméno: Sokol stěhovavý
+latinsky: Falco peregrinus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=47E5840880DC9FA8
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=641
+  wiki: https://cs.wikipedia.org/wiki/Sokol_st%C4%9Bhovav%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - šedá
+    - křídla:
+      - bílá
+      - rezavá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+      - rezavá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - žlutá
+    - záda:
+      - bílá
+      - černá
+      - rezavá
+    - zobák:
+      - černá
+      - šedá
+      - žlutá
+    fotky:
+    - file: sokol_stěhovavý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Falco_peregrinus_-_01.jpg
+      zdroj: wikipedia
+    - file: sokol_stěhovavý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Peregrine_Falcon_%2844754134885%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: dravci
+velikost: vrána

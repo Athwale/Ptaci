@@ -1,0 +1,42 @@
+dodatek: null
+jméno: Stepokur kirgizský
+latinsky: Syrrhaptes paradoxus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=BDCB55F1196CAC6A
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Stepokur_kirgizsk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+      - rezavá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - šedá
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - béžová
+    - záda:
+      - béžová
+      - černá
+      - hnědá
+    - zobák:
+      - černá
+      - šedá
+    fotky:
+    - file: stepokur_kirgizský.jpg
+      url: https://commons.wikimedia.org/wiki/File:Syrrhaptes_paradoxus_(Ján_Svetlík).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: pouštní
+velikost: bažant

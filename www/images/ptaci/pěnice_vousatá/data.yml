@@ -1,0 +1,38 @@
+dodatek: null
+jméno: Pěnice vousatá
+latinsky: Curruca cantillans
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B13D68B156442119
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=500
+  wiki: https://en.wikipedia.org/wiki/Eastern_subalpine_warbler
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - rezavá
+      - šedá
+    - křídla:
+      - béžová
+      - hnědá
+      - šedá
+    - hruď:
+      - rezavá
+    - ocas:
+      - hnědá
+      - šedá
+    - nohy:
+      - oranžová
+    - záda:
+      - šedá
+    - zobák:
+      - černá
+      - žlutá
+    fotky:
+    - file: pěnice_vousatá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Sylvia_cantillans.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: pěvci
+velikost: kos

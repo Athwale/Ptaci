@@ -1,0 +1,41 @@
+dodatek: null
+jméno: Slípka modrá
+latinsky: Porphyrio porphyrio
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=B6838E0C27EAD078
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=491
+  wiki: https://cs.wikipedia.org/wiki/Sl%C3%ADpka_modr%C3%A1
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - červená
+      - modrá
+      - tyrkysová
+    - křídla:
+      - modrá
+      - tyrkysová
+    - hruď:
+      - modrá
+      - tyrkysová
+    - ocas:
+      - bílá
+      - černá
+      - modrá
+    - nohy:
+      - červená
+      - růžová
+    - záda:
+      - modrá
+      - tyrkysová
+    - zobák:
+      - červená
+      - hnědá
+    fotky:
+    - file: slípka_modrá.jpg
+      url: https://commons.wikimedia.org/wiki/File:Purpurhuhn_(Pophyrio_porphyrio).jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice: []
+typ: vodní
+velikost: bažant

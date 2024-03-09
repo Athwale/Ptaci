@@ -1,0 +1,69 @@
+dodatek: null
+jméno: Morčák malý
+latinsky: Mergellus albellus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=F1F520368CC95F88
+  více fotek: ''
+  wiki: https://cs.wikipedia.org/wiki/Mor%C4%8D%C3%A1k_mal%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+    - ocas:
+      - bílá
+      - černá
+      - šedá
+    - nohy:
+      - šedá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - šedá
+    fotky:
+    - file: morčák_malý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Smew.both.arp.600pix.jpg
+      zdroj: wikipedia
+    - file: morčák_malý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Smew_RWD2.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+      - šedá
+    - ocas:
+      - bílá
+      - černá
+      - šedá
+    - nohy:
+      - šedá
+    - záda:
+      - černá
+      - šedá
+    - zobák:
+      - šedá
+    fotky:
+    - file: morčák_malý_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Smew_RWD4.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: vodní
+velikost: kachna

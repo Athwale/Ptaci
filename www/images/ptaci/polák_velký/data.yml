@@ -1,0 +1,57 @@
+dodatek: null
+jméno: Polák velký
+latinsky: Aythya ferina
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A96692E0C9F7508B
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=121
+  wiki: https://cs.wikipedia.org/wiki/Pol%C3%A1k_velk%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - černá
+    - ocas:
+      - černá
+    - nohy:
+      - černá
+      - hnědá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - bílá
+      - černá
+      - modrá
+    fotky:
+    - file: polák_velký.jpg
+      url: https://commons.wikimedia.org/wiki/File:Common_Pochard_Aythya_ferina_Male_by_Dr._Raju_Kasambe_DSCN9777_(1).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - béžová
+      - hnědá
+    - hruď:
+      - hnědá
+    - ocas:
+      - hnědá
+    - nohy:
+      - černá
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+    fotky: []
+    kropenatost: true
+typ: vodní
+velikost: kachna

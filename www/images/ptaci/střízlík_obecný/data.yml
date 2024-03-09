@@ -1,0 +1,72 @@
+dodatek: null
+jméno: Střízlík obecný
+latinsky: Troglodytes troglodytes
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=AF700208E4339572
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=136
+  wiki: https://cs.wikipedia.org/wiki/St%C5%99%C3%ADzl%C3%ADk_obecn%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - hnědá
+    - ocas:
+      - béžová
+      - hnědá
+      - rezavá
+    - nohy:
+      - béžová
+      - oranžová
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+      - žlutá
+    fotky:
+    - file: střízlík_obecný.jpg
+      url: https://commons.wikimedia.org/wiki/File:Крапивник_-_орешек_(Troglodytes_troglodytes),_Битцевский_лес.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - hnědá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - hnědá
+    - ocas:
+      - béžová
+      - hnědá
+      - rezavá
+    - nohy:
+      - béžová
+      - oranžová
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+      - žlutá
+    fotky:
+    - file: střízlík_obecný_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Zaunkoenig_Futter_01.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: pěvci
+velikost: sýkorka

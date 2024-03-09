@@ -1,0 +1,65 @@
+dodatek: null
+jméno: Datlík tříprstý
+latinsky: Picoides tridactylus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=05B8A4F150564A49
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=417
+  wiki: https://cs.wikipedia.org/wiki/Datl%C3%ADk_t%C5%99%C3%ADprst%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: datlík_tříprstý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Three-toed_Woodpecker_-_Finlandia_0005_(3).jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+      - šedá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - bílá
+      - černá
+    fotky:
+    - file: datlík_tříprstý_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Picoides_tridactylus_%28Armandas_Naud%C5%BEius%29.jpg
+      zdroj: wikipedia
+    kropenatost: true
+typ: stromoví
+velikost: hrdlička

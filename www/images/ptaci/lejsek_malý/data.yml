@@ -1,0 +1,62 @@
+dodatek: Samice a mladí ptáci nemají na hlavě ani šedou ani červenou barvu.
+jméno: Lejsek malý
+latinsky: Ficedula parva
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=6A3CA06B2496B003
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=418
+  wiki: https://cs.wikipedia.org/wiki/Lejsek_mal%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - hnědá
+      - oranžová
+      - šedá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - oranžová
+    - ocas:
+      - bílá
+      - černá
+    - nohy:
+      - černá
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - hnědá
+    fotky:
+    - file: lejsek_malý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Ficedula_parva.jpg
+      zdroj: wikipedia
+    kropenatost: false
+  samice:
+    barvy:
+    - hlava:
+      - hnědá
+    - křídla:
+      - bílá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - černá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+      - oranžová
+    fotky:
+    - file: lejsek_malý_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Red-breasted_Flycatcher_%28Ficedula_parva%29.jpg
+      zdroj: wikipedia
+    kropenatost: false
+typ: pěvci
+velikost: sýkorka

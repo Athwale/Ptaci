@@ -1,0 +1,39 @@
+dodatek: null
+jméno: Vodouš kropenatý
+latinsky: Tringa ochropus
+odkazy:
+  celosvětová databáze: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A7B17EFC92B53D29
+  více fotek: http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=367
+  wiki: https://cs.wikipedia.org/wiki/Vodou%C5%A1_kropenat%C3%BD
+popis:
+  samec:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+    - křídla:
+      - bílá
+      - černá
+      - hnědá
+    - hruď:
+      - bílá
+      - hnědá
+    - ocas:
+      - bílá
+      - hnědá
+    - nohy:
+      - zelená
+      - žlutá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: vodouš_kropenatý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Green_Sandpiper_(Tringa_ochropus)-_In_Breeding_plumage_at_Bharatpur_I_IMG_5533.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice: []
+typ: vodní
+velikost: vrána
