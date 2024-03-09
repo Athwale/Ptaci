@@ -456,8 +456,8 @@ output {
 
 .birdCard h6, h5 {
     display: block;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .birdCard img {
