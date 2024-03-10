@@ -1,208 +1,958 @@
 <!DOCTYPE html>
-<html lang="cs"><head>
-    <title>Vyhledávač českého ptactva</title>
-    <meta charset="utf-8"/>
-    <meta content="Whitebear" name="author"/>
-    <meta content="Vyhledávač českého ptactva pro lajky na základě barevných znaků, obsahuje 433 českých druhů ptáků." name="description"/>
-    <meta content="vyhledávač, ptactva, čeští, ptáci, ornitologie" name="keywords"/>
-    <meta content="index,follow" name="robots"/>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
-    <link href="styles.css" rel="stylesheet"/>
-    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+<html lang="cs">
+ <head>
+  <title>
+   Vyhledávač českého ptactva
+  </title>
+  <meta charset="utf-8"/>
+  <meta content="Whitebear" name="author"/>
+  <meta content="Vyhledávač českého ptactva pro lajky na základě barevných znaků, obsahuje 433 českých druhů ptáků." name="description"/>
+  <meta content="vyhledávač, ptactva, čeští, ptáci, ornitologie" name="keywords"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <link href="favicon.ico" rel="icon" type="image/x-icon"/>
+  <link href="styles.css" rel="stylesheet"/>
+  <script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
             ga('create', 'UA-76854841-1', 'auto');
-            ga('send', 'pageview');</script>
-</head>
-<body>
-<a class="skip" href="#top" title="Přejít na obsah">Přejít na obsah</a>
-<header>
-    <figure>
-        <figcaption>Vyhledávač českého ptactva</figcaption>
-        <a href="index.html" title="Hlavní strana"><img alt="Nadpis whitebear" height="42" src="images/logo-nadpis.png" width="152"/></a>
-        <h1 id="heading">Vyhledávač českého ptactva</h1>
-    </figure>
-</header>
-<nav>
-    <a class="menu" href="index.html" id="active" title="Zpět">Zpět na white-bear</a>
-</nav>
-<main id="birdPage" class="center">
-    <menu id="birdFilter">
-        <h2>Filtr</h2>
-        <div class="menuPart">
-            <h3>Zobák</h3>
-            <form>
-                <input type="checkbox" id="červená" name="červená_h" value="červená"><label for="červená_h">červená</label><br>
-                <input type="checkbox" id="modrá" name="modrá_h" value="modrá"><label for="modrá_h">modrá</label><br>
-                <input type="checkbox" id="zelená" name="zelená_h" value="zelená"><label for="zelená_h">zelená</label><br>
-                <input type="checkbox" id="černá" name="černá_h" value="černá"><label for="černá_h">černá</label><br>
-                <input type="checkbox" id="hnědá" name="hnědá_h" value="hnědá"><label for="hnědá_h">hnědá</label><br>
-            </form>
-        </div>
-        <div class="menuPart">
-            <h3>Hlava</h3>
-            <form>
-                <input type="checkbox" id="červená" name="červená_h" value="červená"><label for="červená_h">červená</label><br>
-                <input type="checkbox" id="modrá" name="modrá_h" value="modrá"><label for="modrá_h">modrá</label><br>
-                <input type="checkbox" id="zelená" name="zelená_h" value="zelená"><label for="zelená_h">zelená</label><br>
-                <input type="checkbox" id="černá" name="černá_h" value="černá"><label for="černá_h">černá</label><br>
-                <input type="checkbox" id="hnědá" name="hnědá_h" value="hnědá"><label for="hnědá_h">hnědá</label><br>
-            </form>
-        </div>
-        <div class="menuPart">
-            <h3>Hruď</h3>
-            <form>
-                <input type="checkbox" id="červená" name="červená_h" value="červená"><label for="červená_h">červená</label><br>
-                <input type="checkbox" id="modrá" name="modrá_h" value="modrá"><label for="modrá_h">modrá</label><br>
-                <input type="checkbox" id="zelená" name="zelená_h" value="zelená"><label for="zelená_h">zelená</label><br>
-                <input type="checkbox" id="černá" name="černá_h" value="černá"><label for="černá_h">černá</label><br>
-                <input type="checkbox" id="hnědá" name="hnědá_h" value="hnědá"><label for="hnědá_h">hnědá</label><br>
-            </form>
-        </div>
-        <div class="menuPart">
-            <h3>Křídla</h3>
-            <form>
-                <input type="checkbox" id="červená" name="červená_h" value="červená"><label for="červená_h">červená</label><br>
-                <input type="checkbox" id="modrá" name="modrá_h" value="modrá"><label for="modrá_h">modrá</label><br>
-                <input type="checkbox" id="zelená" name="zelená_h" value="zelená"><label for="zelená_h">zelená</label><br>
-                <input type="checkbox" id="černá" name="černá_h" value="černá"><label for="černá_h">černá</label><br>
-                <input type="checkbox" id="hnědá" name="hnědá_h" value="hnědá"><label for="hnědá_h">hnědá</label><br>
-            </form>
-        </div>
-        <div class="menuPart">
-            <h3>Záda</h3>
-            <form>
-                <input type="checkbox" id="červená" name="červená_h" value="červená"><label for="červená_h">červená</label><br>
-                <input type="checkbox" id="modrá" name="modrá_h" value="modrá"><label for="modrá_h">modrá</label><br>
-                <input type="checkbox" id="zelená" name="zelená_h" value="zelená"><label for="zelená_h">zelená</label><br>
-                <input type="checkbox" id="černá" name="černá_h" value="černá"><label for="černá_h">černá</label><br>
-                <input type="checkbox" id="hnědá" name="hnědá_h" value="hnědá"><label for="hnědá_h">hnědá</label><br>
-            </form>
-        </div>
-        <div class="menuPart">
-            <h3>Ocas</h3>
-            <form>
-                <input type="checkbox" id="červená" name="červená_h" value="červená"><label for="červená_h">červená</label><br>
-                <input type="checkbox" id="modrá" name="modrá_h" value="modrá"><label for="modrá_h">modrá</label><br>
-                <input type="checkbox" id="zelená" name="zelená_h" value="zelená"><label for="zelená_h">zelená</label><br>
-                <input type="checkbox" id="černá" name="černá_h" value="černá"><label for="černá_h">černá</label><br>
-                <input type="checkbox" id="hnědá" name="hnědá_h" value="hnědá"><label for="hnědá_h">hnědá</label><br>
-                <input type="checkbox" id="fialová" name="fialová_h" value="fialová"><label for="fialová_h">fialová</label><br>
-            </form>
-        </div>
-        <div class="menuPart">
-            <h3>Nohy</h3>
-            <form>
-                <input type="checkbox" id="červená" name="červená_h" value="červená"><label for="červená_h">červená</label><br>
-                <input type="checkbox" id="modrá" name="modrá_h" value="modrá"><label for="modrá_h">modrá</label><br>
-                <input type="checkbox" id="zelená" name="zelená_h" value="zelená"><label for="zelená_h">zelená</label><br>
-                <input type="checkbox" id="černá" name="černá_h" value="černá"><label for="černá_h">černá</label><br>
-                <input type="checkbox" id="hnědá" name="hnědá_h" value="hnědá"><label for="hnědá_h">hnědá</label><br>
-            </form>
-        </div>
-        <div class="menuPart">
-        <h3>Velikost</h3>
-        <form>
-            <input type="checkbox" id="kos" name="kos_h" value="kos"><label for="kos_h">kos</label><br>
-            <input type="checkbox" id="sýkorka" name="sýkorka_h" value="sýkorka"><label for="sýkorka_h">sýkorka</label><br>
-            <input type="checkbox" id="hrdlička" name="hrdlička_h" value="hrdlička"><label for="hrdlička_h">hrdlička</label><br>
-        </form>
+            ga('send', 'pageview');
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#top" title="Přejít na obsah">
+   Přejít na obsah
+  </a>
+  <header>
+   <figure>
+    <figcaption>
+     Vyhledávač českého ptactva
+    </figcaption>
+    <a href="index.html" title="Hlavní strana">
+     <img alt="Nadpis whitebear" height="42" src="images/logo-nadpis.png" width="152"/>
+    </a>
+    <h1 id="heading">
+     Vyhledávač českého ptactva
+    </h1>
+   </figure>
+  </header>
+  <nav>
+   <a class="menu" href="index.html" id="active" title="Zpět">
+    Zpět na white-bear
+   </a>
+  </nav>
+  <main class="center" id="birdPage">
+   <menu id="birdFilter">
+    <h2>
+     Filtr
+    </h2>
+    <div class="menuPart" id="beak">
+     <h3>
+      Zobák
+     </h3>
+     <form>
+      <input id="beakHnědá" name="beakHnědá" type="checkbox" value="hnědá">
+       <label for="beakHnědá">
+        hnědá
+       </label>
+       <br/>
+      </input>
+      <input id="beakBéžová" name="beakBéžová" type="checkbox" value="béžová">
+       <label for="beakBéžová">
+        béžová
+       </label>
+       <br/>
+      </input>
+      <input id="beakŽlutá" name="beakŽlutá" type="checkbox" value="žlutá">
+       <label for="beakŽlutá">
+        žlutá
+       </label>
+       <br/>
+      </input>
+      <input id="beakOranžová" name="beakOranžová" type="checkbox" value="oranžová">
+       <label for="beakOranžová">
+        oranžová
+       </label>
+       <br/>
+      </input>
+      <input id="beakČerná" name="beakČerná" type="checkbox" value="černá">
+       <label for="beakČerná">
+        černá
+       </label>
+       <br/>
+      </input>
+      <input id="beakČervená" name="beakČervená" type="checkbox" value="červená">
+       <label for="beakČervená">
+        červená
+       </label>
+       <br/>
+      </input>
+      <input id="beakŠedá" name="beakŠedá" type="checkbox" value="šedá">
+       <label for="beakŠedá">
+        šedá
+       </label>
+       <br/>
+      </input>
+      <input id="beakZelená" name="beakZelená" type="checkbox" value="zelená">
+       <label for="beakZelená">
+        zelená
+       </label>
+       <br/>
+      </input>
+      <input id="beakModrá" name="beakModrá" type="checkbox" value="modrá">
+       <label for="beakModrá">
+        modrá
+       </label>
+       <br/>
+      </input>
+      <input id="beakRůžová" name="beakRůžová" type="checkbox" value="růžová">
+       <label for="beakRůžová">
+        růžová
+       </label>
+       <br/>
+      </input>
+      <input id="beakBílá" name="beakBílá" type="checkbox" value="bílá">
+       <label for="beakBílá">
+        bílá
+       </label>
+       <br/>
+      </input>
+     </form>
     </div>
-    <div class="menuPart">
-        <h3>Typ</h3>
-        <form>
-            <input type="checkbox" id="dravec" name="dravec_h" value="dravec"><label for="dravec_h">dravec</label><br>
-            <input type="checkbox" id="vodní" name="vodní_h" value="vodní"><label for="vodní_h">vodní</label><br>
-            <input type="checkbox" id="lesní" name="lesní_h" value="lesní"><label for="lesní_h">lesní</label><br>
-            <input type="checkbox" id="polní" name="polní_h" value="polní"><label for="polní_h">polní</label><br>
-        </form>
+    <div class="menuPart" id="head">
+     <h3>
+      Hlava
+     </h3>
+     <form>
+      <input id="headHnědá" name="headHnědá" type="checkbox" value="hnědá">
+       <label for="headHnědá">
+        hnědá
+       </label>
+       <br/>
+      </input>
+      <input id="headTyrkysová" name="headTyrkysová" type="checkbox" value="tyrkysová">
+       <label for="headTyrkysová">
+        tyrkysová
+       </label>
+       <br/>
+      </input>
+      <input id="headBéžová" name="headBéžová" type="checkbox" value="béžová">
+       <label for="headBéžová">
+        béžová
+       </label>
+       <br/>
+      </input>
+      <input id="headŽlutá" name="headŽlutá" type="checkbox" value="žlutá">
+       <label for="headŽlutá">
+        žlutá
+       </label>
+       <br/>
+      </input>
+      <input id="headRezavá" name="headRezavá" type="checkbox" value="rezavá">
+       <label for="headRezavá">
+        rezavá
+       </label>
+       <br/>
+      </input>
+      <input id="headOranžová" name="headOranžová" type="checkbox" value="oranžová">
+       <label for="headOranžová">
+        oranžová
+       </label>
+       <br/>
+      </input>
+      <input id="headČerná" name="headČerná" type="checkbox" value="černá">
+       <label for="headČerná">
+        černá
+       </label>
+       <br/>
+      </input>
+      <input id="headČervená" name="headČervená" type="checkbox" value="červená">
+       <label for="headČervená">
+        červená
+       </label>
+       <br/>
+      </input>
+      <input id="headŠedá" name="headŠedá" type="checkbox" value="šedá">
+       <label for="headŠedá">
+        šedá
+       </label>
+       <br/>
+      </input>
+      <input id="headZelená" name="headZelená" type="checkbox" value="zelená">
+       <label for="headZelená">
+        zelená
+       </label>
+       <br/>
+      </input>
+      <input id="headModrá" name="headModrá" type="checkbox" value="modrá">
+       <label for="headModrá">
+        modrá
+       </label>
+       <br/>
+      </input>
+      <input id="headRůžová" name="headRůžová" type="checkbox" value="růžová">
+       <label for="headRůžová">
+        růžová
+       </label>
+       <br/>
+      </input>
+      <input id="headBílá" name="headBílá" type="checkbox" value="bílá">
+       <label for="headBílá">
+        bílá
+       </label>
+       <br/>
+      </input>
+      <input id="headFialová" name="headFialová" type="checkbox" value="fialová">
+       <label for="headFialová">
+        fialová
+       </label>
+       <br/>
+      </input>
+     </form>
     </div>
-    <div class="menuPart">
-        <h3>Kropenatost</h3>
-        <form>
-            <input type="checkbox" id="ano" name="ano_h" value="ano"><label for="ano_h">ano</label><br>
-        </form>
+    <div class="menuPart" id="chest">
+     <h3>
+      Hruď
+     </h3>
+     <form>
+      <input id="chestHnědá" name="chestHnědá" type="checkbox" value="hnědá">
+       <label for="chestHnědá">
+        hnědá
+       </label>
+       <br/>
+      </input>
+      <input id="chestTyrkysová" name="chestTyrkysová" type="checkbox" value="tyrkysová">
+       <label for="chestTyrkysová">
+        tyrkysová
+       </label>
+       <br/>
+      </input>
+      <input id="chestBéžová" name="chestBéžová" type="checkbox" value="béžová">
+       <label for="chestBéžová">
+        béžová
+       </label>
+       <br/>
+      </input>
+      <input id="chestŽlutá" name="chestŽlutá" type="checkbox" value="žlutá">
+       <label for="chestŽlutá">
+        žlutá
+       </label>
+       <br/>
+      </input>
+      <input id="chestRezavá" name="chestRezavá" type="checkbox" value="rezavá">
+       <label for="chestRezavá">
+        rezavá
+       </label>
+       <br/>
+      </input>
+      <input id="chestOranžová" name="chestOranžová" type="checkbox" value="oranžová">
+       <label for="chestOranžová">
+        oranžová
+       </label>
+       <br/>
+      </input>
+      <input id="chestČerná" name="chestČerná" type="checkbox" value="černá">
+       <label for="chestČerná">
+        černá
+       </label>
+       <br/>
+      </input>
+      <input id="chestČervená" name="chestČervená" type="checkbox" value="červená">
+       <label for="chestČervená">
+        červená
+       </label>
+       <br/>
+      </input>
+      <input id="chestŠedá" name="chestŠedá" type="checkbox" value="šedá">
+       <label for="chestŠedá">
+        šedá
+       </label>
+       <br/>
+      </input>
+      <input id="chestZelená" name="chestZelená" type="checkbox" value="zelená">
+       <label for="chestZelená">
+        zelená
+       </label>
+       <br/>
+      </input>
+      <input id="chestModrá" name="chestModrá" type="checkbox" value="modrá">
+       <label for="chestModrá">
+        modrá
+       </label>
+       <br/>
+      </input>
+      <input id="chestRůžová" name="chestRůžová" type="checkbox" value="růžová">
+       <label for="chestRůžová">
+        růžová
+       </label>
+       <br/>
+      </input>
+      <input id="chestBílá" name="chestBílá" type="checkbox" value="bílá">
+       <label for="chestBílá">
+        bílá
+       </label>
+       <br/>
+      </input>
+      <input id="chestFialová" name="chestFialová" type="checkbox" value="fialová">
+       <label for="chestFialová">
+        fialová
+       </label>
+       <br/>
+      </input>
+     </form>
     </div>
-    </menu>
-    
-    <output for="birdFilter" name="searchResults">
-        <div class="birdCard">
-            <h4>Alka malá (Alca torda)</h4>
-            <div class="birdGender">
-                <h5>Samec/Samice</h5>
-                <a href="images/ptaci/alka_malá/alka_malá.jpg" title="Alka malá"><img width="250px" alt="Alka malá" src="images/ptaci/alka_malá/alka_malá.jpg"/></a>
-                <details>
-                    <summary>Popis</summary>
-                    <p>Hlava: Černá, bílá</p>
-                    <p>Křídla: černá, bílá</p>
-                </details>
-            </div>
-            <div class="birdInfo">
-            <h5>Informace</h5>
-                <a class="birdLink" href="https://avibase.bsc-eoc.org/species.jsp?avibaseid=64F4DD81371B269F" title="Celosvětová databáze">Avibase</a>
-                <a class="birdLink" href="http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=669" title="birdphoto">Birdphoto</a>
-                <a class="birdLink" href="https://cs.wikipedia.org/wiki/Alka_mal%C3%A1" title="Wikipedie">Wikipedie</a>
-            </div>
-            <h6>Poznámka:</h6>
-            <p></p>
-        </div>
-        
-        <div class="birdCard">
-            <h4>Alkoun úzkozobý (Uria aalge)</h4>
-            <div class="birdGender">
-                <h5>Samec/Samice</h5>
-                <a href="images/ptaci/alkoun_%C3%BAzkozob%C3%BD/alkoun_úzkozobý.jpg" title="Alkoun úzkozobý"><img width="250px" alt="Alkoun úzkozobý" src="images/ptaci/alkoun_%C3%BAzkozob%C3%BD/alkoun_úzkozobý.jpg"/></a>
-                <a href="images/ptaci/alkoun_%C3%BAzkozob%C3%BD/alkoun_úzkozobý_samec_1.jpg" title="Alkoun úzkozobý"><img width="250px" alt="Alkoun úzkozobý" src="images/ptaci/alkoun_%C3%BAzkozob%C3%BD/alkoun_úzkozobý_samec_1.jpg"/></a>
-                <details>
-                    <summary>Popis</summary>
-                    <p>Hlava: Černá, bílá</p>
-                    <p>Křídla: černá, bílá</p>
-                </details>
-            </div>
-            <div class="birdInfo">
-                <h5>Informace</h5>
-                <a class="birdLink" href="https://avibase.bsc-eoc.org/species.jsp?avibaseid=64F4DD81371B269F" title="Celosvětová databáze">Avibase</a>
-                <a class="birdLink" href="http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=669" title="birdphoto">Birdphoto</a>
-                <a class="birdLink" href="https://cs.wikipedia.org/wiki/Alka_mal%C3%A1" title="Wikipedie">Wikipedie</a>
-            </div>
-            <h6>Poznámka:</h6>
-            <p>Test 1</p>
-        </div>
-        
-        <div class="birdCard">
-            <h4>Bažant obecný (Phasianus colchicus)</h4>
-            <div class="birdGender">
-                <h5>Samec</h5>
-                <a href="images/ptaci/bažant_obecný/bažant_obecný.jpg" title="Alka malá"><img width="250px" alt="Alka malá" src="images/ptaci/bažant_obecný/bažant_obecný.jpg"/></a>
-                <details>
-                    <summary>Popis</summary>
-                    <p>Hlava: Černá, bílá</p>
-                    <p>Křídla: černá, bílá</p>
-                </details>
-            </div>
-            <div class="birdGender">
-                <h5>Samice</h5>
-                <a href="images/ptaci/bažant_obecný/bažant_obecný_samice.jpg" title="Alka malá"><img width="250px" alt="Alka malá" src="images/ptaci/bažant_obecný/bažant_obecný_samice.jpg"/></a>
-                <details>
-                    <summary>Popis</summary>
-                    <p>Hlava: Černá, bílá</p>
-                    <p>Křídla: černá, bílá</p>
-                </details>
-            </div>
-            <div class="birdInfo">
-                <h5>Informace</h5>
-                <a class="birdLink" href="https://avibase.bsc-eoc.org/species.jsp?avibaseid=64F4DD81371B269F" title="Celosvětová databáze">Avibase</a>
-                <a class="birdLink" href="http://www.birdphoto.cz/?lang=cz&sc_lang=cz&action=select&cat_id=1&subcat_id=&author_id=&sort_id=669" title="birdphoto">Birdphoto</a>
-                <a class="birdLink" href="https://cs.wikipedia.org/wiki/Alka_mal%C3%A1" title="Wikipedie">Wikipedie</a>
-            </div>
-            <h6>Poznámka:</h6>
-            <p>Test</p>
-        </div>
-        
-    </output>
-</main>
-</body></html>
+    <div class="menuPart" id="wings">
+     <h3>
+      Křídla
+     </h3>
+     <form>
+      <input id="wingsHnědá" name="wingsHnědá" type="checkbox" value="hnědá">
+       <label for="wingsHnědá">
+        hnědá
+       </label>
+       <br/>
+      </input>
+      <input id="wingsTyrkysová" name="wingsTyrkysová" type="checkbox" value="tyrkysová">
+       <label for="wingsTyrkysová">
+        tyrkysová
+       </label>
+       <br/>
+      </input>
+      <input id="wingsBéžová" name="wingsBéžová" type="checkbox" value="béžová">
+       <label for="wingsBéžová">
+        béžová
+       </label>
+       <br/>
+      </input>
+      <input id="wingsŽlutá" name="wingsŽlutá" type="checkbox" value="žlutá">
+       <label for="wingsŽlutá">
+        žlutá
+       </label>
+       <br/>
+      </input>
+      <input id="wingsRezavá" name="wingsRezavá" type="checkbox" value="rezavá">
+       <label for="wingsRezavá">
+        rezavá
+       </label>
+       <br/>
+      </input>
+      <input id="wingsOranžová" name="wingsOranžová" type="checkbox" value="oranžová">
+       <label for="wingsOranžová">
+        oranžová
+       </label>
+       <br/>
+      </input>
+      <input id="wingsČerná" name="wingsČerná" type="checkbox" value="černá">
+       <label for="wingsČerná">
+        černá
+       </label>
+       <br/>
+      </input>
+      <input id="wingsČervená" name="wingsČervená" type="checkbox" value="červená">
+       <label for="wingsČervená">
+        červená
+       </label>
+       <br/>
+      </input>
+      <input id="wingsŠedá" name="wingsŠedá" type="checkbox" value="šedá">
+       <label for="wingsŠedá">
+        šedá
+       </label>
+       <br/>
+      </input>
+      <input id="wingsZelená" name="wingsZelená" type="checkbox" value="zelená">
+       <label for="wingsZelená">
+        zelená
+       </label>
+       <br/>
+      </input>
+      <input id="wingsModrá" name="wingsModrá" type="checkbox" value="modrá">
+       <label for="wingsModrá">
+        modrá
+       </label>
+       <br/>
+      </input>
+      <input id="wingsRůžová" name="wingsRůžová" type="checkbox" value="růžová">
+       <label for="wingsRůžová">
+        růžová
+       </label>
+       <br/>
+      </input>
+      <input id="wingsBílá" name="wingsBílá" type="checkbox" value="bílá">
+       <label for="wingsBílá">
+        bílá
+       </label>
+       <br/>
+      </input>
+      <input id="wingsFialová" name="wingsFialová" type="checkbox" value="fialová">
+       <label for="wingsFialová">
+        fialová
+       </label>
+       <br/>
+      </input>
+     </form>
+    </div>
+    <div class="menuPart" id="back">
+     <h3>
+      Záda
+     </h3>
+     <form>
+      <input id="backHnědá" name="backHnědá" type="checkbox" value="hnědá">
+       <label for="backHnědá">
+        hnědá
+       </label>
+       <br/>
+      </input>
+      <input id="backTyrkysová" name="backTyrkysová" type="checkbox" value="tyrkysová">
+       <label for="backTyrkysová">
+        tyrkysová
+       </label>
+       <br/>
+      </input>
+      <input id="backBéžová" name="backBéžová" type="checkbox" value="béžová">
+       <label for="backBéžová">
+        béžová
+       </label>
+       <br/>
+      </input>
+      <input id="backŽlutá" name="backŽlutá" type="checkbox" value="žlutá">
+       <label for="backŽlutá">
+        žlutá
+       </label>
+       <br/>
+      </input>
+      <input id="backRezavá" name="backRezavá" type="checkbox" value="rezavá">
+       <label for="backRezavá">
+        rezavá
+       </label>
+       <br/>
+      </input>
+      <input id="backOranžová" name="backOranžová" type="checkbox" value="oranžová">
+       <label for="backOranžová">
+        oranžová
+       </label>
+       <br/>
+      </input>
+      <input id="backČerná" name="backČerná" type="checkbox" value="černá">
+       <label for="backČerná">
+        černá
+       </label>
+       <br/>
+      </input>
+      <input id="backŠedá" name="backŠedá" type="checkbox" value="šedá">
+       <label for="backŠedá">
+        šedá
+       </label>
+       <br/>
+      </input>
+      <input id="backČervená" name="backČervená" type="checkbox" value="červená">
+       <label for="backČervená">
+        červená
+       </label>
+       <br/>
+      </input>
+      <input id="backModrá" name="backModrá" type="checkbox" value="modrá">
+       <label for="backModrá">
+        modrá
+       </label>
+       <br/>
+      </input>
+      <input id="backZelená" name="backZelená" type="checkbox" value="zelená">
+       <label for="backZelená">
+        zelená
+       </label>
+       <br/>
+      </input>
+      <input id="backRůžová" name="backRůžová" type="checkbox" value="růžová">
+       <label for="backRůžová">
+        růžová
+       </label>
+       <br/>
+      </input>
+      <input id="backBílá" name="backBílá" type="checkbox" value="bílá">
+       <label for="backBílá">
+        bílá
+       </label>
+       <br/>
+      </input>
+     </form>
+    </div>
+    <div class="menuPart" id="tail">
+     <h3>
+      Ocas
+     </h3>
+     <form>
+      <input id="tailHnědá" name="tailHnědá" type="checkbox" value="hnědá">
+       <label for="tailHnědá">
+        hnědá
+       </label>
+       <br/>
+      </input>
+      <input id="tailTyrkysová" name="tailTyrkysová" type="checkbox" value="tyrkysová">
+       <label for="tailTyrkysová">
+        tyrkysová
+       </label>
+       <br/>
+      </input>
+      <input id="tailBéžová" name="tailBéžová" type="checkbox" value="béžová">
+       <label for="tailBéžová">
+        béžová
+       </label>
+       <br/>
+      </input>
+      <input id="tailŽlutá" name="tailŽlutá" type="checkbox" value="žlutá">
+       <label for="tailŽlutá">
+        žlutá
+       </label>
+       <br/>
+      </input>
+      <input id="tailRezavá" name="tailRezavá" type="checkbox" value="rezavá">
+       <label for="tailRezavá">
+        rezavá
+       </label>
+       <br/>
+      </input>
+      <input id="tailOranžová" name="tailOranžová" type="checkbox" value="oranžová">
+       <label for="tailOranžová">
+        oranžová
+       </label>
+       <br/>
+      </input>
+      <input id="tailČerná" name="tailČerná" type="checkbox" value="černá">
+       <label for="tailČerná">
+        černá
+       </label>
+       <br/>
+      </input>
+      <input id="tailŠedá" name="tailŠedá" type="checkbox" value="šedá">
+       <label for="tailŠedá">
+        šedá
+       </label>
+       <br/>
+      </input>
+      <input id="tailČervená" name="tailČervená" type="checkbox" value="červená">
+       <label for="tailČervená">
+        červená
+       </label>
+       <br/>
+      </input>
+      <input id="tailModrá" name="tailModrá" type="checkbox" value="modrá">
+       <label for="tailModrá">
+        modrá
+       </label>
+       <br/>
+      </input>
+      <input id="tailZelená" name="tailZelená" type="checkbox" value="zelená">
+       <label for="tailZelená">
+        zelená
+       </label>
+       <br/>
+      </input>
+      <input id="tailRůžová" name="tailRůžová" type="checkbox" value="růžová">
+       <label for="tailRůžová">
+        růžová
+       </label>
+       <br/>
+      </input>
+      <input id="tailBílá" name="tailBílá" type="checkbox" value="bílá">
+       <label for="tailBílá">
+        bílá
+       </label>
+       <br/>
+      </input>
+     </form>
+    </div>
+    <div class="menuPart" id="legs">
+     <h3>
+      Nohy
+     </h3>
+     <form>
+      <input id="legsHnědá" name="legsHnědá" type="checkbox" value="hnědá">
+       <label for="legsHnědá">
+        hnědá
+       </label>
+       <br/>
+      </input>
+      <input id="legsBéžová" name="legsBéžová" type="checkbox" value="béžová">
+       <label for="legsBéžová">
+        béžová
+       </label>
+       <br/>
+      </input>
+      <input id="legsŽlutá" name="legsŽlutá" type="checkbox" value="žlutá">
+       <label for="legsŽlutá">
+        žlutá
+       </label>
+       <br/>
+      </input>
+      <input id="legsRezavá" name="legsRezavá" type="checkbox" value="rezavá">
+       <label for="legsRezavá">
+        rezavá
+       </label>
+       <br/>
+      </input>
+      <input id="legsOranžová" name="legsOranžová" type="checkbox" value="oranžová">
+       <label for="legsOranžová">
+        oranžová
+       </label>
+       <br/>
+      </input>
+      <input id="legsŠedá" name="legsŠedá" type="checkbox" value="šedá">
+       <label for="legsŠedá">
+        šedá
+       </label>
+       <br/>
+      </input>
+      <input id="legsČervená" name="legsČervená" type="checkbox" value="červená">
+       <label for="legsČervená">
+        červená
+       </label>
+       <br/>
+      </input>
+      <input id="legsČerná" name="legsČerná" type="checkbox" value="černá">
+       <label for="legsČerná">
+        černá
+       </label>
+       <br/>
+      </input>
+      <input id="legsZelená" name="legsZelená" type="checkbox" value="zelená">
+       <label for="legsZelená">
+        zelená
+       </label>
+       <br/>
+      </input>
+      <input id="legsModrá" name="legsModrá" type="checkbox" value="modrá">
+       <label for="legsModrá">
+        modrá
+       </label>
+       <br/>
+      </input>
+      <input id="legsRůžová" name="legsRůžová" type="checkbox" value="růžová">
+       <label for="legsRůžová">
+        růžová
+       </label>
+       <br/>
+      </input>
+      <input id="legsBílá" name="legsBílá" type="checkbox" value="bílá">
+       <label for="legsBílá">
+        bílá
+       </label>
+       <br/>
+      </input>
+     </form>
+    </div>
+    <div class="menuPart" id="size">
+     <h3>
+      Velikost
+     </h3>
+     <form>
+      <input id="sizeBažant" name="sizeBažant" type="checkbox" value="bažant">
+       <label for="sizeBažant">
+        bažant
+       </label>
+       <br/>
+      </input>
+      <input id="sizeKachna" name="sizeKachna" type="checkbox" value="kachna">
+       <label for="sizeKachna">
+        kachna
+       </label>
+       <br/>
+      </input>
+      <input id="sizeHrdlička" name="sizeHrdlička" type="checkbox" value="hrdlička">
+       <label for="sizeHrdlička">
+        hrdlička
+       </label>
+       <br/>
+      </input>
+      <input id="sizeKos" name="sizeKos" type="checkbox" value="kos">
+       <label for="sizeKos">
+        kos
+       </label>
+       <br/>
+      </input>
+      <input id="sizeČáp" name="sizeČáp" type="checkbox" value="čáp">
+       <label for="sizeČáp">
+        čáp
+       </label>
+       <br/>
+      </input>
+      <input id="sizeSýkorka" name="sizeSýkorka" type="checkbox" value="sýkorka">
+       <label for="sizeSýkorka">
+        sýkorka
+       </label>
+       <br/>
+      </input>
+      <input id="sizeOrel" name="sizeOrel" type="checkbox" value="orel">
+       <label for="sizeOrel">
+        orel
+       </label>
+       <br/>
+      </input>
+      <input id="sizeHusa" name="sizeHusa" type="checkbox" value="husa">
+       <label for="sizeHusa">
+        husa
+       </label>
+       <br/>
+      </input>
+      <input id="sizeLabuť" name="sizeLabuť" type="checkbox" value="labuť">
+       <label for="sizeLabuť">
+        labuť
+       </label>
+       <br/>
+      </input>
+      <input id="sizeVrána" name="sizeVrána" type="checkbox" value="vrána">
+       <label for="sizeVrána">
+        vrána
+       </label>
+       <br/>
+      </input>
+     </form>
+    </div>
+    <div class="menuPart" id="type">
+     <h3>
+      Typ
+     </h3>
+     <form>
+      <input id="typeHolubovití" name="typeHolubovití" type="checkbox" value="holubovití">
+       <label for="typeHolubovití">
+        holubovití
+       </label>
+       <br/>
+      </input>
+      <input id="typePapoušek" name="typePapoušek" type="checkbox" value="papoušek">
+       <label for="typePapoušek">
+        papoušek
+       </label>
+       <br/>
+      </input>
+      <input id="typePolní" name="typePolní" type="checkbox" value="polní">
+       <label for="typePolní">
+        polní
+       </label>
+       <br/>
+      </input>
+      <input id="typeLesní" name="typeLesní" type="checkbox" value="lesní">
+       <label for="typeLesní">
+        lesní
+       </label>
+       <br/>
+      </input>
+      <input id="typeDravci" name="typeDravci" type="checkbox" value="dravci">
+       <label for="typeDravci">
+        dravci
+       </label>
+       <br/>
+      </input>
+      <input id="typeVlaštovkovití" name="typeVlaštovkovití" type="checkbox" value="vlaštovkovití">
+       <label for="typeVlaštovkovití">
+        vlaštovkovití
+       </label>
+       <br/>
+      </input>
+      <input id="typeVodní" name="typeVodní" type="checkbox" value="vodní">
+       <label for="typeVodní">
+        vodní
+       </label>
+       <br/>
+      </input>
+      <input id="typeBažantovití" name="typeBažantovití" type="checkbox" value="bažantovití">
+       <label for="typeBažantovití">
+        bažantovití
+       </label>
+       <br/>
+      </input>
+      <input id="typeStromoví" name="typeStromoví" type="checkbox" value="stromoví">
+       <label for="typeStromoví">
+        stromoví
+       </label>
+       <br/>
+      </input>
+      <input id="typePěvci" name="typePěvci" type="checkbox" value="pěvci">
+       <label for="typePěvci">
+        pěvci
+       </label>
+       <br/>
+      </input>
+      <input id="typePouštní" name="typePouštní" type="checkbox" value="pouštní">
+       <label for="typePouštní">
+        pouštní
+       </label>
+       <br/>
+      </input>
+     </form>
+    </div>
+    <div class="menuPart" id="spotted">
+     <h3>
+      Kropenatost
+     </h3>
+     <form>
+      <input id="spotted_box" name="spotted_h" type="checkbox" value="ano"/>
+      <label for="spotted_box">
+       ano
+      </label>
+      <br/>
+     </form>
+    </div>
+   </menu>
+   <output for="birdFilter" name="searchResults">
+    <div class="birdCard">
+     <h4>
+      Alka malá (Alca torda)
+     </h4>
+     <div class="birdGender">
+      <h5>
+       Samec/Samice
+      </h5>
+      <a href="images/ptaci/alka_malá/alka_malá.jpg" title="Alka malá">
+       <img alt="Alka malá" src="images/ptaci/alka_malá/alka_malá.jpg" width="250px"/>
+      </a>
+      <details>
+       <summary>
+        Popis
+       </summary>
+       <p>
+        Hlava: Černá, bílá
+       </p>
+       <p>
+        Křídla: černá, bílá
+       </p>
+      </details>
+     </div>
+     <div class="birdInfo">
+      <h5>
+       Informace
+      </h5>
+      <a class="birdLink" href="https://avibase.bsc-eoc.org/species.jsp?avibaseid=64F4DD81371B269F" title="Celosvětová databáze">
+       Avibase
+      </a>
+      <a class="birdLink" href="http://www.birdphoto.cz/?lang=cz&amp;sc_lang=cz&amp;action=select&amp;cat_id=1&amp;subcat_id=&amp;author_id=&amp;sort_id=669" title="birdphoto">
+       Birdphoto
+      </a>
+      <a class="birdLink" href="https://cs.wikipedia.org/wiki/Alka_mal%C3%A1" title="Wikipedie">
+       Wikipedie
+      </a>
+     </div>
+     <h6>
+      Poznámka:
+     </h6>
+     <p>
+     </p>
+    </div>
+    <div class="birdCard">
+     <h4>
+      Alkoun úzkozobý (Uria aalge)
+     </h4>
+     <div class="birdGender">
+      <h5>
+       Samec/Samice
+      </h5>
+      <a href="images/ptaci/alkoun_%C3%BAzkozob%C3%BD/alkoun_úzkozobý.jpg" title="Alkoun úzkozobý">
+       <img alt="Alkoun úzkozobý" src="images/ptaci/alkoun_%C3%BAzkozob%C3%BD/alkoun_úzkozobý.jpg" width="250px"/>
+      </a>
+      <a href="images/ptaci/alkoun_%C3%BAzkozob%C3%BD/alkoun_úzkozobý_samec_1.jpg" title="Alkoun úzkozobý">
+       <img alt="Alkoun úzkozobý" src="images/ptaci/alkoun_%C3%BAzkozob%C3%BD/alkoun_úzkozobý_samec_1.jpg" width="250px"/>
+      </a>
+      <details>
+       <summary>
+        Popis
+       </summary>
+       <p>
+        Hlava: Černá, bílá
+       </p>
+       <p>
+        Křídla: černá, bílá
+       </p>
+      </details>
+     </div>
+     <div class="birdInfo">
+      <h5>
+       Informace
+      </h5>
+      <a class="birdLink" href="https://avibase.bsc-eoc.org/species.jsp?avibaseid=64F4DD81371B269F" title="Celosvětová databáze">
+       Avibase
+      </a>
+      <a class="birdLink" href="http://www.birdphoto.cz/?lang=cz&amp;sc_lang=cz&amp;action=select&amp;cat_id=1&amp;subcat_id=&amp;author_id=&amp;sort_id=669" title="birdphoto">
+       Birdphoto
+      </a>
+      <a class="birdLink" href="https://cs.wikipedia.org/wiki/Alka_mal%C3%A1" title="Wikipedie">
+       Wikipedie
+      </a>
+     </div>
+     <h6>
+      Poznámka:
+     </h6>
+     <p>
+      Test 1
+     </p>
+    </div>
+    <div class="birdCard">
+     <h4>
+      Bažant obecný (Phasianus colchicus)
+     </h4>
+     <div class="birdGender">
+      <h5>
+       Samec
+      </h5>
+      <a href="images/ptaci/bažant_obecný/bažant_obecný.jpg" title="Alka malá">
+       <img alt="Alka malá" src="images/ptaci/bažant_obecný/bažant_obecný.jpg" width="250px"/>
+      </a>
+      <details>
+       <summary>
+        Popis
+       </summary>
+       <p>
+        Hlava: Černá, bílá
+       </p>
+       <p>
+        Křídla: černá, bílá
+       </p>
+      </details>
+     </div>
+     <div class="birdGender">
+      <h5>
+       Samice
+      </h5>
+      <a href="images/ptaci/bažant_obecný/bažant_obecný_samice.jpg" title="Alka malá">
+       <img alt="Alka malá" src="images/ptaci/bažant_obecný/bažant_obecný_samice.jpg" width="250px"/>
+      </a>
+      <details>
+       <summary>
+        Popis
+       </summary>
+       <p>
+        Hlava: Černá, bílá
+       </p>
+       <p>
+        Křídla: černá, bílá
+       </p>
+      </details>
+     </div>
+     <div class="birdInfo">
+      <h5>
+       Informace
+      </h5>
+      <a class="birdLink" href="https://avibase.bsc-eoc.org/species.jsp?avibaseid=64F4DD81371B269F" title="Celosvětová databáze">
+       Avibase
+      </a>
+      <a class="birdLink" href="http://www.birdphoto.cz/?lang=cz&amp;sc_lang=cz&amp;action=select&amp;cat_id=1&amp;subcat_id=&amp;author_id=&amp;sort_id=669" title="birdphoto">
+       Birdphoto
+      </a>
+      <a class="birdLink" href="https://cs.wikipedia.org/wiki/Alka_mal%C3%A1" title="Wikipedie">
+       Wikipedie
+      </a>
+     </div>
+     <h6>
+      Poznámka:
+     </h6>
+     <p>
+      Test
+     </p>
+    </div>
+   </output>
+  </main>
+ </body>
+</html>
