@@ -113,8 +113,11 @@ def fill_cards(index, database_dir) -> None:
 
                 # Card title.
                 bird_name = index.new_tag('h4')
-                bird_name.insert(0, NavigableString(f'{name} ({latin})'))
+                bird_name.insert(0, NavigableString(f'{name}'))
+                latin_name = index.new_tag('p', attrs={'class': 'birdLatin'})
+                latin_name.insert(0, NavigableString(f'{latin}'))
                 bird_card_div.append(bird_name)
+                bird_card_div.append(latin_name)
 
                 # Both genders the same.
                 if not female:
@@ -125,20 +128,39 @@ def fill_cards(index, database_dir) -> None:
                     gender_div.append(card_title)
 
                     for img in m_photos:
-                        # TODO add zdroj text somewhere under each photo
-                        image_link = index.new_tag('a', attrs={'href': img['url'], 'title': name})
-                        photo = index.new_tag('img', attrs={'height': '200px', 'alt': name, 'src': f"images/ptaci/{path.cwd().name}/{img['file']}"})
+                        # TODO popis pro obe pohlavi do jednoho details dole
+                        image_link = index.new_tag('a', attrs={'href': img['url'],
+                                                               'title': f'{name}, Zdroj: {img["zdroj"]}',
+                                                               'target': '_blank'})
+                        photo = index.new_tag('img', attrs={'height': '200px',
+                                                            'alt': f'{name}, Zdroj: {img["zdroj"]}',
+                                                            'src': f"images/ptaci/{path.cwd().name}/{img['file']}"})
                         image_link.append(photo)
                         gender_div.append(image_link)
-                        print(img['zdroj'])
+
+                    # Description and authors.
+                    details = index.new_tag('details')
+                    summary = index.new_tag('summary')
+                    summary.insert(0, NavigableString('Popis'))
+                    details.append(summary)
+
+                    # Description.
+                    for part, content in {'Hlava': m_head, 'Křídla': m_wings, 'Hruď': m_chest, 'Ocas': m_tail,
+                                          'Nohy': m_legs, 'Záda': m_back, 'Zobák': m_beak}.items():
+                        body_part_p = index.new_tag('p')
+                        body_part_p.insert(0, NavigableString(f'{part}: {(", ".join(content))}'))
+                        details.append(body_part_p)
+
+
+                    bird_card_div.append(details)
+
+
 
 
             except Exception as ex:
                 print(f'Error: {path}, {ex}')
             finally:
                 os.chdir(database_dir.resolve())
-
-    print(html_output.prettify())
 
 
 if __name__ == '__main__':
@@ -156,3 +178,4 @@ if __name__ == '__main__':
             html = template.prettify("utf-8")
             with open("index.html", "wb") as file:
                 file.write(html)
+    print('Done', www_dir / Path('index.html'))

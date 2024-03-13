@@ -477,6 +477,10 @@ output {
     vertical-align: top;
 }
 
+.birdLatin {
+    font-size: 10pt;
+}
+
 details {
     font-size: 9pt;
 }
