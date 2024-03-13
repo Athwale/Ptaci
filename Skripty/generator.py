@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from typing import Dict
 
 import yaml
 from bs4 import BeautifulSoup, NavigableString
@@ -52,7 +53,60 @@ def fill_cards(index, database_dir) -> None:
                 os.chdir(path.resolve())
                 with open('data.yml', 'r') as metadata_file:
                     metadata = yaml.safe_load(metadata_file)
-                    print(metadata)
+                    note = metadata['dodatek']
+                    name = metadata['jméno']
+                    latin = metadata['latinsky']
+                    avibase = metadata['odkazy']['celosvětová databáze']
+                    photos_url = metadata['odkazy']['více fotek']
+                    wiki_url = metadata['odkazy']['wiki']
+                    kind = metadata['typ']
+                    size = metadata['velikost']
+
+                    description = metadata['popis']
+                    male = description['samec']
+                    female = description['samice']
+
+                    m_colors = male['barvy']
+                    for part in m_colors:
+                        part: Dict
+                        if list(part.keys())[0] == 'hlava':
+                            m_head = part['hlava']
+                        elif list(part.keys())[0] == 'křídla':
+                            m_wings = part['křídla']
+                        elif list(part.keys())[0] == 'hruď':
+                            m_chest = part['hruď']
+                        elif list(part.keys())[0] == 'ocas':
+                            m_tail = part['ocas']
+                        elif list(part.keys())[0] == 'nohy':
+                            m_legs = part['nohy']
+                        elif list(part.keys())[0] == 'záda':
+                            m_back = part['záda']
+                        elif list(part.keys())[0] == 'zobák':
+                            m_beak = part['zobák']
+                    m_photos = male['fotky']
+                    m_spotted = male['kropenatost']
+
+                    if female:
+                        f_colors = female['barvy']
+                        for part in f_colors:
+                            part: Dict
+                            if list(part.keys())[0] == 'hlava':
+                                f_head = part['hlava']
+                            elif list(part.keys())[0] == 'křídla':
+                                f_wings = part['křídla']
+                            elif list(part.keys())[0] == 'hruď':
+                                f_chest = part['hruď']
+                            elif list(part.keys())[0] == 'ocas':
+                                f_tail = part['ocas']
+                            elif list(part.keys())[0] == 'nohy':
+                                f_legs = part['nohy']
+                            elif list(part.keys())[0] == 'záda':
+                                f_back = part['záda']
+                            elif list(part.keys())[0] == 'zobák':
+                                f_beak = part['zobák']
+                        f_photos = female['fotky']
+                        f_spotted = female['kropenatost']
+
             except Exception as ex:
                 print(f'Error: {path}, {ex}')
             finally:
