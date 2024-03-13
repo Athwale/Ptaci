@@ -107,10 +107,38 @@ def fill_cards(index, database_dir) -> None:
                         f_photos = female['fotky']
                         f_spotted = female['kropenatost']
 
+                # Create a bird card.
+                bird_card_div = index.new_tag('div', attrs={'class': 'birdCard'})
+                html_output.append(bird_card_div)
+
+                # Card title.
+                bird_name = index.new_tag('h4')
+                bird_name.insert(0, NavigableString(f'{name} ({latin})'))
+                bird_card_div.append(bird_name)
+
+                # Both genders the same.
+                if not female:
+                    gender_div = index.new_tag('div', attrs={'class': 'birdGender'})
+                    card_title = index.new_tag('h5')
+                    card_title.insert(0, NavigableString('Samec/Samice'))
+                    bird_card_div.append(gender_div)
+                    gender_div.append(card_title)
+
+                    for img in m_photos:
+                        # TODO add zdroj text somewhere under each photo
+                        image_link = index.new_tag('a', attrs={'href': img['url'], 'title': name})
+                        photo = index.new_tag('img', attrs={'height': '200px', 'alt': name, 'src': f"images/ptaci/{path.cwd().name}/{img['file']}"})
+                        image_link.append(photo)
+                        gender_div.append(image_link)
+                        print(img['zdroj'])
+
+
             except Exception as ex:
                 print(f'Error: {path}, {ex}')
             finally:
                 os.chdir(database_dir.resolve())
+
+    print(html_output.prettify())
 
 
 if __name__ == '__main__':
