@@ -120,6 +120,7 @@ def fill_cards(index, database_dir) -> None:
                 bird_card_div.append(bird_name)
                 bird_card_div.append(latin_name)
 
+                authors = {}
                 # Both genders the same.
                 if not female:
                     gender_div = index.new_tag('div', attrs={'class': 'birdGender'})
@@ -128,16 +129,19 @@ def fill_cards(index, database_dir) -> None:
                     bird_card_div.append(gender_div)
                     gender_div.append(card_title)
 
+                    img_id = 0
                     for img in m_photos:
-                        # TODO popis pro obe pohlavi do jednoho details dole
+                        # TODO popis pro obe pohlavi do jednoho details dole, rozdelit na dva divy vedle sebe.
                         image_link = index.new_tag('a', attrs={'href': img['url'],
-                                                               'title': f'{name}, Zdroj: {img["zdroj"]}',
+                                                               'title': f'ID: {img_id}, {name}, Zdroj: {img["zdroj"]}',
                                                                'target': '_blank'})
                         photo = index.new_tag('img', attrs={'height': '200px',
                                                             'alt': f'{name}, Zdroj: {img["zdroj"]}',
                                                             'src': f"images/ptaci/{path.cwd().name}/{img['file']}"})
                         image_link.append(photo)
                         gender_div.append(image_link)
+                        authors[img_id] = img['zdroj']
+                        img_id = img_id + 1
 
                     # Description and authors.
                     data_container = index.new_tag('div')
@@ -154,6 +158,12 @@ def fill_cards(index, database_dir) -> None:
                         body_part_p = index.new_tag('p')
                         body_part_p.insert(0, NavigableString(f'{part}: {(", ".join(content))}'))
                         details.append(body_part_p)
+
+                    # Authors.
+                    for i_id, source in authors.items():
+                        author_p = index.new_tag('p')
+                        author_p.insert(0, NavigableString(f'Zdroj obrázku: [{i_id}] - {source}'))
+                        details.append(author_p)
                     data_container.append(details)
 
                     # Links.
