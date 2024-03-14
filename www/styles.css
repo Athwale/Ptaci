@@ -467,7 +467,18 @@ output {
 }
 
 .birdLink {
-    display: block;
+    display: inline-block;
+    color: buttontext;
+    background-color: buttonface;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 0px;
+    padding-bottom 1px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    text-decoration: none;
+    margin-left: 3px;
+    font-size: 11pt;
 }
 
 .birdGender {
@@ -484,7 +495,9 @@ output {
 }
 
 details {
-    font-size: 9pt;
+    font-size: 11pt;
+    display: inline-block;
+    margin-left: 2px;
 }
 
 details p {
@@ -495,6 +508,12 @@ details p {
 .birdCard p {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.birdNote {
+    font-size: 11pt;
+    margin-left: 2px;
+    padding-bottom: 2px;
 }
 
 @keyframes menuItemMark 

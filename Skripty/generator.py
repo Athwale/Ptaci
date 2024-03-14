@@ -140,6 +140,7 @@ def fill_cards(index, database_dir) -> None:
                         gender_div.append(image_link)
 
                     # Description and authors.
+                    data_container = index.new_tag('div')
                     details = index.new_tag('details')
                     summary = index.new_tag('summary')
                     summary.insert(0, NavigableString('Popis'))
@@ -153,8 +154,35 @@ def fill_cards(index, database_dir) -> None:
                         body_part_p = index.new_tag('p')
                         body_part_p.insert(0, NavigableString(f'{part}: {(", ".join(content))}'))
                         details.append(body_part_p)
-                    bird_card_div.append(details)
+                    data_container.append(details)
 
+                    # Links.
+                    avibase_link = index.new_tag('a', attrs={'class': 'birdLink',
+                                                             'href': avibase,
+                                                             'title': 'Avibase',
+                                                             'target': '_blank'})
+                    avibase_link.insert(0, NavigableString('Avibase'))
+                    photos_link = index.new_tag('a', attrs={'class': 'birdLink',
+                                                            'href': photos_url,
+                                                            'title': 'Více fotografií',
+                                                            'target': '_blank'})
+                    photos_link.insert(0, NavigableString('Birdphoto'))
+                    wiki_link = index.new_tag('a', attrs={'class': 'birdLink',
+                                                          'href': wiki_url,
+                                                          'title': 'Wikipedie',
+                                                          'target': '_blank'})
+                    wiki_link.insert(0, NavigableString('Wiki'))
+
+                    data_container.append(wiki_link)
+                    data_container.append(photos_link)
+                    data_container.append(avibase_link)
+
+                    # Dodatek
+                    if note:
+                        note_p = index.new_tag('p', attrs={'class': 'birdNote'})
+                        note_p.insert(0, NavigableString(f'{note}'))
+                        bird_card_div.append(note_p)
+                    bird_card_div.append(data_container)
 
             except Exception as ex:
                 print(f'Error: {path}, {ex}')
