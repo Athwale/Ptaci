@@ -121,17 +121,97 @@ def fill_cards(index, database_dir) -> None:
                 bird_card_div.append(latin_name)
 
                 authors = {}
-                # Both genders the same.
+                card_title = index.new_tag('h5')
                 if not female:
-                    gender_div = index.new_tag('div', attrs={'class': 'birdGender'})
-                    card_title = index.new_tag('h5')
+                    # Both genders the same.
                     card_title.insert(0, NavigableString('Samec/Samice'))
+                elif female:
+                    # First we do the male.
+                    card_title.insert(0, NavigableString('Samec'))
+
+                # The whole block under is for the male part only, female is below that.
+                gender_div = index.new_tag('div', attrs={'class': 'birdGender'})
+                bird_card_div.append(gender_div)
+                gender_div.append(card_title)
+
+                img_id = 0
+                for img in m_photos:
+                    # TODO popis pro obe pohlavi do jednoho details dole, rozdelit na dva divy vedle sebe.
+                    image_link = index.new_tag('a', attrs={'href': img['url'],
+                                                           'title': f'ID: {img_id}, {name}, Zdroj: {img["zdroj"]}',
+                                                           'target': '_blank'})
+                    photo = index.new_tag('img', attrs={'height': '200px',
+                                                        'alt': f'{name}, Zdroj: {img["zdroj"]}',
+                                                        'src': f"images/ptaci/{path.cwd().name}/{img['file']}"})
+                    image_link.append(photo)
+                    gender_div.append(image_link)
+                    authors[img_id] = img['zdroj']
+                    img_id = img_id + 1
+
+                # Description and authors.
+                data_container = index.new_tag('div')
+                details = index.new_tag('details')
+                summary = index.new_tag('summary')
+                summary.insert(0, NavigableString('Popis'))
+                details.append(summary)
+
+                # Description.
+                if not female:
+                    spotted = 'Ano' if m_spotted else 'Ne'
+                    for part, content in {'Hlava': m_head, 'Křídla': m_wings, 'Hruď': m_chest, 'Ocas': m_tail,
+                                          'Nohy': m_legs, 'Záda': m_back, 'Zobák': m_beak, 'Kropenatost': [spotted],
+                                          'Typ': [kind], 'Velikost': [size]}.items():
+                        body_part_p = index.new_tag('p')
+                        body_part_p.insert(0, NavigableString(f'{part}: {(", ".join(content))}'))
+                        details.append(body_part_p)
+
+                    # Authors.
+                    for i_id, source in authors.items():
+                        author_p = index.new_tag('p')
+                        author_p.insert(0, NavigableString(f'Zdroj obrázku: [{i_id}] - {source}'))
+                        details.append(author_p)
+                    data_container.append(details)
+
+                    # Links.
+                    # We only want to add this once at the bottom of the whole card.
+                    avibase_link = index.new_tag('a', attrs={'class': 'birdLink',
+                                                             'href': avibase,
+                                                             'title': 'Avibase',
+                                                             'target': '_blank'})
+                    avibase_link.insert(0, NavigableString('Avibase'))
+                    photos_link = index.new_tag('a', attrs={'class': 'birdLink',
+                                                            'href': photos_url,
+                                                            'title': 'Více fotografií',
+                                                            'target': '_blank'})
+                    photos_link.insert(0, NavigableString('Birdphoto'))
+                    wiki_link = index.new_tag('a', attrs={'class': 'birdLink',
+                                                          'href': wiki_url,
+                                                          'title': 'Wikipedie',
+                                                          'target': '_blank'})
+                    wiki_link.insert(0, NavigableString('Wiki'))
+
+                    data_container.append(wiki_link)
+                    data_container.append(photos_link)
+                    data_container.append(avibase_link)
+
+                    # Dodatek
+                    if note:
+                        note_p = index.new_tag('p', attrs={'class': 'birdNote'})
+                        note_p.insert(0, NavigableString(f'{note}'))
+                        bird_card_div.append(note_p)
+                bird_card_div.append(data_container)
+
+                # Female: #############################################################################################
+                # TODO add missing picture for missing photos.
+                if female:
+                    card_title = index.new_tag('h5')
+                    card_title.insert(0, NavigableString('Samice'))
+                    gender_div = index.new_tag('div', attrs={'class': 'birdGender'})
                     bird_card_div.append(gender_div)
                     gender_div.append(card_title)
 
                     img_id = 0
-                    for img in m_photos:
-                        # TODO popis pro obe pohlavi do jednoho details dole, rozdelit na dva divy vedle sebe.
+                    for img in f_photos:
                         image_link = index.new_tag('a', attrs={'href': img['url'],
                                                                'title': f'ID: {img_id}, {name}, Zdroj: {img["zdroj"]}',
                                                                'target': '_blank'})
@@ -151,9 +231,10 @@ def fill_cards(index, database_dir) -> None:
                     details.append(summary)
 
                     # Description.
-                    spotted = 'Ano' if m_spotted else 'Ne'
-                    for part, content in {'Hlava': m_head, 'Křídla': m_wings, 'Hruď': m_chest, 'Ocas': m_tail,
-                                          'Nohy': m_legs, 'Záda': m_back, 'Zobák': m_beak, 'Kropenatost': [spotted],
+                    # TODO popis pro obe pohlavi do jednoho details dole, rozdelit na dva divy vedle sebe.
+                    spotted = 'Ano' if f_spotted else 'Ne'
+                    for part, content in {'Hlava': f_head, 'Křídla': f_wings, 'Hruď': f_chest, 'Ocas': f_tail,
+                                          'Nohy': f_legs, 'Záda': f_back, 'Zobák': f_beak, 'Kropenatost': [spotted],
                                           'Typ': [kind], 'Velikost': [size]}.items():
                         body_part_p = index.new_tag('p')
                         body_part_p.insert(0, NavigableString(f'{part}: {(", ".join(content))}'))
