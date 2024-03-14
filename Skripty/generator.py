@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 from typing import Dict
 
+import htmlmin
 import yaml
 from bs4 import BeautifulSoup, NavigableString
 from vyplnovac import scan_options
@@ -175,7 +176,9 @@ if __name__ == '__main__':
             fill_cards(template, data_directory)
 
             os.chdir(www_dir)
-            html = template.prettify("utf-8")
-            with open("index.html", "wb") as file:
-                file.write(html)
+            html = template.prettify("utf-8").decode("utf-8")
+            minimized = htmlmin.minify(html, remove_empty_space=True, remove_comments=True)
+            with open("index.html", "w") as file:
+                file.write(minimized)
+
     print('Done', www_dir / Path('index.html'))
