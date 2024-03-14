@@ -446,7 +446,7 @@ output {
     border-radius: 5px;
     border-color: slategray;
     vertical-align: top;
-    margin-bottom: 4px;
+    margin: 2px;
 }
 
 .birdCard h4 {
@@ -463,6 +463,7 @@ output {
 
 .birdCard img {
     border-radius: 5px;
+    margin-left: 1px;
 }
 
 .birdLink {
