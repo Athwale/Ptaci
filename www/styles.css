@@ -559,8 +559,8 @@ details div {
 
 .birdNote {
     font-size: 11pt;
-    margin-left: 2px;
     padding-bottom: 2px;
+    width: 300px;
 }
 
 @keyframes menuItemMark 

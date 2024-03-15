@@ -199,10 +199,11 @@ def fill_cards(index, database_dir) -> None:
                     # Dodatek
                     note_p = index.new_tag('p', attrs={'class': 'birdNote'})
                     if note:
-                        note_p.insert(0, NavigableString(f'{note}'))
-                    else:
-                        note_p.insert(0, NavigableString('Žádná poznámka'))
-                    bird_card_div.append(note_p)
+                        note_b = index.new_tag('b')
+                        note_b.insert(0, NavigableString('Poznámka: '))
+                        note_p.append(note_b)
+                        note_p.insert(1, NavigableString(f'{note}'))
+                    m_details.append(note_p)
                     bird_card_div.append(data_container)
 
                 # Female: #############################################################################################
@@ -303,14 +304,14 @@ def fill_cards(index, database_dir) -> None:
                     data_container.append(avibase_link)
 
                     # Dodatek
-                    # TODO sometimes it is very long, hide it?
                     # TODO clear button for filter.
                     note_p = index.new_tag('p', attrs={'class': 'birdNote'})
                     if note:
-                        note_p.insert(0, NavigableString(f'{note}'))
-                    else:
-                        note_p.insert(0, NavigableString('Žádná poznámka'))
-                    bird_card_div.append(note_p)
+                        note_b = index.new_tag('b')
+                        note_b.insert(0, NavigableString('Poznámka: '))
+                        note_p.append(note_b)
+                        note_p.insert(1, NavigableString(f'{note}'))
+                    details_container.append(note_p)
                     bird_card_div.append(data_container)
 
             except Exception as ex:
