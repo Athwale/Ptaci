@@ -160,7 +160,10 @@ def fill_cards(index, database_dir) -> None:
                                       'Nohy': m_legs, 'Záda': m_back, 'Zobák': m_beak, 'Kropenatost': [spotted],
                                       'Typ': [kind], 'Velikost': [size]}.items():
                     body_part_p = index.new_tag('p')
-                    body_part_p.insert(0, NavigableString(f'{part}: {(", ".join(content))}'))
+                    body_part_b = index.new_tag('b')
+                    body_part_b.insert(0, NavigableString(f'{part}: '))
+                    body_part_p.append(body_part_b)
+                    body_part_p.insert(1, NavigableString(f'{(", ".join(content))}'))
                     m_details.append(body_part_p)
 
                 # Authors.
@@ -225,12 +228,12 @@ def fill_cards(index, database_dir) -> None:
                             authors[img_id] = img['zdroj']
                             img_id = img_id + 1
                     else:
-                        image_link = index.new_tag('a', attrs={'href': 'images/neznámý_pták/nemame.jpg',
+                        image_link = index.new_tag('a', attrs={'href': 'images/neznámý_pták/nemame.png',
                                                                'title': f'ID: {img_id}, Obrázek není, Zdroj: whitebear',
                                                                'target': '_blank'})
                         photo = index.new_tag('img', attrs={'height': '200px',
                                                             'alt': 'Neznámý pták',
-                                                            'src': 'images/neznámý_pták/nemame.jpg'})
+                                                            'src': 'images/neznámý_pták/nemame.png'})
                         image_link.append(photo)
                         gender_div.append(image_link)
                         authors[img_id] = 'Fotku nemáme'
@@ -264,7 +267,10 @@ def fill_cards(index, database_dir) -> None:
                                           'Nohy': f_legs, 'Záda': f_back, 'Zobák': f_beak, 'Kropenatost': [spotted],
                                           'Typ': [kind], 'Velikost': [size]}.items():
                         body_part_p = index.new_tag('p')
-                        body_part_p.insert(0, NavigableString(f'{part}: {(", ".join(content))}'))
+                        body_part_b = index.new_tag('b')
+                        body_part_b.insert(0, NavigableString(f'{part}: '))
+                        body_part_p.append(body_part_b)
+                        body_part_p.insert(1, NavigableString(f'{(", ".join(content))}'))
                         f_div.append(body_part_p)
 
                     # Authors.
