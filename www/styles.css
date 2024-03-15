@@ -435,6 +435,7 @@ output {
     border-top: none;
     border-bottom: none;
     border-color: slategray;
+    text-align: left;
 }
 
 .birdCard {
@@ -459,11 +460,13 @@ output {
     display: block;
     margin-top: 3px;
     margin-bottom: 3px;
+    margin-left: 2px;
 }
 
 .birdCard img {
     border-radius: 5px;
     margin-left: 1px;
+    margin-right: 1px;
 }
 
 .birdLink {
@@ -503,6 +506,27 @@ details {
 details p {
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.female {
+    border-style: solid;
+    border-width: 2px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-color: slategray;
+}
+
+details div {
+    display: inline-block;
+}
+
+.femaleDetails {
+    padding-left: 20px;
 }
 
 .birdCard p {
