@@ -484,6 +484,10 @@ output {
     font-size: 11pt;
 }
 
+.singleBlock {
+    display: block;
+}
+
 .birdGender {
     display: inline-block;
 }

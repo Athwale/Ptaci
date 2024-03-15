@@ -237,10 +237,12 @@ def fill_cards(index, database_dir) -> None:
 
                     # Description and authors.
                     data_container = index.new_tag('div')
+                    details_container = index.new_tag('div', attrs={'class': 'singleBlock'})
                     details = index.new_tag('details')
                     summary = index.new_tag('summary')
                     summary.insert(0, NavigableString('Popis'))
                     details.append(summary)
+                    details.append(details_container)
 
                     f_div = index.new_tag('div', attrs={'class': 'femaleDetails'})
                     gender_p = index.new_tag('p', attrs={'class': 'bold'})
@@ -254,7 +256,7 @@ def fill_cards(index, database_dir) -> None:
                     m_content = m_details.findAll('p')
                     for p in m_content:
                         m_div.append(p)
-                    details.append(m_div)
+                    details_container.append(m_div)
 
                     # Description.
                     spotted = 'Ano' if f_spotted else 'Ne'
@@ -270,7 +272,7 @@ def fill_cards(index, database_dir) -> None:
                         author_p = index.new_tag('p')
                         author_p.insert(0, NavigableString(f'Zdroj obrázku: [{i_id}] - {source}'))
                         f_div.append(author_p)
-                    details.append(f_div)
+                    details_container.append(f_div)
                     data_container.append(details)
 
                     # Links.
