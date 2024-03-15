@@ -27,7 +27,7 @@ def fill_filter(index, filter_data) -> None:
 
     for part in ('beak', 'head', 'chest', 'wings', 'back', 'tail', 'legs', 'size', 'type'):
         html_part = index.find("div", {"id": part}).find('form')
-        for option in filter_data[translator[part]]:
+        for option in sorted(filter_data[translator[part]]):
             option: str
             part_id = f'{part}{option.capitalize()}'
             input_item = index.new_tag('input', attrs={'type': 'checkbox', 'id': part_id, 'name': part_id,
@@ -298,7 +298,6 @@ def fill_cards(index, database_dir) -> None:
 
                     # Dodatek
                     # TODO sometimes it is very long, hide it?
-                    # TODO sort colors in filter.
                     # TODO clear button for filter.
                     note_p = index.new_tag('p', attrs={'class': 'birdNote'})
                     if note:
