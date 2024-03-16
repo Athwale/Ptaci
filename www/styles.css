@@ -450,6 +450,23 @@ output {
     margin: 2px;
 }
 
+.notFound {
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: slategray;
+    margin: 2px;
+    display: block;
+}
+
+.notFound h4 {
+    margin: 0;
+    display: block;
+    text-align: center;
+}
+
 .birdCard h4 {
     display: block;
     margin-top: 0;

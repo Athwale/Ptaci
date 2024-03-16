@@ -304,7 +304,6 @@ def fill_cards(index, database_dir) -> None:
                     data_container.append(avibase_link)
 
                     # Dodatek
-                    # TODO clear button for filter.
                     note_p = index.new_tag('p', attrs={'class': 'birdNote'})
                     if note:
                         note_b = index.new_tag('b')
