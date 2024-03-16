@@ -29,9 +29,9 @@ def fill_filter(index, filter_data) -> None:
         html_part = index.find("div", {"id": part}).find('form')
         for option in sorted(filter_data[translator[part]]):
             option: str
-            part_id = f'{part}{option.capitalize()}'
+            part_id = f'{part}_{option}'
             input_item = index.new_tag('input', attrs={'type': 'checkbox', 'id': part_id, 'name': part_id,
-                                                       'value': option})
+                                                       'value': option, 'onchange': 'onFilter()'})
             input_label = index.new_tag('label', attrs={'for': part_id})
             input_item.append(input_label)
             br = index.new_tag('br')

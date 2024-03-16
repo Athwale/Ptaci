@@ -82,15 +82,19 @@
     <div class="menuPart" id="spotted">
         <h3>Kropenatost</h3>
         <form>
-            <input type="checkbox" id="spotted_box" name="spotted_h" value="ano"><label for="spotted_box">ano</label><br>
+            <input type="checkbox" id="spotted_box" name="spotted_bird" value="ano" onchange="onFilter()"><label for="spotted_box">ano</label><br>
         </form>
     </div>
-         <button onclick="clearFilter()" type="button">Vymazat</button>
+         <button id="clearButton" onclick="clearFilter()" type="button">Vymazat</button>
     </menu>
     
     <output for="birdFilter" name="searchResults">
+        <div id="javascriptNeeded">
+            <h4 class="red" >Vyhledávač vyžaduje Javascript</h4>
+            <img alt="Javascript potřeba" height=200px src=images/neznámý_pták/feather.png>
+        </div>
         <div id="notFound">
-            <h4>Nic nenalezeno</h4>
+            <h4 class="red" >Nic nenalezeno</h4>
             <img alt="Nic nenalezeno" height=200px src=images/neznámý_pták/feather.png>
         </div>
     </output>

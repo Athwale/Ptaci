@@ -387,6 +387,7 @@ figure img.imgAside:hover
     border-style: solid;
     border-width: 1px;
 }
+
 .link img
 {
     animation-name: menuItemUnmark;
@@ -450,6 +451,17 @@ output {
     margin: 2px;
 }
 
+#clearButton {
+    display: inline-block;
+    color: buttontext;
+    background-color: buttonface;
+    padding: 20px;
+    border-width: 1px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
 #notFound {
     padding: 5px;
     text-align: center;
@@ -459,6 +471,23 @@ output {
     border-color: slategray;
     margin: 2px;
     display: block;
+}
+
+#javascriptNeeded {
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: red;
+    margin: 2px;
+    display: block;
+}
+
+#javascriptNeeded h4 {
+    margin: 0;
+    display: block;
+    text-align: center;
 }
 
 #notFound h4 {
