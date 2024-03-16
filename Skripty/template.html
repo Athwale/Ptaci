@@ -17,6 +17,7 @@
 
             ga('create', 'UA-76854841-1', 'auto');
             ga('send', 'pageview');</script>
+    <script type="text/javascript" src="search.js"></script>
 </head>
 <body>
 <a class="skip" href="#top" title="Přejít na obsah">Přejít na obsah</a>
@@ -84,11 +85,11 @@
             <input type="checkbox" id="spotted_box" name="spotted_h" value="ano"><label for="spotted_box">ano</label><br>
         </form>
     </div>
-         <button type="button">Vymazat</button>
+         <button onclick="clearFilter()" type="button">Vymazat</button>
     </menu>
     
     <output for="birdFilter" name="searchResults">
-        <div class="notFound hidden">
+        <div id="notFound">
             <h4>Nic nenalezeno</h4>
             <img alt="Nic nenalezeno" height=200px src=images/neznámý_pták/feather.png>
         </div>

@@ -450,7 +450,7 @@ output {
     margin: 2px;
 }
 
-.notFound {
+#notFound {
     padding: 5px;
     text-align: center;
     border-style: solid;
@@ -461,7 +461,7 @@ output {
     display: block;
 }
 
-.notFound h4 {
+#notFound h4 {
     margin: 0;
     display: block;
     text-align: center;
