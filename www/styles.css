@@ -451,6 +451,10 @@ output {
     margin: 2px;
 }
 
+.description {
+
+}
+
 #clearButton {
     display: inline-block;
     color: buttontext;

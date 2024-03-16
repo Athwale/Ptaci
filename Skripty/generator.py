@@ -159,7 +159,7 @@ def fill_cards(index, database_dir) -> None:
                 for part, content in {'Hlava': m_head, 'Křídla': m_wings, 'Hruď': m_chest, 'Ocas': m_tail,
                                       'Nohy': m_legs, 'Záda': m_back, 'Zobák': m_beak, 'Kropenatost': [spotted],
                                       'Typ': [kind], 'Velikost': [size]}.items():
-                    body_part_p = index.new_tag('p')
+                    body_part_p = index.new_tag('p',  attrs={'class': 'description'})
                     body_part_b = index.new_tag('b')
                     body_part_b.insert(0, NavigableString(f'{part}: '))
                     body_part_p.append(body_part_b)
@@ -267,7 +267,7 @@ def fill_cards(index, database_dir) -> None:
                     for part, content in {'Hlava': f_head, 'Křídla': f_wings, 'Hruď': f_chest, 'Ocas': f_tail,
                                           'Nohy': f_legs, 'Záda': f_back, 'Zobák': f_beak, 'Kropenatost': [spotted],
                                           'Typ': [kind], 'Velikost': [size]}.items():
-                        body_part_p = index.new_tag('p')
+                        body_part_p = index.new_tag('p', attrs={'class': 'description'})
                         body_part_b = index.new_tag('b')
                         body_part_b.insert(0, NavigableString(f'{part}: '))
                         body_part_p.append(body_part_b)
