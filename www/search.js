@@ -7,6 +7,8 @@ window.onload = function() {
 function clearFilter() {
     var checkboxes = document.querySelectorAll("input[type=checkbox]");
     checkboxes.forEach(clearInput);
+    var checkboxes = document.querySelectorAll("input[type=radio]");
+    checkboxes.forEach(clearInput);
     var notFoundBox = document.querySelector("#notFound");
     notFoundBox.style.display = "none"
     var cards = document.querySelectorAll(".birdCard");
@@ -30,7 +32,7 @@ function compare(bodyPart, selected_colors) {
 }
 
 function merge_descriptors(descriptors) {
-// TODO kropenatost bude problem ano/ne v jednom.
+    // TODO kropenatost bude problem ano/ne v jednom.
     var merged = {};
     for (const line of descriptors) {
         const parsed_attr = line.innerText.toLowerCase().trim().split(":");
@@ -62,9 +64,22 @@ function onFilter() {
     const legs = new Array();
     const size = new Array();
     const kind = new Array();
-    let spotted = 0;
+    var spotted = 0;
 
     // Get what colors are selected for each option and store them in lists.
+    var radios = document.querySelectorAll("input[type=radio]");
+    for (const r of radios) {
+        if (r.checked) {
+            const which_r = r.id.split("_");
+            column = which_r[0];
+            option = which_r[1];
+            if (column == 'size') {
+                size.push(option);
+            } else if (column == 'type') {
+                kind.push(option);
+            }
+        }
+    }
     var checkboxes = document.querySelectorAll("input[type=checkbox]");
     for (const box of checkboxes) {
         if (box.checked) {
@@ -85,10 +100,6 @@ function onFilter() {
                 tail.push(option);
             } else if (column == 'legs') {
                 legs.push(option);
-            } else if (column == 'size') {
-                size.push(option);
-            } else if (column == 'type') {
-                kind.push(option);
             } else if (column == 'spotted') {
                 spotted = 1;
             }

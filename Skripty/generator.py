@@ -25,7 +25,7 @@ def fill_filter(index, filter_data) -> None:
                   'size': 'velikost',
                   'type': 'typ'}
 
-    for part in ('beak', 'head', 'chest', 'wings', 'back', 'tail', 'legs', 'size', 'type'):
+    for part in ('beak', 'head', 'chest', 'wings', 'back', 'tail', 'legs'):
         html_part = index.find("div", {"id": part}).find('form')
         # TODO sorted colors are not alphabetically sorted - č
         # TODO typ is a radio button as well as size?
@@ -33,6 +33,19 @@ def fill_filter(index, filter_data) -> None:
             option: str
             part_id = f'{part}_{option}'
             input_item = index.new_tag('input', attrs={'type': 'checkbox', 'id': part_id, 'name': part_id,
+                                                       'value': option, 'onchange': 'onFilter()'})
+            input_label = index.new_tag('label', attrs={'for': part_id})
+            input_item.append(input_label)
+            br = index.new_tag('br')
+            input_item.append(br)
+            input_label.insert(0, NavigableString(option))
+            html_part.append(input_item)
+    for part in ('size', 'type'):
+        html_part = index.find("div", {"id": part}).find('form')
+        for option in sorted(filter_data[translator[part]]):
+            option: str
+            part_id = f'{part}_{option}'
+            input_item = index.new_tag('input', attrs={'type': 'radio', 'id': part_id, 'name': part,
                                                        'value': option, 'onchange': 'onFilter()'})
             input_label = index.new_tag('label', attrs={'for': part_id})
             input_item.append(input_label)
