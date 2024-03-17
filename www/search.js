@@ -26,18 +26,18 @@ function hide(card) {
 }
 
 function onFilter() {
-    const beak = new Set();
-    const head = new Set();
-    const chest = new Set();
-    const wings = new Set();
-    const back = new Set();
-    const tail = new Set();
-    const legs = new Set();
-    const size = new Set();
-    const kind = new Set();
+    const beak = new Array();
+    const head = new Array();
+    const chest = new Array();
+    const wings = new Array();
+    const back = new Array();
+    const tail = new Array();
+    const legs = new Array();
+    const size = new Array();
+    const kind = new Array();
     let spotted = 0;
 
-    // Get what colors are selected for each option and store them in sets.
+    // Get what colors are selected for each option and store them in lists.
     var checkboxes = document.querySelectorAll("input[type=checkbox]");
     for (const box of checkboxes) {
         if (box.checked) {
@@ -45,23 +45,23 @@ function onFilter() {
             column = whichBox[0];
             option = whichBox[1];
             if (column == 'beak') {
-                beak.add(option);
+                beak.push(option);
             } else if (column == 'head') {
-                head.add(option);
+                head.push(option);
             } else if (column == 'chest') {
-                chest.add(option);
+                chest.push(option);
             } else if (column == 'wings') {
-                wings.add(option);
+                wings.push(option);
             } else if (column == 'back') {
-                back.add(option);
+                back.push(option);
             } else if (column == 'tail') {
-                tail.add(option);
+                tail.push(option);
             } else if (column == 'legs') {
-                legs.add(option);
+                legs.push(option);
             } else if (column == 'size') {
-                size.add(option);
+                size.push(option);
             } else if (column == 'type') {
-                kind.add(option);
+                kind.push(option);
             } else if (column == 'spotted') {
                 spotted = 1;
             }
@@ -69,6 +69,9 @@ function onFilter() {
     }
     // Filter results based on selected attributes.
     // TODO remove all console.log
+    // TODO look for better pics in wiki photos.
+    // TODO optimalizace - funkce pro kazdy checkbox pro pridani a odebrani barvy z mnoziny, generovat automaticky.
+    // TODO does not work on bazant for some reason, is the female div a problem? Do we have to combine them? Merge male and female colors into one set.
     // console.log(beak, head, chest, wings, back, tail, legs, size, kind, spotted);
     var cards = document.querySelectorAll(".birdCard");
     for (const card of cards) {
@@ -78,7 +81,8 @@ function onFilter() {
         for (const line of descriptors) {
             const whichAttr = line.innerText.toLowerCase().trim().split(":");
             const part = whichAttr[0].trim();
-            const attrs = whichAttr[1].split(',');
+            // Trim whitespaces from the color lists.
+            const attrs = whichAttr[1].split(',').map(Function.prototype.call, String.prototype.trim);
             if (part == 'zobák') {
                 hide_card = compare(attrs, beak);
                 if (hide_card) {
@@ -125,7 +129,7 @@ function onFilter() {
                     break;
                 }
             } else if (part == 'kropenatost') {
-                is_card_spotted = attrs[0].trim();
+                const [is_card_spotted] = attrs;
                 if (spotted) {
                     if (is_card_spotted == 'ne') {
                         hide_card = 1;
@@ -139,7 +143,6 @@ function onFilter() {
                 }
             }
         }
-        console.log(hide_card);
         if (hide_card) {
             hide(card);
         } else {
@@ -148,7 +151,10 @@ function onFilter() {
         }
 }
 
-function compare(colors, bodyPart) {
-    //console.log();
-    return 0;
+function compare(bodyPart, selected_colors) {
+    // TODO sorted colors are not aplphabetically sorted - č
+    if (selected_colors.every(val => bodyPart.includes(val))) {
+        return 0;
+    }
+    return 1;
 }
