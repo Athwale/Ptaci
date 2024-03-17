@@ -25,6 +25,33 @@ function hide(card) {
     card.style.display = "none";
 }
 
+function compare(bodyPart, selected_colors) {
+    return selected_colors.every(val => bodyPart.includes(val));
+}
+
+function merge_descriptors(descriptors) {
+// TODO kropenatost bude problem ano/ne v jednom.
+    var merged = {};
+    for (const line of descriptors) {
+        const parsed_attr = line.innerText.toLowerCase().trim().split(":");
+        const part = parsed_attr[0].trim();
+        // Trim whitespaces from the color lists.
+        const attrs = parsed_attr[1].split(',').map(Function.prototype.call, String.prototype.trim);
+        if (part in merged) {
+            current_list = merged[part];
+            for (color of attrs) {
+                if (! current_list.includes(color)) {
+                    current_list.push(color);
+                }
+            }
+            merged[part] = current_list;
+        } else {
+            merged[part] = attrs;
+        }
+    }
+    return merged;
+}
+
 function onFilter() {
     const beak = new Array();
     const head = new Array();
@@ -71,90 +98,42 @@ function onFilter() {
     // TODO remove all console.log
     // TODO look for better pics in wiki photos.
     // TODO optimalizace - funkce pro kazdy checkbox pro pridani a odebrani barvy z mnoziny, generovat automaticky.
-    // TODO does not work on bazant for some reason, is the female div a problem? Do we have to combine them? Merge male and female colors into one set.
     // console.log(beak, head, chest, wings, back, tail, legs, size, kind, spotted);
+    var body_parts = {'zobák': beak, 'hlava': head, 'hruď': chest, 'křídla': wings, 'záda': back, 'ocas': tail, 'nohy': legs, 'velikost': size, 'typ': kind};
     var cards = document.querySelectorAll(".birdCard");
+    var hidden = 0;
     for (const card of cards) {
         let hide_card = 0;
+        stop = false;
         // Pull out bird attributes from the card and decide whether it stays visible.
         var descriptors = card.querySelectorAll(".description");
-        for (const line of descriptors) {
-            const whichAttr = line.innerText.toLowerCase().trim().split(":");
-            const part = whichAttr[0].trim();
-            // Trim whitespaces from the color lists.
-            const attrs = whichAttr[1].split(',').map(Function.prototype.call, String.prototype.trim);
-            if (part == 'zobák') {
-                hide_card = compare(attrs, beak);
-                if (hide_card) {
-                    break;
-                }
-            } else if (part == 'hlava') {
-                hide_card = compare(attrs, head);
-                if (hide_card) {
-                    break;
-                }
-            } else if (part == 'hruď') {
-                hide_card = compare(attrs, chest);
-                if (hide_card) {
-                    break;
-                }
-            } else if (part == 'křídla') {
-                hide_card = compare(attrs, wings);
-                if (hide_card) {
-                    break;
-                }
-            } else if (part == 'záda') {
-                hide_card = compare(attrs, back);
-                if (hide_card) {
-                    break;
-                }
-            } else if (part == 'ocas') {
-                hide_card = compare(attrs, tail);
-                if (hide_card) {
-                    break;
-                }
-            } else if (part == 'nohy') {
-                hide_card = compare(attrs, legs);
-                if (hide_card) {
-                    break;
-                }
-            } else if (part == 'velikost') {
-                hide_card = compare(attrs, size);
-                if (hide_card) {
-                    break;
-                }
-            } else if (part == 'typ') {
-                hide_card = compare(attrs, kind);
-                if (hide_card) {
-                    break;
-                }
-            } else if (part == 'kropenatost') {
-                const [is_card_spotted] = attrs;
-                if (spotted) {
-                    if (is_card_spotted == 'ne') {
-                        hide_card = 1;
-                        break;
-                    }
-                } else if (!spotted) {
-                    if (is_card_spotted == 'ano') {
-                        hide_card = 1;
-                        break;
-                    }
-                }
+        var all_colors = merge_descriptors(descriptors)
+        for (const [part, selected_colors] of Object.entries(body_parts)) {
+            // Compare returns true when all selected colors are on the bird part.
+            if (! compare(all_colors[part], selected_colors)) {
+                hide(card);
+                hidden++;
+                // Only one decision to hide is needed.
+                stop = true;
+                break;
+            } else {
+                show(card);
+            }
+            if (stop) {
+                continue;
             }
         }
-        if (hide_card) {
-            hide(card);
-        } else {
-            show(card);
-        }
-        }
-}
 
-function compare(bodyPart, selected_colors) {
-    // TODO sorted colors are not aplphabetically sorted - č
-    if (selected_colors.every(val => bodyPart.includes(val))) {
-        return 0;
+        //hide_card = compare(all_colors['kropenatost'], spotted);
+        //if (hide_card) {
+        //    continue;
+        //}
+        }
+
+    var notFoundBox = document.querySelector("#notFound");
+    if (cards.length == hidden) {
+        notFoundBox.style.display = "block";
+    } else {
+        notFoundBox.style.display = "none";
     }
-    return 1;
 }
