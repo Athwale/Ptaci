@@ -82,10 +82,12 @@
     <div class="menuPart" id="spotted">
         <h3>Kropenatost</h3>
         <form>
-            <input type="checkbox" id="spotted_box" name="spotted_bird" value="ano" onchange="onFilter()"><label for="spotted_box">ano</label><br>
+            <input type="radio" id="spotted_none" name="spotted_bird" value="ano" onchange="onFilter()"><label for="spotted_none">nespecifikováno</label><br>
+            <input type="radio" id="spotted_ano" name="spotted_bird" value="ano" onchange="onFilter()"><label for="spotted_ano">ano</label><br>
+            <input type="radio" id="spotted_ne" name="spotted_bird" value="ano" onchange="onFilter()"><label for="spotted_ne">ne</label><br>
         </form>
     </div>
-         <button id="clearButton" onclick="clearFilter()" type="button">Zobrazit vše</button>
+         <button id="clearButton" onclick="clearFilter()" type="button">Zrušit</button>
     </menu>
     
     <output for="birdFilter" name="searchResults">

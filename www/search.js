@@ -11,6 +11,8 @@ function clearFilter() {
     checkboxes.forEach(clearInput);
     var notFoundBox = document.querySelector("#notFound");
     notFoundBox.style.display = "none"
+    var default_radio = document.querySelector("#spotted_none");
+    default_radio.checked = true;
     var cards = document.querySelectorAll(".birdCard");
     cards.forEach(show);
 }
@@ -32,7 +34,6 @@ function compare(bodyPart, selected_colors) {
 }
 
 function merge_descriptors(descriptors) {
-    // TODO kropenatost bude problem ano/ne v jednom.
     var merged = {};
     for (const line of descriptors) {
         const parsed_attr = line.innerText.toLowerCase().trim().split(":");
@@ -64,7 +65,7 @@ function onFilter() {
     const legs = new Array();
     const size = new Array();
     const kind = new Array();
-    var spotted = 0;
+    const spotted = new Array('ne');
 
     // Get what colors are selected for each option and store them in lists.
     var radios = document.querySelectorAll("input[type=radio]");
@@ -77,9 +78,12 @@ function onFilter() {
                 size.push(option);
             } else if (column == 'type') {
                 kind.push(option);
+            } else if (column == 'spotted') {
+                spotted[0] = option;
             }
         }
     }
+    console.log(spotted);
     var checkboxes = document.querySelectorAll("input[type=checkbox]");
     for (const box of checkboxes) {
         if (box.checked) {
@@ -100,8 +104,6 @@ function onFilter() {
                 tail.push(option);
             } else if (column == 'legs') {
                 legs.push(option);
-            } else if (column == 'spotted') {
-                spotted = 1;
             }
         }
     }
@@ -109,8 +111,8 @@ function onFilter() {
     // TODO remove all console.log
     // TODO look for better pics in wiki photos.
     // TODO optimalizace - funkce pro kazdy checkbox pro pridani a odebrani barvy z mnoziny, generovat automaticky.
-    // console.log(beak, head, chest, wings, back, tail, legs, size, kind, spotted);
-    var body_parts = {'zobák': beak, 'hlava': head, 'hruď': chest, 'křídla': wings, 'záda': back, 'ocas': tail, 'nohy': legs, 'velikost': size, 'typ': kind};
+    // TODO fix kropenatost, none case, select none as default.
+    var body_parts = {'zobák': beak, 'hlava': head, 'hruď': chest, 'křídla': wings, 'záda': back, 'ocas': tail, 'nohy': legs, 'velikost': size, 'typ': kind, 'kropenatost': spotted};
     var cards = document.querySelectorAll(".birdCard");
     var hidden = 0;
     for (const card of cards) {
@@ -134,12 +136,7 @@ function onFilter() {
                 continue;
             }
         }
-
-        //hide_card = compare(all_colors['kropenatost'], spotted);
-        //if (hide_card) {
-        //    continue;
-        //}
-        }
+    }
 
     var notFoundBox = document.querySelector("#notFound");
     if (cards.length == hidden) {

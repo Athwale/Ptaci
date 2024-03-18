@@ -28,7 +28,6 @@ def fill_filter(index, filter_data) -> None:
     for part in ('beak', 'head', 'chest', 'wings', 'back', 'tail', 'legs'):
         html_part = index.find("div", {"id": part}).find('form')
         # TODO sorted colors are not alphabetically sorted - č
-        # TODO typ is a radio button as well as size?
         for option in sorted(filter_data[translator[part]]):
             option: str
             part_id = f'{part}_{option}'
