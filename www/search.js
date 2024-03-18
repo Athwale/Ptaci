@@ -11,8 +11,12 @@ function clearFilter() {
     checkboxes.forEach(clearInput);
     var notFoundBox = document.querySelector("#notFound");
     notFoundBox.style.display = "none"
-    var default_radio = document.querySelector("#spotted_none");
+    var default_radio = document.querySelector("#spotted_neurčeno");
+    var default_radio_1 = document.querySelector("#type_neurčeno");
+    var default_radio_2 = document.querySelector("#size_neurčeno");
     default_radio.checked = true;
+    default_radio_1.checked = true;
+    default_radio_2.checked = true;
     var cards = document.querySelectorAll(".birdCard");
     cards.forEach(show);
 }
@@ -30,7 +34,7 @@ function hide(card) {
 }
 
 function compare(bodyPart, selected_colors) {
-    if (selected_colors[0] == 'none') {
+    if (selected_colors[0] == 'neurčeno') {
         return true;
     }
     return selected_colors.every(val => bodyPart.includes(val));

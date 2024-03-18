@@ -44,7 +44,9 @@ def fill_filter(index, filter_data) -> None:
             html_part.append(input_item)
     for part in ('size', 'type'):
         html_part = index.find("div", {"id": part}).find('form')
-        for option in sorted(filter_data[translator[part]], key=locale.functools.cmp_to_key(locale.strcoll)):
+        option_list = sorted(filter_data[translator[part]], key=locale.functools.cmp_to_key(locale.strcoll))
+        option_list.insert(0, 'neurčeno')
+        for option in option_list:
             option: str
             part_id = f'{part}_{option}'
             input_item = index.new_tag('input', attrs={'type': 'radio', 'id': part_id, 'name': part,
