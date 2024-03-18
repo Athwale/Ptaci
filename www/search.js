@@ -30,6 +30,9 @@ function hide(card) {
 }
 
 function compare(bodyPart, selected_colors) {
+    if (selected_colors[0] == 'none') {
+        return true;
+    }
     return selected_colors.every(val => bodyPart.includes(val));
 }
 
@@ -83,7 +86,6 @@ function onFilter() {
             }
         }
     }
-    console.log(spotted);
     var checkboxes = document.querySelectorAll("input[type=checkbox]");
     for (const box of checkboxes) {
         if (box.checked) {
