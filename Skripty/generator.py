@@ -1,3 +1,4 @@
+import locale
 import os
 from pathlib import Path
 from typing import Dict
@@ -25,10 +26,12 @@ def fill_filter(index, filter_data) -> None:
                   'size': 'velikost',
                   'type': 'typ'}
 
+    locale.setlocale(locale.LC_ALL, 'cs_CZ.UTF-8')
     for part in ('beak', 'head', 'chest', 'wings', 'back', 'tail', 'legs'):
         html_part = index.find("div", {"id": part}).find('form')
         # TODO sorted colors are not alphabetically sorted - č
-        for option in sorted(filter_data[translator[part]]):
+        # TODO Add neurceno to the top.
+        for option in sorted(filter_data[translator[part]], key=locale.functools.cmp_to_key(locale.strcoll)):
             option: str
             part_id = f'{part}_{option}'
             input_item = index.new_tag('input', attrs={'type': 'checkbox', 'id': part_id, 'name': part_id,
@@ -41,7 +44,7 @@ def fill_filter(index, filter_data) -> None:
             html_part.append(input_item)
     for part in ('size', 'type'):
         html_part = index.find("div", {"id": part}).find('form')
-        for option in sorted(filter_data[translator[part]]):
+        for option in sorted(filter_data[translator[part]], key=locale.functools.cmp_to_key(locale.strcoll)):
             option: str
             part_id = f'{part}_{option}'
             input_item = index.new_tag('input', attrs={'type': 'radio', 'id': part_id, 'name': part,
