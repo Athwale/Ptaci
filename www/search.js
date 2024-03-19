@@ -79,8 +79,8 @@ function onFilter() {
     for (const r of radios) {
         if (r.checked) {
             const which_r = r.id.split("_");
-            column = which_r[0];
-            option = which_r[1];
+            const column = which_r[0];
+            const option = which_r[1];
             if (column == 'size') {
                 size.push(option);
             } else if (column == 'type') {
@@ -91,33 +91,22 @@ function onFilter() {
         }
     }
     var checkboxes = document.querySelectorAll("input[type=checkbox]");
+    var body_parts = {'beak': beak, 'head': head, 'chest': chest, 'wings': wings, 'back': back, 'tail': tail, 'legs': legs};
     for (const box of checkboxes) {
         if (box.checked) {
             const whichBox = box.name.split("_");
-            column = whichBox[0];
-            option = whichBox[1];
-            if (column == 'beak') {
-                beak.push(option);
-            } else if (column == 'head') {
-                head.push(option);
-            } else if (column == 'chest') {
-                chest.push(option);
-            } else if (column == 'wings') {
-                wings.push(option);
-            } else if (column == 'back') {
-                back.push(option);
-            } else if (column == 'tail') {
-                tail.push(option);
-            } else if (column == 'legs') {
-                legs.push(option);
-            }
+            const column = whichBox[0];
+            const option = whichBox[1];
+            var list = body_parts[column];
+            list.push(option);
         }
     }
     // Filter results based on selected attributes.
+    // TODO var vs const?
     // TODO remove all console.log
+    // TODO optimize image size to what we have now.
     // TODO look for better pics in wiki photos.
     // TODO optimalizace - funkce pro kazdy checkbox pro pridani a odebrani barvy z mnoziny, generovat automaticky.
-    // TODO fix kropenatost, none case, select none as default.
     var body_parts = {'zobák': beak, 'hlava': head, 'hruď': chest, 'křídla': wings, 'záda': back, 'ocas': tail, 'nohy': legs, 'velikost': size, 'typ': kind, 'kropenatost': spotted};
     var cards = document.querySelectorAll(".birdCard");
     var hidden = 0;

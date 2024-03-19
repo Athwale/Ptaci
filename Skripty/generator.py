@@ -29,8 +29,6 @@ def fill_filter(index, filter_data) -> None:
     locale.setlocale(locale.LC_ALL, 'cs_CZ.UTF-8')
     for part in ('beak', 'head', 'chest', 'wings', 'back', 'tail', 'legs'):
         html_part = index.find("div", {"id": part}).find('form')
-        # TODO sorted colors are not alphabetically sorted - č
-        # TODO Add neurceno to the top.
         for option in sorted(filter_data[translator[part]], key=locale.functools.cmp_to_key(locale.strcoll)):
             option: str
             part_id = f'{part}_{option}'

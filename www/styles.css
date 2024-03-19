@@ -427,6 +427,15 @@ figure img.imgAside:hover
     display: inline-block;
 }
 
+input {
+    width: 20px;
+    height: 20px;
+}
+
+label {
+    line-height: 25px;
+}
+
 output {
     display: block;
     padding: 0.5%;
