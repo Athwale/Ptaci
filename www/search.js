@@ -105,7 +105,7 @@ function onFilter() {
     // TODO var vs const?
     // TODO remove all console.log
     // TODO optimize image size to what we have now.
-    // TODO look for better pics in wiki photos.
+    // TODO look for better and female pics in wiki photos.
     // TODO optimalizace - funkce pro kazdy checkbox pro pridani a odebrani barvy z mnoziny, generovat automaticky.
     var body_parts = {'zobák': beak, 'hlava': head, 'hruď': chest, 'křídla': wings, 'záda': back, 'ocas': tail, 'nohy': legs, 'velikost': size, 'typ': kind, 'kropenatost': spotted};
     var cards = document.querySelectorAll(".birdCard");

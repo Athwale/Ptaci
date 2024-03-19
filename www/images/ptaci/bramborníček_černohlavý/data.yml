@@ -52,7 +52,10 @@ popis:
       - šedá
     - zobák:
       - černá
-    fotky: []
+    fotky: 
+    - file: bramborníček_černohlavý_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Cartaxo-comum,_f%C3%AAmea,_Eurasian_Stonechat,_female_(53190695894).jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: pěvci
 velikost: sýkorka

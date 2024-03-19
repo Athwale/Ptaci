@@ -29,6 +29,9 @@ popis:
     - file: hohol_islandský.jpg
       url: https://commons.wikimedia.org/wiki/File:Barrowgoldeneye.jpg
       zdroj: wikipedia
+    - file: hohol_islandský_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bucephala_islandica.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice:
     barvy:
@@ -51,7 +54,13 @@ popis:
     - zobák:
       - černá
       - oranžová
-    fotky: []
+    fotky:
+    - file: hohol_islandský_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:At_Isobel_lake%E2%80%A6Barrow%27s_Goldeneye_pair_(8727141821).jpg
+      zdroj: wikipedia
+    - file: hohol_islandský_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bucephala_islandica-3.jpg
+      zdroj: wikipedia
     kropenatost: false
 typ: vodní
 velikost: kachna

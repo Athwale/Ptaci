@@ -31,7 +31,7 @@ popis:
       - červená
     fotky:
     - file: husice_liščí.jpg
-      url: https://commons.wikimedia.org/wiki/File:Brandgans_(Tadorna_tadorna).jpg
+      url: https://commons.wikimedia.org/wiki/Category:Tadorna_tadorna#/media/File:Brandgans_auf_Schotterinsel.jpg
       zdroj: wikipedia
     kropenatost: false
   samice:
@@ -57,7 +57,7 @@ popis:
       - červená
     fotky:
     - file: husice_liščí_samice_1.jpg
-      url: https://commons.wikimedia.org/wiki/File:Gravand_%28Tadorna_tadorna%29_-_Ystad-2022.jpg
+      url: https://commons.wikimedia.org/wiki/File:Tadorna_tadorna_(32934387534).jpg
       zdroj: wikipedia
     kropenatost: false
 typ: vodní

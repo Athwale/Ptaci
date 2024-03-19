@@ -33,7 +33,7 @@ popis:
       - žlutá
     fotky:
     - file: drop_malý.jpg
-      url: https://commons.wikimedia.org/wiki/File:Tetrax_male_1.JPG
+      url: https://commons.wikimedia.org/wiki/File:Tetrax_tetrax_121375476.jpg
       zdroj: wikipedia
     kropenatost: true
   samice:
@@ -63,7 +63,10 @@ popis:
     - zobák:
       - černá
       - žlutá
-    fotky: []
+    fotky: 
+    - file: drop_malý_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Tetrax_tetrax_78502986.jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: pouštní
 velikost: bažant

@@ -53,7 +53,10 @@ popis:
       - hnědá
     - zobák:
       - černá
-    fotky: []
+    fotky: 
+    - file: bělořit_okrový_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Oenanthe_hispanica,_Souk_Na%C3%A2mane,_Algeria_1.jpg
+      zdroj: wikipedia
     kropenatost: false
 typ: pěvci
 velikost: sýkorka

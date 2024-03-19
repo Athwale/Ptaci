@@ -62,7 +62,10 @@ popis:
     - zobák:
       - černá
       - žlutá
-    fotky: []
+    fotky: 
+    - file: čírka_obecná_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Kricka_Common_Teal_(cropped).jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: vodní
 velikost: kachna
