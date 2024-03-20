@@ -32,10 +32,7 @@ popis:
       - žlutá
     fotky:
     - file: kachna_divoká.jpg
-      url: https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female_quadrat.jpg
-      zdroj: wikipedia
-    - file: kachna_divoká_samec_1.jpg
-      url: https://commons.wikimedia.org/wiki/File:Mallard_getting_eclipse_plumage.jpg
+      url: https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_DSC01572.jpg
       zdroj: wikipedia
     kropenatost: false
   samice:
@@ -64,7 +61,10 @@ popis:
     - zobák:
       - černá
       - oranžová
-    fotky: []
+    fotky:
+    - file: kachna_divoká_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:053_366_-_Mallard_-_Anas_platyrhynchos,_Brenman_Park,_Alexandria,_Virginia,_February_22,_2024_(53546179819).jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: vodní
 velikost: kachna

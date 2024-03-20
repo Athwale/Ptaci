@@ -39,10 +39,10 @@ popis:
       - černá
     fotky:
     - file: kulík_zlatý.jpg
-      url: https://commons.wikimedia.org/wiki/File:Pluvialis_apricaria1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Goudplevier-2_(28647461555).jpg
       zdroj: wikipedia
     - file: kulík_zlatý_samec_1.jpg
-      url: https://commons.wikimedia.org/wiki/File:Pluvialis_apricaria2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Ljungpipare_European_Golden_Plover_(14982373992).jpg
       zdroj: wikipedia
     kropenatost: true
   samice: []

@@ -53,7 +53,10 @@ popis:
     - zobák:
       - hnědá
       - žlutá
-    fotky: []
+    fotky:
+    - file: morčák_chocholatý_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Hooded_merganser_-_female.jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: vodní
 velikost: kachna

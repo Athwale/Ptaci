@@ -55,7 +55,10 @@ popis:
     - zobák:
       - hnědá
       - žlutá
-    fotky: []
+    fotky:
+    - file: kajka_mořská_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Common_Eider_(Somateria_mollissima)_-_Oslo,_Norway_2020-08-12_(01).jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: vodní
 velikost: husa

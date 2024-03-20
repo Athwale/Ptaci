@@ -28,7 +28,7 @@ popis:
       - černá
     fotky:
     - file: lejsek_bělokrký.jpg
-      url: https://commons.wikimedia.org/wiki/File:Halsbandschnaepper.jpg
+      url: https://commons.wikimedia.org/wiki/File:Collared_flycatcher_(Ficedula_albicollis).jpg
       zdroj: wikipedia
     kropenatost: false
   samice:
@@ -51,7 +51,10 @@ popis:
       - hnědá
     - zobák:
       - černá
-    fotky: []
+    fotky:
+    - file: lejsek_bělokrký_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Female_Collared_Flycatcher_(Ficedula_torquata),_Park_Pa%C5%82acowy,_Bia%C5%82owie%C5%BCa,_Poland.jpg
+      zdroj: wikipedia
     kropenatost: false
 typ: pěvci
 velikost: sýkorka

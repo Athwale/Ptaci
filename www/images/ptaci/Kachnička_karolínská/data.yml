@@ -64,7 +64,10 @@ popis:
     - zobák:
       - černá
       - oranžová
-    fotky: []
+    fotky:
+    - file: Kachnička_karolínská_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Wood_duck_female_in_PP_(45101).jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: vodní
 velikost: kachna

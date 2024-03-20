@@ -1,4 +1,4 @@
-dodatek: ' Samice jsou výrazněji zbarvené než samci'
+dodatek: 'Samice jsou výrazněji zbarvené než samci'
 jméno: Kulík hnědý
 latinsky: Charadrius morinellus
 odkazy:
@@ -7,6 +7,38 @@ odkazy:
   wiki: https://cs.wikipedia.org/wiki/Kul%C3%ADk_hn%C4%9Bd%C3%BD
 popis:
   samec:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+      - šedá
+    - křídla:
+      - béžová
+      - bílá
+      - hnědá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+      - žlutá
+      - šedá
+    - ocas:
+      - bílá
+      - hnědá
+      - černá
+    - nohy:
+      - žlutá
+    - záda:
+      - bílá
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: kulík_hnědý.jpg
+      url: https://commons.wikimedia.org/wiki/File:Charadrius_morinellus_male.jpg
+      zdroj: wikipedia
+    kropenatost: true
+  samice:
     barvy:
     - hlava:
       - bílá
@@ -32,10 +64,9 @@ popis:
     - zobák:
       - černá
     fotky:
-    - file: kulík_hnědý.jpg
-      url: https://commons.wikimedia.org/wiki/File:Charadrius_morinellus_male_with_chicks.jpg
+    - file: kulík_hnědý_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Fj%C3%A4llpipare,_Idre,_Dalarna,_Juni_2017_(38098617932).jpg
       zdroj: wikipedia
-    kropenatost: false
-  samice: []
+    kropenatost: true
 typ: lesní
 velikost: hrdlička

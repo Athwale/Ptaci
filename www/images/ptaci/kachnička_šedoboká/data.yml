@@ -32,7 +32,7 @@ popis:
       - modrá
     fotky:
     - file: kachnička_šedoboká.jpg
-      url: https://commons.wikimedia.org/wiki/File:Zoo_Praha_0589.jpg
+      url: https://commons.wikimedia.org/wiki/File:Callonetta_leucophrys_-Rio_Grande,_Rio_Gande_do_Sul,_Brazil_-male-8.jpg
       zdroj: wikipedia
     kropenatost: true
   samice:
@@ -57,7 +57,10 @@ popis:
       - hnědá
     - zobák:
       - hnědá
-    fotky: []
+    fotky:
+    - file: kachnička_šedoboká_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Callonetta_leucophrys_168882579.jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: vodní
 velikost: kachna

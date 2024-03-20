@@ -30,7 +30,10 @@ popis:
       - žlutá
     fotky:
     - file: luněc_šedý.jpg
-      url: https://commons.wikimedia.org/wiki/File:Black-shouldered_Kite_(Elanus_caeruleus)_in_Kawal_WS,_AP_W_IMG_1672.jpg
+      url: https://commons.wikimedia.org/wiki/File:Black-winged_kite_03.jpg
+      zdroj: wikipedia
+    - file: luněc_šedý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Elanus_caeruleus_1M2A4739_(45250487704).jpg
       zdroj: wikipedia
     kropenatost: false
   samice: []
