@@ -33,7 +33,10 @@ popis:
       - oranžová
     fotky:
     - file: husa_sněžní.jpg
-      url: https://commons.wikimedia.org/wiki/File:Chen_caerulescens_32498.JPG
+      url: https://commons.wikimedia.org/wiki/File:Chen_caerulescens.jpg
+      zdroj: wikipedia
+    - file: husa_sněžní_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Snow_goose_(Anser_caerulescens),_blue_morph.jpg
       zdroj: wikipedia
     kropenatost: false
   samice: []

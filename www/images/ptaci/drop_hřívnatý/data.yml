@@ -36,7 +36,10 @@ popis:
       - žlutá
     fotky:
     - file: drop_hřívnatý.jpg
-      url: https://commons.wikimedia.org/wiki/File:Chlamydotis_macqueenii_1921.jpg
+      url: https://commons.wikimedia.org/wiki/File:MacQueen%27s_bustard.jpg
+      zdroj: wikipedia
+    - file: drop_hřívnatý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Houbara_Bustard_(8454291537).jpg
       zdroj: wikipedia
     kropenatost: true
   samice: []

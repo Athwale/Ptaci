@@ -30,7 +30,7 @@ popis:
       - černá
     fotky:
     - file: hvízdák_eurasijský.jpg
-      url: https://commons.wikimedia.org/wiki/File:Mareca_penelope_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Eurasian_Wigeon_-_male.jpg
       zdroj: wikipedia
     kropenatost: true
   samice:
@@ -57,7 +57,10 @@ popis:
     - zobák:
       - bílá
       - černá
-    fotky: []
+    fotky:
+    - file: hvízdák_eurasijský_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Eurasian_wigeon_(female)_in_Sakai,_Osaka,_February_2016.jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: vodní
 velikost: husa

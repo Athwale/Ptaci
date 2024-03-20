@@ -31,7 +31,7 @@ popis:
       - černá
     fotky:
     - file: hvízdák_americký.jpg
-      url: https://commons.wikimedia.org/wiki/File:Anas_americana_03828.JPG
+      url: https://commons.wikimedia.org/wiki/File:American_Widgeon_(32696562726).jpg
       zdroj: wikipedia
     kropenatost: true
   samice:
@@ -57,7 +57,10 @@ popis:
     - zobák:
       - černá
       - šedá
-    fotky: []
+    fotky: 
+    - file: hvízdák_americký_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:American_Wigeon_(female)_-_Anas_americana,_Reifel_Sanctuary,_Ladner,_British_Columbia.jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: vodní
 velikost: kachna

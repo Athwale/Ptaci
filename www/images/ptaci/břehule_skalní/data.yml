@@ -26,7 +26,10 @@ popis:
       - černá
     fotky:
     - file: břehule_skalní.jpg
-      url: https://commons.wikimedia.org/wiki/File:Cragmartin22.jpg
+      url: https://commons.wikimedia.org/wiki/File:DSC_1552_Hirondelle_de_rochers_Ptyonoprogne_rupestris_(50009973297).jpg
+      zdroj: wikipedia
+    - file: břehule_skalní_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:DSC_1560_Hirondelle_de_rochers_Ptyonoprogne_rupestris_(50009184073).jpg
       zdroj: wikipedia
     kropenatost: false
   samice: []

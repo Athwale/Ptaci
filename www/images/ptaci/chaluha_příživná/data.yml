@@ -38,6 +38,9 @@ popis:
     - file: chaluha_příživná_samec_1.jpg
       url: https://commons.wikimedia.org/wiki/File:Schmarotzer2.jpg
       zdroj: wikipedia
+    - file: chaluha_příživná_samec_2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Arctic_skua_(Stercorarius_parasiticus)_on_an_ice_floe,_Svalbard.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: vodní

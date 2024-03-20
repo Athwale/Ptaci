@@ -337,7 +337,7 @@ def fill_cards(index, database_dir) -> None:
 
 
 if __name__ == '__main__':
-    print('Start')
+    print('Generating...')
     www_dir = Path.cwd() / Path('../www').resolve()
     data_directory = Path(Path.cwd() / Path('../www/images/ptaci')).resolve()
     with open(Path('./template.html'), 'r') as html:

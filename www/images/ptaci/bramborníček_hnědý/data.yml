@@ -31,7 +31,7 @@ popis:
       - černá
     fotky:
     - file: bramborníček_hnědý.jpg
-      url: https://commons.wikimedia.org/wiki/File:Saxicola_rubetra_3_tom_(Marek_Szczepanek).jpg
+      url: https://commons.wikimedia.org/wiki/File:Saxicola_rubetra_-Belgium_-male-8-cropped.jpeg
       zdroj: wikipedia
     kropenatost: true
   samice:
@@ -61,7 +61,7 @@ popis:
       - černá
     fotky:
     - file: bramborníček_hnědý_samice.jpg
-      url: https://commons.wikimedia.org/wiki/File:Saxicola_rubetra_1_hen_(Marek_Szczepanek).jpg
+      url: https://commons.wikimedia.org/wiki/File:Whinchat_(Saxicola_rubetra)_Hungary.jpg
       zdroj: wikipedia
     kropenatost: true
 typ: pěvci

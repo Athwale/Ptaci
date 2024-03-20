@@ -31,10 +31,39 @@ popis:
       - hnědá
       - oranžová
     fotky:
-    - file: hýl_pouštní.jpg
+    - file: hýl_pouštní_samec.jpg
       url: https://commons.wikimedia.org/wiki/File:Bucanetes_githagineus_-Salinas_de_Janubio,_Lanzarote,_Spain-8.jpg
       zdroj: wikipedia
     kropenatost: false
-  samice: []
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - hnědá
+    - křídla:
+      - béžová
+      - černá
+      - hnědá
+    - hruď:
+      - béžová
+      - růžová
+    - ocas:
+      - béžová
+      - černá
+      - hnědá
+    - nohy:
+      - růžová
+      - žlutá
+    - záda:
+      - hnědá
+    - zobák:
+      - žlutá
+      - hnědá
+      - oranžová
+    fotky:
+    - file: hýl_pouštní_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bucanetes_githagineus,_Gran_Canaria_2.jpg
+      zdroj: wikipedia
+    kropenatost: false
 typ: pěvci
 velikost: kos

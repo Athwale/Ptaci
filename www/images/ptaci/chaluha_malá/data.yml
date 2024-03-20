@@ -31,6 +31,9 @@ popis:
     - file: chaluha_malá.jpg
       url: https://commons.wikimedia.org/wiki/File:Long-tailed_Skua_(js)_26.jpg
       zdroj: wikipedia
+    - file: chaluha_malá_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Long-tailed_Jaeger_imported_from_iNaturalist_photo_45840817_on_1_January_2024.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: vodní
