@@ -28,6 +28,9 @@ popis:
     - file: orel_volavý.jpg
       url: https://commons.wikimedia.org/wiki/File:Greater_spotted_eagle.jpg
       zdroj: wikipedia
+    - file: orel_volavý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Greater_Spotted_Eagles.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: dravci

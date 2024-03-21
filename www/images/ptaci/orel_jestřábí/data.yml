@@ -32,7 +32,10 @@ popis:
       - žlutá
     fotky:
     - file: orel_jestřábí.jpg
-      url: https://commons.wikimedia.org/wiki/File:Bonelli's_Eagle_by_Dharani_Prakash.jpg
+      url: https://commons.wikimedia.org/wiki/File:Aguila_perdicera.jpg
+      zdroj: wikipedia
+    - file: orel_jestřábí_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bonelli%27s_Eagle_-_Montsonis_-_Spain_S4E8373_(24849913309).jpg
       zdroj: wikipedia
     kropenatost: true
   samice: []

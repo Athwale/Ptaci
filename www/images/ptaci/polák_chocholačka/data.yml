@@ -27,7 +27,7 @@ popis:
       - šedá
     fotky:
     - file: polák_chocholačka.jpg
-      url: https://commons.wikimedia.org/wiki/File:Tufted-Duck-male-female.jpg
+      url: https://commons.wikimedia.org/wiki/File:Aves_Anseriformes_Anatidae_Aythya_Aythya_fuligula05.jpg
       zdroj: wikipedia
     kropenatost: false
   samice:
@@ -52,7 +52,10 @@ popis:
     - zobák:
       - černá
       - šedá
-    fotky: []
+    fotky: 
+    - file: polák_chocholačka_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Aythya_fuligula_%D0%A7%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D1%8C_%D1%85%D0%BE%D1%85%D0%BB%D0%B0%D1%82%D0%B0%D1%8F_%D0%9C%D0%B0%D1%82%D1%8C_%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D1%8F%D0%B5%D1%82_%D0%BF%D1%82%D0%B5%D0%BD%D1%86%D0%B0_01.jpg
+      zdroj: wikipedia
     kropenatost: false
 typ: vodní
 velikost: kachna

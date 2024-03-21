@@ -51,7 +51,10 @@ popis:
       - hnědá
     - zobák:
       - černá
-    fotky: []
+    fotky:
+    - file: polák_velký_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Common_pochard_(Aythya_ferina)_female_3.jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: vodní
 velikost: kachna

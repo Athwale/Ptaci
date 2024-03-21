@@ -55,7 +55,10 @@ popis:
     - zobák:
       - černá
       - žlutá
-    fotky: []
+    fotky:
+    - file: moták_stepní_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Pallid_harrier_female_(Circus_macrourus)_rushikesh_dop.jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: dravci
 velikost: vrána

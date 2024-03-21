@@ -56,7 +56,10 @@ popis:
     - zobák:
       - černá
       - žlutá
-    fotky: []
+    fotky:
+    - file: moták_lužní_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:A_Montague_Harrier_from_Close_(49515938787).jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: dravci
 velikost: vrána

@@ -29,7 +29,10 @@ popis:
       - černá
     fotky:
     - file: Racek_Bonapartův.jpg
-      url: https://commons.wikimedia.org/wiki/File:Larus_philadelphia1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bonaparte%27s_Gull_(16442428512).jpg
+      zdroj: wikipedia
+    - file: Racek_Bonapartův_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bonaparte%27s_Gull_(9361813081).jpg
       zdroj: wikipedia
     kropenatost: false
   samice: []

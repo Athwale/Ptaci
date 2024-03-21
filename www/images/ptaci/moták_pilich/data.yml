@@ -54,7 +54,10 @@ popis:
     - zobák:
       - černá
       - žlutá
-    fotky: []
+    fotky:
+    - file: moták_pilich_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Hen_Harrier_(Circus_cyaneus)_(32928638168).jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: dravci
 velikost: vrána

@@ -34,10 +34,10 @@ popis:
       - žlutá
     fotky:
     - file: poštolka_jižní.jpg
-      url: https://commons.wikimedia.org/wiki/File:Male_and_female_Lesser_Kestrels.jpg
+      url: https://commons.wikimedia.org/wiki/File:Falco_naumanni-ku.jpg
       zdroj: wikipedia
     - file: poštolka_jižní_samec_1.jpg
-      url: https://commons.wikimedia.org/wiki/File:Lesser_Kestrel_%28Falco_naumanni%29_couple_%2812819743614%29.jpg
+      url: https://commons.wikimedia.org/wiki/File:Maschio_Falco_Grillaio-2037.jpg
       zdroj: wikipedia
     kropenatost: true
   samice:
@@ -73,6 +73,9 @@ popis:
     fotky:
     - file: poštolka_jižní_samice_1.jpg
       url: https://commons.wikimedia.org/wiki/File:Falco_naumanni.jpg
+      zdroj: wikipedia
+    - file: poštolka_jižní_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Lesser_Kestrel_(female).jpg
       zdroj: wikipedia
     kropenatost: true
 typ: dravci

@@ -28,7 +28,7 @@ popis:
       - černá
     fotky:
     - file: polák_dlouhozobý.jpg
-      url: https://commons.wikimedia.org/wiki/File:Aythya_valisineria_at_Las_Gallinas_Wildlife_Ponds.jpg
+      url: https://commons.wikimedia.org/wiki/File:American_wigeon_canvasback_oakley_street_12.26.21_DSC_3227.jpg
       zdroj: wikipedia
     kropenatost: false
   samice:
@@ -51,7 +51,7 @@ popis:
       - černá
     fotky:
     - file: polák_dlouhozobý_samice_1.jpg
-      url: https://commons.wikimedia.org/wiki/File:Aythya_valisineria2.jpg
+      url: https://commons.wikimedia.org/wiki/File:Canvasback_(f)_(16184757804).jpg
       zdroj: wikipedia
     kropenatost: true
 typ: vodní

@@ -4,3 +4,7 @@
 
 # TODO added rezava color go through birds to change it in correct places - oranzova.
 # TODO orel added as size, adjust size of raptors to orel where needed.
+# TODO qa na memolistu?
+# TODO put two images in cards with blank space
+
+# TODO fix sorting of cards, ch is in wrong place

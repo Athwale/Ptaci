@@ -32,9 +32,6 @@ popis:
       - šedá
     fotky:
     - file: polák_kaholka.jpg
-      url: https://commons.wikimedia.org/wiki/File:Aythya_marila3.jpg
-      zdroj: wikipedia
-    - file: polák_kaholka_samec_1.jpg
       url: https://commons.wikimedia.org/wiki/File:Aythya_marila1.jpg
       zdroj: wikipedia
     kropenatost: true

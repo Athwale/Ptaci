@@ -28,6 +28,9 @@ popis:
     - file: orel_východní.jpg
       url: https://commons.wikimedia.org/wiki/File:Haliaeetus_pelagicus_qtl1.jpg
       zdroj: wikipedia
+    - file: orel_východní_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Haliaeetus_pelagicus_touchdown.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: dravci

@@ -50,7 +50,10 @@ popis:
       - hnědá
     - zobák:
       - černá
-    fotky: []
+    fotky:
+    - file: pěnice_bělohrdlá_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Toutinegra-dos-valados,_f%C3%AAmea,_Sardinian_Warbler,_female_(52663035468).jpg
+      zdroj: wikipedia
     kropenatost: false
 typ: pěvci
 velikost: kos

@@ -35,6 +35,9 @@ popis:
     - file: orlosup_bradatý.jpg
       url: https://commons.wikimedia.org/wiki/File:Bartgeier_Gypaetus_barbatus_front_Richard_Bartz.jpg
       zdroj: wikipedia
+    - file: orlosup_bradatý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Bearded_Vulture_with_bone_-_Catalan_Pyrenees_-_Spain.jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: dravci
