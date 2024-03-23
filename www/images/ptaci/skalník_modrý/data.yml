@@ -28,9 +28,39 @@ popis:
       - černá
     fotky:
     - file: skalník_modrý.jpg
-      url: https://commons.wikimedia.org/wiki/File:Blue_Rock_Thrush_(Monticola_solitarius)-_pandoo_race-_Breeding_Male_at_Jayanti,_Duars,_West_Bengal_W_IMG_5308.jpg
+      url: https://commons.wikimedia.org/wiki/File:2021-05-23_Juvenile_Blue_rock_thrush.jpg
       zdroj: wikipedia
-    kropenatost: false
-  samice: []
+    - file: skalník_modrý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Blue_rock_thrush_(male)_at_Gamla_Nature_Reserve.jpg
+      zdroj: wikipedia
+    kropenatost: true  
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - hnědá
+      - béžová
+    - křídla:
+      - hnědá
+    - hruď:
+      - hnědá
+      - béžová
+    - ocas:
+      - hnědá
+    - nohy:
+      - černá
+      - hnědá
+    - záda:
+      - hnědá
+    - zobák:
+      - černá
+    fotky:
+    - file: skalník_modrý_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Blue_rock_thrush_2014dz18_%C3%A0_abizar_(cropped).JPG
+      zdroj: wikipedia
+    - file: skalník_modrý_samice_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Blue_Rock_Thrush_(female),_Boulmane_de_Dades,_Morocco.jpg
+      zdroj: wikipedia
+    kropenatost: true
 typ: pěvci
 velikost: kos

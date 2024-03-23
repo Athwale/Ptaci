@@ -57,7 +57,10 @@ popis:
     - zobák:
       - černá
       - hnědá
-    fotky: []
+    fotky:
+    - file: skalník_zpěvný_samice.jpg
+      url: https://commons.wikimedia.org/wiki/Category:Monticola_saxatilis#/media/File:Rufous-tailed_Rock-thrush_(Monticola_saxitilis)_(37286941120).jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: pěvci
 velikost: kos
