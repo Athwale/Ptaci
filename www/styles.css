@@ -565,6 +565,10 @@ details[open] {
     display: block;
 }
 
+details[open] summary {
+    border: 1px inset buttonborder;
+}
+
 details p {
     margin-top: 1%;
     margin-bottom: 1%;
