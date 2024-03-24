@@ -32,7 +32,7 @@ popis:
       - černá
     fotky:
     - file: ťuhýk_obecný.jpg
-      url: https://commons.wikimedia.org/wiki/File:Lanius_collurio_2_(Martin_Mecnarowski).jpg
+      url: https://commons.wikimedia.org/wiki/File:Pie_gri%C3%A8che_%C3%A9corcheur_(49981588097).jpg
       zdroj: wikipedia
     kropenatost: false
   samice:
@@ -66,7 +66,10 @@ popis:
     - zobák:
       - černá
       - hnědá
-    fotky: []
+    fotky:
+    - file: ťuhýk_obecný_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Red-backed_Shrike_(Lanius_collurio)_(49305303221).jpg
+      zdroj: wikipedia
     kropenatost: true
 typ: pěvci
 velikost: kos

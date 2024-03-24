@@ -41,6 +41,9 @@ popis:
     - file: šoupálek_krátkoprstý.jpg
       url: https://commons.wikimedia.org/wiki/File:Short-toed_Treecreeper_(Certhia_brachydactyla)cropped.jpg
       zdroj: wikipedia
+    - file: šoupálek_krátkoprstý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Treecreeper_(49647184462).jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: stromoví

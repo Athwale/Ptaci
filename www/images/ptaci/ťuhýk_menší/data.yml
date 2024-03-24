@@ -32,8 +32,11 @@ popis:
       - černá
     fotky:
     - file: ťuhýk_menší.jpg
-      url: https://commons.wikimedia.org/wiki/File:BG_Lanius_Minor.jpg
+      url: https://commons.wikimedia.org/wiki/File:A_Pair_of_Lesser_Grey_Shrikes_(19461435876).jpg
       zdroj: wikipedia
+    - file: ťuhýk_menší_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Lan%C3%AE%C3%BBs_m%C3%AEnor.jpg
+      zdroj: wikipedia  
     kropenatost: false
   samice: []
 typ: pěvci
