@@ -28,7 +28,7 @@ popis:
       - žlutá
     fotky:
     - file: turpan_hnědý.jpg
-      url: https://commons.wikimedia.org/wiki/File:Melanitta_fusca.jpg
+      url: https://commons.wikimedia.org/wiki/File:Melanitta_fusca_(cropped).jpg
       zdroj: wikipedia
     kropenatost: false
   samice:
@@ -49,7 +49,10 @@ popis:
       - hnědá
     - zobák:
       - černá
-    fotky: []
+    fotky:
+    - file: turpan_hnědý_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Melanitta_fusca.jpg
+      zdroj: wikipedia
     kropenatost: false
 typ: vodní
 velikost: kachna

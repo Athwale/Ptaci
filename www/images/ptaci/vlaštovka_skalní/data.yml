@@ -35,6 +35,9 @@ popis:
     - file: vlaštovka_skalní.jpg
       url: https://commons.wikimedia.org/wiki/File:Red-rumpedSwallow01.jpg
       zdroj: wikipedia
+    - file: vlaštovka_skalní_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Cecropis_daurica_(Hirundinidae)_(Red-rumped_Swallow)_-_(first_calendar_year),_Chorokhi_Delta,_Georgia.jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: pěvci
