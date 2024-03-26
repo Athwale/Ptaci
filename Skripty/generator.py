@@ -151,12 +151,13 @@ def fill_cards(index, database_dir) -> None:
                 bird_card_div.append(gender_div)
                 gender_div.append(card_title)
 
+                img_size = 220
                 img_id = 0
                 for img in m_photos:
                     image_link = index.new_tag('a', attrs={'href': img['url'],
                                                            'title': f'ID: {img_id}, {name}, Zdroj: {img["zdroj"]}',
                                                            'target': '_blank'})
-                    photo = index.new_tag('img', attrs={'height': '200px',
+                    photo = index.new_tag('img', attrs={'height': f'{img_size}px',
                                                         'alt': f'{name}, Zdroj: {img["zdroj"]}',
                                                         'src': f"images/ptaci/{path.cwd().name}/{img['file']}"})
                     image_link.append(photo)
@@ -238,7 +239,7 @@ def fill_cards(index, database_dir) -> None:
                             image_link = index.new_tag('a', attrs={'href': img['url'],
                                                                    'title': f'ID: {img_id}, {name}, Zdroj: {img["zdroj"]}',
                                                                    'target': '_blank'})
-                            photo = index.new_tag('img', attrs={'height': '200px',
+                            photo = index.new_tag('img', attrs={'height': f'{img_size}px',
                                                                 'alt': f'{name}, Zdroj: {img["zdroj"]}',
                                                                 'src': f"images/ptaci/{path.cwd().name}/{img['file']}"})
                             image_link.append(photo)
@@ -249,7 +250,7 @@ def fill_cards(index, database_dir) -> None:
                         image_link = index.new_tag('a', attrs={'href': 'images/neznámý_pták/nemame.png',
                                                                'title': f'ID: {img_id}, Obrázek není, Zdroj: whitebear',
                                                                'target': '_blank'})
-                        photo = index.new_tag('img', attrs={'height': '200px',
+                        photo = index.new_tag('img', attrs={'height': f'{img_size}px',
                                                             'alt': 'Neznámý pták',
                                                             'src': 'images/neznámý_pták/nemame.png'})
                         image_link.append(photo)

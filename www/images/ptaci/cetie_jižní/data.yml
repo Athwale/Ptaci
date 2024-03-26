@@ -27,6 +27,9 @@ popis:
     - file: cetie_jižní.jpg
       url: https://commons.wikimedia.org/wiki/File:37-090505-cettis-warbler-at-Kalloni-east-river.jpg
       zdroj: wikipedia
+    - file: cetie_jižní_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Cettia_cetti_albiventris,_Otrarskiy,_Kazakhstan_1.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: pěvci

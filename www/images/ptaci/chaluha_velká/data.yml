@@ -35,6 +35,9 @@ popis:
     - file: chaluha_velká.jpg
       url: https://commons.wikimedia.org/wiki/File:Stercorarius_skua_collage,_Runde,_Norway_06-06.jpg
       zdroj: wikipedia
+    - file: chaluha_velká_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Great_skua_(Stercorarius_skua),_Hallig_Hooge.jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: vodní

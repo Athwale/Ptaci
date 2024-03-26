@@ -28,6 +28,9 @@ popis:
     - file: čáp_bílý.jpg
       url: https://commons.wikimedia.org/wiki/File:Weißstorch_Walsrode_2014_02.jpg
       zdroj: wikipedia
+    - file: čáp_bílý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Ciconia_ciconia_-_01.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: vodní

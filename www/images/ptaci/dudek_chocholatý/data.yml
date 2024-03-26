@@ -31,6 +31,9 @@ popis:
     - file: dudek_chocholatý.jpg
       url: https://commons.wikimedia.org/wiki/File:Upupa_epops_India.jpg
       zdroj: wikipedia
+    - file: dudek_chocholatý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Upupa_epops_-Coonoor,_Tamil_Nadu,_India-8.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: polní

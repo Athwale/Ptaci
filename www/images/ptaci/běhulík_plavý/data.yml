@@ -31,6 +31,9 @@ popis:
     - file: běhulík_plavý.jpg
       url: https://commons.wikimedia.org/wiki/File:Cream-coloured_courser.jpg
       zdroj: wikipedia
+    - file: běhulík_plavý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Cream-coloured_Courser_(4803935963)(Cropped).jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: pouštní

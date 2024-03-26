@@ -35,6 +35,9 @@ popis:
     - file: buřňák_šedý_severoatlanský.jpg
       url: https://commons.wikimedia.org/wiki/File:Cory's_Shearwater_from_the_Crossley_ID_Guide_Britain_and_Ireland_crop.jpg
       zdroj: wikipedia
+    - file: buřňák_šedý_severoatlanský_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Cory%27s_shearwater_(Calonectris_borealis).jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: vodní
