@@ -39,6 +39,12 @@ popis:
     - file: krahujec_krátkoprstý.jpg
       url: https://commons.wikimedia.org/wiki/File:Accipiter_brevipes_1.jpg
       zdroj: wikipedia
+    - file: krahujec_krátkoprstý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Accipiter_brevipes,_male.jpg
+      zdroj: wikipedia
+    - file: krahujec_krátkoprstý_samec_1.jpg
+      url: https://commons.wikimedia.org/wiki/File:Accipiter_brevipes_1.jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: dravci

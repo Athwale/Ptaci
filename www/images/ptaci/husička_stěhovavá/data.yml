@@ -35,6 +35,9 @@ popis:
     - file: husička_stěhovavá.jpg
       url: https://commons.wikimedia.org/wiki/File:Wandering_Whistling_Duck_-_melbourne_zoo_cropped.jpg
       zdroj: wikipedia
+    - file: husička_stěhovavá_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Dendrocygna_arcuata_-_Oatlands.jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: vodní

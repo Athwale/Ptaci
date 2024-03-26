@@ -28,6 +28,9 @@ popis:
     - file: kolpík_bílý.jpg
       url: https://commons.wikimedia.org/wiki/File:Common_Spoonbill.jpg
       zdroj: wikipedia
+    - file: kolpík_bílý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:20170821_054_Lelystad_Oostvaardersplassen_Lepelaar_(35905474124).jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: vodní

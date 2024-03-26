@@ -29,6 +29,9 @@ popis:
     - file: racek_tříprstý.jpg
       url: https://commons.wikimedia.org/wiki/File:Black-legged-Kittiwake.jpg
       zdroj: wikipedia
+    - file: racek_tříprstý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Rissa_tridactyla_Scarborough_1.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: vodní

@@ -39,6 +39,9 @@ popis:
     - file: křepelka_polní.jpg
       url: https://commons.wikimedia.org/wiki/File:Coturnix_coturnix,_Fraunberg,_Bayern,_Deutschland_1.jpg
       zdroj: wikipedia
+    - file: křepelka_polní_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Kerro-_Coturnix_coturnix.jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: polní

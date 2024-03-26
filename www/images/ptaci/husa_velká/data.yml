@@ -33,6 +33,9 @@ popis:
     - file: husa_velká.jpg
       url: https://commons.wikimedia.org/wiki/File:Greylag-Goose.jpg
       zdroj: wikipedia
+    - file: husa_velká_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:01219_Dresden,_Gro%C3%9Fer_Garten_Graugans_2023-06-10.jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: vodní

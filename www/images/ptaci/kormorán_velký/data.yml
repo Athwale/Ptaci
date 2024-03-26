@@ -30,6 +30,9 @@ popis:
     - file: kormorán_velký.jpg
       url: https://commons.wikimedia.org/wiki/File:Phalacrocorax_carbo_Vic.jpg
       zdroj: wikipedia
+    - file: kormorán_velký_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:2019-05-30_131806_TZ61_0016_-_CH_Kormoran_Gefieder_trocknen,_Walchwil,_Zug.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: vodní

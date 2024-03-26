@@ -35,6 +35,9 @@ popis:
     - file: jespák_plavý.jpg
       url: https://commons.wikimedia.org/wiki/File:Grasläufer.jpg
       zdroj: wikipedia
+    - file: jespák_plavý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Buff-breasted_Sandpiper_(10856889593).jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: vodní

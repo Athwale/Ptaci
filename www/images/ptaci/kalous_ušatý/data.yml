@@ -41,6 +41,9 @@ popis:
     - file: kalous_ušatý.jpg
       url: https://commons.wikimedia.org/wiki/File:Waldohreule_in_freier_Wildbahn.jpg
       zdroj: wikipedia
+    - file: kalous_ušatý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Asio_otus_uszatka1.JPG
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: dravci

@@ -32,6 +32,9 @@ popis:
     - file: pisila_čáponohá.jpg
       url: https://commons.wikimedia.org/wiki/File:Black-winged_Stilt,_Basai_(8724392657).jpg
       zdroj: wikipedia
+    - file: pisila_čáponohá_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Black_Winged_Stilts_-_in_Flight_(32255901677).jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: vodní

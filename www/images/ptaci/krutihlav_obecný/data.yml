@@ -41,6 +41,9 @@ popis:
     - file: krutihlav_obecný.jpg
       url: https://commons.wikimedia.org/wiki/File:Jynx_torquilla_крутиголовка.jpg
       zdroj: wikipedia
+    - file: krutihlav_obecný_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Eurasian_Wryneck_(Jynx_torquilla)_(32160670717).jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: stromoví

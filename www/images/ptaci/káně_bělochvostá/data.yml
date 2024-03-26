@@ -39,6 +39,9 @@ popis:
     - file: káně_bělochvostá.jpg
       url: https://commons.wikimedia.org/wiki/File:Adlerbussard.jpg
       zdroj: wikipedia
+    - file: káně_bělochvostá_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Long-legged_Buzzard_(Buteo_rufinus)_(48941980883).jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: dravci

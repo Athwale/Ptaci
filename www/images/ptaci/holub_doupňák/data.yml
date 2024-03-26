@@ -29,6 +29,9 @@ popis:
     - file: holub_doupňák.jpg
       url: https://commons.wikimedia.org/wiki/File:ColumbaOenas.jpg
       zdroj: wikipedia
+    - file: holub_doupňák_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:2017-03-05_Columba_oenas,_Armstrong_Park_4.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: holubovití
