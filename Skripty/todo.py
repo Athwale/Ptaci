@@ -7,6 +7,5 @@
 # TODO qa na memolistu?
 # TODO put two images in cards with blank space
 
-# TODO fix sorting of cards, ch is in wrong place
 # TODO check smallest photo height in database and make all photos cropped above and resized to what is set in img_size
 # TODO check pages for samec samice

@@ -65,7 +65,9 @@ def fill_cards(index, database_dir) -> None:
     :return: None
     """
     html_output = index.find("output")
-    for path in database_dir.iterdir():
+    dirs = sorted([str(d) for d in database_dir.glob('*')], key=locale.functools.cmp_to_key(locale.strcoll))
+    for path in dirs:
+        path = Path(path)
         if path.is_dir():
             try:
                 os.chdir(path.resolve())
