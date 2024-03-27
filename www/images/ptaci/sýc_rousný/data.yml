@@ -34,6 +34,9 @@ popis:
     - file: sýc_rousný.jpg
       url: https://commons.wikimedia.org/wiki/File:Aegolius-funereus-001.jpg
       zdroj: wikipedia
+    - file: sýc_rousný_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Boreal_Owl_(Aegolius_funereus)_(8615263478).jpg
+      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: dravci

@@ -31,6 +31,9 @@ popis:
     - file: sedmihlásek_hajní.jpg
       url: https://commons.wikimedia.org/wiki/File:Hippolais_icterina_vogelartinfo_chris_romeiks_R7F2916.jpg
       zdroj: wikipedia
+    - file: sedmihlásek_hajní_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Icterine_warbler_18_06_2022_004_crop.png
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: pěvci

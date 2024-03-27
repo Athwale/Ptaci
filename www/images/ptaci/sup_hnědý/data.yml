@@ -36,6 +36,9 @@ popis:
     - file: sup_hnědý.jpg
       url: https://commons.wikimedia.org/wiki/File:Mönchsgeier.JPG
       zdroj: wikipedia
+    - file: sup_hnědý_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Buitre_negro_(2).jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: dravci

@@ -35,6 +35,33 @@ popis:
       url: https://commons.wikimedia.org/wiki/File:Dendrocopos_syriacus,_Israel_1.jpg
       zdroj: wikipedia
     kropenatost: true
-  samice: []
+  samice:
+    barvy:
+    - hlava:
+      - bílá
+      - černá
+    - křídla:
+      - bílá
+      - černá
+      - šedá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+      - červená
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: strakapoud_jižní_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:Dendrocopos_syriacus_-_Syrian_Woodpecker,_Adana_2017-12-10_05-1.jpg
+      zdroj: wikipedia
+    kropenatost: true
 typ: stromoví
 velikost: hrdlička

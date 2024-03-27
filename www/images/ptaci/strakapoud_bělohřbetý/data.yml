@@ -36,6 +36,34 @@ popis:
       url: https://commons.wikimedia.org/wiki/File:Male_white-backed_woodpecker.jpg
       zdroj: wikipedia
     kropenatost: true
-  samice: []
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - rezavá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+    - ocas:
+      - bílá
+      - černá
+      - rezavá
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky:
+    - file: strakapoud_bělohřbetý_samice.jpg
+      url: https://commons.wikimedia.org/wiki/File:White-backed_woodpecker_(Dendrocopos_leucotos)_female_Bia%C5%82owiez.jpg
+      zdroj: wikipedia
+    kropenatost: true
 typ: stromoví
 velikost: hrdlička

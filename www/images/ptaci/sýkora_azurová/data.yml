@@ -35,6 +35,9 @@ popis:
     - file: sýkora_azurová.jpg
       url: https://commons.wikimedia.org/wiki/File:Azure_Tit_-_Parus_cyanus.jpg
       zdroj: wikipedia
+    - file: sýkora_azurová_samec.jpg
+      url: https://commons.wikimedia.org/wiki/File:Cyanistes_cyanus_118981763.jpg
+      zdroj: wikipedia
     kropenatost: false
   samice: []
 typ: pěvci

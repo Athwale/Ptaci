@@ -37,6 +37,35 @@ popis:
       url: https://commons.wikimedia.org/wiki/File:Средний_пёстрый_дятел_(Dendrocoptes_medius),_Битцевский_лес.jpg
       zdroj: wikipedia
     kropenatost: true
-  samice: []
+  samice:
+    barvy:
+    - hlava:
+      - béžová
+      - bílá
+      - černá
+      - červená
+      - oranžová
+      - žlutá
+    - křídla:
+      - bílá
+      - černá
+    - hruď:
+      - bílá
+      - černá
+      - růžová
+      - žlutá
+    - ocas:
+      - bílá
+      - černá
+      - červená
+    - nohy:
+      - černá
+    - záda:
+      - bílá
+      - černá
+    - zobák:
+      - černá
+    fotky: []
+    kropenatost: true
 typ: stromoví
 velikost: hrdlička
