@@ -6,7 +6,7 @@ if [ $? -eq 1 ]; then
   echo "Gthumb missing"
   exit 1
 else
-  cd ../databaze
+  cd ../www/images/ptaci/
   for dir in *; do
     cd "$dir"
       echo "$dir"

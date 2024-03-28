@@ -35,9 +35,6 @@ popis:
     - file: vodouš_žlutonohý.jpg
       url: https://commons.wikimedia.org/wiki/File:Lesser_Yellowlegs.jpg
       zdroj: wikipedia
-    - file: vodouš_žlutonohý_samec_1.jpg
-      url: https://commons.wikimedia.org/wiki/File:Lesser_yellowlegs_at_JBWR_%2830664%29.jpg
-      zdroj: wikipedia
     kropenatost: true
   samice: []
 typ: vodní
