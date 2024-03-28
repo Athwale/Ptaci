@@ -9,3 +9,5 @@
 
 # TODO check smallest photo height in database and make all photos cropped above and resized to what is set in img_size
 # TODO check pages for samec samice
+# TODO move latin into popis
+# TODO expand/collapse all button
